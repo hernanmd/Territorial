@@ -1,3 +1,0 @@
-accessing
-territory
-	^ territory
