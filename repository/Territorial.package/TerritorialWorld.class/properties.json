@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "hfm 11/17/2009 15:04",
+	"super" : "TerritorialLocation",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialWorld",
+	"type" : "normal"
+}

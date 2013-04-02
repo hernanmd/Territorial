@@ -1,8 +1,5 @@
-accessing - names
+accessing
 allNames
-	" Private - Answer a <Collection> of all names in the receiver "
+	" Private - "
 
-	^ (Set withAll: self synonyms)
-		addAll: self translations;
-		add: self name;
-		yourself
+	^ self name

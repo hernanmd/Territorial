@@ -1,13 +1,17 @@
 private
 buildRegion: symbol
-	" Answer a <Collection> with stable subdivisions "
+	" Answer a Collection with stable subdivisions "
 	
-	| territories |
+	| territories territoriesParser |
 
 	territories := OrderedCollection new.
-	(NeoCSVReader on: (self perform: symbol) readStream) 
-		separator: $,;
-		do: [ : row | | area |
-			area := self newAreaFrom: row.
-			territories addLast: area ].
+	territoriesParser :=  self parserOn: ( ReadStream on: ( self perform: symbol ) ).
+	territoriesParser delimiter: Character tab.
+	territoriesParser rowsDo: [ : row |
+		| area |
+		area := self newAreaFrom: row.
+		territories addLast: 
+			( SKPVTreeLW 
+				key: area name 
+				value: area ) ].
 	^ territories asArray

@@ -1,4 +1,4 @@
-naming
+accessing
 territoryName
 
-	^ self name
+	^ self class territoryName

@@ -1,15 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 10/26/2016 15:27",
+	"commentStamp" : "",
 	"super" : "TerritorialObject",
-	"category" : "Territorial-Core",
+	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"telephonyCodes",
-		"geoProcessor",
-		"centroid"
-	],
+	"instvars" : [ ],
 	"name" : "TerritorialLocation",
 	"type" : "normal"
 }

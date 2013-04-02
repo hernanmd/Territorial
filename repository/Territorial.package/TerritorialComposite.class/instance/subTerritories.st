@@ -1,4 +1,4 @@
 accessing
 subTerritories
 
-	^ self territories collect: #allTerritories
+	^ self territories collect: [ : tty | tty allTerritories ]

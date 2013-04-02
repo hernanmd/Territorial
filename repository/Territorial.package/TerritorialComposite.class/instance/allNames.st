@@ -1,7 +1,5 @@
-accessing - names
+accessing
 allNames
-	" Private - Answer a <Collection> of all names in the receiver including Composites "
+	" Private - "
 
-	^ self territories
-		inject: (Set withAll: self names)
-		into: [ : result : tn | result addAll: tn allNames; yourself ]
+	^ self territories collect: #name

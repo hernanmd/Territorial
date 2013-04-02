@@ -1,7 +1,7 @@
-accessing-names
+accessing public
 identifier
-	" Answer a <TerritorialIdentifier> representing a receiver's identifier giving priority to the preferred one, if set "
+	" Answer a String representing the receiver's preferred identifier "
 	
 	^ self identifiers 
-		at: self preferredIdentifier
-		ifAbsent: [ self identifiers anyOne ]
+			at: self preferredIdentifier
+			ifAbsent: [ '(null)' ]

@@ -1,4 +1,4 @@
 accessing
 allTerritories
 
-	^ Set with: self
+	^ self

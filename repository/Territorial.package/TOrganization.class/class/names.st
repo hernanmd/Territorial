@@ -1,5 +1,6 @@
 accessing
 names
-	" Answer a <Collection> of <String> organization names in the receiver "
+	" Answer a Collection with each element a Collection of country names
+	according to Territory Containment from UN M.49 "
 	
-	^ self tOrganizations collect: #name
+	^ ( self territorialObject @ self territoryName ) names

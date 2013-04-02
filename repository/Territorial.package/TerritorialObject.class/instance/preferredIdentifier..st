@@ -1,5 +1,5 @@
 accessing private
-preferredIdentifier: aString
-	" Set the value of preferredIdentifier "
+preferredIdentifier: anObject
+	"Set the value of preferredIdentifier"
 
-	preferredIdentifier := aString
+	preferredIdentifier := anObject

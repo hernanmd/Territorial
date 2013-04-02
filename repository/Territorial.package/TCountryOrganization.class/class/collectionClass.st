@@ -1,4 +1,0 @@
-private
-collectionClass
-
-	^ OrderedCollection

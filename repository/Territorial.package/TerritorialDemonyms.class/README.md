@@ -1,0 +1,1 @@
+TerritorialDemonyms contains demonyms (gentilic): names for residents of a locality

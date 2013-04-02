@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TOrganization",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TAreaOrganization",
+	"type" : "normal"
+}

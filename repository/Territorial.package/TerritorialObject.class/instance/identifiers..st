@@ -1,5 +1,5 @@
 accessing private
-identifiers: aCollection
-	" Set the receiver's identifiers "
+identifiers: anObject
+	"Set the value of identifiers"
 
-	identifiers := aCollection
+	identifiers := anObject

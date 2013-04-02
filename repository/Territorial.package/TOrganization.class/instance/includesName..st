@@ -1,5 +1,4 @@
-testing
+naming
 includesName: aString
-	" See superimplementor's comment. Assume aString is lowercase "
-	
-	^ (self names includes: aString asLowercase) or: [ self includesSubstringAnywhere: aString asLowercase ]
+
+	^ self names includes: aString

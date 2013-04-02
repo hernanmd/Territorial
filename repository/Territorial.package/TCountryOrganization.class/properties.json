@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "HernanMoralesDurand 5/19/2017 01:40",
+	"commentStamp" : "hfm 2/24/2012 14:50",
 	"super" : "TOrganization",
-	"category" : "Territorial-Organization",
+	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

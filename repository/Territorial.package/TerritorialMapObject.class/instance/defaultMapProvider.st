@@ -1,4 +1,0 @@
-defaults
-defaultMapProvider
-
-	self shouldBeImplemented 

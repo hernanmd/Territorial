@@ -1,19 +1,3 @@
-A country organization groups countries, and enable to build groups from existing countries of the world. 
+A country organization enables to build regions from existing countries of the world. There is no political or geographical limitation to form an organization, one can mix countries from different regions of the world, or build geopolitical areas which doesn't exists anymore. Note that an organization could be a single country too, for example Brazil.
 
-See class side for examples of country organizations. One can mix countries from different regions of the world, or build geopolitical areas which doesn't yet exists (fictional) or does not exists anymore (historical). 
-
-Examples:
-
-(TCountryOrganization @ 'UN.M49') sortedTerritoryNames.
-(TCountryOrganization @ 'UN.M49') countries
-TCountryOrganization demonymsOf: 'Argentina'.
-TCountryOrganization demonymsOf: 'central african republic'.
-
-Re-initialize country organizations:
-
-TCountryOrganization initialize.
-
-Remove all organizations:
-
-TCountryOrganization tOrganizations: nil.
-
+TCountryOrganization holds several common UN organization in the class side, so your specific subclass could compose new organizations.

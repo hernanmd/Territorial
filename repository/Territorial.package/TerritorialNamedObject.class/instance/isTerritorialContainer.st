@@ -1,4 +1,0 @@
-testing
-isTerritorialContainer
-
-	^ false

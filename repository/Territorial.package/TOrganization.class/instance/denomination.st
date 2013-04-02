@@ -1,3 +1,0 @@
-naming
-denomination
-	^ denomination

@@ -1,4 +1,0 @@
-*Territorial
-asTerritorialIdentifier
-
-	^ TNullIdentifier new

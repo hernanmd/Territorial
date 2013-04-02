@@ -1,3 +1,0 @@
-accessing
-latLong
-	^ latLong
