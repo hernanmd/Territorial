@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "hfm 7/12/2011 12:16",
+	"super" : "Object",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"AreaDemonyms",
+		"CountryDemonyms",
+		"OneWordCountryDemonyms",
+		"ThreeWordsCountryDemonyms",
+		"TwoWordsCountryDemonyms"
+	],
+	"instvars" : [ ],
+	"name" : "TerritorialDemonyms",
+	"type" : "normal"
+}

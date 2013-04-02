@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "hfm 2/24/2012 14:50",
+	"super" : "TOrganization",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCountryOrganization",
+	"type" : "normal"
+}

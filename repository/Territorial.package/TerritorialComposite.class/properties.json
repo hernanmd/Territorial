@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialObject",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"territories"
+	],
+	"name" : "TerritorialComposite",
+	"type" : "normal"
+}

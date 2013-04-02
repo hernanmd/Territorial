@@ -1,0 +1,4 @@
+*territorial
+isTerritory
+
+	^ false

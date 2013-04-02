@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "hfm 9/9/2011 02:00",
+	"super" : "TerritorialArea",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"url"
+	],
+	"name" : "TerritorialCountry",
+	"type" : "normal"
+}

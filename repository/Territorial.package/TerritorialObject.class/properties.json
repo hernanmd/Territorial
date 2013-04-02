@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "hfm 9/8/2011 23:41",
+	"super" : "Object",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"names",
+		"preferredName",
+		"identifiers",
+		"preferredIdentifier",
+		"demonyms",
+		"tWorld"
+	],
+	"name" : "TerritorialObject",
+	"type" : "normal"
+}

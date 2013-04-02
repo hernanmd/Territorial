@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"code"
+	],
+	"name" : "UNIdentifier",
+	"type" : "normal"
+}
