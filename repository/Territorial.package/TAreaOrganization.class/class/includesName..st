@@ -5,8 +5,8 @@ includesName: aString
 
 	countryName := aString asLowercase.
 	^ self names anySatisfy: [: ctName | 
-			ctName subStrings size > 1 
+			ctName substrings size > 1 
 				ifTrue: [
-					ctName asLowercase = countryName or: [ ctName subStrings anySatisfy: [ : each | each asLowercase = countryName ] ] ]
+					ctName asLowercase = countryName or: [ ctName substrings anySatisfy: [ : each | each asLowercase = countryName ] ] ]
 				ifFalse: [ ctName asLowercase = countryName ]
 		]
