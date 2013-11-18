@@ -15,7 +15,7 @@ westernAfrica
 478	Mauritania
 562	Niger
 566	Nigeria
-654	Saint Helena/St. Helena
+654	Saint Helena
 686	Senegal
 694	Sierra Leone
 768	Togo'

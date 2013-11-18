@@ -22,11 +22,11 @@ caribbean
 500	Montserrat
 630	Puerto Rico
 652	Saint-Barthelemy
-659	Saint Kitts and Nevis/St. Kitts and Nevis
-662	Saint Lucia/St. Lucia
-663	Saint Martin (French part)/St. Martin
-670	Saint Vincent and the Grenadines/St. Vincent and the Grenadines
-534	Sint Maarten (Dutch part)/St. Maarten
+659	Saint Kitts and Nevis
+662	Saint Lucia
+663	Saint Martin
+670	Saint Vincent and the Grenadines
+534	Saint Maarten
 780	Trinidad and Tobago
 796	Turks and Caicos Islands
 850	United States Virgin Islands'
