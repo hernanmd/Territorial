@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "TerritorialTests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"territories"
+	],
+	"name" : "TUNM49CountryOrganizationTest",
+	"type" : "normal"
+}
