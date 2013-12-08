@@ -5,4 +5,4 @@ initialize
 	self release.
 	super initialize.
 	self initializeCountryDemonyms.
-	self sanityCheck.
+"	self sanityCheck."

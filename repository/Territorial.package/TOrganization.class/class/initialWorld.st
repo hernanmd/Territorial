@@ -4,8 +4,8 @@ initialWorld
 
 	| theWorld |
 	
-	( theWorld := SKPVTreeLW 
+	(theWorld := SKPVTreeLW 
 					key: self territoryName
-					value: ( self territorialClass named: self territoryName ) ) 
+					value: (self territorialClass newNamed: self territoryName)) 
 						subTrees: self mainTerritories.
 	^ theWorld
