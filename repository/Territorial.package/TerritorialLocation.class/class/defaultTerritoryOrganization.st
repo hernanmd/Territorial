@@ -1,0 +1,4 @@
+instance creation
+defaultTerritoryOrganization
+
+	^ TUNM49CountryOrganization
