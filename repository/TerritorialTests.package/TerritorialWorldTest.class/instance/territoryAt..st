@@ -1,5 +1,5 @@
 accessing
 territoryAt: aString
-	" Answer a Territory object named aString "
+	" Answer an existing Territory object named aString "
 	
-	^ TerritorialObject @ aString
+	^ TerritorialLocation @ aString
