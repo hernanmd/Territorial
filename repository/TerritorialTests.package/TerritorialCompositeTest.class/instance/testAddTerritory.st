@@ -1,11 +1,11 @@
 tests-testing
 testAddTerritory
 
-	territory := self buildCompositeNewGranade.
-	self assert: territory allTerritories isEmpty.
-	territory 
+	self territory: self buildCompositeNewGranade.
+	self assert: self territory allTerritories isEmpty.
+	self territory 
 		addTerritory: self buildTerritoryColombia;
 		addTerritory: self buildTerritoryEcuador;
 		addTerritory: self buildTerritoryVenezuela.
-	self assert: territory allTerritories size = 3.
+	self assert: self territory allTerritories size = 3.
 	
