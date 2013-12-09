@@ -1,9 +1,9 @@
 tests-testing
 testSize
 
-	territory := self buildCompositeNewGranade.
+	self territory: self buildCompositeNewGranade.
 	self assert: territory allTerritories size = 0.	
-	territory
+	self territory
 		addTerritories:
 			{(self buildTerritoryColombia).
 			(self buildTerritoryEcuador).
