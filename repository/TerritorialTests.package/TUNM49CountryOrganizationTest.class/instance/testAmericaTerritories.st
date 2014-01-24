@@ -6,7 +6,6 @@ testAmericaTerritories
 	self assert: (territories isKindOf: Collection).
 	self deny: territories isEmpty.
 	self assert: territories size = 2.
-	self assert: (territories allSatisfy: [: each | each isKindOf: SKPVTreeLW ]).
 	self assert: (territories allSatisfy: [: each | each value isKindOf: TerritorialLocation ]).
 	self assert: (territories allSatisfy: [: each | each key isKindOf: UNIdentifier ]).
 	
