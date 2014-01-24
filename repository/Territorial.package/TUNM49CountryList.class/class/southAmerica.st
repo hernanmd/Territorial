@@ -2,7 +2,7 @@ accessing-countries
 southAmerica
 	" Answer a Collection with stable subdivisions "
 
-	^ '032	Argentina
+	^ self new initializeWith: '032	Argentina
 068	Bolivia
 076	Brazil
 152	Chile

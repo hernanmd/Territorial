@@ -2,7 +2,7 @@ accessing-countries
 easternAfrica
 	" Answer a Collection with stable subdivisions "
 
-	^ '108	Burundi
+	^ self new initializeWith: '108	Burundi
 174	Comoros
 262	Djibouti
 232	Eritrea

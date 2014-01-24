@@ -2,8 +2,11 @@ accessing-territories
 americaTerritories
 	" Answer a Collection with stable subdivisions "
 
-	^ { 
-	( SKPVTreeLW key: '419' asUNIdentifier value: ( TerritorialArea newNamed: 'Latin America and the Caribbean' ) ) subTrees: self latinAmericaTerritories.
-	( SKPVTreeLW key: '021' asUNIdentifier value: ( TerritorialArea newNamed: 'Northern America' ) ) subTrees: ( self 
-		buildRegion: #northernAmerica )
-	 }
+	| latam nam |
+	latam := (TerritorialComposite newNamed: 'Latin America and the Caribbean') 
+		addTerritories: TUNM49CountryList latinAmericaTerritories;
+		keyCode: '419' asUNIdentifier.
+	nam := (TerritorialComposite newNamed: 'Northern America')
+		addTerritories: TUNM49CountryList northernAmerica;
+		keyCode: '021' asUNIdentifier.
+	^ latam , nam

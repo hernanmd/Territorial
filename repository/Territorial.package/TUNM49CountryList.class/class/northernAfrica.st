@@ -2,7 +2,7 @@ accessing-countries
 northernAfrica
 	" Answer a Collection with stable subdivisions "
 
-	^ '012	Algeria
+	^ self new initializeWith: '012	Algeria
 818	Egypt
 434	Libyan Arab Jamahiriya
 504	Morocco

@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TCountryOrganization",
+	"super" : "Object",
 	"category" : "Territorial-UN",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "TUNM49CountryOrganization",
+	"instvars" : [
+		"countries"
+	],
+	"name" : "TUNM49CountryList",
 	"type" : "normal"
 }
