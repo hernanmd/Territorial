@@ -1,7 +1,7 @@
 accessing
 buildTerritoryVenezuela
 
-	^ (TerritorialLocation newNamed: 'Venezuela')
+	^ (TerritorialCountry newNamed: 'Venezuela')
 			addTerritoryName: #englishName -> 'Venezuela';
 			addTerritoryName: #spanishName -> 'Venezuela';
 			yourself.
