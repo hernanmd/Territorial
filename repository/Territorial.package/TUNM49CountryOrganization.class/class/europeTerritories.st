@@ -2,11 +2,17 @@ accessing-territories
 europeTerritories
 	" Answer a Collection with stable subdivisions "
 
-	^ { ( ( SKPVTreeLW 	key: '151' asUNIdentifier value: ( TerritorialArea newNamed: 'Eastern Europe' )) subTrees: ( self 
-		buildRegion: #easternEurope ) ).
-	( ( SKPVTreeLW key: '154' asUNIdentifier value: ( TerritorialArea newNamed: 'Northern Europe' )) subTrees: ( self 
-		buildRegion: #northernEurope ) ).
-	( ( SKPVTreeLW key: '039' asUNIdentifier value: ( TerritorialArea newNamed: 'Southern Europe' )) subTrees: ( self 
-		buildRegion: #southernEurope ) ).
-	( ( SKPVTreeLW key: '155' asUNIdentifier value: ( TerritorialArea newNamed: 'Western Europe' )) subTrees: ( self 
-		buildRegion: #westernEurope ) ) }
+	| easternEurope northernEurope southernEurope westernEurope |
+	easternEurope := (TerritorialComposite newNamed: 'Eastern Europe') 
+		addTerritories: TUNM49CountryList easternEurope;
+		keyCode: '151' asUNIdentifier.
+	northernEurope := (TerritorialComposite newNamed: 'Northern Europe')
+		addTerritories: TUNM49CountryList northernEurope;
+		keyCode: '154' asUNIdentifier.
+	southernEurope := (TerritorialComposite newNamed: 'Southern Europe') 
+		addTerritories: TUNM49CountryList southernEurope;
+		keyCode: '039' asUNIdentifier.
+	westernEurope := (TerritorialComposite newNamed: 'Northern Europe')
+		addTerritories: TUNM49CountryList westernEurope;
+		keyCode: '155' asUNIdentifier.		
+	^ easternEurope , northernEurope , southernEurope , westernEurope

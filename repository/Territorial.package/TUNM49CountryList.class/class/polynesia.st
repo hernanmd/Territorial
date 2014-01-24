@@ -2,7 +2,7 @@ accessing-countries
 polynesia
 	" Answer a Collection with stable subdivisions "
 
-	^ '016	American Samoa
+	^ self new initializeWith: '016	American Samoa
 184	Cook Islands
 258	French Polynesia
 570	Niue

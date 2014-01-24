@@ -2,7 +2,7 @@ accessing-countries
 westernAsia
 	" Answer a Collection with stable subdivisions "
 
-	^ '051	Armenia
+	^ self new initializeWith: '051	Armenia
 031	Azerbaijan
 048	Bahrain
 196	Cyprus

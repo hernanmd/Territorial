@@ -1,7 +1,8 @@
 accessing
-addTerritories: aCollection
+addTerritories: anObject
 	" Add territories from aCollection to the receiver's territories. If a territory is already contained, then skip it "
 	
-	aCollection do: [: tty | 
+	anObject addToTerritory: self.
+"	aCollection do: [: tty | 
 		(self territories includes: tty)
-			ifFalse: [ self territories add: tty ]]
+			ifFalse: [ self territories add: tty ]]"

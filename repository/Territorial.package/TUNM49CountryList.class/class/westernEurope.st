@@ -2,7 +2,7 @@ accessing-countries
 westernEurope
 	" Answer a Collection with stable subdivisions "
 
-	^ '040	Austria
+	^ self new initializeWith: '040	Austria
 056	Belgium
 250	France
 276	Germany
