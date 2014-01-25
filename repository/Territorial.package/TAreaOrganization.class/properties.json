@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TOrganization",
-	"category" : "Territorial-Objects",
+	"category" : "Territorial-Organization",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

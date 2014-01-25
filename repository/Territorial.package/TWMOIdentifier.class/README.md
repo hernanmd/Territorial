@@ -1,0 +1,1 @@
+Country abbreviation by the World Meteorological Organization

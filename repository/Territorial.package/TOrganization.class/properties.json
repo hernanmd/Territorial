@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "hfm 2/24/2012 14:57",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
-	"category" : "Territorial-Objects",
+	"category" : "Territorial-Organization",
 	"classinstvars" : [
 		"territorialObject"
 	],

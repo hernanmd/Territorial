@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "hfm 2/24/2012 14:50",
 	"super" : "TOrganization",
-	"category" : "Territorial-Objects",
+	"category" : "Territorial-Organization",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

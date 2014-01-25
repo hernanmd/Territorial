@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TCountryList",
-	"category" : "Territorial-UN",
+	"super" : "TIdentifier",
+	"category" : "Territorial-COI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TUNM49CountryList",
+	"name" : "TCOIIdentifier",
 	"type" : "normal"
 }

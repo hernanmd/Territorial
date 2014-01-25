@@ -1,4 +1,4 @@
 *Territorial
 asUNIdentifier
 
-	^ UNIdentifier new code: self
+	^ TUNIdentifier new code: self
