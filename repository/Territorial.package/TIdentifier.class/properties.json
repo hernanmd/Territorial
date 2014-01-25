@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Territorial-Organization",
+	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"contents",
-		"territories"
+		"code"
 	],
-	"name" : "TGroupOrganization",
+	"name" : "TIdentifier",
 	"type" : "normal"
 }

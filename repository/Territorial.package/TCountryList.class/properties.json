@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Territorial-UN",
+	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"code"
+		"countries"
 	],
-	"name" : "UNIdentifier",
+	"name" : "TCountryList",
 	"type" : "normal"
 }

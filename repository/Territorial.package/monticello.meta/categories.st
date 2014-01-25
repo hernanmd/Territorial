@@ -1,4 +1,9 @@
 SystemOrganization addCategory: #Territorial!
+SystemOrganization addCategory: #'Territorial-COI'!
+SystemOrganization addCategory: #'Territorial-FIFA'!
+SystemOrganization addCategory: #'Territorial-GAUL'!
 SystemOrganization addCategory: #'Territorial-Objects'!
 SystemOrganization addCategory: #'Territorial-Objects-Tests'!
+SystemOrganization addCategory: #'Territorial-Organization'!
 SystemOrganization addCategory: #'Territorial-UN'!
+SystemOrganization addCategory: #'Territorial-WMO'!

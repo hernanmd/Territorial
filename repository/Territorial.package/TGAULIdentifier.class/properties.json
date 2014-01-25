@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Territorial-Organization",
+	"super" : "TIdentifier",
+	"category" : "Territorial-GAUL",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TContinentalOrganization",
+	"name" : "TGAULIdentifier",
 	"type" : "normal"
 }

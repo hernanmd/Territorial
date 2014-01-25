@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "TCountryList",
-	"category" : "Territorial-UN",
+	"category" : "Territorial-WMO",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TUNM49CountryList",
+	"name" : "TWMOCountryList",
 	"type" : "normal"
 }
