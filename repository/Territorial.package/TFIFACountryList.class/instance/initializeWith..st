@@ -3,11 +3,11 @@ initializeWith: countryList
 	" Private - Initialize the receiver's countries "
 	
 	(NeoCSVReader on: countryList readStream) 
-		separator: Character tab;
+		separator: $,;
 		do: [ : field | | country |
 			country := ((TerritorialCountry newNamed: field first)
 				addTerritoryName: #englishName -> field first;
-				addTerritoryName: #englishName -> field second;				
+				addTerritoryName: #frenchName -> field second;				
 				yourself).
 			(field second includes: $;)
 				ifFalse: [ country addIdentifier: field second ]

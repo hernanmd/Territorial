@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "TCountryList",
-	"category" : "Territorial-Organizations-WMO",
+	"category" : "Territorial-Market-CARICOM",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TWMOCountryList",
+	"name" : "TCARICOMCountryList",
 	"type" : "normal"
 }

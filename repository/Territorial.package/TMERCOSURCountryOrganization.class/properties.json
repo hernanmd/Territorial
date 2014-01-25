@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TIdentifier",
-	"category" : "Territorial-Organizations-GAUL",
+	"super" : "TCountryOrganization",
+	"category" : "Territorial-Market-MERCOSUR",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TGAULIdentifier",
+	"name" : "TMERCOSURCountryOrganization",
 	"type" : "normal"
 }

@@ -1,0 +1,1 @@
+The Council of Arab Economic Unity (CAEU) was founded by Egypt, Iraq, Jordan, Kuwait, Libya, Mauritania, Palestine, Saudi Arabia, Sudan, Tunisia, Syria, United Arab Emirates and Yemen on 3 June 1957.[1] It became effective on 30 May 1964, with the goal of achieving economic unity among its member states.
