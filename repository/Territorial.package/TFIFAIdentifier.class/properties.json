@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "TIdentifier",
-	"category" : "Territorial-FIFA",
+	"category" : "Territorial-Organizations-FIFA",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

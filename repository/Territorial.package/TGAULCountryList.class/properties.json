@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "TCountryList",
-	"category" : "Territorial-GAUL",
+	"category" : "Territorial-Organizations-GAUL",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "TIdentifier",
-	"category" : "Territorial-COI",
+	"category" : "Territorial-Organizations-COI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
