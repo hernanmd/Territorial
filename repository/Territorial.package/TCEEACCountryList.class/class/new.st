@@ -1,8 +1,7 @@
 accessing-countries
-countries
-	" Private - See superimplementor's comment "
+new
 
-	^ self new initializeWith: 'Angola
+	^ self basicNew initializeWith: 'Angola
 Burundi
 Cameroon
 Central African Republic

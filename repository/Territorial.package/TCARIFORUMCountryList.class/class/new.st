@@ -1,8 +1,7 @@
 accessing-countries
-countries 
-	" Private - See superimplementor's comment "
+new
 
-	^ self new initializeWith: 'Antigua and Barbuda
+	^ self basicNew initializeWith: 'Antigua and Barbuda
 Bahamas
 Barbados
 Belize

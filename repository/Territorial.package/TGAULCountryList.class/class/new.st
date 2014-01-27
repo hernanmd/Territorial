@@ -1,8 +1,7 @@
 accessing-countries
-countries
-	" Country,Int Olympic Committee code "
+new
 
-	^ self new initializeWith: 'Afghanistan,Afghanistan,1
+	^ self basicNew initializeWith: 'Afghanistan,Afghanistan,1
 Albania,Albanie,3
 Algeria,Algérie,4
 American Samoa,Samoa Américaines,5
