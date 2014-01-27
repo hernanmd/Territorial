@@ -1,8 +1,7 @@
 accessing-countries
-countries
-	" Private - See superimplementor's comment "
-	
-	^ self new initializeWith: 'Austria
+new
+
+	^ self basicNew initializeWith: 'Austria
 Belgium
 Bulgaria
 Cyprus

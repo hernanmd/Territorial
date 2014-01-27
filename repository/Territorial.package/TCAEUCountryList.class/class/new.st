@@ -1,8 +1,7 @@
 accessing-countries
-countries
-	" Private - See superimplementor's comment "
+new
 
-	^ self new initializeWith: 'Egypt
+	^ self basicNew initializeWith: 'Egypt
 Iraq
 Jordan
 Kuwait

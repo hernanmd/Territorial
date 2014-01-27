@@ -1,0 +1,4 @@
+accessing
+countryNamesClass
+
+	self subclassResponsibility

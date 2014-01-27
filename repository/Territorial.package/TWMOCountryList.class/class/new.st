@@ -1,7 +1,7 @@
 accessing-countries
-countries 
+new
 
-	^ self new initializeWith: 'Afghanistan,Afghanistan,AF
+	^ self basicNew initializeWith: 'Afghanistan,Afghanistan,AF
 Albania,Albanie,AB
 Algeria,Algérie,AL
 Angola,Angola,AN

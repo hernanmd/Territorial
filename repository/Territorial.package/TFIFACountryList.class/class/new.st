@@ -1,8 +1,7 @@
 accessing-countries
-countries
-	" Country, Country French, FIFA code "
+new
 
-	^ self new initializeWith: 'Afghanistan,Afghanistan,AFG
+	^ self basicNew initializeWith: 'Afghanistan,Afghanistan,AFG
 Albania,Albanie,ALB
 Algeria,Algérie,ALG
 American Samoa,Samoa Américaines,ASA

@@ -5,4 +5,4 @@ sortedCountryNames
 	TUNM49CountryOrganization sortedCountryNames
 	 "
 	
-	^ self countryNames asSortedCollection
+	^ self countryNamesClass sortedCountryNames
