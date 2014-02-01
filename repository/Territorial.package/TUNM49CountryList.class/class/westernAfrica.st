@@ -2,7 +2,7 @@ accessing-countries
 westernAfrica
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '204	Benin
+	^ self basicNew initializeWith: '204	Benin
 854	Burkina Faso
 132	Cape Verde
 384	Cote d''Ivoire

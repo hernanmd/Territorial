@@ -2,7 +2,7 @@ accessing-countries
 melanesia
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '242	Fiji
+	^ self basicNew initializeWith: '242	Fiji
 540	New Caledonia
 598	Papua New Guinea
 090	Solomon Islands

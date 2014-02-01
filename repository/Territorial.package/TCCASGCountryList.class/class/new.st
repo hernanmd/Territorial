@@ -1,4 +1,4 @@
-accessing-countries
+instance creation
 new
 
 	^ self basicNew initializeWith: 'Bahrain

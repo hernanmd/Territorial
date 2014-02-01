@@ -2,7 +2,7 @@ accessing-countries
 northernEurope
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '248	Åland Islands
+	^ self basicNew initializeWith: '248	Åland Islands
 830	Channel Islands
 208	Denmark
 233	Estonia

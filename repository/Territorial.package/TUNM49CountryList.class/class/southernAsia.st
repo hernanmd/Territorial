@@ -2,7 +2,7 @@ accessing-countries
 southernAsia
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '004	Afghanistan
+	^ self basicNew initializeWith: '004	Afghanistan
 050	Bangladesh
 064	Bhutan
 356	India

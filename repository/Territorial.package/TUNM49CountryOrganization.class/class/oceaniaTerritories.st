@@ -5,15 +5,15 @@ oceaniaTerritories
 	
 	australiaAndNewZealand := (TerritorialComposite newNamed: 'Australia and New Zealand') 
 		addTerritories: TUNM49CountryList australiaAndNewZealand;
-		keyCode: '053' asUNIdentifier.
+		addIdentifier: '053' asUNIdentifier.
 	melanesia := (TerritorialComposite newNamed: 'Melanesia')
 		addTerritories: TUNM49CountryList melanesia;
-		keyCode: '054' asUNIdentifier.
+		addIdentifier: '054' asUNIdentifier.
 	micronesia := (TerritorialComposite newNamed: 'Micronesia') 
 		addTerritories: TUNM49CountryList micronesia;
-		keyCode: '057' asUNIdentifier.
+		addIdentifier: '057' asUNIdentifier.
 	polynesia := (TerritorialComposite newNamed: 'Polynesia') 
 		addTerritories: TUNM49CountryList polynesia;
-		keyCode: '061' asUNIdentifier.
-	^ australiaAndNewZealand , melanesia , micronesia , polynesia.
+		addIdentifier: '061' asUNIdentifier.
+	^ Set with: australiaAndNewZealand with: melanesia with: micronesia with: polynesia.
 	

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "TIdentifier",
-	"category" : "Territorial-UN",
+	"category" : "Territorial-Organizations-UN",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

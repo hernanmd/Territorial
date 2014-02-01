@@ -2,7 +2,7 @@ accessing-countries
 southernEurope
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '008	Albania
+	^ self basicNew initializeWith: '008	Albania
 020	Andorra
 070	Bosnia and Herzegovina
 191	Croatia

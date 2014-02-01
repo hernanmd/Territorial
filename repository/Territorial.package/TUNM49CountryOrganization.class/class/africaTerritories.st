@@ -18,5 +18,4 @@ africaTerritories
 	westAfrica := (TerritorialComposite newNamed: 'Western Africa')
 		addTerritories: TUNM49CountryList westernAfrica;
 		addIdentifier: '011' asUNIdentifier.
-		
-	^ eastAfrica , midAfrica , northAfrica , southAfrica , westAfrica
+	^ Set with: eastAfrica with: midAfrica with: northAfrica  with: southAfrica with: westAfrica
