@@ -2,7 +2,7 @@ accessing-countries
 southEasternAsia
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '096	Brunei Darussalam
+	^ self basicNew initializeWith: '096	Brunei Darussalam
 116	Cambodia
 360	Indonesia
 418	Lao People''s Democratic Republic

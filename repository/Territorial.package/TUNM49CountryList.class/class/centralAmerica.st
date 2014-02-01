@@ -2,7 +2,7 @@ accessing-countries
 centralAmerica
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '084	Belize
+	^ self basicNew initializeWith: '084	Belize
 188	Costa Rica
 222	El Salvador
 320	Guatemala

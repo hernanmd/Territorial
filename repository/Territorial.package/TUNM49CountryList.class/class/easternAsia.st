@@ -2,7 +2,7 @@ accessing-countries
 easternAsia
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '156	China
+	^ self basicNew initializeWith: '156	China
 344	China, Hong Kong Special Administrative Region
 446	China, Macao Special Administrative Region
 408	Democratic People''s Republic of Korea

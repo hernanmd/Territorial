@@ -2,7 +2,7 @@ accessing-countries
 centralAsia
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '143	Central Asia
+	^ self basicNew initializeWith: '143	Central Asia
 398	Kazakhstan
 417	Kyrgyzstan
 762	Tajikistan

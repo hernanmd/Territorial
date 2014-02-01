@@ -2,7 +2,7 @@ accessing-countries
 middleAfrica
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '024	Angola
+	^ self basicNew initializeWith: '024	Angola
 120	Cameroon
 140	Central African Republic
 148	Chad

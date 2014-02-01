@@ -2,7 +2,7 @@ accessing-countries
 easternEurope
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '112	Belarus
+	^ self basicNew initializeWith: '112	Belarus
 100	Bulgaria
 203	Czech Republic
 348	Hungary

@@ -5,14 +5,14 @@ europeTerritories
 	| easternEurope northernEurope southernEurope westernEurope |
 	easternEurope := (TerritorialComposite newNamed: 'Eastern Europe') 
 		addTerritories: TUNM49CountryList easternEurope;
-		keyCode: '151' asUNIdentifier.
+		addIdentifier: '151' asUNIdentifier.
 	northernEurope := (TerritorialComposite newNamed: 'Northern Europe')
 		addTerritories: TUNM49CountryList northernEurope;
-		keyCode: '154' asUNIdentifier.
+		addIdentifier: '154' asUNIdentifier.
 	southernEurope := (TerritorialComposite newNamed: 'Southern Europe') 
 		addTerritories: TUNM49CountryList southernEurope;
-		keyCode: '039' asUNIdentifier.
-	westernEurope := (TerritorialComposite newNamed: 'Northern Europe')
+		addIdentifier: '039' asUNIdentifier.
+	westernEurope := (TerritorialComposite newNamed: 'Western Europe')
 		addTerritories: TUNM49CountryList westernEurope;
-		keyCode: '155' asUNIdentifier.		
-	^ easternEurope , northernEurope , southernEurope , westernEurope
+		addIdentifier: '155' asUNIdentifier.		
+	^ Set with: easternEurope with: northernEurope with: southernEurope with: westernEurope

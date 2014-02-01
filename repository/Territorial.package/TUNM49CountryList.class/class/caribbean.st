@@ -2,7 +2,7 @@ accessing-countries
 caribbean
 	" Answer a Collection with stable subdivisions "
 
-	^ self new initializeWith: '660	Anguilla
+	^ self basicNew initializeWith: '660	Anguilla
 028	Antigua and Barbuda
 533	Aruba
 044	Bahamas

@@ -12,5 +12,5 @@ SystemOrganization addCategory: #'Territorial-Organization'!
 SystemOrganization addCategory: #'Territorial-Organizations-COI'!
 SystemOrganization addCategory: #'Territorial-Organizations-FIFA'!
 SystemOrganization addCategory: #'Territorial-Organizations-GAUL'!
+SystemOrganization addCategory: #'Territorial-Organizations-UN'!
 SystemOrganization addCategory: #'Territorial-Organizations-WMO'!
-SystemOrganization addCategory: #'Territorial-UN'!

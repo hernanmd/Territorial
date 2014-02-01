@@ -1,5 +1,4 @@
 instance creation
 new
-	" See superimplementor's comment "
 
-	^ self basicNew initializeWith: self allCountries
+	^ self basicNew countries: self allCountries
