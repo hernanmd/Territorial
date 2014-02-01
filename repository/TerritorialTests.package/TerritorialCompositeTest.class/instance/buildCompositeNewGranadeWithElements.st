@@ -1,5 +1,5 @@
 accessing
-buildCompositeNewGranadeComposite
+buildCompositeNewGranadeWithElements
 	^ self buildCompositeNewGranade 
 		addTerritory: self buildTerritoryColombia;
 		addTerritory: self buildTerritoryEcuador;
