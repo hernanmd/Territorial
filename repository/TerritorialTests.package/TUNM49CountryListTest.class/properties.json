@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCountryListTest",
+	"category" : "TerritorialTests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TUNM49CountryListTest",
+	"type" : "normal"
+}
