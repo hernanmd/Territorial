@@ -6,9 +6,9 @@ testAmericaTerritories
 	self assert: (territories isKindOf: Collection).
 	self deny: territories isEmpty.
 	self assert: territories size = 2.
-	self assert: (territories allSatisfy: [: each | each value isKindOf: TerritorialLocation ]).
-	self assert: (territories allSatisfy: [: each | each key isKindOf: TUNIdentifier ]).
+	self assert: (territories allSatisfy: [: each | each value isKindOf: TerritorialObject ]).
+	self assert: (territories allSatisfy: [: each | each identifier isKindOf: TUNIdentifier ]).
 	
-	unIdentifiers := territories collect: [ : each | each key code ].
-	self assert: (unIdentifiers hasEqualElements: #('419' '021')).
+	unIdentifiers := territories collect: [ : each | each identifier code ].
+	self assert: (unIdentifiers includesAllOf: #('419' '021')).
 

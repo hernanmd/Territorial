@@ -6,9 +6,9 @@ testAfricaTerritories
 	self assert: (territories isKindOf: Collection).
 	self deny: territories isEmpty.
 	self assert: territories size = 5.
-	self assert: (territories allSatisfy: [: each | each value isKindOf: TerritorialLocation ]).
-	self assert: (territories allSatisfy: [: each | each key isKindOf: TUNIdentifier ]).
+	self assert: (territories allSatisfy: [: each | each isKindOf: TerritorialObject ]).
+	self assert: (territories allSatisfy: [: each | each identifier isKindOf: TUNIdentifier ]).
 	
-	unIdentifiers := territories collect: [ : each | each key code ].
-	self assert: (unIdentifiers hasEqualElements: #('014' '017' '015' '018' '011')).
+	unIdentifiers := territories collect: [ : each | each identifier code ].
+	self assert: (unIdentifiers includesAllOf: #('014' '017' '015' '018' '011')).
 
