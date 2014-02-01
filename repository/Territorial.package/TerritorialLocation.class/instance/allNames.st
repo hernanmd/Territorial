@@ -2,4 +2,4 @@ accessing
 allNames
 	" Private - "
 
-	^ self name
+	^ Set with: self name
