@@ -3,10 +3,10 @@ testIncludesTerritory
 
 	| tty |
 	
-	territory := self buildCompositeNewGranadeWithElements.
+	self territory: self buildCompositeNewGranadeWithElements.
 	tty := self buildTerritoryVenezuela.
 	self assert: (territory includesTerritory: tty).			
-	territory removeTerritory: tty.
-	self deny: (territory includesTerritory: tty).
+	self territory removeTerritory: tty.
+	self deny: (self territory includesTerritory: tty).
 
 	
