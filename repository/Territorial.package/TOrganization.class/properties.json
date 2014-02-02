@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"super" : "TNamedObject",
 	"category" : "Territorial-Organization",
 	"classinstvars" : [
 		"territorialObject"
@@ -9,7 +9,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"classifications",
-		"names",
 		"orgName"
 	],
 	"name" : "TOrganization",
