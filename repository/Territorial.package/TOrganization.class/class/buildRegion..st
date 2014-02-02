@@ -10,8 +10,5 @@ buildRegion: symbol
 	territoriesParser rowsDo: [ : row |
 		| area |
 		area := self newAreaFrom: row.
-		territories addLast: 
-			( SKPVTreeLW 
-				key: area name 
-				value: area ) ].
+		territories addLast: area ].
 	^ territories asArray

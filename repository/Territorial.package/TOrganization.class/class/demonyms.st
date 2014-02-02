@@ -1,5 +1,8 @@
 accessing
 demonyms
-	" Answer a Collection with each element a Collection of demonyms for the receiver "
+	" Answer a Collection with each element a Collection of demonyms for the receiver
 	
-	^ ( self territorialObject @ self territoryName ) demonyms
+	TUNM49CountryOrganization demonyms
+	 "
+	
+	^ self initialWorld allTerritories collect: #demonyms

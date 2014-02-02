@@ -1,16 +1,14 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TNamedObject",
+	"super" : "Object",
 	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"identifiers",
-		"preferredIdentifier",
-		"demonyms",
-		"tWorld"
+		"names",
+		"preferredName"
 	],
-	"name" : "TerritorialObject",
+	"name" : "TNamedObject",
 	"type" : "normal"
 }

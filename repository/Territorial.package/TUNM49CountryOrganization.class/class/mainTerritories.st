@@ -6,18 +6,18 @@ mainTerritories
 	
 	africa := (TerritorialComposite newNamed: 'Africa') 
 		addTerritories: self africaTerritories;
-		keyCode: '002' asUNIdentifier.
+		addIdentifier: '002' asUNIdentifier.
 	oceania := (TerritorialComposite newNamed: 'Oceania')
 		addTerritories: self oceaniaTerritories;
-		keyCode: '009' asUNIdentifier.
+		addIdentifier: '009' asUNIdentifier.
 	americas := (TerritorialComposite newNamed: 'Americas') 
 		addTerritories: self americaTerritories;
-		keyCode: '019' asUNIdentifier.
+		addIdentifier: '019' asUNIdentifier.
 	asia := (TerritorialComposite newNamed: 'Asia')
 		addTerritories: self asiaTerritories;
-		keyCode: '142' asUNIdentifier.
+		addIdentifier: '142' asUNIdentifier.
 	europe := (TerritorialComposite newNamed: 'Europe')
 		addTerritories: self europeTerritories;
-		keyCode: '150' asUNIdentifier.	
+		addIdentifier: '150' asUNIdentifier.	
 
-	^ africa , oceania , americas , asia , europe
+	^ self collectionClass with: africa with: oceania with: americas with: asia with: europe

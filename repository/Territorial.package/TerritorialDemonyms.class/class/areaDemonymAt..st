@@ -1,10 +1,8 @@
 accessing
-areaDemonymAt: aCollection
+areaDemonymAt: areaString
 	" Answer a String denonym for aCollection of area names "
 	
-	| answer |
-	
-	aCollection 
-		detect: [: areaName | ( answer := self areaDemonymFor: areaName ) isEmpty not ]
-		ifNone: [ answer := OrderedCollection with: self nullValue ].
-	^ answer first
+	^ self areaDemonyms 
+		at: areaString asLowercase
+		ifAbsent: [ self areaDemonymFor: areaString ]	
+

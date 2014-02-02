@@ -1,9 +1,9 @@
 comparing
-= aTerritorial
+= aTNamedObject
 	"Answer whether the receiver and anObject represent the same object."
 
-	self == aTerritorial
+	self == aTNamedObject
 		ifTrue: [ ^ true ].
-	self class = aTerritorial class
+	self class = aTNamedObject class
 		ifFalse: [ ^ false ].	
-	^ self name = aTerritorial name
+	^ self name = aTNamedObject name
