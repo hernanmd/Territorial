@@ -2,7 +2,7 @@ testing
 testAsiaTerritories
 
 	| unIdentifiers |
-	territories := TUNM49CountryOrganization asiaTerritories.
+	territories := self countryOrganizationClass asiaTerritories.
 	self assert: (territories isKindOf: Collection).
 	self deny: territories isEmpty.
 	self assert: territories size = 5.
