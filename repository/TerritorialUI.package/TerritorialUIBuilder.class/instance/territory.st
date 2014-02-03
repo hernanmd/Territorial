@@ -1,0 +1,3 @@
+accessing
+territory
+	^ territory
