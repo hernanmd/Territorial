@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 2/26/2014 22:16",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "ConfigurationOfTerritorial",
 	"classinstvars" : [ ],
@@ -8,8 +8,7 @@
 		"LastVersionLoad"
 	],
 	"instvars" : [
-		"project",
-		"fileRef"
+		"project"
 	],
 	"name" : "ConfigurationOfTerritorial",
 	"type" : "normal"
