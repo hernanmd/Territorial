@@ -1,4 +1,0 @@
-private
-emphasisCode
-
-	^ 5

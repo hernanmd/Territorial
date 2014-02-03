@@ -1,4 +1,0 @@
-accessing
-userTerritoriesFilename
-
-	^ 'userTerritories.fuel'

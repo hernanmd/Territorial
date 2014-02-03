@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "TerritorialUI-Builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ttyName",
+		"territory"
+	],
+	"name" : "TerritorialUIBuilder",
+	"type" : "normal"
+}

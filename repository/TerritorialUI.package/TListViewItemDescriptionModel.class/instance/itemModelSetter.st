@@ -1,3 +1,0 @@
-accessing
-itemModelSetter
-	^ itemModelSetter

@@ -1,4 +1,0 @@
-accessing
-territorySelector
-
-	^ territorySelector

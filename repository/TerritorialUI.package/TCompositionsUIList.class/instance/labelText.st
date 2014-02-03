@@ -1,4 +1,0 @@
-protocol
-labelText
-
-	^ 'Saved Territories'.

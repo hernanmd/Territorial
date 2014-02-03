@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "TerritorialUI-Builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"option"
+	],
+	"name" : "TerritorialUITypeOptionModel",
+	"type" : "normal"
+}

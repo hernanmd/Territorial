@@ -1,0 +1,3 @@
+accessing
+ttyName
+	^ ttyName

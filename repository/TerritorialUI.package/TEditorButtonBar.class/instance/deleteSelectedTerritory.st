@@ -1,4 +1,0 @@
-protocol
-deleteSelectedTerritory
-
-	self owner deleteSelectedComposition

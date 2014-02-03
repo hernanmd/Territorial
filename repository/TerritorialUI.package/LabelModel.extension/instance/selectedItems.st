@@ -1,4 +1,0 @@
-*TerritorialUI
-selectedItems
-	
-	^ Array empty

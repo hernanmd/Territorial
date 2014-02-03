@@ -1,4 +1,0 @@
-initialization
-models
-
-	^ #(#toolbar SpcPreviousNextToolbar)
