@@ -1,13 +1,11 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "TerritorialUIBuilder",
 	"category" : "TerritorialUI-Builder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"wnd"
-	],
-	"name" : "TerritorialMorphicBuilder",
+	"instvars" : [ ],
+	"name" : "TerritoryBuilderUIChooser",
 	"type" : "normal"
 }
