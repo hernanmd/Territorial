@@ -72,7 +72,7 @@ Equatorial Guinea,Equatorial Guinean
 Eritrea,Eritrean
 Estonia,Estonian
 Ethiopia,Ethiopian
-Falkland Islands,Falkland Island,Falkland Islanders
+Falkland Islands,Falkland Islanders
 Faroe Islands,Faroese
 Fiji,Fijian
 Finland,Finnish
