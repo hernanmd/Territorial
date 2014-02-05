@@ -1,0 +1,4 @@
+protocol
+previousAction
+
+	^ previousAction value

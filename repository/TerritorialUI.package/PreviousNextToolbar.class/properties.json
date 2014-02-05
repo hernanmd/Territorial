@@ -6,13 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ttyName",
-		"territory",
-		"button1",
-		"button2",
+		"cancelled",
+		"nextButton",
 		"nextAction",
-		"previousNextToolbar"
+		"previousButton",
+		"previousAction"
 	],
-	"name" : "TerritorialUIBuilder",
+	"name" : "PreviousNextToolbar",
 	"type" : "normal"
 }
