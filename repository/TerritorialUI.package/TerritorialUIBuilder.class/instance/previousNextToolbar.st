@@ -1,4 +1,4 @@
 accessing
-okToolbar
+previousNextToolbar
 	
 	^ previousNextToolbar
