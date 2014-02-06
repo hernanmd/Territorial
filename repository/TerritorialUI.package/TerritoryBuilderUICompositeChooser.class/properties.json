@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TerritorialUIBuilder",
+	"super" : "WizardUIChooser",
 	"category" : "TerritorialUI-Builder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
