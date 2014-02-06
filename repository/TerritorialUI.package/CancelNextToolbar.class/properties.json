@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 2/6/2014 19:40",
-	"super" : "WizardUIChooser",
+	"commentStamp" : "HernanMoralesDurand 2/6/2014 20:14",
+	"super" : "PreviousNextToolbar",
 	"category" : "TerritorialUI-Builder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TerritoryBuilderUICompositeChooser",
+	"name" : "CancelNextToolbar",
 	"type" : "normal"
 }

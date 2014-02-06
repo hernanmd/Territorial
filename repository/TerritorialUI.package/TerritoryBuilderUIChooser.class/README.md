@@ -1,1 +1,3 @@
-A RadioButtonGroupExample is an simple example about how to use RadioButtons and RadioGroup
+Wizard part for choosing new or open territory.
+
+TerritoryBuilderUIChooser open.

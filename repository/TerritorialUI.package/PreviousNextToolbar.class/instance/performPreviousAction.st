@@ -3,5 +3,8 @@ performPreviousAction
 
 	^ previousAction value value == false
 		ifFalse: [ 
-			cancelled value: true.
-			owner ifNil: [ self delete ] ifNotNil: [ owner delete ] ]
+			owner 
+				ifNil: [ self delete ] 
+				ifNotNil: [ 
+					owner delete.
+					self previousModel open ] ]
