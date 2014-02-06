@@ -6,5 +6,5 @@ performPreviousAction
 			owner 
 				ifNil: [ self delete ] 
 				ifNotNil: [ 
-					owner delete.
-					self previousModel open ] ]
+					owner button1 state: true.					
+					owner delete ] ]

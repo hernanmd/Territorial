@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 2/6/2014 19:41",
-	"super" : "WizardUIChooser",
+	"super" : "WizardUIOptionsChooser",
 	"category" : "TerritorialUI-Builder",
 	"classinstvars" : [ ],
 	"pools" : [ ],

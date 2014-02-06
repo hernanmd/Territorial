@@ -6,12 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"currentOption",
+		"previousNextToolbar",
 		"button1",
-		"button2",
-		"nextAction",
-		"previousNextToolbar"
+		"button2"
 	],
-	"name" : "WizardUIChooser",
+	"name" : "WizardUINavigation",
 	"type" : "normal"
 }
