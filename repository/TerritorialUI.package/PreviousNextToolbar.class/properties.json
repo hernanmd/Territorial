@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "<historical>",
+	"commentStamp" : "HernanMoralesDurand 2/6/2014 20:14",
 	"super" : "ComposableModel",
 	"category" : "TerritorialUI-Builder",
 	"classinstvars" : [ ],
@@ -10,7 +10,8 @@
 		"nextButton",
 		"nextAction",
 		"previousButton",
-		"previousAction"
+		"previousAction",
+		"previousModel"
 	],
 	"name" : "PreviousNextToolbar",
 	"type" : "normal"

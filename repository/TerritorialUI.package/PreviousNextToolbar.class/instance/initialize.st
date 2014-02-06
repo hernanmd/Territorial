@@ -1,6 +1,6 @@
 initialization
 initialize
 
-	previousAction := [ false ] asReactiveVariable.
+	previousAction := [ true ] asReactiveVariable.
 	nextAction := [ true ] asReactiveVariable.
 	super initialize.

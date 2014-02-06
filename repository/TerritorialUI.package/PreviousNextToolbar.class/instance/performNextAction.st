@@ -7,4 +7,5 @@ performNextAction
 				ifNil: [ self delete ] 
 				ifNotNil: [ 
 					owner button2 state: true.
+					self previousModel: owner.
 					owner delete ] ]

@@ -1,1 +1,1 @@
-An OkCancelToolbar is a model for a basic Ok-Cancel toolbar
+Model for a basic previous-next toolbar
