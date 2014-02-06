@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "WizardUIChooser",
 	"category" : "TerritorialUI-Builder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"option"
+		"territory"
 	],
-	"name" : "TerritorialUITypeOptionModel",
+	"name" : "TerritorialUIChooser",
 	"type" : "normal"
 }
