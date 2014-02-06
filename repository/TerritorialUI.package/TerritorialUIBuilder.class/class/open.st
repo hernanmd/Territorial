@@ -1,5 +1,4 @@
 example
-example
-	"self example"
+open
 
 	self new openWithSpec.

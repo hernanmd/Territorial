@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ttyName",
+		"currentOption",
 		"territory",
 		"button1",
 		"button2",

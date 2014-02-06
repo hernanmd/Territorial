@@ -1,7 +1,7 @@
 initialization
 registerPreviousButtonEvents
 
-	nextButton 
+	previousButton 
 		label: '<< Previous';
 		enabled: true;
 		state: false
