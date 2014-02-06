@@ -6,12 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cancelled",
 		"nextButton",
 		"nextAction",
 		"previousButton",
-		"previousAction",
-		"previousModel"
+		"previousAction"
 	],
 	"name" : "PreviousNextToolbar",
 	"type" : "normal"

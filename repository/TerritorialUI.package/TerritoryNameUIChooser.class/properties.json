@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HernanMoralesDurand 2/6/2014 21:43",
 	"super" : "WizardUINavigation",
 	"category" : "TerritorialUI-Builder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"territory"
+		"label",
+		"text"
 	],
-	"name" : "TerritorialUIChooser",
+	"name" : "TerritoryNameUIChooser",
 	"type" : "normal"
 }
