@@ -2,4 +2,4 @@ accessing
 territorialObject
 
 	^ territorialObject
-		ifNil: [ territorialObject := self newArea ].
+		ifNil: [ territorialObject := self initialWorld ].

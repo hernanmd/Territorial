@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/8/2014 00:38",
+	"super" : "TCountryOrganization",
+	"category" : "Territorial-Market-CARICOM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCARICOMCountryOrganization",
+	"type" : "normal"
+}
