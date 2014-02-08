@@ -1,4 +1,4 @@
 protocol
 displayBlock: aBlock
 
-	territories displayBlock: aBlock
+	list displayBlock: aBlock
