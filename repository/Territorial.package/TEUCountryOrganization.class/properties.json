@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCountryOrganization",
+	"category" : "Territorial-Market-EU",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TEUCountryOrganization",
+	"type" : "normal"
+}
