@@ -1,0 +1,4 @@
+protocol
+resetOrganizationSelection
+
+	organizations resetSelection
