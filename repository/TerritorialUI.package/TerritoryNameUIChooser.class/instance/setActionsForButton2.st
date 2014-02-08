@@ -1,5 +1,4 @@
 initialization
 setActionsForButton2
 
-	button2 whenActivatedDo: [ ].
-	button2 whenDesactivatedDo: [ ]
+	button2 whenActionPerformedDo: [ 2 halt. ].

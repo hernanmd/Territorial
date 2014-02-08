@@ -1,0 +1,4 @@
+protocol
+resetSelection
+
+	territories resetSelection
