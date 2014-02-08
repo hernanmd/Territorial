@@ -7,5 +7,5 @@ defaultSpec
 			column 
 				add: #label
 				height: self toolbarHeight;
-				add: #territories ];
+				add: #list ];
 		yourself

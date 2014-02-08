@@ -7,7 +7,7 @@ initializeModelCallbacks
 			qualifier
 				ifNil: [ 
 					organizations items: #().
-					territories items: #() ]
+					territories roots: #() ]
 				ifNotNil: [ 
 					organizations items: (TCountryOrganization organizationsAt: qualifier).
-					territories items: Array empty ] ]
+					territories roots: Array empty ] ]

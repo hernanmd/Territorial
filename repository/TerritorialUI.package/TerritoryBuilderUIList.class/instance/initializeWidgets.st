@@ -1,7 +1,7 @@
 initialization
 initializeWidgets
 
-	territories := self newList.
+	list := self newList.
 	label := self newLabel.
 	label text: 'Territories'.
-	self focusOrder add: territories
+	self focusOrder add: list

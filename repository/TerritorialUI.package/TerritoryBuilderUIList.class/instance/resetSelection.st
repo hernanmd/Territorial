@@ -1,4 +1,4 @@
 protocol
 resetSelection
 
-	territories resetSelection
+	list resetSelection

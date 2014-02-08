@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "BenjaminVanRyseghem 1/21/2014 16:35",
+	"commentStamp" : "HernanMoralesDurand 2/8/2014 13:48",
 	"super" : "ComposableModel",
 	"category" : "TerritorialUI-Builder",
 	"classinstvars" : [ ],
@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"label",
-		"territories"
+		"list",
+		"selectedChangedBlock"
 	],
 	"name" : "TerritoryBuilderUIList",
 	"type" : "normal"

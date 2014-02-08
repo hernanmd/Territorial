@@ -1,4 +1,4 @@
 protocol
 items: aCollection
 
-	territories items: aCollection
+	list items: aCollection

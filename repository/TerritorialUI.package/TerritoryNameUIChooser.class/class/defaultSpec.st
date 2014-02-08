@@ -9,5 +9,5 @@ defaultSpec
 						row
 							add: #label; 
 							add: #text ];
-					add: #previousNextToolbar height: 25 ];
+					add: #previousNextToolbar height: self toolbarHeight ];
 		yourself.
