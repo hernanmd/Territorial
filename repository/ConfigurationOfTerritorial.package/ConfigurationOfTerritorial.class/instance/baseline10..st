@@ -8,8 +8,9 @@ baseline10: spec
 	spec for: #common do: [	
 		spec blessing: #baseline.
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
+		self specForRoassal2: spec.
 		self specForNeoCSV: spec.
-		spec package: 'Territorial'		with: [ spec requires: #('NeoCSV')].
+		spec package: 'Territorial'		with: [ spec requires: #('NeoCSV' 'Roassal2')].
 
 		spec 
 			group: 'default' with: #('Territorial' 'TerritorialTests');
