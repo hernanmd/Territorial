@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "HernanMoralesDurand 2/7/2014 15:12",
 	"super" : "ComposableModel",
-	"category" : "TerritorialUI-Builder",
+	"category" : "TerritorialUI-Composer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"list"
 	],
-	"name" : "TerritoryBuilderUIModelList",
+	"name" : "TerritoryComposerUIModelList",
 	"type" : "normal"
 }

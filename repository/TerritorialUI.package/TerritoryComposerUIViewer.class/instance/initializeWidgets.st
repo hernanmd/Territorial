@@ -1,8 +1,8 @@
 initialization
 initializeWidgets
 
-	models := self instantiate: TerritoryBuilderUIModelList.
-	organizations := self instantiate: TerritoryBuilderUIList.
+	models := self instantiate: TerritoryComposerUIModelList.
+	organizations := self instantiate: TerritoryComposerUIList.
 	organizations
 		label: 'Organizations';
 		displayBlock: [ :m | m territoryName ].
