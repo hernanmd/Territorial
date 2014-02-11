@@ -1,7 +1,7 @@
 initialization
 initializeTerritories
 
-	territories := self instantiate: TerritoryBuilderUIList.
+	territories := self instantiate: TerritoryComposerUIList.
 	territories
 		label: 'Territories';
 		list: (self newTree

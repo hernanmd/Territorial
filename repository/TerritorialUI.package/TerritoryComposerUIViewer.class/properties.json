@@ -1,14 +1,15 @@
 {
 	"commentStamp" : "BenjaminVanRyseghem 1/21/2014 16:36",
-	"super" : "WizardUINavigation",
-	"category" : "TerritorialUI-Builder",
+	"super" : "ComposableModel",
+	"category" : "TerritorialUI-Composer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"viewer",
-		"text"
+		"models",
+		"organizations",
+		"territories"
 	],
-	"name" : "TerritoryBuilderUIBrowser",
+	"name" : "TerritoryComposerUIViewer",
 	"type" : "normal"
 }
