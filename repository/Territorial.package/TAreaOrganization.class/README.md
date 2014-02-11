@@ -1,0 +1,1 @@
+Groups behavior for territorial areas like Archipelagos, Outermost regions, traditional divisions (Melanesia, Polinesia, etc), Capes, Channels, Peninsulas, etc.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addCountryDemonym: anArray
 	" Private - Add country demonym from anArray row from CSV "
 

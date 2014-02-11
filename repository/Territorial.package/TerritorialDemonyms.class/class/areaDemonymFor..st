@@ -5,5 +5,5 @@ areaDemonymFor: areaName
 		at: areaName asLowercase
 		ifAbsent: [ 
 			self areaDemonyms 
-				at: ( areaName asLowercase copyUpTo: Character space )
-				ifAbsent: [ Array empty ] ] 
+				at: (areaName asLowercase copyUpTo: Character space)
+				ifAbsent: [ OrderedCollection new ] ] 
