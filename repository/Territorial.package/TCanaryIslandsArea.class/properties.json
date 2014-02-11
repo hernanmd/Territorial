@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 2/9/2014 03:11",
-	"super" : "TOrganization",
+	"commentStamp" : "",
+	"super" : "TAreaOrganization",
 	"category" : "Territorial-Organization",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TAreaOrganization",
+	"name" : "TCanaryIslandsArea",
 	"type" : "normal"
 }
