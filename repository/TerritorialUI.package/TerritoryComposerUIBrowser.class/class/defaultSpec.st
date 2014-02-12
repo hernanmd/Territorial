@@ -12,6 +12,6 @@ defaultSpec
 							c 
 								add: #(viewer #territories);
 								add: #(viewer events) ] ];
-				add: #text;
+				add: #map;
 				add: #previousNextToolbar height: self toolbarHeight ];
 		yourself

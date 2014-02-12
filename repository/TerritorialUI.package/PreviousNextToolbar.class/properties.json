@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 2/6/2014 20:14",
 	"super" : "ComposableModel",
-	"category" : "TerritorialUI-Builder",
+	"category" : "TerritorialUI-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
