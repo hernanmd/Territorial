@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/12/2014 02:47",
+	"super" : "AbstractWidgetModel",
+	"category" : "TerritorialUI-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mapHolder"
+	],
+	"name" : "RTMapBuilderModel",
+	"type" : "normal"
+}
