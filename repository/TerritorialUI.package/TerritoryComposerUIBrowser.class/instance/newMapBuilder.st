@@ -6,5 +6,7 @@ newMapBuilder
 		countries: RTSVGPath countries;
 		color: [ : dic | Color white ];
 		yourself.
-	mapBuilder open.
-	^ mapBuilder asSpecAdapter
+	mapBuilder renderIn: mapBuilder view.
+	^ (TRMorph new
+		canvas: mapBuilder view canvas;
+		yourself) asSpecAdapter
