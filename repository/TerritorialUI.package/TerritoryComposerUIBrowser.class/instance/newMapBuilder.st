@@ -1,7 +1,6 @@
 initialization
 newMapBuilder
 
-	| mapBuilder |
 	mapBuilder := RTMapBuilder new
 		countries: RTSVGPath countries;
 		color: [ : dic | Color white ];
