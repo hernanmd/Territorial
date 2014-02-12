@@ -13,5 +13,5 @@ baseline10: spec
 		spec package: 'Territorial'		with: [ spec requires: #('NeoCSV' 'Roassal2')].
 
 		spec 
-			group: 'default' with: #('Territorial' 'TerritorialTests');
-			group: 'all' with: #('Territorial' 'TerritorialTests' 'TerritorialUI') ]
+			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI')
+			"group: 'all' with: #('Territorial' 'TerritorialTests' 'TerritorialUI')" ]
