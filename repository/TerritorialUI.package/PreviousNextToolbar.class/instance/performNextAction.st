@@ -5,6 +5,4 @@ performNextAction
 		ifFalse: [ 
 			owner 
 				ifNil: [ self delete ] 
-				ifNotNil: [ 
-					owner button2 state: true.
-					owner delete ] ]
+				ifNotNil: [ owner delete ] ]
