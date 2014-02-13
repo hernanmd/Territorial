@@ -1,4 +1,4 @@
 initialization
 setActionsForButton2
 
-	button2 whenActionPerformedDo: [ TerritoryComposerUIBrowser open ].
+	button2 whenActionPerformedDo: [ ].

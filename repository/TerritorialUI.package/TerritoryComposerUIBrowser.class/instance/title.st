@@ -1,4 +1,4 @@
 protocol
 title
 
-	^ 'Territory Composer'
+	^ 'Territory Composer for: ' , self territoryName

@@ -6,7 +6,7 @@ initializeWidgets
 	organizations
 		label: 'Organizations';
 		displayBlock: [ :m | m territoryName ].
-	self initializeTerritories.	"		displayBlock: [ :m | m territoryName ]."
+	self initializeTerritories.
 	self focusOrder
 		add: models;
 		add: organizations;
