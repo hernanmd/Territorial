@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "TerritorialUI-Viewer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"userTtys",
+		"map",
+		"mapBuilder"
+	],
+	"name" : "TerritoryViewerUI",
+	"type" : "normal"
+}

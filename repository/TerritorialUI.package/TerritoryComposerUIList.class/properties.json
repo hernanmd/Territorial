@@ -8,7 +8,8 @@
 	"instvars" : [
 		"label",
 		"list",
-		"selectedChangedBlock"
+		"selectedChangedBlock",
+		"selections"
 	],
 	"name" : "TerritoryComposerUIList",
 	"type" : "normal"
