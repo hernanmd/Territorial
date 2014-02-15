@@ -6,7 +6,7 @@ update: tty changed: bool
 	
 	bool ifTrue: [ newColor := Color atRandom ] ifFalse: [ newColor := Color white ].
 	countryNameForRoassal := tty copyReplaceAll: ' ' with: ''.
-	(shape := self mapView elementFromModel: countryNameForRoassal) ifNil: [ 
-		self error: 'Country name not found' ].
-	shape trachelShape color: newColor.
-	self mapMorph changed.
+	(shape := self mapView elementFromModel: countryNameForRoassal) 
+		ifNotNil: [ 
+			shape trachelShape color: newColor.
+			self mapMorph changed ].
