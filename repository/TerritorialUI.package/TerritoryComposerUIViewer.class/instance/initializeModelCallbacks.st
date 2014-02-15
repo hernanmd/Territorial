@@ -2,8 +2,6 @@ initialization
 initializeModelCallbacks
 	models
 		whenSelectedItemChanged: [ :qualifier | 
-			organizations resetSelection.
-			territories resetSelection.
 			qualifier
 				ifNil: [ 
 					organizations items: #().

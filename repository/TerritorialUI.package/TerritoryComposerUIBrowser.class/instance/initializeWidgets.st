@@ -9,4 +9,5 @@ initializeWidgets
 
 	self focusOrder 
 		add: viewer;
-		add: map
+		add: button1;
+		add: button2

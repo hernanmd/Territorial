@@ -11,4 +11,4 @@ initializeWidgets
 		entryCompletion: nil;
 		ghostText: 'e.g. Argentina';
 		bindKeyCombination: Character cr asKeyCombination 
-		toAction: [ self previousNextToolbar triggerOkAction ].		
+		toAction: [ self previousNextToolbar performNextAction ].		
