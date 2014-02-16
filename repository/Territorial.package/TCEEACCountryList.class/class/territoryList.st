@@ -1,7 +1,6 @@
 instance creation
-new
-
-	^ self basicNew initializeWith: 'Angola
+territoryList
+	^ 'Angola
 Burundi
 Cameroon
 Central African Republic
