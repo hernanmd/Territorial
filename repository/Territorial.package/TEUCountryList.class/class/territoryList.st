@@ -1,7 +1,6 @@
 instance creation
-new
-
-	^ self basicNew initializeWith: 'Austria
+territoryList
+	^ 'Austria
 Belgium
 Bulgaria
 Cyprus

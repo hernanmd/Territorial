@@ -1,7 +1,6 @@
 instance creation
-new
-
-	^ self basicNew initializeWith: 'Afghanistan,Afghanistan,1
+territoryList
+	^ 'Afghanistan,Afghanistan,1
 Albania,Albanie,3
 Algeria,Algérie,4
 American Samoa,Samoa Américaines,5

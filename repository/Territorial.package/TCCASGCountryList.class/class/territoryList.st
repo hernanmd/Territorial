@@ -1,7 +1,6 @@
 instance creation
-new
-
-	^ self basicNew initializeWith: 'Bahrain
+territoryList
+	^ 'Bahrain
 Kuwait
 Oman
 Qatar

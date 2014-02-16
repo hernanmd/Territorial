@@ -1,7 +1,6 @@
 instance creation
-new
-
-	^ self basicNew initializeWith: 'Egypt
+territoryList
+	^ 'Egypt
 Iraq
 Jordan
 Kuwait

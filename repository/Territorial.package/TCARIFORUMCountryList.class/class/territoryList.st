@@ -1,7 +1,6 @@
 instance creation
-new
-
-	^ self basicNew initializeWith: 'Antigua and Barbuda
+territoryList
+	^ 'Antigua and Barbuda
 Bahamas
 Barbados
 Belize
