@@ -1,4 +1,4 @@
-initialization
+callbacks
 saveSelections
 
 	(self confirm: 'Save territory composition?')

@@ -1,3 +1,3 @@
 accessing
 territories
-	^ organizations
+	^ territories

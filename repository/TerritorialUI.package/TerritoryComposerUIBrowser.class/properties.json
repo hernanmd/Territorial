@@ -9,7 +9,9 @@
 		"viewer",
 		"map",
 		"mapBuilder",
-		"territoryName"
+		"territoryName",
+		"button1",
+		"button2"
 	],
 	"name" : "TerritoryComposerUIBrowser",
 	"type" : "normal"
