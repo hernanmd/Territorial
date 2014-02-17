@@ -2,7 +2,7 @@ initialization
 setActionsForNext
 
 	self previousNextToolbar nextAction: [ 
-		self selections isEmpty 
+		self territorySelections isEmpty 
 			ifTrue: [ UIManager default centeredAlert: 'You should select at least one territory' title: 'Territory Composer' configure: [ : d | ].
 				false ]
 			ifFalse: [ self saveSelections.
