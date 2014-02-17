@@ -1,14 +1,12 @@
 {
 	"commentStamp" : "HernanMoralesDurand 2/6/2014 19:39",
 	"super" : "ComposableModel",
-	"category" : "TerritorialUI-Builder",
+	"category" : "TerritorialUI-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"previousNextToolbar",
-		"button1",
-		"button2"
+		"previousNextToolbar"
 	],
 	"name" : "WizardUINavigation",
 	"type" : "normal"

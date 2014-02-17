@@ -1,0 +1,4 @@
+initialization
+userTerritoriesFile
+
+	^ self userTerritoriesFilename asFileReference

@@ -1,7 +1,7 @@
 initialization
 initializePresenter
 
-	self userTtys whenSelectedItemChanged: [ : tty |
+	self compositions whenSelectedItemChanged: [ : tty |
 		tty
 			ifNil: [ ]
 			ifNotNil: [  ] ].

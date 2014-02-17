@@ -2,7 +2,7 @@ initialization
 setGroup
 
 	RadioButtonGroup new 
-		addRadioButton: button1;
-		addRadioButton: button2;
-		default: button1.
+		addRadioButton: self radioButton1;
+		addRadioButton: self radioButton2;
+		default: self radioButton1.
 	

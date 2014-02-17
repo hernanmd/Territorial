@@ -2,7 +2,7 @@ initialization
 initializeWidgets
 
 	super initializeWidgets.
-	button1 := self newRadioButton.
-	button2 := self newRadioButton.
+	radioButton1 := self newRadioButton.
+	radioButton2 := self newRadioButton.		
 	self setFocus.
 	self setGroup.

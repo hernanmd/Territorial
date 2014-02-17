@@ -2,6 +2,6 @@ initialization
 setFocus
 	
 	self focusOrder
-		add: button1;
-		add: button2
+		add: self radioButton1;
+		add: self radioButton2
 	
