@@ -1,4 +1,0 @@
-accessing
-removeAllTerritories
-
-	self territory removeAllTerritories

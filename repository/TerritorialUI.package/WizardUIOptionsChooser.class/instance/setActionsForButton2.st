@@ -1,5 +1,5 @@
 initialization
 setActionsForButton2
 
-	button1 whenActivatedDo: [  ].
-	button1 whenDesactivatedDo: [  ]
+	self radioButton1 whenActivatedDo: [  ].
+	self radioButton2 whenDesactivatedDo: [  ]

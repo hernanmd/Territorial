@@ -5,7 +5,7 @@ defaultSpec
 	^ SpecLayout composed
 		newColumn: [ : col |
 			col 
-				add: #button1 height: 120;
-				add: #button2 height: 40;
+				add: #radioButton1 height: 120;
+				add: #radioButton2 height: 40;
 				add: #previousNextToolbar height: self toolbarHeight ];
 		yourself

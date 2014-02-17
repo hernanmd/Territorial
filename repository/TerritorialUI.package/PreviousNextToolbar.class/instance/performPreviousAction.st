@@ -6,5 +6,5 @@ performPreviousAction
 			owner 
 				ifNil: [ self delete ] 
 				ifNotNil: [ 
-					owner button1 state: true.					
+					owner radioButton1 state: true.					
 					owner delete ] ]

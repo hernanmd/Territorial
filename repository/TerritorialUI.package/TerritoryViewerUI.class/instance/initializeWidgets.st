@@ -1,17 +1,15 @@
 initialization
 initializeWidgets
 
-	userTtys := self instantiate: ModelList.
-	map := self instantiate: ProtocolList.
+	compositions := self instantiate: TCompositionsUIList.
+	territories := self instantiate: TTerritoriesUIList.
+	map := self newMapBuilder.
 	
-	userTtys
-		label: 'Territories';
-		displayBlock: [ :m | m selector ].
-	map
-		label: 'Map';
-		displayBlock: [ :m | m selector ].
-		
+	compositions label: 'Compositions'.
+	territories label: 'Territories'.
+	
 	self focusOrder 
-		add: userTtys;
+		add: compositions;
+		add: territories;
 		add: map
 		

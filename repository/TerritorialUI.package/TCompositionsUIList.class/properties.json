@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/16/2014 21:00",
+	"super" : "ModelList",
+	"category" : "TerritorialUI-Viewer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label"
+	],
+	"name" : "TCompositionsUIList",
+	"type" : "normal"
+}

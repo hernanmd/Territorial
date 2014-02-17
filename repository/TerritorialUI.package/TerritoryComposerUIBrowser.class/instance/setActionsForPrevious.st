@@ -1,4 +1,4 @@
 initialization
 setActionsForPrevious
 
-	self previousNextToolbar previousAction: [ TerritoryBuilderUICompositeChooser open ].
+	self previousNextToolbar previousAction: [ TerritoryNameUIChooser open ].
