@@ -1,4 +1,4 @@
 accessing
 organizationSelections
 
-	^ self organization selections
+	^ self organizations selections

@@ -9,7 +9,9 @@
 		"nextButton",
 		"nextAction",
 		"previousButton",
-		"previousAction"
+		"previousAction",
+		"nextLabel",
+		"previousLabel"
 	],
 	"name" : "PreviousNextToolbar",
 	"type" : "normal"
