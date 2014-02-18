@@ -10,8 +10,8 @@ defaultSpec
 						add: #(viewer models);
 					 	newColumn: [ :c | 
 							c 
-								add: #(viewer #territories);
-								add: #(viewer events) ] ];
+								add: #(viewer organizations);
+								add: #(viewer territories) ] ];
 				add: #map;
 				add: #previousNextToolbar height: self toolbarHeight ];
 		yourself

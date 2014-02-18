@@ -1,5 +1,6 @@
 initialization
 initializeWidgets
+	" Private - See superimplementor's comment "
 
 	models := self instantiate: TerritoryComposerUIModelList.
 	organizations := self instantiate: TerritoryComposerUIList.

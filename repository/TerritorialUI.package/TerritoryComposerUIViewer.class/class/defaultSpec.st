@@ -6,6 +6,6 @@ defaultSpec
 		newColumn: [ :column |
 			column 
 				add: #models; 
-				add: #territories; 
-				add: #events ];
+				add: #organizations; 
+				add: #territories ];
 		yourself
