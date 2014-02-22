@@ -15,7 +15,7 @@ version12: spec
 		spec
 			package: 'Territorial'		with: 'Territorial-HernanMoralesDurand.51';
 			package: 'TerritorialTests'	with: 'TerritorialTests-HernanMoralesDurand.20';
-			package: 'TerritorialUI'		with: 'TerritorialUI-HernanMoralesDurand.17';
+			package: 'TerritorialUI'		with: 'TerritorialUI-HernanMoralesDurand.21';
 			
 			"External projects versions are specified using #project:with:.
 			Note the project name referes to the name used in the Metacello declaration.
