@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 2/18/2014 01:14",
-	"super" : "WizardUIOptionsChooser",
+	"commentStamp" : "HernanMoralesDurand 2/22/2014 14:33",
+	"super" : "Object",
 	"category" : "TerritorialUI-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TerritoryBuilderUIChooser",
+	"name" : "TerritoryUIRepository",
 	"type" : "normal"
 }
