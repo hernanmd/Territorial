@@ -1,4 +1,4 @@
-initialization
+accessing
 userTerritoriesFile
 
 	^ self userTerritoriesFilename asFileReference
