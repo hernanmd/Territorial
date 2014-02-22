@@ -1,13 +1,11 @@
 initialization
 initializePresenter
 
-"	viewer whenQualifierChanged: [ :class | text behavior: class ]."
-
 	viewer whenOrganizationChangedDo: [ :item | 
 		item 
 			ifNil: [" text text: ''" ]
-			ifNotNil: [" text text: 'jejeje'" "item countryNames" ] ].
+			ifNotNil: [" text text: 'test'" "item countryNames" ] ].
 	viewer whenTerritoryChangedDo: [ :item | 
 		item 
 			ifNil: [ "text text: ''" ]
-			ifNotNil: [ "text text: 'lalala'" ] ]
+			ifNotNil: [ "text text: 'test2'" ] ]
