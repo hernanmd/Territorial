@@ -38,18 +38,18 @@ Cambodia,Cambodge,CAM
 Cameroon,Cameroun,CMR
 Canada,Canada,CAN
 Cape Verde,Cap-Vert,CPV
-Cayman Islands,Caïmans; Îles,CAY
+Cayman Islands,Caïmans;Îles,CAY
 Central African Republic,Centrafricaine; République,CTA
 Chad,Tchad,CHA
 Chile,Chili,CHI
 China,Chine,CHN
-Christmas Island,Christmas; Île,CXR
-Cocos (Keeling) Islands,Cocos (Keeling); Îles,CCK
+Christmas Island,Christmas;Île,CXR
+Cocos (Keeling) Islands,Cocos (Keeling);Îles,CCK
 Colombia,Colombie,COL
 Comoros,Comores,COM
 Congo,Congo,CGO
 Congo; the Democratic Republic of the,Congo; la République Démocratique du,COD
-Cook Islands,Cook; Îles,COK
+Cook Islands,Cook;Îles,COK
 Costa Rica,Costa Rica,CRC
 Croatia,Croatie,CRO
 Cuba,Cuba,CUB
@@ -67,8 +67,8 @@ Equatorial Guinea,Guinée Équatoriale,EQG
 Eritrea,Érythrée,ERI
 Estonia,Estonie,EST
 Ethiopia,Éthiopie,ETH
-Falkland Islands (Malvinas),Falkland; Îles (Malvinas),FLK
-Faroe Islands,Féroé; Îles,FRO
+Falkland Islands (Malvinas),Falkland;Îles (Malvinas),FLK
+Faroe Islands,Féroé;Îles,FRO
 Fiji,Fidji,FIJ
 Finland,Finlande,FIN
 France,France,FRA
@@ -132,7 +132,7 @@ Malaysia,Malaisie,MAS
 Maldives,Maldives,MDV
 Mali,Mali,MLI
 Malta,Malte,MLT
-Marshall Islands,Marshall; Îles,MHL
+Marshall Islands,Marshall;Îles,MHL
 Martinique,Martinique,MTQ
 Mauritania,Mauritanie,MTN
 Mauritius,Maurice,MRI
@@ -157,8 +157,8 @@ Nicaragua,Nicaragua,NCA
 Niger,Niger,NIG
 Nigeria,Nigéria,NGA
 Niue,Niué,NIU
-Norfolk Island,Norfolk; Île,NFK
-Northern Mariana Islands,Mariannes du Nord; Îles,NMI
+Norfolk Island,Norfolk;Île,NFK
+Northern Mariana Islands,Mariannes du Nord;Îles,NMI
 Norway,Norvège,NOR
 Oman,Oman,OMA
 Pakistan,Pakistan,PAK
@@ -194,7 +194,7 @@ Sierra Leone,Sierra Leone,SLE
 Singapore,Singapour,SIN
 Slovakia,Slovaquie,SVK
 Slovenia,Slovénie,SVN
-Solomon Islands,Salomon; Îles,SOL
+Solomon Islands,Salomon;Îles,SOL
 Somalia,Somalie,SOM
 South Africa,Afrique du Sud,RSA
 Spain,Espagne,ESP
@@ -217,7 +217,7 @@ Trinidad and Tobago,Trinité-Et-Tobago,TRI
 Tunisia,Tunisie,TUN
 Turkey,Turquie,TUR
 Turkmenistan,Turkménistan,TKM
-Turks and Caicos Islands,Turks-Et-Caïcos; Îles,TCA
+Turks and Caicos Islands,Turks-Et-Caïcos;Îles,TCA
 Tuvalu,Tuvalu,TUV
 Uganda,Ouganda,UGA
 Ukraine,Ukraine,UKR
@@ -236,5 +236,5 @@ Western Sahara,Sahara Occidental,SAH
 Yemen,Yémen,YEM
 Zambia,Zambie,ZAM
 Zimbabwe,Zimbabwe,ZIM
-Åland Islands,Åland; Îles,ALD
+Åland Islands,Åland;Îles,ALD
 '

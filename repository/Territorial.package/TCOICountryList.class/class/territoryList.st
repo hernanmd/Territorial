@@ -44,7 +44,7 @@ China,CHN
 Colombia,COL
 Comoros,COM
 Congo,CGO
-"Congo, Dem Rep",COD
+Congo (Dem Rep),COD
 Cook Islands,COK
 Costa Rica,CRC
 Cote d''Ivoire,CIV
@@ -96,8 +96,8 @@ Japan,JPN
 Jordan,JOR
 Kazakhstan,KAZ
 Kenya,KEN
-"Korea, North",PRK
-"Korea, South",KOR
+Korea (North),PRK
+Korea (South),KOR
 Kuwait,KUW
 Kyrgyzstan,KGZ
 Laos,LAO
@@ -139,7 +139,7 @@ Norway,NOR
 Oman,OMA
 Pakistan,PAK
 Palau,PLW
-Palestine, Occupied Territories,PLE
+Palestine (Occupied Territories),PLE
 Panama,PAN
 Papua New Guinea,PNG
 Paraguay,PAR
