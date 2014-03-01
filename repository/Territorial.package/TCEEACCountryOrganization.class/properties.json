@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCountryList",
+	"category" : "Territorial-Market-CEEAC",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCEEACCountryOrganization",
+	"type" : "normal"
+}

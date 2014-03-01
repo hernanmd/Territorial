@@ -1,0 +1,4 @@
+accessing
+qualifiers
+
+	^ #('Global')

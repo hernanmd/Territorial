@@ -1,5 +1,5 @@
 private
-countryNamesClass 
+countryOrganizationClass 
 	" Private - See superimplementor's comment "
 	
-	^ TUNM49CountryList
+	^ TIOCCountryList

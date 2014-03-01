@@ -6,6 +6,7 @@ SystemOrganization addCategory: 'Territorial-Market-CCASG'!
 SystemOrganization addCategory: 'Territorial-Market-CEEAC'!
 SystemOrganization addCategory: 'Territorial-Market-EU'!
 SystemOrganization addCategory: 'Territorial-Market-MERCOSUR'!
+SystemOrganization addCategory: 'Territorial-Military-NATO'!
 SystemOrganization addCategory: 'Territorial-Objects'!
 SystemOrganization addCategory: 'Territorial-Objects-Tests'!
 SystemOrganization addCategory: 'Territorial-Organization'!
