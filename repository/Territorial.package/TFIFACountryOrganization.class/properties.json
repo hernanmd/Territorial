@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCountryOrganization",
+	"category" : "Territorial-Organizations-FIFA",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TFIFACountryOrganization",
+	"type" : "normal"
+}

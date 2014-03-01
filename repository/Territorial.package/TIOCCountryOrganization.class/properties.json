@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "TIdentifier",
+	"commentStamp" : "",
+	"super" : "TCountryOrganization",
 	"category" : "Territorial-Organizations-COI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TCOIIdentifier",
+	"name" : "TIOCCountryOrganization",
 	"type" : "normal"
 }

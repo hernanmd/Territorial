@@ -1,5 +1,5 @@
 accessing
-denomination
+countryNamesClass
 	" Private - See superimplementor's comment "
 
-	^ 'CAEU'
+	^ TNATOCountryList

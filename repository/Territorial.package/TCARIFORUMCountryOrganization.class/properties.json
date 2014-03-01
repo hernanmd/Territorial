@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCountryOrganization",
+	"category" : "Territorial-Market-CARIFORUM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCARIFORUMCountryOrganization",
+	"type" : "normal"
+}

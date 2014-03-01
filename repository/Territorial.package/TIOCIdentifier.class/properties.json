@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TIdentifier",
+	"category" : "Territorial-Organizations-COI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TIOCIdentifier",
+	"type" : "normal"
+}

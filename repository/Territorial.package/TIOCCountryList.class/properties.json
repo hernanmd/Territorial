@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TCOICountryList",
+	"name" : "TIOCCountryList",
 	"type" : "normal"
 }
