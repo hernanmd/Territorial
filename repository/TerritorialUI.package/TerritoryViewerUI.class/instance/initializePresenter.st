@@ -5,4 +5,6 @@ initializePresenter
 	self compositions whenSelectedItemChanged: [ : tty |
 		tty
 			ifNil: [ ]
-			ifNotNil: [ self narrowMap: tty ] ].
+			ifNotNil: [
+				self colorizeMap: tty.
+				self narrowMap: tty ] ].

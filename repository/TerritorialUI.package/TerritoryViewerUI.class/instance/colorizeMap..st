@@ -1,4 +1,4 @@
-initialization
+callbacks
 colorizeMap: tty
 
 	tty allNames do: [ : ttyName | | shape |
