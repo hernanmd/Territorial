@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #TerritorialTests!
-SystemOrganization addCategory: #'TerritorialTests-Core'!
+SystemOrganization addCategory: 'TerritorialTests-Core'!

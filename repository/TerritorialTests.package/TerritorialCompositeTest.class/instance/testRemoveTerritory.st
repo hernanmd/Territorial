@@ -10,7 +10,7 @@ testRemoveTerritory
 			{ tty .
 			(self buildTerritoryEcuador).
 			(self buildTerritoryVenezuela)}.
-	self assert: territory allTerritories size = 3.			
+	self assert: territory allLeafTerritories size = 3.			
 	territory removeTerritory: tty.
 	self deny: (territory includesTerritory: tty).
 
