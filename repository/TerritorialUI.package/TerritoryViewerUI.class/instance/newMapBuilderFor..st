@@ -1,4 +1,4 @@
-initialization
+callbacks
 newMapBuilderFor: territoriesCollection
 
 	mapBuilder := RTMapBuilder new
