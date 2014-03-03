@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/3/2014 14:33",
+	"super" : "TreeModel",
+	"category" : "TerritorialUI-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"itemModelSetter",
+		"itemModelClass"
+	],
+	"name" : "TListViewModel",
+	"type" : "normal"
+}

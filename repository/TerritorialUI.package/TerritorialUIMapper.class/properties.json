@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "TerritorialUI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialUIMapper",
+	"type" : "normal"
+}

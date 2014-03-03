@@ -1,0 +1,4 @@
+initialization
+newListItemDescription
+
+	^ self instantiate: TListViewItemDescriptionModel

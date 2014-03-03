@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 2/8/2014 13:48",
-	"super" : "ComposableModel",
+	"super" : "TerritorialUIMapper",
 	"category" : "TerritorialUI-Composer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
