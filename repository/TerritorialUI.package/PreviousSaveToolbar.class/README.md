@@ -1,1 +1,1 @@
-Model for a basic cancel-save toolbar
+Model for a basic previous-save toolbar
