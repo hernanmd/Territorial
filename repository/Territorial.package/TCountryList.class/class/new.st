@@ -1,3 +1,6 @@
 instance creation
 new
-	^ self basicNew initializeWith: self territoryList
+
+	^ self basicNew 
+		initializeWith: self territoryList;
+		yourself

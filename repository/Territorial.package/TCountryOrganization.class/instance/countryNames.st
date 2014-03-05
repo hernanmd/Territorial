@@ -5,4 +5,4 @@ countryNames
 	TUNM49CountryOrganization countryNames
 	 "
 	
-	^ self countryNamesClass countryNames
+	^ self countryNamesClass new countryNames

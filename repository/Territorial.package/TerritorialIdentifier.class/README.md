@@ -1,0 +1,1 @@
+Superclass for generic territorial identifier behavior.

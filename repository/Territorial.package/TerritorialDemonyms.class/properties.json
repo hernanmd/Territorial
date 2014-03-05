@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "hfm 7/12/2011 12:16",
+	"commentStamp" : "HernanMoralesDurand 3/5/2014 06:40",
 	"super" : "Object",
-	"category" : "Territorial-Objects",
+	"category" : "Territorial-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

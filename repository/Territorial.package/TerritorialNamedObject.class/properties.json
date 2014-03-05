@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TestCase",
-	"category" : "Territorial-Objects-Tests",
+	"super" : "Object",
+	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"identifier"
+		"names",
+		"preferredName"
 	],
-	"name" : "TIdentifierTest",
+	"name" : "TerritorialNamedObject",
 	"type" : "normal"
 }
