@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "TNamedObject",
+	"commentStamp" : "HernanMoralesDurand 3/3/2014 18:50",
+	"super" : "TerritorialNamedObject",
 	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -9,7 +9,8 @@
 		"identifiers",
 		"preferredIdentifier",
 		"demonyms",
-		"tWorld"
+		"tWorld",
+		"population"
 	],
 	"name" : "TerritorialObject",
 	"type" : "normal"

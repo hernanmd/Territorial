@@ -1,4 +1,4 @@
-accessing
+private
 addToTerritory: aTerritorialObject
 	" Add the receiver's countries to aTerritorialObject "
 

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TIdentifier",
+	"super" : "TerritorialIdentifier",
 	"category" : "Territorial-Organizations-WMO",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -2,6 +2,7 @@ accessing
 organizationNames
 	" Answer a <Collection> of organisation names "
 	
-	^ self allSubclasses 
+	^ (self allSubclasses 
 		select: [ : cls | cls subclasses isEmpty ]
-		thenCollect: #denomination
+		thenCollect: #denomination)
+			reject: #isEmpty

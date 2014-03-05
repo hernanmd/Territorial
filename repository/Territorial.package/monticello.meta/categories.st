@@ -1,4 +1,5 @@
 SystemOrganization addCategory: #Territorial!
+SystemOrganization addCategory: 'Territorial-Data'!
 SystemOrganization addCategory: 'Territorial-Market-CAEU'!
 SystemOrganization addCategory: 'Territorial-Market-CARICOM'!
 SystemOrganization addCategory: 'Territorial-Market-CARIFORUM'!
@@ -8,7 +9,6 @@ SystemOrganization addCategory: 'Territorial-Market-EU'!
 SystemOrganization addCategory: 'Territorial-Market-MERCOSUR'!
 SystemOrganization addCategory: 'Territorial-Military-NATO'!
 SystemOrganization addCategory: 'Territorial-Objects'!
-SystemOrganization addCategory: 'Territorial-Objects-Tests'!
 SystemOrganization addCategory: 'Territorial-Organization'!
 SystemOrganization addCategory: 'Territorial-Organizations-COI'!
 SystemOrganization addCategory: 'Territorial-Organizations-FIFA'!

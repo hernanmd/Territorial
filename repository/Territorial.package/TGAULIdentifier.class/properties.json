@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TIdentifier",
+	"super" : "TerritorialIdentifier",
 	"category" : "Territorial-Organizations-GAUL",
 	"classinstvars" : [ ],
 	"pools" : [ ],

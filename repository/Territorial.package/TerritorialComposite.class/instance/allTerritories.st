@@ -1,6 +1,6 @@
 accessing
 allTerritories
-	" Private - Answer a <Collection> of all territories in the receiver including Composites "
+	" Answer a <Collection> of all territories in the receiver including self "
 
 	^ self territories
 		inject: (Set with: self)
