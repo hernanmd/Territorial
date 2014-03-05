@@ -1,7 +1,7 @@
 accessing
 testSortedCountryNames
 
-	self countryList: TUNM49CountryList sortedCountryNames.
+	self countryList: (TCountryList @ 'UN.M49') sortedCountryNames.
 	self assert: (self countryList isKindOf: Collection).
 	self deny: self countryList isEmpty.
 	self assert: self countryList size = 244.
