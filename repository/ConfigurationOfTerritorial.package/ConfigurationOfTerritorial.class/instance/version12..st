@@ -11,11 +11,11 @@ version12: spec
 			blessing: #'development';
 			description: '';
 			author: 'Hernan Morales Durand';
-			timestamp: '2013-11-02'.
+			timestamp: '2014-01-03'.
 		spec
-			package: 'Territorial'		with: 'Territorial-HernanMoralesDurand.51';
+			package: 'Territorial'		with: 'Territorial-HernanMoralesDurand.53';
 			package: 'TerritorialTests'	with: 'TerritorialTests-HernanMoralesDurand.20';
-			package: 'TerritorialUI'		with: 'TerritorialUI-HernanMoralesDurand.21';
+			package: 'TerritorialUI'		with: 'TerritorialUI-HernanMoralesDurand.24';
 			
 			"External projects versions are specified using #project:with:.
 			Note the project name referes to the name used in the Metacello declaration.

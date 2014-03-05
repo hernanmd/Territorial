@@ -6,4 +6,4 @@ development: spec
 	
 	"For the development tag refer to a fixed version which you update if you commit new code.
 	Note that you can refer here to any other version name from this configuration"
-	spec for: #'common' version: '1.2'.
+	spec for: #'common' version: '1.3'.
