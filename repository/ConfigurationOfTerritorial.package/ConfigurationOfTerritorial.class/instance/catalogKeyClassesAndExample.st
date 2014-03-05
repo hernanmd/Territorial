@@ -1,7 +1,7 @@
 catalog
 catalogKeyClassesAndExample
 	"Returns a paragraph or more describing the key classes of your project. You can use Pillar/Pier syntax to layout out the text i.e., ==Code== and - for bullet."
-	^ 'Territorial is a package for geopolitical territory building, including an API for enumerating territories in geopolitical objects.
+	^ 'Comprehensive documentation is under construction at the moment.
 
 == Examples ==
 
@@ -25,15 +25,10 @@ Now you want real country objects for countries in the COI:
 
 And find a country:
 [[
-(TCountryList @ ''COI'') countries detect: [ : t | t includesName: ''Estonia'' ].
+(TCountryList @ ''COI'') @ ''Estonia''.
 ]]
 
-To show the nothern europe country list for the United Nations:
-[[
-TUNM49CountryList northernEurope
-]]
-
-
+Territorial also provides access to territorial demonyms and population (from census and estimated) by retrieving raw data from DBPedia.
 
 ==TerritorialComposite== is a central class for grouping territorial organizations. Implements the Composite pattern as described in the Smalltalk Design Patterns literature.
 	
