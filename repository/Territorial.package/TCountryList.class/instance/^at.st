@@ -4,4 +4,4 @@ accessing
 
 	^ self countries 
 		detect: [ : t | t includesName: aString ]
-		ifNone: [ self error: aString , ' not found' ]
+		ifNone: [ self findTerritoryNamed: aString ]

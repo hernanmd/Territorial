@@ -1,4 +1,5 @@
 *Territorial
 asUNIdentifier
+	" Answer a new TerritorialIdentifer "
 
-	^ TUNIdentifier new code: self
+	^ self asTerritorialIdentifier: TUNIdentifier

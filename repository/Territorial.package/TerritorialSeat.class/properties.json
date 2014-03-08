@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/6/2014 18:58",
+	"super" : "TerritorialLocation",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"residents"
+	],
+	"name" : "TerritorialSeat",
+	"type" : "normal"
+}

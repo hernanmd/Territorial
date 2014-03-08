@@ -1,0 +1,1 @@
+A permanent or temporary community in which a species live or have lived, without being specific as to size, population or importance.

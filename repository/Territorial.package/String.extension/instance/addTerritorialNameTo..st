@@ -7,4 +7,4 @@ addTerritorialNameTo: aTerritorialObject
 		ifTrue: [ 
 			| index |
 			index := aTerritorialObject names size + 1.
-			aTerritorialObject addTerritoryName: ( index asString asSymbol -> self ) ]
+			aTerritorialObject addTerritoryName: (index asString asSymbol -> self) ]

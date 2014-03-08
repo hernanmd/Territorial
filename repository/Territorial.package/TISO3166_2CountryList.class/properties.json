@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCountryList",
+	"category" : "Territorial-Organizations-ISO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TISO3166_2CountryList",
+	"type" : "normal"
+}

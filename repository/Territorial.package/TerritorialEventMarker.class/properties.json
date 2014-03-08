@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/6/2014 21:50",
+	"super" : "TerritorialMarker",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"interval"
+	],
+	"name" : "TerritorialEventMarker",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/8/2014 04:25",
+	"super" : "TerritorialIdentifier",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TNullIdentifier",
+	"type" : "normal"
+}
