@@ -6,4 +6,4 @@ northernAmerica
 124	Canada
 304	Greenland
 666	Saint Pierre and Miquelon
-840	USA'
+840	United States of America'
