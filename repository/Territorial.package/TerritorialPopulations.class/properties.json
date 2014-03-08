@@ -8,7 +8,9 @@
 		"CensusAreaPopulations",
 		"CensusCountryPopulations",
 		"EstimatedAreaPopulations",
-		"EstimatedCountryPopulations"
+		"EstimatedCountryPopulations",
+		"RawAreaPopulations",
+		"RawCountryPopulations"
 	],
 	"instvars" : [ ],
 	"name" : "TerritorialPopulations",

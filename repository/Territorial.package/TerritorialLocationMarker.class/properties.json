@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialMarker",
+	"category" : "Territorial-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"latitude",
+		"longitude",
+		"elevation"
+	],
+	"name" : "TerritorialLocationMarker",
+	"type" : "normal"
+}

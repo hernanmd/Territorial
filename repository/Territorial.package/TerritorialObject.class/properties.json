@@ -10,7 +10,8 @@
 		"preferredIdentifier",
 		"demonyms",
 		"tWorld",
-		"population"
+		"population",
+		"markers"
 	],
 	"name" : "TerritorialObject",
 	"type" : "normal"

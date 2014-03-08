@@ -1,0 +1,4 @@
+private
+sparqlAreaPopulations
+
+	self shouldBeImplemented 
