@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/20/2014 16:02",
+	"super" : "Object",
+	"category" : "Territorial-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CountrySinonyms"
+	],
+	"instvars" : [ ],
+	"name" : "TerritorialSynonyms",
+	"type" : "normal"
+}
