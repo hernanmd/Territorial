@@ -12,5 +12,5 @@ initializeCountrySynonyms
 				ifTrue: [ currentCountryISO := row first. spellings := Set with: row first ].
 			row first = currentCountryISO
 				ifTrue: [ row third isEmpty ifFalse: [ spellings add: row third ] ]
-				ifFalse: [ CountrySynonyms add: spellings.
+				ifFalse: [ self countrySynonyms add: spellings.
 					currentCountryISO := nil ] ].
