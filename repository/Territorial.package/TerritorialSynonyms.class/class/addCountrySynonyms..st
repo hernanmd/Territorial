@@ -1,6 +1,6 @@
 initialization-release
-addCountrySinonym: synCol
+addCountrySynonyms: synCol
 	" Private - Add country demonym from synCol row from CSV "
 
-	CountrySinonyms add: (synCol asLowercase findTokens: $,)
+	CountrySynonyms add: (synCol asLowercase findTokens: $,)
 
