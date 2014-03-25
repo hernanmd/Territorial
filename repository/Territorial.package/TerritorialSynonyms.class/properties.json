@@ -5,7 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"CountrySinonyms"
+		"CountrySynonyms"
 	],
 	"instvars" : [ ],
 	"name" : "TerritorialSynonyms",
