@@ -1,16 +1,14 @@
 initialization-release
 initializeCountrySynonyms
-	" self initializeCountryDemonyms "
+	" self initializeCountrySynonyms "
 
-	| currentCountryISO spellings |
-	currentCountryISO := nil.
-	(NeoCSVReader on: self countrySynonymsList readStream)
-		skipHeader;
-		separator: $,;
-		do: [ : row |
-			currentCountryISO isNil 
-				ifTrue: [ currentCountryISO := row first. spellings := Set with: row first ].
-			row first = currentCountryISO
-				ifTrue: [ row third isEmpty ifFalse: [ spellings add: row third ] ]
-				ifFalse: [ self countrySynonyms add: spellings.
-					currentCountryISO := nil ] ].
+	| xmlList spellings doc sgov |
+
+	spellings := Set new.
+	doc := XMLDOMParser  parseFileNamed: 'fao_country_names.xml'.
+	xmlList := doc firstNode allElementsSelect: [ : each | each localName = 'self_governing' ].
+	sgov := xmlList collect: [ : n | n allElementsSelect: [ : each | (each localName beginsWith: 'nameList') or: [ (each localName beginsWith: 'nameOfficial') or: [ each localName beginsWith: 'nameShort' ] ] ] ].
+	sgov do: [ : xmlOrdList | 
+		xmlOrdList do: [ : n | spellings add: n contentString ].
+		self countrySynonyms add: spellings.
+		spellings := Set new. ]
