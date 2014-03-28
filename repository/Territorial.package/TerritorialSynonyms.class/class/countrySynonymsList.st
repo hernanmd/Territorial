@@ -1,4 +1,4 @@
-initialization-release
+private
 countrySynonymsList
 	 " From FAO data set "	
 	

@@ -1,4 +1,4 @@
-initialization-release
+private
 countrySynonymsListDataSet1
 	 "ZnEasy get: 'http://github.com/mledoze/countries/blob/master/dist/countries.csv' 
 	https://github.com/jim/carmen

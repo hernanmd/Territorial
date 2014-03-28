@@ -6,3 +6,4 @@ initialize
 	self release.
 	super initialize.
 	self initializeCountrySynonyms.
+	self initializeAreaSynonyms.
