@@ -1,4 +1,0 @@
-private
-denomination
-
-	self subclassResponsibility

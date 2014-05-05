@@ -1,4 +1,5 @@
 accessing
-addClassification: aSubject
+addClassification: anObject
+	" Add anObject into the receiver's classifications "
 
-	self classifications add: aSubject
+	self classifications add: anObject
