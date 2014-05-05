@@ -2,6 +2,6 @@ instance creation
 newCountry
 	" Answer a new territorial country configured for the receiver's initial world "
 	
-	^ TerritorialCountry new
+	^ self territorialClass new
 			world: self initialWorld;
 			yourself.

@@ -1,12 +1,16 @@
-An organization should be directly accessed through the accessing protocol (note there is no instance methods since there is no state for an Organization, but this could change in the future if necessary).
+Provides behavior for handling classifications. This class supports adding a population to an organization's classification, so can be used by a classifier when matching subjects.
 
-Examples:
--Use #territoryName to access the name of the territory
+Basically you can build territory groups in two ways: 
 
--Use #unm49CountryNames to get all the english names in a country organization. Note there could be several names for a single country, for example: #('United States of America' 'USA'). The reason is because many countries are named commonly in different ways.
+(1) By adding a #newArea or  #newCountry
+(2) By subclassing this class to create a new "organization" class.
 
--Use #unm49SingleCountryNames to get just one String with a choosen name for a country.
+Instance Variables
+	classifications:		<Object>
+	orgName:		<Object>
 
--Use #demonyms to get all the demonyms for the receiving organization. Note also there could be many demonyms for a country, and that there are some countries without demonyms yet. Check an updated on-line encyclopedia for review.
+classifications
+	- xxxxx
 
-
+orgName
+	- xxxxx
