@@ -7,6 +7,7 @@ baseline13: spec
 	<version: '1.3-baseline'>
 	spec for: #common do: [	
 		spec blessing: #baseline.
+		spec preLoadDoIt: #preLoad.		
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
 		self specForRoassal2: spec.
 		self specForNeoCSV: spec.
