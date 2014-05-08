@@ -2,4 +2,4 @@ naming
 hash
 	"hash is implemented because #= is implemented"
 
-	^ orgName bitXor: self names hash
+	^ self preferredName hash bitXor: self names hash
