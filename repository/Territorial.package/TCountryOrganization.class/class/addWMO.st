@@ -2,10 +2,10 @@ territorial-organizations
 addWMO
 
 	^ TCountryOrganization new
-		denomination: 'WMO';
+		preferredName: 'WMO';
 		formedYear: 1950;
 		url: 'http://www.wmo.int/';
-		description: 'World Meteorological Organization';
+		addName: 'World Meteorological Organization';
 		qualifiers: #('Global');
 		fieldsBlock: [ : field |
 			self countries add: ((TerritorialCountry newNamed: field first)

@@ -2,10 +2,10 @@ territorial-organizations
 addNATO
 
 	^ TCountryOrganization new
-		denomination: 'NATO';
+		preferredName: 'NATO';
 		formedYear: 1949;
 		url: 'http://www.nato.int';
-		description: 'North Atlantic Treaty Organization';
+		addName: 'North Atlantic Treaty Organization';
 		qualifiers: #('Military');
 		territoryList: 'Albania
 Belgium

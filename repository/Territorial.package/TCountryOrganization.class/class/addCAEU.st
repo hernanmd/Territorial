@@ -2,8 +2,8 @@ territorial-organizations
 addCAEU
 
 	^ TCountryOrganization new
-		denomination: 'CAEU';
-		description:  'Council of Arab Economic Unity';
+		preferredName: 'CAEU';
+		addName:  'Council of Arab Economic Unity';
 		qualifiers: #('Regional' 'Political' 'Economical');
 		territoryList: 'Egypt
 Iraq

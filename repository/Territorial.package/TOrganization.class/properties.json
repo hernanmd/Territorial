@@ -9,7 +9,13 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"classifications",
-		"orgName"
+		"orgName",
+		"denomination",
+		"territories",
+		"qualifiers",
+		"fieldsBlock",
+		"formedYear",
+		"url"
 	],
 	"name" : "TOrganization",
 	"type" : "normal"

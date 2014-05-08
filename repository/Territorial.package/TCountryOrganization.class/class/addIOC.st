@@ -2,10 +2,10 @@ territorial-organizations
 addIOC
 
 	^ TCountryOrganization new
-		denomination: 'IOC';
+		preferredName: 'IOC';
 		formedYear: 1894;
 		url: 'http://www.olympic.org/';
-		description: 'International Olympics Committee';
+		addName: 'International Olympics Committee';
 		qualifiers: #('Global');
 		fieldsBlock: [ : field |
 			self countries add: ((TerritorialCountry newNamed: field first)

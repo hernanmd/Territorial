@@ -2,10 +2,10 @@ territorial-organizations
 addCEEAC
 
 	^ TCountryOrganization new
-		denomination: 'CEEAC';
+		preferredName: 'CEEAC';
 		formedYear: 1964;
 		url: 'http://www.ceeac-eccas.org/';
-		description:  'Economic Community of Central African States';
+		addName:  'Economic Community of Central African States';
 		qualifiers: #('Economical');
 		territoryList: 'Angola
 Burundi
