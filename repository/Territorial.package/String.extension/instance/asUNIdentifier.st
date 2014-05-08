@@ -2,4 +2,4 @@
 asUNIdentifier
 	" Answer a new TerritorialIdentifer "
 
-	^ self asTerritorialIdentifier: TUNIdentifier
+	^ self asTerritorialIdentifier: TerritorialIdentifier

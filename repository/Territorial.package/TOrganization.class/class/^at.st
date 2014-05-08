@@ -5,8 +5,8 @@ accessing
 	
 	| foundOrNil |
 	
-	foundOrNil := self subclasses 
-		detect: [ : clist | clist denomination = denominationString ]
+	foundOrNil := self tOrganizations 
+		detect: [ : ttyOrganization | ttyOrganization includesName: denominationString ]
 		ifNone: [ nil ].
 	^ foundOrNil isNil 
 		ifFalse: [ foundOrNil new ]
