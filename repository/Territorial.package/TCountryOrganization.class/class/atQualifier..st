@@ -1,5 +1,5 @@
 accessing
 atQualifier: qualifierString
-	" Answer a <Collection> of subclasses containing qualifierString "
+	" Answer a <Collection> of organizations containing qualifierString "
 	
-	^ self subclasses select: [ : subClass | subClass qualifiers includes: qualifierString ]
+	^ self tOrganizations select: [ : countryOrg | countryOrg includesName: qualifierString ]

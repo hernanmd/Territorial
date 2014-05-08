@@ -2,4 +2,4 @@ accessing
 world
 
 	^ tWorld
-		ifNil: [ tWorld := TUNM49CountryOrganization initialWorld ].
+		ifNil: [ tWorld := (TCountryOrganization @ 'UN.M49') initialWorld ].

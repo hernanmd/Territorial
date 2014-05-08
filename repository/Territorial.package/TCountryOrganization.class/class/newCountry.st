@@ -1,4 +1,4 @@
-instance creation
+accessing
 newCountry
 	" Answer a new territorial country configured for the receiver's initial world "
 	

@@ -1,4 +1,5 @@
 accessing
-territoryList: anObject
+territoryList: aString
+	" Parse aString and set the receiver's territories "
 
-	territories := anObject
+	self fieldsBlock value: aString
