@@ -26,6 +26,8 @@ baseline14: spec
 					className: #ConfigurationOfNeoJSON;
 					versionString: 'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ].
-		spec package: 'Territorial' with: [
-				spec requires: #('NeoCSV' 'Roassal2' 'DBPedia' ). ].
+		spec 
+			package: #Territorial;
+			package: #TerritorialTests;
+			package: #TerritorialUI.
 		spec group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' ). ].
