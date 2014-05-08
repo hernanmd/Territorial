@@ -2,10 +2,10 @@ territorial-organizations
 addGAUL
 
 	^ TCountryOrganization new
-		denomination: 'GAUL';
+		preferredName: 'GAUL';
 		formedYear: 1950;
 		url: 'http://www.fao.org/geonetwork/srv/en/';
-		description: 'Global Administrative Unit Layers';
+		addName: 'Global Administrative Unit Layers';
 		qualifiers: #('Global');
 		fieldsBlock: [ : field |
 			self countries add: ((TerritorialCountry newNamed: field first)

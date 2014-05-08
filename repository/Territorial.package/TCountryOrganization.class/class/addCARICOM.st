@@ -2,8 +2,8 @@ territorial-organizations
 addCARICOM
 
 	^ TCountryOrganization new
-		denomination: 'CARICOM';
-		description:  'Caribbean Community and Common Market';
+		preferredName: 'CARICOM';
+		addName:  'Caribbean Community and Common Market';
 		qualifiers: #('Regional' 'Political' 'Economical');
 		territoryList: 'Antigua and Barbuda
 Bahamas

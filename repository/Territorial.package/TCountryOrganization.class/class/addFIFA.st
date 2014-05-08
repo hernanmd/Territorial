@@ -2,10 +2,10 @@ territorial-organizations
 addFIFA
 
 	^ TCountryOrganization new
-		denomination: 'FIFA';
+		preferredName: 'FIFA';
 		formedYear: 1904;
 		url: 'http://www.fifa.com/';
-		description:  'Fédération Internationale de Football Association';
+		addName:  'Fédération Internationale de Football Association';
 		qualifiers: #('Global' 'Economical');
 		fieldsBlock: [ : field | | country |
 			country := ((TerritorialCountry newNamed: field first)

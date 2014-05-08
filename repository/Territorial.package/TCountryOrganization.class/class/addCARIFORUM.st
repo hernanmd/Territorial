@@ -2,9 +2,9 @@ territorial-organizations
 addCARIFORUM
 
 	^ TCountryOrganization new
-		denomination: 'CARIFORUM';
+		preferredName: 'CARIFORUM';
 		formedYear: 1992;
-		description:  'Caribbean Forum';
+		addName:  'Caribbean Forum';
 		qualifiers: #('Economical');
 		territoryList: 'Antigua and Barbuda
 Bahamas

@@ -1,4 +1,5 @@
 initialize-release
-initializeWith: countryList
+initializeWith: countryListString
+	" Private - Parse and set receiver's countries from countryListString "
 
-	self subclassResponsibility
+	self singleEnglishCountryName: countryListString

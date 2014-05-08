@@ -2,10 +2,10 @@ territorial-organizations
 addEU
 
 	^ TCountryOrganization new
-		denomination: 'EU';
+		preferredName: 'EU';
 		formedYear: 1957;
 		url: 'http://europa.eu/';
-		description:  'European Union';
+		addName:  'European Union';
 		qualifiers: #('Regional' 'Political' 'Economical');
 		territoryList: 'Austria
 Belgium
