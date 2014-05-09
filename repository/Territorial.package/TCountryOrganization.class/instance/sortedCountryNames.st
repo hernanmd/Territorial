@@ -1,6 +1,6 @@
 accessing
 sortedCountryNames
 	" Answer a <Collection> of String representing each a country name.
-	TUNM49CountryOrganization sortedCountryNames  "
+	(TCountryOrganization @ 'UN.M49') sortedCountryNames.  "
 	
-	^ self territories sortedCountryNames
+	^ (TCountryList newWith: self territories allLeafTerritories) sortedCountryNames
