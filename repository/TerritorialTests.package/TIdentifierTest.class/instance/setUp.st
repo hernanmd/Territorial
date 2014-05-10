@@ -1,4 +1,4 @@
 accessing
 setUp
 
-	identifier := TUNIdentifier new.
+	identifier := TerritorialIdentifier new.
