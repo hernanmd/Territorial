@@ -7,12 +7,6 @@ addGAUL
 		url: 'http://www.fao.org/geonetwork/srv/en/';
 		addName: 'Global Administrative Unit Layers';
 		qualifiers: #('Global');
-		fieldsBlock: [ : field |
-			self countries add: ((TerritorialCountry newNamed: field first)
-				addIdentifier: (field third asTerritorialIdentifier: (TerritorialIdentifier code: 'GAUL') );
-				addTerritoryName: #englishName -> field first;
-				addTerritoryName: #frenchName -> field second;
-				yourself) ];
 		territoryList: 'Afghanistan,Afghanistan,1
 Albania,Albanie,3
 Algeria,Algérie,4
@@ -262,4 +256,10 @@ Yemen,Yémen,269
 Zambia,Zambie,270
 Zimbabwe,Zimbabwe,271
 Åland Islands,Åland; Îles,1242';
+		fieldsBlock: [ : field |
+			self countries add: ((TerritorialCountry newNamed: field first)
+				addIdentifier: (field third asTerritorialIdentifier: (TerritorialIdentifier code: 'GAUL') );
+				addTerritoryName: #englishName -> field first;
+				addTerritoryName: #frenchName -> field second;
+				yourself) ];
 		yourself

@@ -7,15 +7,6 @@ addFIFA
 		url: 'http://www.fifa.com/';
 		addName:  'Fédération Internationale de Football Association';
 		qualifiers: #('Global' 'Economical');
-		fieldsBlock: [ : field | | country |
-			country := ((TerritorialCountry newNamed: field first)
-				addTerritoryName: #englishName -> field first;
-				addTerritoryName: #frenchName -> field second;				
-				yourself).
-			(field second includes: $;)
-				ifFalse: [ country addIdentifier: field second ]
-				ifTrue: [ (field second findTokens: $;) do: [: id | country addIdentifier: id ] ].
-			self countries add: country ];
 		territoryList: 'Afghanistan,Afghanistan,AFG
 Albania,Albanie,ALB
 Algeria,Algérie,ALG
@@ -253,4 +244,13 @@ Yemen,Yémen,YEM
 Zambia,Zambie,ZAM
 Zimbabwe,Zimbabwe,ZIM
 Åland Islands,Åland;Îles,ALD';
+		fieldsBlock: [ : field | | country |
+			country := ((TerritorialCountry newNamed: field first)
+				addTerritoryName: #englishName -> field first;
+				addTerritoryName: #frenchName -> field second;				
+				yourself).
+			(field second includes: $;)
+				ifFalse: [ country addIdentifier: field second ]
+				ifTrue: [ (field second findTokens: $;) do: [: id | country addIdentifier: id ] ].
+			self countries add: country ];
 		yourself
