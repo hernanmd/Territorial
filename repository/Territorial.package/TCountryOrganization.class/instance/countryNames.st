@@ -1,8 +1,5 @@
 accessing
 countryNames
-	" Answer a Collection of String.
+	" Answer a Collection of <String> representing each a country name "
 	
-	TUNM49CountryOrganization countryNames
-	 "
-	
-	^ self territories collect.
+	^ self territories allLeafNames

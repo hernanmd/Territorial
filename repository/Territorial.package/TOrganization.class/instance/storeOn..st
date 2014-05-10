@@ -1,5 +1,5 @@
 accessing
-outputAsCsvTo: aStream
+storeOn: aStream
 
 	aStream 
 		nextPutAll: self name;

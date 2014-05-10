@@ -1,5 +1,7 @@
-naming
+testing
 includesName: aString
-	" Answer <true> if aString is included in the receiver's names "
+	" See superimplementor's comment "
 	
-	^ self names includes: aString
+	| ttyName |
+	ttyName := aString asLowercase.
+	^ (self names includes: aString) or: [ self includesSubstringAnywhere: ttyName ]
