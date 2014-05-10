@@ -1,2 +1,0 @@
-tests-initialize-release
-testSingleEnglishCountryName
