@@ -7,12 +7,6 @@ addWMO
 		url: 'http://www.wmo.int/';
 		addName: 'World Meteorological Organization';
 		qualifiers: #('Global');
-		fieldsBlock: [ : field |
-			self countries add: ((TerritorialCountry newNamed: field first)
-				addIdentifier: field third;
-				addTerritoryName: #englishName -> field first;
-				addTerritoryName: #frenchName -> field second;
-				yourself) ];
 		territoryList: 'Afghanistan,Afghanistan,AF
 Albania,Albanie,AB
 Algeria,Algérie,AL
@@ -230,4 +224,10 @@ Wallis and Futuna,Wallis et Futuna,FW
 Yemen,Yémen,YE
 Zambia,Zambie,ZB
 Zimbabwe,Zimbabwe,ZW';
+		fieldsBlock: [ : field |
+			self countries add: ((TerritorialCountry newNamed: field first)
+				addIdentifier: field third;
+				addTerritoryName: #englishName -> field first;
+				addTerritoryName: #frenchName -> field second;
+				yourself) ];
 		yourself

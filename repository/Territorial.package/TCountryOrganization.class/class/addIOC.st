@@ -7,11 +7,6 @@ addIOC
 		url: 'http://www.olympic.org/';
 		addName: 'International Olympics Committee';
 		qualifiers: #('Global');
-		fieldsBlock: [ : field |
-			self countries add: ((TerritorialCountry newNamed: field first)
-				addIdentifier: field second;
-				addTerritoryName: #englishName -> field first;
-				yourself) ];
 		territoryList: 'Afghanistan,AFG
 Albania,ALB
 Algeria,ALG
@@ -213,4 +208,10 @@ Virgin Islands,ISV
 Yemen,YEM
 Zambia,ZAM
 Zimbabwe,ZIM';
+		fieldsBlock: [ : countryList |
+			(NeoCSVReader on: countryList readStream) do: [ :field | 
+				self territories addTerritory: ((TerritorialCountry newNamed: field first)
+						addIdentifier: field second;
+						addTerritoryName: #englishName -> field first;
+						yourself) ] ];
 		yourself
