@@ -1,5 +1,5 @@
-testing
-includesName: aString
+review
+includesNameReview: aString
 	" See superimplementor's comment "
 	
 	^ self allNames includes: aString

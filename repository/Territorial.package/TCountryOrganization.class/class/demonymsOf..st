@@ -1,5 +1,5 @@
 private
-countryDemonymAt: aString
+demonymsOf: aString
 	" Answer a Collection of the list of demonyms for territory named aString "
 	
-	^ TerritorialDemonyms demonymsOf: aString
+	^ TerritorialDemonyms countryDemonymAt: aString
