@@ -1,7 +1,7 @@
 *Territorial
-asTerritorialIdentifier: aClass
+asTerritorialIdentifier
 	" Answer a new TerritorialIdentifer for aClass "
 	
-	^ aClass new
+	^ TerritorialIdentifier new
 		code: self;
 		yourself
