@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "HernanMoralesDurand 3/3/2014 18:49",
+	"commentStamp" : "HernanMoralesDurand 5/12/2014 01:30",
 	"super" : "Object",
 	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"code"
+		"code",
+		"identifierSymbol"
 	],
 	"name" : "TerritorialIdentifier",
 	"type" : "normal"

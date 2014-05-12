@@ -256,9 +256,10 @@ Yemen,Yémen,269
 Zambia,Zambie,270
 Zimbabwe,Zimbabwe,271
 Åland Islands,Åland; Îles,1242';
-		fieldsBlock: [ : field |
+		fieldsBlock: [ : field | | id |
+			id := field third asTerritorialIdentifier.
 			self countries add: ((TerritorialCountry newNamed: field first)
-				addIdentifier: (field third asTerritorialIdentifier: (TerritorialIdentifier code: 'GAUL') );
+				addIdentifier: (id identifierSymbol: 'GAUL');
 				addTerritoryName: #englishName -> field first;
 				addTerritoryName: #frenchName -> field second;
 				yourself) ];
