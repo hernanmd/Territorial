@@ -11,7 +11,8 @@
 		"demonyms",
 		"tWorld",
 		"population",
-		"markers"
+		"markers",
+		"synonyms"
 	],
 	"name" : "TerritorialObject",
 	"type" : "normal"

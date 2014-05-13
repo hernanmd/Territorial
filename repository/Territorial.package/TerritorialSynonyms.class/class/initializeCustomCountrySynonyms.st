@@ -13,7 +13,7 @@ initializeCustomCountrySynonyms
 				ifTrue: [ currentCountryISO := row first. 
 					spellings := self countrySynonyms detect: [ : d | d notNil ifTrue: [ d values includes: row third ] ifFalse: [ false ] ] ifNone: [ nil ] ].
 			(row first = currentCountryISO and: [ spellings notNil ])
-				ifTrue: [ spellings at: row second put: row third ]
+				ifTrue: [ spellings at: row second put: row third asLowercase ]
 				ifFalse: [ 
 					spellings notNil ifTrue: [ self countrySynonyms add: spellings ].
 					currentCountryISO := nil ] ].
