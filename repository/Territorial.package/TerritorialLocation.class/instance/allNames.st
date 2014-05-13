@@ -2,4 +2,5 @@ accessing
 allNames
 	" Private - "
 
-	^ Set with: self name
+	self halt.
+	^ Set with: self name with: self synonyms
