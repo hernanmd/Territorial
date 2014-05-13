@@ -1,5 +1,5 @@
 testing
-hasMultipleDemonyms: aString
+includesMultipleDemonyms: aString
 
 	^ ( aString findTokens: $/ ) size > 1
 
