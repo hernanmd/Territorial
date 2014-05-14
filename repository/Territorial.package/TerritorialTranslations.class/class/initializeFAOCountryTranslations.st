@@ -1,5 +1,5 @@
-initialization-release
-initializeFAOCountrySynonyms
+initialize-release
+initializeFAOCountryTranslations
 
 	| xmlList spellings doc sgov |
 
@@ -9,5 +9,5 @@ initializeFAOCountrySynonyms
 	sgov := xmlList collect: [ : n | n allElementsSelect: [ : each | (each localName beginsWith: 'nameList') or: [ (each localName beginsWith: 'nameOfficial') or: [ each localName beginsWith: 'nameShort' ] ] ] ].
 	sgov do: [ : xmlOrdList | 
 		xmlOrdList do: [ : node | spellings at: node name put: node contentString ].
-		self countrySynonyms add: spellings.
+		self countryTranslations add: spellings.
 		spellings := Dictionary new. ]

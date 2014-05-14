@@ -12,6 +12,7 @@
 		"tWorld",
 		"population",
 		"markers",
+		"translations",
 		"synonyms"
 	],
 	"name" : "TerritorialObject",

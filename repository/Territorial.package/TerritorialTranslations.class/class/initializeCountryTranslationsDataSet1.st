@@ -1,10 +1,10 @@
-initialization-release
-initializeCountrySynonymsDataSet1
+initialize-release
+initializeCountryTranslationsDataSet1
 	" self initializeCountrySynonymsDataSet1 "
 
 	| currentCountryISO spellings |
 	currentCountryISO := nil.
-	(NeoCSVReader on: self countrySynonymsListDataSet1 readStream)
+	(NeoCSVReader on: self countryTranslationsListDataSet1 readStream)
 		skipHeader;
 		separator: $,;
 		do: [ : row |
@@ -12,5 +12,5 @@ initializeCountrySynonymsDataSet1
 				ifTrue: [ currentCountryISO := row first. spellings := Set with: row first ].
 			row first = currentCountryISO
 				ifTrue: [ row third isEmpty ifFalse: [ spellings add: row third ] ]
-				ifFalse: [ self countrySynonyms add: spellings.
+				ifFalse: [ self countryTranslations add: spellings.
 					currentCountryISO := nil ] ].

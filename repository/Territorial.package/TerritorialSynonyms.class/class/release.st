@@ -1,4 +1,4 @@
-initialization-release
+initialize-release
 release
 	" Private - Initialize the receiver's repositories "
 
