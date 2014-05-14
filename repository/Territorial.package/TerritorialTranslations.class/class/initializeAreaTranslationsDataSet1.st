@@ -1,10 +1,10 @@
-initialization-release
-initializeAreaSynonymsDataSet1
+initialize-release
+initializeAreaTranslationsDataSet1
 	" self initializeAreaSynonyms "
 
 	| currentAreaId spellings |
 	currentAreaId := nil.
-	(NeoCSVReader on: self areaSynonymsList readStream)
+	(NeoCSVReader on: self areaTranslationsList readStream)
 		skipHeader;
 		separator: $,;
 		do: [ : row |
@@ -12,5 +12,5 @@ initializeAreaSynonymsDataSet1
 				ifTrue: [ currentAreaId := row first. spellings := Set with: row first ].
 			row first = currentAreaId
 				ifTrue: [ row third isEmpty ifFalse: [ spellings add: row third ] ]
-				ifFalse: [ self areaSynonyms add: spellings.
+				ifFalse: [ self areaTranslations add: spellings.
 					currentAreaId := nil ] ].

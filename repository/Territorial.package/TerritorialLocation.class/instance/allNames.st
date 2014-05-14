@@ -3,4 +3,4 @@ allNames
 	" Private - "
 
 	self halt.
-	^ Set with: self name with: self synonyms
+	^ Set with: self name with: self translations

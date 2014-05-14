@@ -1,5 +1,5 @@
-initialization-release
-initializeAreaSynonyms
+initialize-release
+initializeAreaTranslations
 	" self initializeAreaSynonyms "
 
 	| xmlList spellings doc sgov |
@@ -10,5 +10,5 @@ initializeAreaSynonyms
 	sgov := xmlList collect: [ : n | n allElementsSelect: [ : each | (each localName beginsWith: 'nameList') or: [ (each localName beginsWith: 'nameOfficial') or: [ each localName beginsWith: 'nameShort' ] ] ] ].
 	sgov do: [ : xmlOrdList | 
 		xmlOrdList do: [ : n | spellings add: n contentString ].
-		self areaSynonyms add: spellings.
+		self areaTranslations add: spellings.
 		spellings := Set new. ]
