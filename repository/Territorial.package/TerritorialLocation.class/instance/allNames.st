@@ -1,5 +1,7 @@
 accessing
 allNames
-	" Private - "
+	" Private - Answer a <Collection> of all names in the receiver "
 
-	^ Set with: self name with: self translations
+	^ (Set withAll: self translations)
+		add: self name;
+		yourself
