@@ -5,4 +5,15 @@ countryTranslationsListDataSet1
 	http://unicode.org/Public/cldr/25/
 	"
 	
+	"
+	BY,ln,Bielorusia
+BY,lo,ເບນລາຮັສ
+BY,lt,Baltarusija
+BY,lv,Baltkrievija
+BY,nds,Wittrussland
+BY,ne,बेलारूस
+BY,ro,Bielorusia
+BY,ru,Беларусь
+	"
+	
 	^ 'translated_country_names.csv' asFileReference contents
