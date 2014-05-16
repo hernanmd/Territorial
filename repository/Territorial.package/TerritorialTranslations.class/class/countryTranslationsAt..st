@@ -4,5 +4,5 @@ countryTranslationsAt: countryString
 	
 	self countryTranslations do: [ : synDict | 
 		(synDict includes: countryString)
-			ifTrue: [ self halt. ^ synDict values ] ].
+			ifTrue: [ ^ synDict values ] ].
  	^ Set new

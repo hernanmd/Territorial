@@ -2,4 +2,4 @@ testing
 includesTerritoryNamed: aString
 	" See superimplementor's comment "
 	
-	^ self allNames includes: aString
+	^ self allNames includes: aString asLowercase

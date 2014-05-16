@@ -2,9 +2,7 @@
 	"commentStamp" : "<historical>",
 	"super" : "TerritorialObject",
 	"category" : "Territorial-Objects",
-	"classinstvars" : [
-		"territoryOrganization"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
