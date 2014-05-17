@@ -6,8 +6,9 @@ printOn: aStream
 		String 
 			streamContents: [: s | s nextPutAll: self names asArray asString ] 
 			limitedTo: 30 );
-		nextPutAll: '...';
-		space;
+		nextPutAll: '... ';
+		nextPutAll: 'Territories: ';
+		nextPutAll: self size asString; space;
 		nextPutAll: 'Matches: ';
 		nextPutAll: self classifications size asString;
 		cr
