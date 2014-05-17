@@ -2,9 +2,7 @@
 	"commentStamp" : "HernanMoralesDurand 5/12/2014 01:40",
 	"super" : "TOrganization",
 	"category" : "Territorial-Organization",
-	"classinstvars" : [
-		"tOrganizations"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

@@ -1,5 +1,5 @@
 accessing
 size
-	" Answer how many objects had organized or classified the receiver "
+	" Answer how many territories has the receiver "
 
-	^ self classifications size
+	^ self territories size

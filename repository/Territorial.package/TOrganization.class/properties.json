@@ -3,7 +3,7 @@
 	"super" : "TerritorialNamedObject",
 	"category" : "Territorial-Organization",
 	"classinstvars" : [
-		"territorialObject"
+		"tOrganizations"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
