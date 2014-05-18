@@ -6,4 +6,4 @@ comparing
 		ifTrue: [ ^ true ].
 	self class = aTNamedObject class
 		ifFalse: [ ^ false ].	
-	^ self name = aTNamedObject name
+	^ self name asLowercase = aTNamedObject name asLowercase

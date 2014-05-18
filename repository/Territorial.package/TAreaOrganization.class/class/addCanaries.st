@@ -1,4 +1,4 @@
-territorial-organizations
+private
 addCanaries
 
 	^ TAreaOrganization new

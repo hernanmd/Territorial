@@ -1,7 +1,5 @@
 testing
 includesName: aString
-	" See superimplementor's comment "
+	" See superimplementor's comment. Assume aString is lowercase "
 	
-	| ttyName |
-	ttyName := aString asLowercase.
-	^ (self names includes: aString) or: [ self includesSubstringAnywhere: ttyName ]
+	^ (self names includes: aString) or: [ self includesSubstringAnywhere: aString ]
