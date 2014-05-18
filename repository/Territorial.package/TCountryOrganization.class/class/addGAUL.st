@@ -1,13 +1,23 @@
 territorial-organizations
 addGAUL
 
-	^ TCountryOrganization new
+	| co |
+	co := TCountryOrganization new.
+	^ co
 		preferredName: 'GAUL';
 		formedYear: 1950;
 		url: 'http://www.fao.org/geonetwork/srv/en/';
 		addName: 'Global Administrative Unit Layers';
 		qualifiers: #('Global');
-		territoryList: 'Afghanistan,Afghanistan,1
+		populateBlock: [ : countryList | 
+			(NeoCSVReader on: countryList readStream) do: [ : row | | id |
+				id := row third asTerritorialIdentifier.
+				co territories addTerritory: ((TerritorialCountry newNamed: row first)
+					addIdentifier: (id identifierSymbol: 'GAUL');
+					addTerritoryName: #englishName -> row first;
+					addTerritoryName: #frenchName -> row second;
+					yourself) ] ];	
+		populateWith: 'Afghanistan,Afghanistan,1
 Albania,Albanie,3
 Algeria,Algérie,4
 American Samoa,Samoa Américaines,5
@@ -256,11 +266,4 @@ Yemen,Yémen,269
 Zambia,Zambie,270
 Zimbabwe,Zimbabwe,271
 Åland Islands,Åland; Îles,1242';
-		fieldsBlock: [ : field | | id |
-			id := field third asTerritorialIdentifier.
-			self countries add: ((TerritorialCountry newNamed: field first)
-				addIdentifier: (id identifierSymbol: 'GAUL');
-				addTerritoryName: #englishName -> field first;
-				addTerritoryName: #frenchName -> field second;
-				yourself) ];
 		yourself

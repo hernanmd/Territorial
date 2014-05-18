@@ -7,7 +7,7 @@ addNATO
 		url: 'http://www.nato.int';
 		addName: 'North Atlantic Treaty Organization';
 		qualifiers: #('Military');
-		territoryList: 'Albania
+		populateWith: 'Albania
 Belgium
 Bulgaria
 Canada

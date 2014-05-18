@@ -1,13 +1,22 @@
 territorial-organizations
 addWMO
 
-	^ TCountryOrganization new
+	| co |
+	co := TCountryOrganization new.
+	^ co
 		preferredName: 'WMO';
 		formedYear: 1950;
 		url: 'http://www.wmo.int/';
 		addName: 'World Meteorological Organization';
 		qualifiers: #('Global');
-		territoryList: 'Afghanistan,Afghanistan,AF
+		populateBlock: [ : countryList |
+			(NeoCSVReader on: countryList readStream) do: [ : row | 
+				co territories addTerritory: ((TerritorialCountry newNamed: row first)
+					addIdentifier: row third;
+					addTerritoryName: #englishName -> row first;
+					addTerritoryName: #frenchName -> row second;
+					yourself) ] ];		
+		populateWith: 'Afghanistan,Afghanistan,AF
 Albania,Albanie,AB
 Algeria,Algérie,AL
 Angola,Angola,AN
@@ -224,10 +233,4 @@ Wallis and Futuna,Wallis et Futuna,FW
 Yemen,Yémen,YE
 Zambia,Zambie,ZB
 Zimbabwe,Zimbabwe,ZW';
-		fieldsBlock: [ : field |
-			self countries add: ((TerritorialCountry newNamed: field first)
-				addIdentifier: field third;
-				addTerritoryName: #englishName -> field first;
-				addTerritoryName: #frenchName -> field second;
-				yourself) ];
 		yourself

@@ -7,7 +7,7 @@ addCEEAC
 		url: 'http://www.ceeac-eccas.org/';
 		addName:  'Economic Community of Central African States';
 		qualifiers: #('Economical');
-		territoryList: 'Angola
+		populateWith: 'Angola
 Burundi
 Cameroon
 Central African Republic

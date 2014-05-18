@@ -1,4 +1,5 @@
 accessing
-formedYear: year
+formedYear: integerYear
+	" Set the year of receiver's formation to be integerYear "
 
-	formedYear := Year year: year
+	formedYear := Year year: integerYear

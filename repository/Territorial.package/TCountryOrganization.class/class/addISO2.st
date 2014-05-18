@@ -1,7 +1,10 @@
 territorial-organizations
 addISO2
 	" Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code, defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. "
-	^ TCountryOrganization new
+	| co |
+	
+	co := TCountryOrganization new.
+	^ co
 		preferredName: 'ISO 3166-2';
 		formedYear: 1947;
 		url: 'http://iso.org/';
@@ -9,10 +12,12 @@ addISO2
 		addName: 'Organisation internationale de normalisation';
 		addName: 'Organización Internacional de Normalización';
 		qualifiers: #('Global');
-		fieldsBlock: [ : field |
-			ISOLanguageDefinition iso2Countries associationsDo: [ : assoc |
-				self countries add: ((TerritorialCountry newNamed: assoc value)
+		territories: (self initialWorld: 'ISO 3166-2');		
+		populateBlock: [ : d |
+			 d associationsDo: [ : assoc |			
+				co territories addTerritory: ((TerritorialCountry newNamed: assoc value)
 					addIdentifier: assoc key;
 					addTerritoryName: #englishName -> assoc value;
 					yourself). ] ];
+		populateWith: ISOLanguageDefinition iso2Countries;
 		yourself

@@ -8,7 +8,4 @@ printOn: aStream
 			limitedTo: 30 );
 		nextPutAll: '... ';
 		nextPutAll: 'Territories: ';
-		nextPutAll: self size asString; space;
-		nextPutAll: 'Matches: ';
-		nextPutAll: self classifications size asString;
-		cr
+		nextPutAll: self size asString

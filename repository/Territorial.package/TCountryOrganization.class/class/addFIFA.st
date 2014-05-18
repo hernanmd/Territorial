@@ -1,13 +1,25 @@
 territorial-organizations
 addFIFA
 
-	^ TCountryOrganization new
+	| co |
+	co := TCountryOrganization new.
+	^ co
 		preferredName: 'FIFA';
 		formedYear: 1904;
 		url: 'http://www.fifa.com/';
 		addName:  'Fédération Internationale de Football Association';
 		qualifiers: #('Global' 'Economical');
-		territoryList: 'Afghanistan,Afghanistan,AFG
+		populateBlock: [ : countryList | 
+			(NeoCSVReader on: countryList readStream) do: [ : row |  | country |
+				country := ((TerritorialCountry newNamed: row first)
+					addTerritoryName: #englishName -> row first;
+					addTerritoryName: #frenchName -> row second;				
+					yourself).
+				(row second includes: $;)
+					ifFalse: [ country addIdentifier: row second ]
+					ifTrue: [ (row second findTokens: $;) do: [: id | country addIdentifier: id ] ].
+				co territories addTerritory: country ] ];		
+		populateWith: 'Afghanistan,Afghanistan,AFG
 Albania,Albanie,ALB
 Algeria,Algérie,ALG
 American Samoa,Samoa Américaines,ASA
@@ -244,13 +256,4 @@ Yemen,Yémen,YEM
 Zambia,Zambie,ZAM
 Zimbabwe,Zimbabwe,ZIM
 Åland Islands,Åland;Îles,ALD';
-		fieldsBlock: [ : field | | country |
-			country := ((TerritorialCountry newNamed: field first)
-				addTerritoryName: #englishName -> field first;
-				addTerritoryName: #frenchName -> field second;				
-				yourself).
-			(field second includes: $;)
-				ifFalse: [ country addIdentifier: field second ]
-				ifTrue: [ (field second findTokens: $;) do: [: id | country addIdentifier: id ] ].
-			self countries add: country ];
 		yourself

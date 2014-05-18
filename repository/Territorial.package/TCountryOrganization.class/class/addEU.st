@@ -7,7 +7,7 @@ addEU
 		url: 'http://europa.eu/';
 		addName:  'European Union';
 		qualifiers: #('Regional' 'Political' 'Economical');
-		territoryList: 'Austria
+		populateWith: 'Austria
 Belgium
 Bulgaria
 Cyprus

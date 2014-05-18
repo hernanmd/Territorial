@@ -7,7 +7,7 @@ addMERCOSUR
 		url: 'http://www.mercosur.int/';
 		addName: 'Mercado Común del Sur';
 		qualifiers: #('Regional' 'Political' 'Economical');
-		territoryList: 'Uruguay
+		populateWith: 'Uruguay
 Paraguay
 Brazil
 Argentina';

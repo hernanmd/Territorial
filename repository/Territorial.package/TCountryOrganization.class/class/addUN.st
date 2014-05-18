@@ -11,7 +11,7 @@ addUN
 		addName: 'UN';
 		url: 'http://unstats.un.org/unsd/methods/m49/m49.htm';
 		territories: (self initialWorld: 'UN' territories: #addUNTerritories);
-		fieldsBlock: [ : field |
+		populateBlock: [ : field |
 			self countries add: ((TerritorialCountry newNamed: field second)
 				addIdentifier: field first;
 				addTerritoryName: #englishName -> field second;

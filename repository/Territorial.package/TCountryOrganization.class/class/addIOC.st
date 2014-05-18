@@ -1,13 +1,21 @@
 territorial-organizations
 addIOC
 
-	^ TCountryOrganization new
+	| co |
+	co := TCountryOrganization new.
+	^ co
 		preferredName: 'IOC';
 		formedYear: 1894;
 		url: 'http://www.olympic.org/';
 		addName: 'International Olympics Committee';
 		qualifiers: #('Global');
-		territoryList: 'Afghanistan,AFG
+		populateBlock: [ : countryList |
+			(NeoCSVReader on: countryList readStream) do: [ :field | 
+				co territories addTerritory: ((TerritorialCountry newNamed: field first)
+						addIdentifier: field second;
+						addTerritoryName: #englishName -> field first;
+						yourself) ] ];		
+		populateWith: 'Afghanistan,AFG
 Albania,ALB
 Algeria,ALG
 American Samoa,ASA
@@ -208,10 +216,4 @@ Virgin Islands,ISV
 Yemen,YEM
 Zambia,ZAM
 Zimbabwe,ZIM';
-		fieldsBlock: [ : countryList |
-			(NeoCSVReader on: countryList readStream) do: [ :field | 
-				self territories addTerritory: ((TerritorialCountry newNamed: field first)
-						addIdentifier: field second;
-						addTerritoryName: #englishName -> field first;
-						yourself) ] ];
 		yourself

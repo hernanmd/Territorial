@@ -13,9 +13,9 @@
 		"denomination",
 		"territories",
 		"qualifiers",
-		"fieldsBlock",
 		"formedYear",
-		"url"
+		"url",
+		"populateBlock"
 	],
 	"name" : "TOrganization",
 	"type" : "normal"
