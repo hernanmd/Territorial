@@ -6,7 +6,7 @@ addCARIFORUM
 		formedYear: 1992;
 		addName:  'Caribbean Forum';
 		qualifiers: #('Economical');
-		territoryList: 'Antigua and Barbuda
+		populateWith: 'Antigua and Barbuda
 Bahamas
 Barbados
 Belize

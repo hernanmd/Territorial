@@ -1,4 +1,4 @@
 *Territorial
-asTerritorialIdentifier: aClass 
+asTerritorialIdentifier
 
 	^ TNullIdentifier new

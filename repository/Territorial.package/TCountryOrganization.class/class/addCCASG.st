@@ -7,7 +7,7 @@ addCCASG
 		url: 'http://www.gcc-sg.org/';
 		addName:  'Cooperation Council for the Arab States of the Gulf';
 		qualifiers: #('Economical');
-		territoryList: 'Bahrain
+		populateWith: 'Bahrain
 Kuwait
 Oman
 Qatar

@@ -5,7 +5,7 @@ addCARICOM
 		preferredName: 'CARICOM';
 		addName:  'Caribbean Community and Common Market';
 		qualifiers: #('Regional' 'Political' 'Economical');
-		territoryList: 'Antigua and Barbuda
+		populateWith: 'Antigua and Barbuda
 Bahamas
 Barbados
 Belize
