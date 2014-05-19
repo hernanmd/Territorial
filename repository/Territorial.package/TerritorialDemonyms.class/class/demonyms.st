@@ -1,7 +1,5 @@
 accessing
 demonyms
-	" self demonyms "
+	" Answer a <Collection> with all knwon gentilic "
 
-	^ CountryDemonyms
-		ifNil: [ self initializeCountryDemonyms.
-				CountryDemonyms ]
+	^ self countryDemonyms , self areaDemonyms
