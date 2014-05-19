@@ -1,7 +1,7 @@
 territorial-organizations
 addCaribbean
 
-	^ TAreaOrganization new
+	^ TRegionOrganization new
 		preferredName: 'Caribbean';
 		qualifiers: #('Regional');
 		territories: ((TerritorialComposite newNamed: 'Caribbean')

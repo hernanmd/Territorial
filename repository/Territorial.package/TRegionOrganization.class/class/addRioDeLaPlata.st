@@ -1,7 +1,7 @@
 territorial-organizations
 addRioDeLaPlata
 
-	^ TAreaOrganization new
+	^ TRegionOrganization new
 		preferredName: 'Rio de La Plata';
 		qualifiers: #('Regional');
 		territories: (((TerritorialComposite newNamed: 'Rio de La Plata')

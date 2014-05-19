@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TAreaOrganization",
+	"name" : "TRegionOrganization",
 	"type" : "normal"
 }

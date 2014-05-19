@@ -1,7 +1,7 @@
 territorial-organizations
 addNewGranada
 
-	^ TAreaOrganization new
+	^ TRegionOrganization new
 		preferredName: 'Republic of New Granada';
 		qualifiers: #('Regional');
 		territories: (((TerritorialComposite newNamed: 'New Granada')
