@@ -1,7 +1,7 @@
 territorial-organizations
 addNewSpain
 
-	^ TAreaOrganization new
+	^ TRegionOrganization new
 		preferredName: 'Nueva España';
 		qualifiers: #('Regional');
 		territories: (((TerritorialComposite newNamed: 'New Spain')
