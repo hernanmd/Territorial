@@ -3,19 +3,13 @@ addWinwardIslands
 
 	^ (TerritorialComposite newNamed: 'Windward Islands')
 		addTerritoryName: #englishName -> 'Windward Islands';
-		addTerritory: ((TerritorialCountry newNamed: 'Saint Lucia')
+		addTerritory: (((TCountryOrganization @ 'UN.M49') @ 'Saint Lucia')
 			addTerritoryName: #spanishName -> 'Santa Lucía';
 			yourself);
-		addTerritory: ((TerritorialComposite newNamed: 'Saint Vincent and the Grenadines')
-			addTerritory: 'Saint Vincent';
-			addTerritory: 'The Grenadines';
-			yourself);
-		addTerritory: ((TerritorialComposite newNamed: 'Grenada')
-			addTerritory: 'Grenada';
-			addTerritory: 'Carriacou and Petite Martinique';
-			yourself);
-		addTerritory: (TerritorialCountry newNamed: 'Barbados');
-		addTerritory: (TerritorialCountry newNamed: 'Trinidad and Tobago');
-			addTerritoryName: #spanish -> 'Trinidad y Tobago';
-		yourself
+		addTerritory: ((TCountryOrganization @ 'UN.M49') @ 'Saint Vincent and the Grenadines');
+		addTerritory: ((TCountryOrganization @ 'UN.M49') @ 'Grenada');
+		addTerritory: ((TCountryOrganization @ 'UN.M49') @ 'Barbados');
+		addTerritory: (((TCountryOrganization @ 'UN.M49') @ 'Trinidad and Tobago')
+			addTerritoryName: #spanishName -> 'Trinidad y Tobago';
+			yourself)
 	
