@@ -9,7 +9,7 @@ baseline14: spec
 			project: 'Roassal2' with: [
 				spec
 					className: #ConfigurationOfRoassal2;
-					versionString: 'stable';
+					versionString: 'development';
 					repository: 'http://www.smalltalkhub.com/mc/ObjectProfile/Roassal2' ];
 			project: 'NeoCSV' with: [
 				spec
