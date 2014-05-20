@@ -19,4 +19,4 @@ version13: spec
 			FuelMetalevel is defined in the #fuelMetalevel: method."
 			project: 'DBPedia'			with: #stable;
 			project: 'NeoCSV' 			with: #stable;
-			project: 'Roassal2'			with: #stable ].
+			project: 'Roassal2'			with: #development ].

@@ -21,4 +21,4 @@ version11: spec
 			Note the project name referes to the name used in the Metacello declaration.
 			FuelMetalevel is defined in the #fuelMetalevel: method."
 			project: 'NeoCSV' 			with: #stable;
-			project: 'Roassal2'			with: #stable ].
+			project: 'Roassal2'			with: #development ].
