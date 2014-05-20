@@ -1,6 +1,6 @@
 accessing
 areaDemonyms
 
-	^ AreaDemonyms
-		ifNil: [ self initializeAreaDemonyms.
-				AreaDemonyms ]
+	^ RegionDemonyms
+		ifNil: [ self initializeRegionDemonyms.
+				RegionDemonyms ]
