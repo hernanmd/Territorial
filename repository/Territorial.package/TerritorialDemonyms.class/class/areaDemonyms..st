@@ -1,3 +1,3 @@
 accessing
 areaDemonyms: anObject
-	AreaDemonyms := anObject
+	RegionDemonyms := anObject

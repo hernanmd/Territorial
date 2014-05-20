@@ -1,7 +1,6 @@
 accessing
 @ denominationString
-	" Given denominationString, find its proper subclass and answer a new instance of its, if found.
-	ToDo: Resolve duplicate names and syonyms "
+	" Given denominationString, answer its proper organization in the receiver's known organizations, if found. "
 	
 	^ self tOrganizations 
 		detect: [ : ttyOrganization | ttyOrganization includesName: denominationString ]

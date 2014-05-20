@@ -5,9 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"AreaDemonyms",
 		"CountryDemonyms",
 		"OneWordCountryDemonyms",
+		"RegionDemonyms",
 		"ThreeWordsCountryDemonyms",
 		"TwoWordsCountryDemonyms"
 	],

@@ -1,5 +1,5 @@
 initialize-release
-areaDemonymsListEnglish
+regionDemonymsListEnglish
 
 	^ 'Islas Canarias,Canaria
 EU,european'
