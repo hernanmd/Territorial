@@ -1,6 +1,7 @@
 accessing
-@ locationString
-	" Answer the territory named locationString in the reciever 
-	ToDo: Resolve duplicate names and syonyms "
+@ territoryName
+	" Answer the territory named territoryName in the reciever. If not found, search in other known organizations "
 	
-	^ self territories detect: [ : tty | tty includesName: locationString asLowercase ]
+	^ self territories 
+		detect: [ : tty | tty includesName: territoryName asLowercase ]
+		ifNone: [ self findTerritory: territoryName asLowercase ]
