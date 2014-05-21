@@ -25,6 +25,11 @@ baseline14: spec
 				spec
 					className: #ConfigurationOfNeoJSON;
 					versionString: 'stable';
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ];
+			project: 'XMLParser' with: [
+				spec
+					className: #ConfigurationOfXMLParser;
+					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ].
 		spec 
 			package: #Territorial;
