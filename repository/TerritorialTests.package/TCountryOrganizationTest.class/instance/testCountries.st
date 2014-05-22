@@ -1,8 +1,7 @@
 accessing
 testCountries
 
-	self countryList: (TCountryOrganization @ 'UN.M49') countries.
-	self assert: (self countryList isKindOf: Collection).
-	self deny: self countryList isEmpty.
-	self assert: self countryList size = 241.
+	self assert: (self countryList countries isKindOf: Collection).
+	self deny: self countryList countries isEmpty.
+	self assert: self countryList countries size = 241.
 	
