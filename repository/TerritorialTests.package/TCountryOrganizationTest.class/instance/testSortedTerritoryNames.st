@@ -1,5 +1,5 @@
 accessing
-testSortedCountryNames
+testSortedTerritoryNames
 
 	self countryList: (TCountryOrganization @ 'UN.M49') sortedTerritoryNames.
 	self assert: (self countryList isKindOf: Collection).
