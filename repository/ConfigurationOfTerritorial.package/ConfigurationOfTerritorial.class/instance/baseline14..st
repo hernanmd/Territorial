@@ -29,7 +29,7 @@ baseline14: spec
 			project: 'XMLParser' with: [
 				spec
 					className: #ConfigurationOfXMLParser;
-					versionString: #'stable';
+					versionString: 'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ].
 		spec 
 			package: #Territorial;
