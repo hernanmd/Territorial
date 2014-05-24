@@ -9,27 +9,27 @@ baseline15: spec
 			project: 'Roassal2' with: [
 				spec
 					className: #ConfigurationOfRoassal2;
-					versionString: 'development';
+					versionString: #'development';
 					repository: 'http://www.smalltalkhub.com/mc/ObjectProfile/Roassal2' ];
 			project: 'NeoCSV' with: [
 				spec
 					className: #ConfigurationOfNeoCSV;
-					versionString: 'stable';
+					versionString: #'stable';
 					repository: 'http://mc.stfx.eu/Neo' ];
 			project: 'DBPedia' with: [
 				spec
 					className: #ConfigurationOfDBPedia;
-					versionString: 'stable';
+					versionString: #'stable';
 					repository: 'http://www.smalltalkhub.com/mc/hernan/DBPedia' ];
 			project: 'NeoJSON' with: [
 				spec
 					className: #ConfigurationOfNeoJSON;
-					versionString: 'stable';
+					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ];
 			project: 'XMLParser' with: [
 				spec
 					className: #ConfigurationOfXMLParser;
-					versionString: 'stable';
+					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ].
 		spec 
 			package: #Territorial with: [
