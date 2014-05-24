@@ -14,6 +14,6 @@ version14: spec
 			project: 'NeoJSON' with: #stable;
 			project: 'XMLParser' with: #stable.
 		spec 
-			package: #Territorial with: 'Territorial-HernanMoralesDurand.86';
+			package: #Territorial with: 'Territorial-HernanMoralesDurand.87';
 			package: #TerritorialTests with: 'TerritorialTests-HernanMoralesDurand.38';
 			package: #TerritorialUI with: 'TerritorialUI-HernanMoralesDurand.27'. ].
