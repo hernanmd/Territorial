@@ -2,5 +2,6 @@ initialization
 initializeOrganizationsCallbacks
 
 	self organizations whenSelectedItemChanged: [ : org | 
+		" org = aTCountryOrganization "
 		org ifNotNil: [ 
-			territories roots: org new sortedTerritoryNames ] ]
+			territories roots: org sortedTerritoryNames ] ]

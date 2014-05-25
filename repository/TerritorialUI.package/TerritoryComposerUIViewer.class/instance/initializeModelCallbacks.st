@@ -3,7 +3,8 @@ initializeModelCallbacks
 	" Private - Initialize actions for item selections "
 
 	models
-		whenSelectedItemChanged: [ :qualifier | 
+		whenSelectedItemChanged: [ : qualifier | 
+			" qualifier = 'Global'->'Organizations covering the whole world' "
 			qualifier
 				ifNil: [ 
 					organizations items: #().
