@@ -6,7 +6,8 @@ initializeCountryDemonyms
 	(NeoCSVReader on: self countryDemonymsListEnglish readStream)
 		separator: $,;
 		do: [: row |
-			(self hasMultipleDemonyms: row second)
+			" row element could have multiple demonyms delimited by $/ "
+			 (row second findTokens: $/) size > 1
 				ifFalse: [ CountryDemonyms at: row first asLowercase put: (OrderedCollection with: row second asLowercase) ]
 				ifTrue: [ CountryDemonyms at: row first asLowercase put: (row second asLowercase findTokens: $/) ] ].
 	OneWordCountryDemonyms := self countryDemonymsComposedWith: 1.

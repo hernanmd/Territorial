@@ -1,4 +1,4 @@
 accessing
 territoryName
 
-	^ self class territoryName
+	^ self name
