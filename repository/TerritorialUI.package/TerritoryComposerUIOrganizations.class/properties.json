@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HernanMoralesDurand 5/27/2014 21:30",
+	"super" : "TerritorialUIMapper",
+	"category" : "TerritorialUI-Composer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"selectedChangedBlock",
+		"selections",
+		"grid"
+	],
+	"name" : "TerritoryComposerUIOrganizations",
+	"type" : "normal"
+}
