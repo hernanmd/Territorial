@@ -8,7 +8,7 @@ addISO3
 		preferredName: 'ISO 3166-3';
 		formedYear: 1947;
 		url: 'http://iso.org/';
-		addName: 'International Organization for Standardization';
+		denomination: 'International Organization for Standardization';
 		addName: 'Organisation internationale de normalisation';
 		addName: 'Organización Internacional de Normalización';
 		qualifiers: #('Global');

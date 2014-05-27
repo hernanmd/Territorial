@@ -5,7 +5,7 @@ addNATO
 		preferredName: 'NATO';
 		formedYear: 1949;
 		url: 'http://www.nato.int';
-		addName: 'North Atlantic Treaty Organization';
+		denomination: 'North Atlantic Treaty Organization';
 		qualifiers: #('Military');
 		populateWith: 'Albania
 Belgium

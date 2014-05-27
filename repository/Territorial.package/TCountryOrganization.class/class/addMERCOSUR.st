@@ -5,7 +5,7 @@ addMERCOSUR
 		preferredName: 'MERCOSUR';
 		formedYear: 1991;
 		url: 'http://www.mercosur.int/';
-		addName: 'Mercado Común del Sur';
+		denomination: 'Mercado Común del Sur';
 		qualifiers: #('Regional' 'Political' 'Economical');
 		populateWith: 'Uruguay
 Paraguay

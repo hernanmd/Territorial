@@ -7,7 +7,7 @@ addWMO
 		preferredName: 'WMO';
 		formedYear: 1950;
 		url: 'http://www.wmo.int/';
-		addName: 'World Meteorological Organization';
+		denomination: 'World Meteorological Organization';
 		qualifiers: #('Global');
 		populateBlock: [ : countryList |
 			(NeoCSVReader on: countryList readStream) do: [ : row | 

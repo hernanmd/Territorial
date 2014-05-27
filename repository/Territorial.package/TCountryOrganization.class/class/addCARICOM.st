@@ -3,7 +3,7 @@ addCARICOM
 
 	^ TCountryOrganization new
 		preferredName: 'CARICOM';
-		addName:  'Caribbean Community and Common Market';
+		denomination:  'Caribbean Community and Common Market';
 		qualifiers: #('Regional' 'Political' 'Economical');
 		populateWith: 'Antigua and Barbuda
 Bahamas
