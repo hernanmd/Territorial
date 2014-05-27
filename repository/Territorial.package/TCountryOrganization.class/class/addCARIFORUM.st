@@ -4,7 +4,7 @@ addCARIFORUM
 	^ TCountryOrganization new
 		preferredName: 'CARIFORUM';
 		formedYear: 1992;
-		addName:  'Caribbean Forum';
+		denomination:  'Caribbean Forum';
 		qualifiers: #('Economical');
 		populateWith: 'Antigua and Barbuda
 Bahamas

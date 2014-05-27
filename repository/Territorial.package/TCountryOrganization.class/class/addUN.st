@@ -4,7 +4,7 @@ addUN
 	^ TCountryOrganization new
 		formedYear: 1945;
 		preferredName: 'UN.M49';
-		addName:  'United Nations';
+		denomination:  'United Nations';
 		addName: 'Organisation des Nations Unies';
 		addName: 'Organización de las Naciones Unidas';
 		addName: 'ONU';

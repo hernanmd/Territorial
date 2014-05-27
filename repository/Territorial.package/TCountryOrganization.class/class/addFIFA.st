@@ -7,7 +7,7 @@ addFIFA
 		preferredName: 'FIFA';
 		formedYear: 1904;
 		url: 'http://www.fifa.com/';
-		addName:  'Fédération Internationale de Football Association';
+		denomination:  'Fédération Internationale de Football Association';
 		qualifiers: #('Global' 'Economical');
 		populateBlock: [ : countryList | 
 			(NeoCSVReader on: countryList readStream) do: [ : row |  | country |

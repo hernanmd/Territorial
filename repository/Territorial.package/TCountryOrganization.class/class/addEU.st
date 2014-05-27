@@ -5,7 +5,7 @@ addEU
 		preferredName: 'EU';
 		formedYear: 1957;
 		url: 'http://europa.eu/';
-		addName:  'European Union';
+		denomination:  'European Union';
 		qualifiers: #('Regional' 'Political' 'Economical');
 		populateWith: 'Austria
 Belgium

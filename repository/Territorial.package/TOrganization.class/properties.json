@@ -15,7 +15,8 @@
 		"qualifiers",
 		"formedYear",
 		"url",
-		"populateBlock"
+		"populateBlock",
+		"period"
 	],
 	"name" : "TOrganization",
 	"type" : "normal"

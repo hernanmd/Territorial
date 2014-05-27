@@ -7,7 +7,7 @@ addIOC
 		preferredName: 'IOC';
 		formedYear: 1894;
 		url: 'http://www.olympic.org/';
-		addName: 'International Olympics Committee';
+		denomination: 'International Olympics Committee';
 		qualifiers: #('Global');
 		populateBlock: [ : countryList |
 			(NeoCSVReader on: countryList readStream) do: [ :field | 
