@@ -1,4 +1,4 @@
-accessing
+classifier
 addClassification: anObject
 	" Add anObject into the receiver's classifications "
 
