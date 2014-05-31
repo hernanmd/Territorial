@@ -1,4 +1,4 @@
-accessing
+classifier
 removeClassification: anObject
 	" Remove anObject from the receiver's classifications if present. Do nothing if not found "
 	

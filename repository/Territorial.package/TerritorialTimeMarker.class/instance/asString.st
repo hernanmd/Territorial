@@ -1,4 +1,5 @@
 converting
 asString
+	"Answer a string that represents the receiver in the form: START_YEAR - DISSOLVED_YEAR ."
 
-	^ self formedDate start year asString , ' - ' , self dissolvedDate start year asString
+	^ self formedYear asString , ' - ' , self dissolvedYear asString
