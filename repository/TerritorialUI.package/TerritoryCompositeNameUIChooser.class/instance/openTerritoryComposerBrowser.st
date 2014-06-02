@@ -5,7 +5,6 @@ openTerritoryComposerBrowser
 	
 	composer := TerritoryComposerUIBrowser owner: self.
 	composer
-		beSingleSelection;
 		territoryName: self text getText;
 		openWithSpec;
 		centered

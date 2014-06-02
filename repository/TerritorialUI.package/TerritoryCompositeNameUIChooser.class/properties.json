@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritoryNameUIChooser",
+	"category" : "TerritorialUI-Builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritoryCompositeNameUIChooser",
+	"type" : "normal"
+}

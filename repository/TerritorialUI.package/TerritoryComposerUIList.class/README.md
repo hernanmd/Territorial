@@ -1,1 +1,1 @@
-Serves for displaying both organizations and territories
+Serves for displaying leaf territories
