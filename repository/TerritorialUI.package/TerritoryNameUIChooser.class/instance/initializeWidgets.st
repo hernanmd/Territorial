@@ -2,11 +2,11 @@ initialization
 initializeWidgets
 
 	super initializeWidgets.
-	self extent: 300@90.
-	self label text: 'Enter territory name'.
+	self extent: self dialogExtent.
+	self label text: self labelText.
 	self text
 		autoAccept: true;
 		entryCompletion: nil;
-		ghostText: 'e.g. Argentina';
+		ghostText: self ghostTextExample;
 		bindKeyCombination: Character cr asKeyCombination 
 		toAction: [ self previousNextToolbar performNextAction ].		

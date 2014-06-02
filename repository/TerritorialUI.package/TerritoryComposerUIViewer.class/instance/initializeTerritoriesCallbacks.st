@@ -1,4 +1,4 @@
 initialization
 initializeTerritoriesCallbacks
 
-	territories whenSelectedItemChanged: [ : ttyName |  ]
+	territories whenSelectedItemChanged: [ : ttyName | "self halt." ]
