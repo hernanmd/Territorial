@@ -3,9 +3,8 @@ openTerritoryComposerBrowser
 
 	| composer |
 	
-	composer := TerritoryComposerUIBrowser owner: self.
-	composer
+	composer := (TerritoryComposerUIBrowser owner: self)
 		beSingleSelection;
 		territoryName: self text getText;
-		openWithSpec;
-		centered
+		openWithSpec.
+	composer maximize

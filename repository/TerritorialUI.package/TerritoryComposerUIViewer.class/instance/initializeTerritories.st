@@ -1,7 +1,6 @@
 initialization
 initializeTerritories
 
-	self halt.
 	territories := self instantiate: TerritoryComposerUIList.
 	territories
 		label: 'Territories';
