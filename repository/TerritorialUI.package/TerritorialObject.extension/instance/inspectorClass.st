@@ -1,0 +1,4 @@
+*TerritorialUI
+inspectorClass
+ 
+	^ TerritorialInspector
