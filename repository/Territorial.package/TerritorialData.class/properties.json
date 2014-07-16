@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/16/2014 15:02",
+	"super" : "Object",
+	"category" : "Territorial-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialData",
+	"type" : "normal"
+}

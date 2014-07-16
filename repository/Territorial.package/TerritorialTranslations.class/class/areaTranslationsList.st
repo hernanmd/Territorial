@@ -1,4 +1,4 @@
 private
 areaTranslationsList
 	
-	^ 'translated_area_names.csv' asFileReference contents
+	^ self territorialResourcesDirectory , 'translated_area_names.csv' asFileReference contents

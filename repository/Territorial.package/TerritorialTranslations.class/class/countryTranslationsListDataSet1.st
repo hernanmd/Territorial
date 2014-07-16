@@ -16,4 +16,4 @@ BY,ro,Bielorusia
 BY,ru,Беларусь
 	"
 	
-	^ 'translated_country_names.csv' asFileReference contents
+	^ self territorialResourcesDirectory , 'translated_country_names.csv'

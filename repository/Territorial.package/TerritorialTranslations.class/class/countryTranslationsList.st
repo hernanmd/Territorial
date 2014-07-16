@@ -2,4 +2,4 @@ private
 countryTranslationsList
 	 " From FAO data set "	
 	
-	^ 'fao_country_names.xml' asFileReference contents
+	^ self territorialResourcesDirectory , 'fao_country_names.xml'

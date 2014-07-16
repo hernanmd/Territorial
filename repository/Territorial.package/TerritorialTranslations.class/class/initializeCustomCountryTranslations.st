@@ -3,9 +3,10 @@ initializeCustomCountryTranslations
 	" Private - Link using the FAO spellings.
 	self initializeCustomCountrySynonyms "
 
-	| currentCountryISO spellings |
+	| currentCountryISO spellings fileReference |
 	currentCountryISO := nil.
-	(NeoCSVReader on: self countryTranslationsListDataSet1 readStream)
+	fileReference := self countryTranslationsListDataSet1 asFileReference.
+	(NeoCSVReader on:  fileReference contents readStream)
 		skipHeader;
 		separator: $,;
 		do: [ : row |
