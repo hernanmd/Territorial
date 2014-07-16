@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 5/13/2014 12:04",
-	"super" : "Object",
+	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
