@@ -1,4 +1,0 @@
-accessing
-previousNextToolbar
-	
-	^ previousNextToolbar

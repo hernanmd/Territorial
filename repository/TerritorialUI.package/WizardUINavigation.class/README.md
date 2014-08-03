@@ -1,2 +1,0 @@
-Abstract class supporting wizards
-
