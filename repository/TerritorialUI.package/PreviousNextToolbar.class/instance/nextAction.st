@@ -1,4 +1,0 @@
-protocol
-nextAction
-
-	^ nextAction value
