@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialData",
+	"category" : "Territorial-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CountryFlags"
+	],
+	"instvars" : [ ],
+	"name" : "TerritorialFlags",
+	"type" : "normal"
+}

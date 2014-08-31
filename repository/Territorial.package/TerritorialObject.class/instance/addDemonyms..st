@@ -1,4 +1,4 @@
-accessing public
+accessing-names
 addDemonyms: aCollection
 	" Add aCollection representing demonyms for the receiver "
 	

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialData",
+	"category" : "Territorial-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialAreas",
+	"type" : "normal"
+}
