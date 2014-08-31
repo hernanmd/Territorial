@@ -15,7 +15,12 @@
 		"translations",
 		"synonyms",
 		"location",
-		"url"
+		"url",
+		"totalArea",
+		"landArea",
+		"neighbours",
+		"populationDensity",
+		"flag"
 	],
 	"name" : "TerritorialObject",
 	"type" : "normal"

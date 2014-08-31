@@ -1,4 +1,4 @@
-accessing public
+accessing-names
 identifier
 	" Answer a <TerritorialIdentifier> representing a receiver's identifier giving priority to the preferred one, if set "
 	

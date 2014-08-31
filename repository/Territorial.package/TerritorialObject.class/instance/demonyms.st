@@ -1,4 +1,4 @@
-accessing
+accessing-names
 demonyms
 	" Answer a <Collection> of String demonyms (gentilic) for the receiver "
 
