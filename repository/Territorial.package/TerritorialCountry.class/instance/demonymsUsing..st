@@ -2,4 +2,4 @@ private
 demonymsUsing: aTerritorialDemonymsClass
 	" See comment in TerritorialObject>>demonyms "
 	
-	^ aTerritorialDemonymsClass demonymsOf: self name
+	^ aTerritorialDemonymsClass countryDemonymsAt: self name

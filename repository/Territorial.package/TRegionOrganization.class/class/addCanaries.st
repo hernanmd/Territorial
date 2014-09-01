@@ -1,4 +1,4 @@
-private
+territorial-organizations
 addCanaries
 
 	^ TRegionOrganization new

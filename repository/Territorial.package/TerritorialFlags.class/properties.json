@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HernanMoralesDurand 9/1/2014 01:20",
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"CountryFlags"
+		"CountryFlagsMedium",
+		"CountryFlagsSmall",
+		"CountryFlagsTiny"
 	],
 	"instvars" : [ ],
 	"name" : "TerritorialFlags",
