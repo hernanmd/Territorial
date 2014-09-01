@@ -1,5 +1,5 @@
 accessing
-demonymsOf: aCountryString
+countryDemonymsAt: aCountryString
 	" Answer a String denonym for aCountryString "
 	
 	^ self demonyms 
