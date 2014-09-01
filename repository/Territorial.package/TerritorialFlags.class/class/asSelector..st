@@ -1,4 +1,4 @@
-initialize-release
+private
 asSelector: aFilename
 	" Private - Taken and adapted from Seaside "
 

@@ -7,7 +7,8 @@
 	"classvars" : [
 		"CountryFlagsMedium",
 		"CountryFlagsSmall",
-		"CountryFlagsTiny"
+		"CountryFlagsTiny",
+		"CurrentFlagType"
 	],
 	"instvars" : [ ],
 	"name" : "TerritorialFlags",
