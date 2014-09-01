@@ -1,7 +1,7 @@
-initialize-release
+private
 flagResourcesDirectory
 	" Answer a <String> where flags resources are located "
 	
-	^ self territorialResourcesDirectory , self slash , 'flags'
+	^ self territorialResourcesDirectory , 'flags'
 
 	

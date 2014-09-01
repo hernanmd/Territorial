@@ -4,7 +4,8 @@ initializeCountryFlags: flagTypePath at: flagsCollection
 	| fullPath |
 	fullPath := self flagResourcesDirectory , self slash , flagTypePath , self slash.
 	(self filesIn: fullPath) do: [ : fName | 
-		| picture  |
+		| picture entryName |
 		picture := ImageReadWriter formFromStream: (FileStream readOnlyFileNamed: fName) binary.
-		flagsCollection at: (self asSelector: fName) put: picture ]
+		entryName := (self asSelector: fName asFileReference basename) allButLast: 3.
+		flagsCollection at: entryName put: picture ]
 	
