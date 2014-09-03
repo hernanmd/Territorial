@@ -6,10 +6,10 @@ defaultSpec
 		newColumn: [ :col | 
 			col newRow: [ : r | 
 				r add: #(viewer models);
-					addVSplitter;
-					newColumn: [ :c | 
-						c add: #(viewer organizations);
-							add: #(viewer territories) ] ];
+					addHSplitter;
+					add: #(viewer organizations);
+					addHSplitter;
+					add: #(viewer territories) ];
 				addHSplitter;
 				add: #map;
 				add: #previousNextToolbar height: self toolbarHeight ];

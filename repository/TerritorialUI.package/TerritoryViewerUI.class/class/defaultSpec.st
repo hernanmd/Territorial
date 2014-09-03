@@ -7,5 +7,6 @@ defaultSpec
 			column 
 				add: #compositions height: 120; 
 				add: #territories height: 120; 
-				add: #map ];
+				add: #map;
+				add: #toolbar height: self toolbarHeight ];
 		yourself

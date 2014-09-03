@@ -9,7 +9,8 @@
 		"map",
 		"mapBuilder",
 		"territories",
-		"compositions"
+		"compositions",
+		"toolbar"
 	],
 	"name" : "TerritoryViewerUI",
 	"type" : "normal"

@@ -7,5 +7,4 @@ open
 		openWithSpec;
 		centered;
 		yourself.
-	composable window maximize.
 	^ composable	
