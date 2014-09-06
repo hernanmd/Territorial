@@ -1,7 +1,12 @@
 initialization
 initializeWidgets
 
-	list := self newList.
 	label := self newLabel.
 	label text: 'Territories'.
-	self focusOrder add: list
+
+	list := self instantiate: SearchableTree.
+	list beCheckList;
+		removeOnlyLastSelected: true;
+		autoMultiSelection: true
+"				displayBlock: [ :item | item label ];
+				iconBlock: [ :item | item icon ]"
