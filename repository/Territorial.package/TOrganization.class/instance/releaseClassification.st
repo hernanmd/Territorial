@@ -1,4 +1,0 @@
-classifier
-releaseClassification
-
-	classifications := nil
