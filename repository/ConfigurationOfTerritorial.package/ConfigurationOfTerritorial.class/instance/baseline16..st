@@ -4,13 +4,13 @@ baseline16: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec preLoadDoIt: #preLoad.
+		spec preLoadDoIt: #preLoad.		
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
 		spec 
 			project: 'Roassal2' with: [
 				spec
 					className: #ConfigurationOfRoassal2;
-					versionString: #'development';
+					versionString: #'bleedingEdge';
 					repository: 'http://www.smalltalkhub.com/mc/ObjectProfile/Roassal2' ];
 			project: 'NeoCSV' with: [
 				spec
@@ -44,7 +44,7 @@ baseline16: spec
 					repository: 'http://smalltalkhub.com/mc/hernan/StringExtensions/main/' ].
 		spec 
 			package: #Territorial with: [
-				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'DBPedia' 'StringExtensions'). ];
+				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'DBPedia' 'StringExtensions' ). ];
 			package: #TerritorialTests with: [
 				spec requires: #(#Territorial ). ];
 			package: #TerritorialUI with: [
