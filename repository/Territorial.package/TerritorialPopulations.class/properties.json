@@ -1,12 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 5/13/2014 12:04",
+	"commentStamp" : "HernanMoralesDurand 9/12/2014 21:40",
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
 		"CensusAreaPopulations",
-		"CensusCountryPopulations",
 		"EstimatedAreaPopulations",
 		"EstimatedCountryPopulations",
 		"RawAreaPopulations",

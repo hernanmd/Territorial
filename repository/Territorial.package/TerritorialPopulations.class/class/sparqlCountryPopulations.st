@@ -1,4 +1,4 @@
-private
+private-dbpedia
 sparqlCountryPopulations
 
 	^ 'SELECT DISTINCT ?name ?population 

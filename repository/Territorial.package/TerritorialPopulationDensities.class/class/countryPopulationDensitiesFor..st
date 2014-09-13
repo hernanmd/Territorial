@@ -1,9 +1,9 @@
 accessing
-censusCountryPopulationFor: countryName
+countryPopulationDensitiesFor: countryName
 
-	^ self countryPopulations
+	^ self countryPopulationDensities 
 		at: countryName asLowercase
 		ifAbsent: [ 
-			self countryPopulations
+			self countryPopulationDensities
 				at: (countryName asLowercase copyUpTo: Character space)
 				ifAbsent: [ OrderedCollection new ] ] 
