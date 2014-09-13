@@ -1,13 +1,10 @@
-private
+private-dbpedia
 getCensusCountryPopulations
 	" Private - Query DBPedia to get census country populations "
 	
 	| jsonResults bindings |
-	jsonResults := DBPediaSearch new 
-		setJsonFormat;
-		setDebugOn;
-		timeout: 3000;
-		query: self sparqlCountryPopulations;
-		execute.
+	jsonResults := self execDBPediaQuery: self sparqlCountryPopulations.
 	bindings :=  ((NeoJSONReader fromString: jsonResults) at: #results) at: #bindings.
-	^ bindings collect: [ :entry | ((entry at: #name) at: #value) -> ((entry at: #population) at: #value) ].
+	^ bindings collect: [ :entry | 
+			((entry at: #name) at: #value) asLowercase -> 
+			((entry at: #population) at: #value) asNumber ].

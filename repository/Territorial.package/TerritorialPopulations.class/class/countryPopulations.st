@@ -3,4 +3,4 @@ countryPopulations
 	" Answer a <String> "
 	
 	^ RawCountryPopulations
-		ifNil: [ RawCountryPopulations := self getCensusCountryPopulations ]
+		ifNil: [ RawCountryPopulations := self getCensusCountryPopulations asDictionary ]
