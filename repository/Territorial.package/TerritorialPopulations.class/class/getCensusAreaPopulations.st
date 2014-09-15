@@ -1,4 +1,4 @@
-private-dbpedia
+private-sparql
 getCensusAreaPopulations
 	" Private - Query DBPedia to get census country populations "
 	

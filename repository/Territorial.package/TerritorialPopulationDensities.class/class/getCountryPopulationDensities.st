@@ -1,4 +1,4 @@
-private-dbpedia
+private-sparql
 getCountryPopulationDensities
 	" Private - Query DBPedia to get country population density "
 	

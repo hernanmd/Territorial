@@ -1,10 +1,12 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HernanMoralesDurand 9/14/2014 18:31",
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"CountryNeighbours"
+	],
 	"instvars" : [ ],
 	"name" : "TerritorialNeighbours",
 	"type" : "normal"

@@ -1,4 +1,4 @@
-private
+accessing
 countryPopulationDensities
 	" Answer a <String> "
 	
