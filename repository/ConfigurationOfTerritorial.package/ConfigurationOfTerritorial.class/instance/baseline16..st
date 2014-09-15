@@ -4,7 +4,7 @@ baseline16: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec preLoadDoIt: #preLoad.		
+		spec preLoadDoIt: #preLoad.
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
 		spec 
 			project: 'Roassal2' with: [
@@ -17,11 +17,6 @@ baseline16: spec
 					className: #ConfigurationOfNeoCSV;
 					versionString: #'stable';
 					repository: 'http://mc.stfx.eu/Neo' ];
-			project: 'DBPedia' with: [
-				spec
-					className: #ConfigurationOfDBPedia;
-					versionString: #'stable';
-					repository: 'http://www.smalltalkhub.com/mc/hernan/DBPedia' ];
 			project: 'NeoJSON' with: [
 				spec
 					className: #ConfigurationOfNeoJSON;
@@ -41,10 +36,15 @@ baseline16: spec
 				spec
 					className: #ConfigurationOfStringExtensions;
 					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/hernan/StringExtensions/main/' ].
+					repository: 'http://smalltalkhub.com/mc/hernan/StringExtensions/main/' ];
+			project: 'SPARQLSearch' with: [
+				spec
+					className: #ConfigurationOfSPARQLSearch;
+					versionString: #'bleedingEdge';
+					repository: 'http://smalltalkhub.com/mc/hernan/SPARQL/main/' ].
 		spec 
 			package: #Territorial with: [
-				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'DBPedia' 'StringExtensions' ). ];
+				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQL' 'StringExtensions' ). ];
 			package: #TerritorialTests with: [
 				spec requires: #(#Territorial ). ];
 			package: #TerritorialUI with: [
