@@ -1,4 +1,4 @@
-private-dbpedia
+private-sparql
 sparqlAreaPopulations
 
 	self shouldBeImplemented 

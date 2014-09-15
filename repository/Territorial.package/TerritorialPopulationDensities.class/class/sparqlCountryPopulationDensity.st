@@ -1,4 +1,4 @@
-private-dbpedia
+private-sparql
 sparqlCountryPopulationDensity
 
 	^ 'PREFIX dbpedia-ont-PP: <http://dbpedia.org/ontology/PopulatedPlace/>
