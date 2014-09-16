@@ -5,7 +5,7 @@ initializeAreaTranslations
 	| xmlList spellings doc sgov |
 
 	spellings := Set new.
-	doc := XMLDOMParser parseFileNamed: self countryTranslationsList.
+	doc := XMLDOMParser parseFileNamed: self faoCountryTranslations.
 	xmlList := doc firstNode allElementsSelect: [ : each | each localName = 'geographical_region' ].
 	sgov := xmlList collect: [ : n | n allElementsSelect: [ : each | (each localName beginsWith: 'nameList') or: [ (each localName beginsWith: 'nameOfficial') or: [ each localName beginsWith: 'nameShort' ] ] ] ].
 	sgov do: [ : xmlOrdList | 
