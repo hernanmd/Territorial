@@ -6,9 +6,9 @@ defaultSpec
 		newColumn: [ :col | 
 			col newRow: [ : r | 
 				r add: #(viewer models);
-					addHSplitter;
+					addVSplitter;
 					add: #(viewer organizations);
-					addHSplitter;
+					addVSplitter;
 					add: #(viewer territories) ];
 				addHSplitter;
 				add: #map;
