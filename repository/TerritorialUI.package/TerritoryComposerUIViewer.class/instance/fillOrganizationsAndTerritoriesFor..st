@@ -7,5 +7,7 @@ fillOrganizationsAndTerritoriesFor: qualifier
 			organizations items: #().
 			territories roots: #() ]
 		ifNotNil: [ 
-			organizations items: (TCountryOrganization atQualifier: qualifier key).
+			| ttyCol |
+			ttyCol := (TOrganization atQualifier: qualifier key) reject: #isEmpty.
+			organizations items: (ttyCol gather: [ : each | each ]).
 			territories roots: Array empty ] 
