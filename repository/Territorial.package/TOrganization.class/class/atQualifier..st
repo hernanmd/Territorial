@@ -2,4 +2,4 @@ accessing
 atQualifier: qualifierString
 	" Answer a <Collection> of organizations containing qualifierString "
 	
-	^ self tOrganizations select: [ : countryOrg | countryOrg includesQualifier: qualifierString ]
+	^ self subclasses collect: [ : sub | sub atTerritorialQualifier: qualifierString ]

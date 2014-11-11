@@ -9,5 +9,6 @@ addRioDeLaPlata
 			addTerritoryName: #spanishName -> 'Rio de La Plata';
 			addTerritory: ((TCountryOrganization @ 'UN.M49') @ 'Argentina');
 			addTerritory: ((TCountryOrganization @ 'UN.M49') @ 'Uruguay');			
+			addTerritory: ((TCountryOrganization @ 'UN.M49') @ 'Brazil');						
 			yourself));
 		yourself
