@@ -4,5 +4,6 @@ initialize
 
 	self release.
 	super initialize.
-	self initializeCountryDemonyms.
+	self initializeEnglishCountryDemonyms.
+	self initializeSpanishCountryDemonyms.
 "	self sanityCheck."
