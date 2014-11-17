@@ -5,7 +5,6 @@ parseCountryDemonym
 	If none found, answer an empty String 	"
 		
 	| answer |
-	
-	^ ( answer := TerritorialDemonyms countryDemonymIn: self )
+	^ (answer := TerritorialDemonyms countryDemonymIn: self)
 		ifEmpty: [ TerritorialDemonyms areaDemonymIn: self ]
 		ifNotEmpty: [ answer ].

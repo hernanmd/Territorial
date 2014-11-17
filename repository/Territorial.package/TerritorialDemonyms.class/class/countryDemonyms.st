@@ -2,5 +2,6 @@ accessing
 countryDemonyms
 
 	^ CountryDemonyms
-		ifNil: [ self initializeCountryDemonyms.
-				CountryDemonyms ]
+		ifNil: [ self initializeEnglishCountryDemonyms.
+			self initializeSpanishCountryDemonyms.
+			CountryDemonyms ]
