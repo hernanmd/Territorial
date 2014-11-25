@@ -2,7 +2,10 @@ initialization
 initializePresenter
 	" Private - Set the colorize map callback "
 
-	toolbar okButton action: [ self selectTerritory. false ].
+	self selectButton action: [ 
+		self selectTerritory. 
+		self delete.
+		false ].
 	self compositions whenSelectedItemChanged: [ : tty |
 		tty
 			ifNil: [ ]
