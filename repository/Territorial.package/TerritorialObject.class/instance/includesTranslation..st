@@ -1,7 +1,7 @@
 testing
 includesTranslation: aString
 	" Answer <true> if the receiver includes aString as synonym. 
-	Assume aString as lowercase "
+	Assume aString is lowercase "
 	
-	^ self translations includes: aString
+	^ self translations asLowercase includes: aString
 	
