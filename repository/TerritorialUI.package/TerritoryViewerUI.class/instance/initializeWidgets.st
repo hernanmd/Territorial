@@ -8,6 +8,6 @@ initializeWidgets
 
 	compositions label: 'Compositions'.
 	territories label: 'Territories'.
-	toolbar okButton label: 'Select'.
+	self selectButton label: 'Select'.
 
 	self initializeFocusOrder.
