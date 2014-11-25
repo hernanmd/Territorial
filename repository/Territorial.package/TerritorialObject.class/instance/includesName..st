@@ -2,5 +2,8 @@ testing
 includesName: aString 
 	" See superimplementor's comment "
 	
-	^ (self names asLowercase includes: aString asLowercase)
-		or: [ (self includesTranslation: aString asLowercase) ]
+	| normalizedName |
+	normalizedName := aString asLowercase.
+	^ (self names asLowercase includes: normalizedName)
+		or: [ (self includesTranslation: normalizedName)
+			or: [ self includesSynonym: normalizedName ] ]
