@@ -10,4 +10,5 @@ fillOrganizationsAndTerritoriesFor: qualifier
 			| ttyCol |
 			ttyCol := (TOrganization atQualifier: qualifier key) reject: #isEmpty.
 			organizations items: (ttyCol gather: [ : each | each ]).
-			territories roots: Array empty ] 
+			" New organization was selected, clean territory list "
+			territories removeAll ] 
