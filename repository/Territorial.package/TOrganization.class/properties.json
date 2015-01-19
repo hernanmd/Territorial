@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 4/30/2014 15:32",
+	"commentStamp" : "HernanMoralesDurand 1/16/2015 00:55",
 	"super" : "TerritorialNamedObject",
 	"category" : "Territorial-Organization",
 	"classinstvars" : [
@@ -8,7 +8,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"classifications",
 		"orgName",
 		"denomination",
 		"territories",
