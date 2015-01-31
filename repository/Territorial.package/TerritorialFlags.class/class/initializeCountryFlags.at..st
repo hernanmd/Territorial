@@ -2,7 +2,7 @@ initialize-release
 initializeCountryFlags: flagTypePath at: flagsCollection
 
 	| fullPath |
-	fullPath := self flagResourcesDirectory , self slash , flagTypePath , self slash.
+	fullPath := self resourceDirectory , flagTypePath , self slash.
 	(self filesIn: fullPath) do: [ : fName | 
 		| picture entryName |
 		picture := ImageReadWriter formFromStream: (FileStream readOnlyFileNamed: fName) binary.
