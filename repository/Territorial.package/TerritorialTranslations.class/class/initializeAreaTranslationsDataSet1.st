@@ -4,7 +4,7 @@ initializeAreaTranslationsDataSet1
 
 	| currentAreaId spellings |
 	currentAreaId := nil.
-	(NeoCSVReader on: self areaTranslationsList readStream)
+	(NeoCSVReader on: self areaTranslationsAsCSV readStream)
 		skipHeader;
 		separator: $,;
 		do: [ : row |

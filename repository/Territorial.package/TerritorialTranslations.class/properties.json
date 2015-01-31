@@ -1,8 +1,10 @@
 {
-	"commentStamp" : "HernanMoralesDurand 11/25/2014 18:31",
+	"commentStamp" : "HernanMoralesDurand 3/20/2014 16:02",
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"currentCountryISO"
+	],
 	"pools" : [ ],
 	"classvars" : [
 		"AreaTranslations",

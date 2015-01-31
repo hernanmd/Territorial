@@ -1,9 +1,9 @@
 private-sparql
 getSparqlCountryNeighbours
 
-	| fullPath jsonData bindings jsonBindings |
-	fullPath := self factBookResourcesDirectory , 'country_neighbours.json'.
-	jsonData := fullPath asFileReference contents.
+	| jsonData bindings jsonBindings |
+
+	jsonData := self countryNeighboursAsJSON.
 	bindings :=  ((NeoJSONReader fromString: jsonData) at: #results) at: #bindings.
 	jsonBindings := bindings collect: [ :entry | 
 		((entry at: #name) at: #value) asLowercase -> 
