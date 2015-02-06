@@ -4,7 +4,7 @@ baseline16: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec preLoadDoIt: #preLoad.
+		spec preLoadDoIt: #preLoad.		
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
 		spec 
 			project: 'Roassal2' with: [
@@ -41,7 +41,12 @@ baseline16: spec
 				spec
 					className: #ConfigurationOfSPARQLSearch;
 					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/hernan/SPARQL/main/' ].
+					repository: 'http://smalltalkhub.com/mc/hernan/SPARQL/main/' ];
+			project: 'GADM' with: [
+				spec
+					className: #ConfigurationOfGADM;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/hernan/GADM/main/' ].
 		spec 
 			package: #Territorial with: [
 				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQLSearch' 'StringExtensions' ). ];
