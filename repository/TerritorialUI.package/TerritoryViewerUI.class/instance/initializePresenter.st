@@ -3,7 +3,7 @@ initializePresenter
 	" Private - Set the colorize map callback "
 
 	self selectButton action: [ 
-		self selectTerritory. 
+		(self respondsTo: #selectTerritory) ifTrue: [ self selectTerritory ]. 
 		self delete.
 		false ].
 	self compositions whenSelectedItemChanged: [ : tty |
