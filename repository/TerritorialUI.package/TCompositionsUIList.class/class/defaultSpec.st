@@ -3,6 +3,7 @@ defaultSpec
 	<spec: #default>
 	
 	^ SpecLayout composed
-		add: #label;
-		add: #list;
-		yourself
+		newColumn: [ : c  |
+			c add: #label height: self toolbarHeight;
+				add: #list ];
+				yourself
