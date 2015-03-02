@@ -7,10 +7,6 @@ initializePresenter
 		self delete.
 		false ].
 	self compositions whenSelectedItemChanged: [ : tty |
-		tty
-			ifNil: [ ]
-			ifNotNil: [
-				self colorizeMap: tty.
-				self narrowMap: tty ] ].
+		self updateSelectedTerritory: tty ].
 	self whenWindowChanged: [: w | 
 		w whenClosedDo: [ self owner updateSelectedTerritory ] ] .
