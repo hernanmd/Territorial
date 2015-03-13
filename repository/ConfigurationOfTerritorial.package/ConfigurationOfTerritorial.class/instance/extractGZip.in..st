@@ -4,6 +4,7 @@ extractGZip: fileRef in: dst
 	
 	(fileRef fullName endsWith: '.gz')
 		ifTrue: [ | unzipped |
-			unzipped := GZipReadStream unzip: fileRef basename to: FileSystem workingDirectory.
-			(FileSystem workingDirectory / unzipped) 
-				renameTo: unzipped asFileReference basenameWithoutExtension ].
+			unzipped := GZipReadStream unzip: fileRef basename to: dst.
+			OSProcess thisOSProcess waitForCommandOutput: 'tar xvf ' , unzipped asFileReference fullName.
+			fileRef delete.
+			unzipped asFileReference delete ]
