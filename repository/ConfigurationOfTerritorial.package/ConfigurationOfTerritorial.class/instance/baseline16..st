@@ -4,7 +4,7 @@ baseline16: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec preLoadDoIt: #preLoad.		
+		spec preLoadDoIt: #preLoad.	
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
 		spec 
 			project: 'Roassal2' with: [
@@ -45,7 +45,7 @@ baseline16: spec
 			project: 'GADM' with: [
 				spec
 					className: #ConfigurationOfGADM;
-					versionString: #'stable';
+					versionString: #'development';
 					repository: 'http://smalltalkhub.com/mc/hernan/GADM/main/' ].
 		spec 
 			package: #Territorial with: [
