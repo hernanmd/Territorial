@@ -46,7 +46,12 @@ baseline16: spec
 				spec
 					className: #ConfigurationOfGADM;
 					versionString: #'development';
-					repository: 'http://smalltalkhub.com/mc/hernan/GADM/main/' ].
+					repository: 'http://smalltalkhub.com/mc/hernan/GADM/main/' ];
+			project: 'OSProcess' with: [
+				spec
+					className: #ConfigurationOfOSProcess;
+					versionString: #'stable';
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ].
 		spec 
 			package: #Territorial with: [
 				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQLSearch' 'StringExtensions' ). ];
