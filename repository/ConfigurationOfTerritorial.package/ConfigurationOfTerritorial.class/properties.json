@@ -8,7 +8,8 @@
 		"LastVersionLoad"
 	],
 	"instvars" : [
-		"project"
+		"project",
+		"fileRef"
 	],
 	"name" : "ConfigurationOfTerritorial",
 	"type" : "normal"
