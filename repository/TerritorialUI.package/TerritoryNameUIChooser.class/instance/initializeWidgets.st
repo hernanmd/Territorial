@@ -3,7 +3,7 @@ initializeWidgets
 
 	super initializeWidgets.
 	self extent: self dialogExtent.
-	self label text: self labelText.
+	self label label: self labelText.
 	self text
 		autoAccept: true;
 		entryCompletion: nil;

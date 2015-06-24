@@ -2,7 +2,7 @@ initialization
 initializeWidgets
 
 	label := self newLabel.
-	label text: 'Territories'.
+	label label: 'Territories'.
 
 	list := self instantiate: SearchableTree.
 	list beCheckList;
