@@ -1,10 +1,5 @@
 doits
 platformFilesUrl
-	" Answer a <String> with download URL "
+	" Answer a <Collection> with download URLs "
 
-	^ String streamContents: [ : stream |
-		stream 
-			nextPutAll: 'http://dl.dropboxusercontent.com/u/103833630/';
-			nextPutAll: (Smalltalk os isWin32 
-						ifTrue: [ 'territorial_files.zip' ]
-						ifFalse: [ 'territorial_files.tar.gz' ]) ].
+	^ Array with: self configurationFilesUrlMain
