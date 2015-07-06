@@ -4,9 +4,10 @@ defaultSpec
 	
 	^ SpecLayout composed
 		newColumn: [ :column |
-			column 
-				add: #compositions height: 120; 
-				add: #territories height: 120; 
+			column newRow: [ : col2 | 
+				col2 
+					add: #compositions; 
+					add: #territories ]; 
 				add: #map;
 				add: #toolbar height: self toolbarHeight ];
 		yourself
