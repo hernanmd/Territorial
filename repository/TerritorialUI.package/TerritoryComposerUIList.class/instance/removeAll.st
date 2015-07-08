@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 removeAll
 	" Remove all receiver's items "
 
