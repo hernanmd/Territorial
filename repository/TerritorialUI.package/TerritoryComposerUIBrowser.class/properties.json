@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 2/18/2014 00:08",
-	"super" : "WizardUINavigation",
+	"super" : "SpcWizardUINavigation",
 	"category" : "TerritorialUI-Composer",
 	"classinstvars" : [ ],
 	"pools" : [ ],

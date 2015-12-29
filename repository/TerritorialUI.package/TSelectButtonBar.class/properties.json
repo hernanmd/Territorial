@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/6/2015 15:00",
-	"super" : "SpecExecToolbar",
+	"super" : "SpcExecToolbar",
 	"category" : "TerritorialUI-Viewer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
