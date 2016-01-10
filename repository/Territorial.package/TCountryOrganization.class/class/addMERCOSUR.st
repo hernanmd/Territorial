@@ -6,7 +6,9 @@ addMERCOSUR
 		formedYear: 1991;
 		url: 'http://www.mercosur.int/';
 		denomination: 'Mercado Común del Sur';
-		qualifiers: #('Regional' 'Political' 'Economical');
+		beRegional;
+		bePolitical;
+		beEconomical;
 		populateWith: 'Uruguay
 Paraguay
 Brazil

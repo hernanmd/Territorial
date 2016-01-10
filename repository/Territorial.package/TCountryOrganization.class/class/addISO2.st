@@ -11,7 +11,7 @@ addISO2
 		denomination: 'International Organization for Standardization';
 		addName: 'Organisation internationale de normalisation';
 		addName: 'Organización Internacional de Normalización';
-		qualifiers: #('Global');
+		beGlobal;
 		territories: (self initialWorld: 'ISO 3166-2');		
 		populateBlock: [ : d |
 			 d associationsDo: [ : assoc |			

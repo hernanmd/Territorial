@@ -8,7 +8,7 @@ addWMO
 		formedYear: 1950;
 		url: 'http://www.wmo.int/';
 		denomination: 'World Meteorological Organization';
-		qualifiers: #('Global');
+		beGlobal;
 		populateBlock: [ : countryList |
 			(NeoCSVReader on: countryList readStream) do: [ : row | 
 				co territories addTerritory: ((TerritorialCountry newNamed: row first)

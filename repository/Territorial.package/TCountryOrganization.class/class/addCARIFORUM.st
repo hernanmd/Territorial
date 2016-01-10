@@ -5,7 +5,7 @@ addCARIFORUM
 		preferredName: 'CARIFORUM';
 		formedYear: 1992;
 		denomination:  'Caribbean Forum';
-		qualifiers: #('Economical');
+		beEconomical;
 		populateWith: 'Antigua and Barbuda
 Bahamas
 Barbados

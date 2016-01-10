@@ -8,7 +8,7 @@ addGAUL
 		formedYear: 1950;
 		url: 'http://www.fao.org/geonetwork/srv/en/';
 		denomination: 'Global Administrative Unit Layers';
-		qualifiers: #('Global');
+		beGlobal;
 		populateBlock: [ : countryList | 
 			(NeoCSVReader on: countryList readStream) do: [ : row | | id |
 				id := row third asTerritorialIdentifier.

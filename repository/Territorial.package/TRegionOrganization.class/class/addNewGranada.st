@@ -6,7 +6,8 @@ addNewGranada
 	unm49 := TCountryOrganization @ 'UN.M49'.
 	^ TRegionOrganization new
 		preferredName: 'Republic of New Granada';
-		qualifiers: #('Regional');
+		beRegional;
+		beHistorical;
 		territories: (((TerritorialComposite newNamed: 'New Granada')
 			addTerritoryName: #englishName -> 'New Granada';
 			addTerritoryName: #spanishName -> 'Nueva Granada';

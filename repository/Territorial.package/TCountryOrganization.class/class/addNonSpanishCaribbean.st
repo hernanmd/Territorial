@@ -7,7 +7,7 @@ addNonSpanishCaribbean
 		preferredName: 'Non Spanish Caribbean';
 		formedYear: 1492 dissolvedYear: 1898;
 		denomination:  'Caribe No Español';
-		qualifiers: #('Historical');
+		beHistorical;
 		populateWith: 'Anguilla
 Antigua and Barbuda
 Aruba

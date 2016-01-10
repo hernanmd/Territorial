@@ -6,7 +6,8 @@ addNewSpain
 	unm49 := TCountryOrganization @ 'UN.M49'.
 	^ TRegionOrganization new
 		preferredName: 'Nueva España';
-		qualifiers: #('Regional');
+		beRegional;
+		beHistorical;
 		territories: (((TerritorialComposite newNamed: 'New Spain')
 			addPeriod: 1519 asYear -> 1821 asYear;		
 			addTerritoryName: #englishName -> 'New Spain';

@@ -16,5 +16,5 @@ addUN
 				addIdentifier: field first;
 				addTerritoryName: #englishName -> field second;
 				yourself) ];
-		qualifiers: #('Global');
+		beGlobal;
 		yourself
