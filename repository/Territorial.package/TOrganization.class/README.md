@@ -1,4 +1,11 @@
-Provides behavior for handling classifications. This class supports adding a population to an organization's classification, so can be used by a classifier when matching subjects.
+Provides behavior for handling administrative structures created for specific goals. 
+
+This class supports adding :
+
+- Creation/Disolution date and Periodization
+- Naming and Denomination (descriptions)
+- Demonyms
+- Populate its contained territories
 
 Basically you can build territory groups in two ways: 
 

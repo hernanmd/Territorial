@@ -6,7 +6,7 @@ addCCASG
 		formedYear: 1981;
 		url: 'http://www.gcc-sg.org/';
 		denomination:  'Cooperation Council for the Arab States of the Gulf';
-		qualifiers: #('Economical');
+		beEconomical;
 		populateWith: 'Bahrain
 Kuwait
 Oman

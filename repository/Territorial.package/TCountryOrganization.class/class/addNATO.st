@@ -6,7 +6,7 @@ addNATO
 		formedYear: 1949;
 		url: 'http://www.nato.int';
 		denomination: 'North Atlantic Treaty Organization';
-		qualifiers: #('Military');
+		beMilitary;
 		populateWith: 'Albania
 Belgium
 Bulgaria

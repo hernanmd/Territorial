@@ -6,7 +6,7 @@ addCEEAC
 		formedYear: 1964;
 		url: 'http://www.ceeac-eccas.org/';
 		denomination:  'Economic Community of Central African States';
-		qualifiers: #('Economical');
+		beEconomical;
 		populateWith: 'Angola
 Burundi
 Cameroon

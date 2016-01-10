@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 1/16/2015 00:55",
+	"commentStamp" : "HernanMoralesDurand 1/10/2016 02:15",
 	"super" : "TerritorialNamedObject",
 	"category" : "Territorial-Organization",
 	"classinstvars" : [
@@ -8,11 +8,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"orgName",
 		"denomination",
 		"territories",
 		"qualifiers",
-		"formedYear",
 		"url",
 		"populateBlock",
 		"period"

@@ -8,7 +8,7 @@ addIOC
 		formedYear: 1894;
 		url: 'http://www.olympic.org/';
 		denomination: 'International Olympics Committee';
-		qualifiers: #('Global');
+		beGlobal;
 		populateBlock: [ : countryList |
 			(NeoCSVReader on: countryList readStream) do: [ :field | 
 				co territories addTerritory: ((TerritorialCountry newNamed: field first)

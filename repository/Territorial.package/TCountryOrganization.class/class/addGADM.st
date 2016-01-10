@@ -8,7 +8,7 @@ addGADM
 		formedYear: 1950;
 		url: 'http://www.gadm.org/';
 		denomination: 'Database of Global Administrative Areas';
-		qualifiers: #('Global');
+		beGlobal;
 		populateBlock: [ : countryList | 
 			(NeoCSVReader on: countryList readStream) do: [ : row | | id |
 				id := row third asTerritorialIdentifier.

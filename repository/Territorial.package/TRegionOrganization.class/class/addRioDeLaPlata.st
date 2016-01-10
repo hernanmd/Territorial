@@ -3,7 +3,8 @@ addRioDeLaPlata
 
 	^ TRegionOrganization new
 		preferredName: 'Rio de La Plata';
-		qualifiers: #('Regional');
+		beRegional;
+		beHistorical;
 		territories: (((TerritorialComposite newNamed: 'Rio de La Plata')
 			addTerritoryName: #englishName -> 'Rio de La Plata';
 			addTerritoryName: #spanishName -> 'Rio de La Plata';

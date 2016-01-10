@@ -6,7 +6,7 @@ addSpanishCaribbean
 		addName:  'Caribe Español';
 		preferredName: 'Spanish Caribbean';
 		formedYear: 1492 dissolvedYear: 1898;
-		qualifiers: #('Historical');
+		beHistorical;
 		populateWith: 'Cuba
 Dominican Republic
 Puerto Rico';

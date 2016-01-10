@@ -3,7 +3,7 @@ addCanaries
 
 	^ TRegionOrganization new
 "		addDemonyms: #('Canaries' 'Canary Island');"
-		qualifiers: #('Regional');		
+		beRegional;		
 		preferredName: 'Canaries';		
 		addName: 'Canary Islands';
 		addName: 'Canary Island';

@@ -1,3 +1,5 @@
 accessing
-url: anObject
-	url := anObject
+url: aString
+	" Set the receiver's URL to be aString "
+
+	url := aString

@@ -3,7 +3,7 @@ addCaribbean
 
 	^ TRegionOrganization new
 		preferredName: 'Caribbean';
-		qualifiers: #('Regional');
+		beRegional;
 		territories: ((TerritorialComposite newNamed: 'Caribbean')
 			addTerritoryName: #englishName -> 'Caribbean';
 			addTerritoryName: #spanishName -> 'Caribe';
