@@ -4,4 +4,4 @@ Groups behavior for territorial areas like Archipelagos, Outermost regions, trad
 
 Examples
 
-(TRegionOrganization @ 'Caribbean') sortedAreaNames
+(TRegionOrganization @ 'Caribbean') sortedTerritoryNames
