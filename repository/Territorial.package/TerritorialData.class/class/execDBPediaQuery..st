@@ -6,4 +6,4 @@ execDBPediaQuery: aString
 		setDebugOn;
 		timeout: 3000;
 		query: aString;
-		execute.
+		execAndParseResults.

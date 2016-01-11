@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 5/27/2014 21:28",
 	"super" : "TerritorialMarker",
-	"category" : "Territorial-Objects",
+	"category" : "Territorial-Markers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
