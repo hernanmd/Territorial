@@ -1,6 +1,6 @@
 accessing-geographic-properties
 totalArea
-	" Answer a <Number> representing the receiver's area in square kilometers "
+	" Answer a <Number> representing the receiver's total area (land and sea) in square kilometers "
 	
 	^ totalArea
 		ifNil: [ totalArea := TerritorialAreas for: self ]

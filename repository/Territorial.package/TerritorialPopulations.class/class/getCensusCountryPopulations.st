@@ -1,10 +1,11 @@
 private-sparql
 getCensusCountryPopulations
-	" Private - Query DBPedia to get census country populations "
+	" Private - Query endpoint to get census country populations "
 	
-	| jsonResults bindings |
-	jsonResults := self execDBPediaQuery: self sparqlCountryPopulations.
-	bindings :=  ((NeoJSONReader fromString: jsonResults) at: #results) at: #bindings.
+	| bindings |
+
+	bindings :=  self execDBPediaQuery: self sparqlCountryPopulations.
 	^ bindings collect: [ :entry | 
-			((entry at: #name) at: #value) asLowercase -> 
+			((entry at: #name) at: #value) asLowercase 
+			-> 
 			((entry at: #population) at: #value) asNumber ].

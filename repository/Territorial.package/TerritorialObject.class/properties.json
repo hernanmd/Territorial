@@ -20,7 +20,8 @@
 		"landArea",
 		"neighbours",
 		"populationDensity",
-		"flag"
+		"flag",
+		"geopoliticalEvents"
 	],
 	"name" : "TerritorialObject",
 	"type" : "normal"

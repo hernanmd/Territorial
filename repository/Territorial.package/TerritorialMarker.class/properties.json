@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TerritorialNamedObject",
-	"category" : "Territorial-Objects",
+	"category" : "Territorial-Markers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
