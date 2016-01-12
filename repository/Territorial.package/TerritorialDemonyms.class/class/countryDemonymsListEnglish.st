@@ -1,4 +1,4 @@
-initialize-release
+accessing-country
 countryDemonymsListEnglish
 
 	^ 'Abkhazia,Abkhaz

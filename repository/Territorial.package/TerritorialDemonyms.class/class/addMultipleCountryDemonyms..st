@@ -1,4 +1,4 @@
-initialize-release
+accessing-country
 addMultipleCountryDemonyms: row 
 	
 	CountryDemonyms 

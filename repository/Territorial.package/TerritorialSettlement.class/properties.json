@@ -8,6 +8,6 @@
 	"instvars" : [
 		"residents"
 	],
-	"name" : "TerritorialSeat",
+	"name" : "TerritorialSettlement",
 	"type" : "normal"
 }

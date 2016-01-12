@@ -7,8 +7,11 @@ This class supports adding :
 - Demonyms
 - Populate its contained territories
 
-Basically you can build territory groups in two ways: 
+Development Notes:
 
-(1) By adding a #newArea or  #newCountry
-(2) By subclassing this class to create a new "organization" class.
+To build territory groups subclass this class to create a new "organization" class (a class containing "organization" methods).
+
+After adding a new organization then evaluate 
+
+MyNewTOrganization initializeOrganizations.
 

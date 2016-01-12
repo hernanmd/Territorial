@@ -1,7 +1,8 @@
-accessing
+accessing-country
 countryDemonyms
 
 	^ CountryDemonyms
-		ifNil: [ self initializeEnglishCountryDemonyms.
+		ifNil: [ 
+			self initializeEnglishCountryDemonyms.
 			self initializeSpanishCountryDemonyms.
 			CountryDemonyms ]

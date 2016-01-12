@@ -1,4 +1,4 @@
-accessing
+accessing-area
 areaDemonyms
 
 	^ RegionDemonyms

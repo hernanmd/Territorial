@@ -3,7 +3,7 @@ initializeRegionDemonyms
 	" self initializeAreaDemonyms "
 	
 	RegionDemonyms := Dictionary new.
-	(NeoCSVReader on: self regionDemonymsListEnglish readStream)
+	(NeoCSVReader on: self areaDemonymsListEnglish readStream)
 		separator: $,;
 		do: [: row |
 		(self includesMultipleDemonyms: row second)

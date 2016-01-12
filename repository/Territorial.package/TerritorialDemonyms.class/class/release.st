@@ -6,3 +6,4 @@ release
 	OneWordCountryDemonyms := Dictionary new.
 	TwoWordsCountryDemonyms := Dictionary new.
 	ThreeWordsCountryDemonyms := Dictionary new.
+	CityDemonyms := Dictionary new.
