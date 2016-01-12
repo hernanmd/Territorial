@@ -2,7 +2,7 @@ tests-accessing
 testAddIdentifierTo
 
 	| tty |
-	tty := TerritorialSeat new.
+	tty := TerritorialSettlement new.
 	self identifier
 		identifierSymbol: #ORG_ID1;
 		addIdentifierTo: tty.
