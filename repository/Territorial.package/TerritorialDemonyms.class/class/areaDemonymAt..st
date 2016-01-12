@@ -1,4 +1,4 @@
-accessing
+accessing-area
 areaDemonymAt: areaString
 	" Answer a String denonym for aCollection of area names "
 	

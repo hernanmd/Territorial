@@ -1,4 +1,4 @@
-accessing
+accessing-area
 areaDemonymFor: areaName
 
 	^ self areaDemonyms 

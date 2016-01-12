@@ -1,1 +1,4 @@
-Null object for territorial organizations
+Null object for territorial organizations.
+
+This class should not be used directly.
+

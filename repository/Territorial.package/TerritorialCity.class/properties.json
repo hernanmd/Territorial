@@ -1,12 +1,13 @@
 {
 	"commentStamp" : "HernanMoralesDurand 1/10/2016 18:31",
-	"super" : "TerritorialSeat",
+	"super" : "TerritorialSettlement",
 	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"major"
+		"major",
+		"country"
 	],
 	"name" : "TerritorialCity",
 	"type" : "normal"

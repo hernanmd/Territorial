@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialData",
+	"category" : "Territorial-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DbPediaCitiesEN"
+	],
+	"instvars" : [ ],
+	"name" : "TerritorialCities",
+	"type" : "normal"
+}
