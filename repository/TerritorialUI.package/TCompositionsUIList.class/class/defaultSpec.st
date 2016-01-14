@@ -7,5 +7,5 @@ defaultSpec
 			c 
 				add: #label height: self toolbarHeight;
 				add: #list;
-				add: #buttonBar height: self toolbarHeight ];
+				add: #buttonBar ];
 				yourself

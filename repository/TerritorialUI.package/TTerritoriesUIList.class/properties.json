@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpcLabeledList",
+	"super" : "SpecLabeledList",
 	"category" : "TerritorialUI-Viewer",
 	"classinstvars" : [ ],
 	"pools" : [ ],

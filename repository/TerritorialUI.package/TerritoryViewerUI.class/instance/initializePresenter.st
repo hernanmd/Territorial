@@ -9,4 +9,4 @@ initializePresenter
 	self compositions whenSelectedItemChanged: [ : tty |
 		self updateSelectedTerritory: tty ].
 	self whenWindowChanged: [: w | 
-		w whenClosedDo: [ self owner ifNotNilDo: [ : o | o updateSelectedTerritory ] ] ].
+		w whenClosedDo: [ self owner updateSelectedTerritory ] ] .
