@@ -1,12 +1,12 @@
 {
-	"commentStamp" : "HernanMoralesDurand 7/6/2015 15:00",
-	"super" : "SpcExecToolbar",
+	"commentStamp" : "",
+	"super" : "SpecExecToolbar",
 	"category" : "TerritorialUI-Viewer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"loadButton",
+		"editButton",
 		"deleteButton"
 	],
 	"name" : "TEditorButtonBar",

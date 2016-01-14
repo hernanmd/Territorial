@@ -1,1 +1,0 @@
-TEditorButtonBar new openWithSpec.

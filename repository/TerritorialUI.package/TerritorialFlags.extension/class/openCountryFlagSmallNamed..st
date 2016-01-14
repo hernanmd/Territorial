@@ -1,6 +1,6 @@
 *TerritorialUI
-openCountryFlagSmallNamed: flagName
-	" Display flag at small size for flagName "
+openCountryFlagSmallNamed: countryName
+	" Display flag at small size for countryName "
 
 	(World drawingClass 
-		withForm: (self countryFlagsSmall at: flagName)) openInWorld
+		withForm: (self countryFlagsSmall at: countryName asLowercase)) openInWorld

@@ -1,4 +1,4 @@
 accessing
 selectButton
 
-	^ self toolbar selectButton
+	^ self toolbar okButton
