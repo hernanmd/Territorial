@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"loadButton",
-		"deleteButton"
+		"selectButton"
 	],
-	"name" : "TEditorButtonBar",
+	"name" : "TSelectButtonBar",
 	"type" : "normal"
 }
