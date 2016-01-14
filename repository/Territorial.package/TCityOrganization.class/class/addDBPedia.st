@@ -15,5 +15,5 @@ addDBPedia
 					addTerritoryName: #englishName -> assoc key;
 					location: assoc value;
 					yourself) ] ];
-		populateWith: TerritorialCities dbPediaCitiesEN;
+		populateWith: TerritorialDBPediaCities territorialCitiesEN;
 		yourself

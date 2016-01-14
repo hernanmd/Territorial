@@ -6,18 +6,11 @@ A city usually:
 - Merge with, or incorporate surrounding areas.
 - Is larger than a town and seat, and more densely populated.
 
-Public API and Key Messages
-
-- message one   
-- message two 
-- what is the way to create instances is a plus.
-
-   One simple example is simply gorgeous.
- 
 Internal Representation and Key Implementation Points.
 
     Instance Variables
-	major:		<Object>
+	authority:		<Object>
+	centroid:		<TerritorialLocationMarker>
 
 
     Implementation Points

@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "HernanMoralesDurand 1/10/2016 18:31",
+	"commentStamp" : "HernanMoralesDurand 1/14/2016 14:23",
 	"super" : "TerritorialSettlement",
 	"category" : "Territorial-Objects",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"major",
-		"country"
+		"authority",
+		"country",
+		"centroid"
 	],
 	"name" : "TerritorialCity",
 	"type" : "normal"
