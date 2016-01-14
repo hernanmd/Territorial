@@ -2,7 +2,7 @@ territorial-organizations
 addDBPedia
 
 	| co |
-	co := TCountryOrganization new.
+	co := TCityOrganization new.
 	^ co
 		preferredName: 'DBPedia';
 		formedYear: 2007;		
