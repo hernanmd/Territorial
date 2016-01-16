@@ -1,0 +1,4 @@
+private
+defaultRepositoryName
+
+	^ TerritorialOpenGeoCodeCities denomination

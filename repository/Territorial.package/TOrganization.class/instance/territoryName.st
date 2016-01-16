@@ -1,4 +1,4 @@
-accessing
+naming
 territoryName
 
 	^ self name

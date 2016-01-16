@@ -1,4 +1,4 @@
-qualifiers
+qualifiers-accessing
 beEconomical
 	" Add a Economical qualifier to the receiver "
 	

@@ -1,0 +1,4 @@
+comparing
+= aTNamedObject
+
+	self subclassResponsibility

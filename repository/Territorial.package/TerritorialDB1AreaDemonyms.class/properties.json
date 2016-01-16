@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialDB1Demonyms",
+	"category" : "Territorial-Data",
+	"classinstvars" : [
+		"areaDemonyms"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialDB1AreaDemonyms",
+	"type" : "normal"
+}
