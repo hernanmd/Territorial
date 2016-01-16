@@ -1,5 +1,5 @@
 tests-testing
 testIncludesDemonym
 
-	self assert: (self territoryOrganization includesDemonym: 'jamaican').
+	self assert: (self territoryOrganization includesDemonym: 'european').
 	self deny: (self territoryOrganization includesDemonym: '').
