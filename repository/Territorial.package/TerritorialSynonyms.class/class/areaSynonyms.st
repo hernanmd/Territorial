@@ -1,3 +1,3 @@
 accessing
 areaSynonyms
-	^ AreaSynonyms
+	^ areaSynonyms

@@ -2,4 +2,4 @@ testing
 includesDemonym: demonymString
 	" Answer whether demonymString is part of the receiver's demonyms "
 
-	^ TerritorialDemonyms includesCountryDemonym: demonymString
+	^ TerritorialDemonyms currentCountryRepository includesDemonym: demonymString

@@ -1,3 +1,4 @@
 accessing
 countryTranslations: anObject
-	CountryTranslations := anObject
+
+	countryTranslations := anObject

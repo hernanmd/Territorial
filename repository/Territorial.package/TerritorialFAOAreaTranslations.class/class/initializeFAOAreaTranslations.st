@@ -1,5 +1,5 @@
 initialize-release
-initializeAreaTranslations
+initializeFAOAreaTranslations
 	" self initializeAreaSynonyms "
 
 	| xmlList spellings doc sgov |

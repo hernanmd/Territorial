@@ -1,3 +1,6 @@
 accessing
 areaTranslations
-	^ AreaTranslations
+	^ areaTranslations
+		ifNil: [ 
+			self initialize.
+			areaTranslations ]

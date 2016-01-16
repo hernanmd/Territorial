@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialJETranslations",
+	"category" : "Territorial-Data",
+	"classinstvars" : [
+		"currentCountryISO"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialJETCountryTranslations",
+	"type" : "normal"
+}

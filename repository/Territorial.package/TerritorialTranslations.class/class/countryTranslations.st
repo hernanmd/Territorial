@@ -1,3 +1,6 @@
 accessing
 countryTranslations
-	^ CountryTranslations
+	^ countryTranslations
+		ifNil: [ 
+			self initialize.
+			countryTranslations ]

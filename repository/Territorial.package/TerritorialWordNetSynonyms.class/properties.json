@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 1/16/2016 20:16",
+	"super" : "TerritorialSynonyms",
+	"category" : "Territorial-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialWordNetSynonyms",
+	"type" : "normal"
+}

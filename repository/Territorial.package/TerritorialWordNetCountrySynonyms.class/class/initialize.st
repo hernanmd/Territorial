@@ -5,5 +5,4 @@ initialize
 
 	self release.
 	super initialize.
-	self initializeCountryTranslations.
-	self initializeAreaTranslations.
+	self initializeCountrySynonyms.

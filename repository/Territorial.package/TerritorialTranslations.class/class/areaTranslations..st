@@ -1,3 +1,3 @@
 accessing
 areaTranslations: anObject
-	AreaTranslations := anObject
+	areaTranslations := anObject

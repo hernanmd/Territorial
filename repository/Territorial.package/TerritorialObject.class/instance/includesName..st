@@ -1,7 +1,7 @@
 testing
-includesName: lowercaseString 
+includesName: aString 
 	" See superimplementor's comment "
 	
-	^ (self names asLowercase includes: lowercaseString)
-		or: [ (self includesTranslation: lowercaseString)
-			or: [ self includesSynonym: lowercaseString ] ]
+	^ (self names asLowercase includes: aString asLowercase)
+		or: [ (self includesTranslation: aString asLowercase)
+			or: [ self includesSynonym: aString asLowercase ] ]
