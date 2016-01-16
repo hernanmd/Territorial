@@ -1,3 +1,3 @@
 accessing
 countrySynonyms: anObject
-	CountrySynonyms := anObject
+	countrySynonyms := anObject

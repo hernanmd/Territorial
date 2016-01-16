@@ -4,4 +4,4 @@ parseCountryDemonyms
 	Answer the demonym Strings as lowercase. (ToDo: Answer the demonym String as found in the receiver).
 	If none found, answer an empty <Collection>	"
 		
-	^ TerritorialDemonyms countryDemonymsIn: self
+	^ TerritorialDemonyms currentCountryRepository countryDemonymsIn: self

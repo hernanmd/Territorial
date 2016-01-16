@@ -2,4 +2,4 @@ private
 translationsFrom: aTerritorialTranslationsClass
 	" See comment in TerritorialObject>>synonyms "
 	
-	^ aTerritorialTranslationsClass areaTranslationsAt: self name
+	^ aTerritorialTranslationsClass currentAreaRepository areaTranslationsAt: self name

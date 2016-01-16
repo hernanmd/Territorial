@@ -3,13 +3,11 @@
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
 	"classinstvars" : [
-		"currentCountryISO"
+		"areaTranslations",
+		"countryTranslations"
 	],
 	"pools" : [ ],
-	"classvars" : [
-		"AreaTranslations",
-		"CountryTranslations"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "TerritorialTranslations",
 	"type" : "normal"

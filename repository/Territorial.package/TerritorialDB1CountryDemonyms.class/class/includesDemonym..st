@@ -1,5 +1,5 @@
 testing
-includesCountryDemonym: aString
+includesDemonym: aString
 	" Answer <true> if receiver contain a demonym aString. Search is limited to country territories "
 
 	^ { threeWordsCountryDemonyms . twoWordsCountryDemonyms . oneWordCountryDemonyms } 

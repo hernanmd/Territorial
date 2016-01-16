@@ -2,12 +2,12 @@
 	"commentStamp" : "HernanMoralesDurand 5/14/2014 16:27",
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [
-		"AreaSynonyms",
-		"CountrySynonyms"
+	"classinstvars" : [
+		"countrySynonyms",
+		"areaSynonyms"
 	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "TerritorialSynonyms",
 	"type" : "normal"

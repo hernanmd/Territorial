@@ -1,3 +1,3 @@
 accessing
 areaSynonyms: anObject
-	AreaSynonyms := anObject
+	areaSynonyms := anObject

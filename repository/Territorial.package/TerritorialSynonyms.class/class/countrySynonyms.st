@@ -1,3 +1,7 @@
 accessing
 countrySynonyms
-	^ CountrySynonyms
+
+	^ countrySynonyms
+		ifNil: [ 
+			self initialize.
+			countrySynonyms ]

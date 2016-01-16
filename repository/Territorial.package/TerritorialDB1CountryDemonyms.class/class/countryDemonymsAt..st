@@ -1,12 +1,10 @@
 accessing
 countryDemonymsAt: aCountryString
-	" Answer a String denonym for aCountryString "
+	" Answer a <Collection> of <String> denonyms for aCountryString "
 	
-	^ self demonyms 
+	^ self countryDemonyms 
 			at: aCountryString asLowercase
 			ifAbsent: [ 
-				self demonyms 
+				self countryDemonyms 
 					at: (aCountryString asLowercase copyUpTo: Character space)
-					ifAbsent: [ 
-						"self gtLog: 'Denonym not found for: ' , aCountryString , ' answering ' , self nullValue."
-						OrderedCollection with: self nullValue ] ]
+					ifAbsent: [ OrderedCollection with: self nullValue ] ]
