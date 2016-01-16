@@ -2,7 +2,9 @@
 	"commentStamp" : "HernanMoralesDurand 9/12/2014 02:36",
 	"super" : "Object",
 	"category" : "Territorial-Data",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"currentRepositoryName"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

@@ -1,4 +1,4 @@
-qualifiers
+qualifiers-accessing
 beGlobal
 	" Add a Global qualifier to the receiver "
 	

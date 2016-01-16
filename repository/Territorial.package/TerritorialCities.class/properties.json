@@ -2,11 +2,11 @@
 	"commentStamp" : "HernanMoralesDurand 1/14/2016 14:12",
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [
-		"TerritorialCitiesEN"
+	"classinstvars" : [
+		"territorialCitiesEN"
 	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "TerritorialCities",
 	"type" : "normal"

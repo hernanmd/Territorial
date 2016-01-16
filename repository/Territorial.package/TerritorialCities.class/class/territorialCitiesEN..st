@@ -1,3 +1,3 @@
 accessing
 territorialCitiesEN: anObject
-	TerritorialCitiesEN := anObject
+	territorialCitiesEN := anObject

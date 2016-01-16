@@ -1,2 +1,0 @@
-testing
-includesRegionDemonym: aString

@@ -1,3 +1,3 @@
-accessing
+naming
 denomination
 	^ denomination

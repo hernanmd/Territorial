@@ -1,4 +1,4 @@
-qualifiers
+qualifiers-accessing
 beMilitary
 	" Add a military qualifier to the receiver "
 	

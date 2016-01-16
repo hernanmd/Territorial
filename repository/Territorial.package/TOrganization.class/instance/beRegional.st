@@ -1,4 +1,4 @@
-qualifiers
+qualifiers-accessing
 beRegional
 	" Add a Regional qualifier to the receiver "
 	

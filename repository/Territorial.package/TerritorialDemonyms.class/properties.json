@@ -4,14 +4,7 @@
 	"category" : "Territorial-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"CityDemonyms",
-		"CountryDemonyms",
-		"OneWordCountryDemonyms",
-		"RegionDemonyms",
-		"ThreeWordsCountryDemonyms",
-		"TwoWordsCountryDemonyms"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "TerritorialDemonyms",
 	"type" : "normal"

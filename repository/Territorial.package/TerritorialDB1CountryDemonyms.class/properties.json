@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialDB1Demonyms",
+	"category" : "Territorial-Data",
+	"classinstvars" : [
+		"countryDemonyms",
+		"oneWordCountryDemonyms",
+		"threeWordsCountryDemonyms",
+		"twoWordsCountryDemonyms"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialDB1CountryDemonyms",
+	"type" : "normal"
+}
