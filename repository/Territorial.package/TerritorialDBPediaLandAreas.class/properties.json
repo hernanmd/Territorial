@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "HernanMoralesDurand 1/11/2016 03:01",
-	"super" : "TerritorialData",
+	"super" : "TerritorialAreas",
 	"category" : "Territorial-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"CountryLandAreas",
-		"RawCountryLandAreas"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TerritorialLandAreas",
+	"name" : "TerritorialDBPediaLandAreas",
 	"type" : "normal"
 }

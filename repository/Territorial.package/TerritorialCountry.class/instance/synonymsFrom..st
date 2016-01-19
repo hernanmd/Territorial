@@ -2,4 +2,4 @@ private
 synonymsFrom: aTerritorialSynonymsClass
 	" See comment in TerritorialObject>>synonyms "
 	
-	^ aTerritorialSynonymsClass countrySynonymsAt: self name asLowercase
+	^ aTerritorialSynonymsClass currentCountryRepository countrySynonymsAt: self name asLowercase
