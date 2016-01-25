@@ -8,11 +8,11 @@ version16: spec
 		spec author: 'HernanMoralesDurand'.
 		spec timestamp: '6/20/2014 18:36'.
 		spec 
-			project: 'Roassal2' with: '1.1-baseline';
-			project: 'NeoCSV' with: '10';
-			project: 'SPARQLSearch' with: '1.0';
-			project: 'NeoJSON' with: '9';
-			project: 'XMLParser' with: '1.6.3'.
+			project: 'Roassal2' with: #stable;
+			project: 'NeoCSV' with: #stable;
+			project: 'SPARQLSearch' with: #stable;
+			project: 'NeoJSON' with: #stable;
+			project: 'XMLParser' with: #stable.
 		spec 
 			package: #Territorial with: 'Territorial-HernanMoralesDurand.92';
 			package: #TerritorialTests with: 'TerritorialTests-HernanMoralesDurand.39';
