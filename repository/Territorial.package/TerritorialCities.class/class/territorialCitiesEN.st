@@ -4,5 +4,5 @@ territorialCitiesEN
 
 	^ territorialCitiesEN
 		ifNil: [ 
-			self initialize.
+			self initializeCities.
 			territorialCitiesEN  ]

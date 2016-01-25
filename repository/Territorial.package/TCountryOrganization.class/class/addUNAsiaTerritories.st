@@ -4,19 +4,19 @@ addUNAsiaTerritories
 
 	| eastAsia centralAsia southEastAsia southAsia westAsia |
 	centralAsia := (TerritorialComposite newNamed: 'Central Asia') 
-		addTerritories: TUNM49CountryList centralAsia;
+		addTerritories: TerritorialUNM49Countries centralAsia;
 		addIdentifier: '143' asUNIdentifier.
 	eastAsia := (TerritorialComposite newNamed: 'Eastern Asia')
-		addTerritories: TUNM49CountryList easternAsia;
+		addTerritories: TerritorialUNM49Countries easternAsia;
 		addIdentifier: '030' asUNIdentifier.
 	southAsia := (TerritorialComposite newNamed: 'Southern Asia') 
-		addTerritories: TUNM49CountryList southernAsia;
+		addTerritories: TerritorialUNM49Countries southernAsia;
 		addIdentifier: '034' asUNIdentifier.
 	southEastAsia := (TerritorialComposite newNamed: 'South-Eastern Asia')
-		addTerritories: TUNM49CountryList southEasternAsia;
+		addTerritories: TerritorialUNM49Countries southEasternAsia;
 		addIdentifier: '035' asUNIdentifier.
 	westAsia := (TerritorialComposite newNamed: 'Western Asia')
-		addTerritories: TUNM49CountryList westernAsia;
+		addTerritories: TerritorialUNM49Countries westernAsia;
 		addIdentifier: '145' asUNIdentifier.
 		
 	^ Set with: eastAsia with: centralAsia with: southEastAsia with: southAsia with: westAsia

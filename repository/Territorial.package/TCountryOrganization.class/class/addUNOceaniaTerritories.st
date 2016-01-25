@@ -5,15 +5,15 @@ addUNOceaniaTerritories
 	| australiaAndNewZealand melanesia micronesia polynesia |
 	
 	australiaAndNewZealand := (TerritorialComposite newNamed: 'Australia and New Zealand') 
-		addTerritories: TUNM49CountryList australiaAndNewZealand;
+		addTerritories: TerritorialUNM49Countries australiaAndNewZealand;
 		addIdentifier: '053' asUNIdentifier.
 	melanesia := (TerritorialComposite newNamed: 'Melanesia')
-		addTerritories: TUNM49CountryList melanesia;
+		addTerritories: TerritorialUNM49Countries melanesia;
 		addIdentifier: '054' asUNIdentifier.
 	micronesia := (TerritorialComposite newNamed: 'Micronesia') 
-		addTerritories: TUNM49CountryList micronesia;
+		addTerritories: TerritorialUNM49Countries micronesia;
 		addIdentifier: '057' asUNIdentifier.
 	polynesia := (TerritorialComposite newNamed: 'Polynesia') 
-		addTerritories: TUNM49CountryList polynesia;
+		addTerritories: TerritorialUNM49Countries polynesia;
 		addIdentifier: '061' asUNIdentifier.
 	^ Set with: australiaAndNewZealand with: melanesia with: micronesia with: polynesia.
