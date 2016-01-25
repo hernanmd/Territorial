@@ -4,7 +4,7 @@ baseline17: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec preLoadDoIt: #preLoad.	
+		spec preLoadDoIt: #preLoad.		
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
 		spec 
 			project: 'Roassal2' with: [
@@ -40,7 +40,7 @@ baseline17: spec
 			project: 'SPARQLSearch' with: [
 				spec
 					className: #ConfigurationOfSPARQLSearch;
-					versionString: #'bleedingEdge';
+					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/hernan/SPARQL/main/' ];
 			project: 'GADM' with: [
 				spec
