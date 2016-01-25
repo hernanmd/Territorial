@@ -1,6 +1,6 @@
 versions
 version16: spec
-	<version: '1.6' imports: #('1.5-baseline' )>
+	<version: '1.6' imports: #('1.6-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #'stable'.
@@ -10,7 +10,7 @@ version16: spec
 		spec 
 			project: 'Roassal2' with: '1.1-baseline';
 			project: 'NeoCSV' with: '10';
-			project: 'DBPedia' with: '1.0';
+			project: 'SPARQLSearch' with: '1.0';
 			project: 'NeoJSON' with: '9';
 			project: 'XMLParser' with: '1.6.3'.
 		spec 
