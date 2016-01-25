@@ -45,7 +45,7 @@ baseline17: spec
 			project: 'GADM' with: [
 				spec
 					className: #ConfigurationOfGADM;
-					versionString: #'development';
+					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/hernan/GADM/main/' ];
 			project: 'OSProcess' with: [
 				spec
