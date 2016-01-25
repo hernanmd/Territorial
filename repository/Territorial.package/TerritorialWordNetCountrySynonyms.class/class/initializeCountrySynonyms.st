@@ -1,5 +1,5 @@
 initialize-release
-initializeSynonyms
+initializeCountrySynonyms
 	" Private - Read and add country synonym data to the receiver "
 
 	self countrySynonyms: ZnMultiValueDictionary new.

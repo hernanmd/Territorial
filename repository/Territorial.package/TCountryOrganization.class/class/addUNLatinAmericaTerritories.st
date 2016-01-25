@@ -4,12 +4,12 @@ addUNLatinAmericaTerritories
 
 	| caribbean centralAmerica southAmerica |
 	caribbean := (TerritorialComposite newNamed: 'Caribbean') 
-		addTerritories: TUNM49CountryList caribbean;
+		addTerritories: TerritorialUNM49Countries caribbean;
 		addIdentifier: '029' asUNIdentifier.
 	centralAmerica := (TerritorialComposite newNamed: 'Central America')
-		addTerritories: TUNM49CountryList centralAmerica;
+		addTerritories: TerritorialUNM49Countries centralAmerica;
 		addIdentifier: '013' asUNIdentifier.
 	southAmerica := (TerritorialComposite newNamed: 'South America') 
-		addTerritories: TUNM49CountryList southAmerica;
+		addTerritories: TerritorialUNM49Countries southAmerica;
 		addIdentifier: '005' asUNIdentifier.
 	^ Set with: caribbean with: centralAmerica with: southAmerica

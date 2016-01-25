@@ -2,7 +2,10 @@
 	"commentStamp" : "",
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"countryTelephonyCodes",
+		"cityTelephonyCodes"
+	],
 	"pools" : [ ],
 	"classvars" : [
 		"CountryCodes"

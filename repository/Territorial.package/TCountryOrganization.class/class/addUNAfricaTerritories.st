@@ -4,18 +4,18 @@ addUNAfricaTerritories
 
 	| eastAfrica midAfrica northAfrica southAfrica westAfrica |
 	eastAfrica := (TerritorialComposite newNamed: 'Eastern Africa') 
-		addTerritories: TUNM49CountryList easternAfrica;
+		addTerritories: TerritorialUNM49Countries easternAfrica;
 		addIdentifier: '014' asUNIdentifier.
 	midAfrica := (TerritorialComposite newNamed: 'Middle Africa')
-		addTerritories: TUNM49CountryList middleAfrica;
+		addTerritories: TerritorialUNM49Countries middleAfrica;
 		addIdentifier: '017' asUNIdentifier.
 	northAfrica := (TerritorialComposite newNamed: 'Northern Africa') 
-		addTerritories: TUNM49CountryList northernAfrica;
+		addTerritories: TerritorialUNM49Countries northernAfrica;
 		addIdentifier: '015' asUNIdentifier.
 	southAfrica := (TerritorialComposite newNamed: 'Southern Africa')
-		addTerritories: TUNM49CountryList southernAfrica;
+		addTerritories: TerritorialUNM49Countries southernAfrica;
 		addIdentifier: '018' asUNIdentifier.
 	westAfrica := (TerritorialComposite newNamed: 'Western Africa')
-		addTerritories: TUNM49CountryList westernAfrica;
+		addTerritories: TerritorialUNM49Countries westernAfrica;
 		addIdentifier: '011' asUNIdentifier.
 	^ Set with: eastAfrica with: midAfrica with: northAfrica  with: southAfrica with: westAfrica

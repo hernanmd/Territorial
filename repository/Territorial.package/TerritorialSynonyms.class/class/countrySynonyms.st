@@ -3,5 +3,5 @@ countrySynonyms
 
 	^ countrySynonyms
 		ifNil: [ 
-			self initialize.
+			self initializeCountrySynonyms.
 			countrySynonyms ]
