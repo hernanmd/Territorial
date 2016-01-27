@@ -2,4 +2,4 @@
 asTerritorialCity
 	" Answer a <TerritorialCity> for the receiver "
 
-	^ TCityOrganization currentOrganization @ self
+	^ TCityOrganization currentOrganization @@ self
