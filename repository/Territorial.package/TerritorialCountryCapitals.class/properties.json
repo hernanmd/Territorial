@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TerritorialDBPediaCapitals",
+	"name" : "TerritorialCountryCapitals",
 	"type" : "normal"
 }
