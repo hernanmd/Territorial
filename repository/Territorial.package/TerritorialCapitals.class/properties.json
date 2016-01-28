@@ -1,8 +1,10 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HernanMoralesDurand 1/28/2016 07:26",
 	"super" : "TerritorialData",
 	"category" : "Territorial-Data",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"territorialCapitals"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
