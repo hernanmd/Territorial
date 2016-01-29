@@ -1,4 +1,4 @@
-accessing
+accessing - names
 allNames
 	" Private - Answer a <Collection> of all names in the receiver including Composites "
 

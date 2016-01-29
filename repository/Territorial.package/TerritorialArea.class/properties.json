@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"officialLanguages",
-		"telephonyCodes"
+		"officialLanguages"
 	],
 	"name" : "TerritorialArea",
 	"type" : "normal"

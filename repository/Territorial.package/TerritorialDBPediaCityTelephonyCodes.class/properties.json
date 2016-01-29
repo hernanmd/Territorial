@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialDBPediaTelephonyCodes",
+	"category" : "Territorial-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialDBPediaCityTelephonyCodes",
+	"type" : "normal"
+}
