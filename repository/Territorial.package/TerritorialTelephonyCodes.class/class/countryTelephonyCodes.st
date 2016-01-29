@@ -3,5 +3,5 @@ countryTelephonyCodes
 
 	^ countryTelephonyCodes
 		ifNil: [ 
-			self initialize.
+			self initializeTelephonyCodes.
 			countryTelephonyCodes ]
