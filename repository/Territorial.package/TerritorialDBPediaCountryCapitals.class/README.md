@@ -1,3 +1,0 @@
-Accessing capitals
-
-TerritorialDBPediaCountryCapitals territorialCapitals.

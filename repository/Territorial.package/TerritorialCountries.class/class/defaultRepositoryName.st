@@ -1,4 +1,0 @@
-private
-defaultRepositoryName
-
-	^ TerritorialUNM49Countries denomination
