@@ -1,4 +1,0 @@
-initialize-release
-initializeCountryTotalAreas
-
-	self shouldBeImplemented 

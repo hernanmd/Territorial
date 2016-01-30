@@ -1,4 +1,0 @@
-accessing
-currentCountryRepository
-
-	^ TerritorialCountryDemonyms currentRepositoryClass

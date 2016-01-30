@@ -1,4 +1,0 @@
-accessing
-currentRegionRepository
-
-	^ TerritorialRegionCapitals currentRegionRepository

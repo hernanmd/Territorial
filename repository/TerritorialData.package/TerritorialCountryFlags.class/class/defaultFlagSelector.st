@@ -1,4 +1,0 @@
-defaults
-defaultFlagSelector
-
-	^ #countryFlagsSmall

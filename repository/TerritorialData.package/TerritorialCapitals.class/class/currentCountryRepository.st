@@ -1,4 +1,0 @@
-accessing
-currentCountryRepository
-
-	^ TerritorialCountryCapitals currentCountryRepository
