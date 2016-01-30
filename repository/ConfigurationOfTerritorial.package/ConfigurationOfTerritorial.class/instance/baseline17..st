@@ -58,5 +58,33 @@ baseline17: spec
 			package: #TerritorialTests with: [
 				spec requires: #(#Territorial ). ];
 			package: #TerritorialUI with: [
-				spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' ). ].
-		spec group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' ). ].
+				spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' ). ];
+			package: #TerritorialData with: [
+				spec requires: #(#Territorial ). ];
+			package: #'TerritorialData-DB1' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-DBPedia' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-FAO' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-FreeBase' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-JET' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-OpenGeoCode' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-WordNet' with: [
+				spec requires: #(#TerritorialData ). ].
+		spec group: 'default' 
+				with: #('Territorial' 
+						'TerritorialTests' 
+						'TerritorialUI' 
+						'TerritorialData'
+						'TerritorialData-DB1'
+						'TerritorialData-DBPedia'
+						'TerritorialData-FAO'
+						'TerritorialData-FreeBase'
+						'TerritorialData-JET'
+						'TerritorialData-OpenGeoCode'
+						'TerritorialData-WordNet'
+						). ].
