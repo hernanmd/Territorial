@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 1/10/2016 18:11",
 	"super" : "Object",
-	"category" : "Territorial-Objects",
+	"category" : "Territorial-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

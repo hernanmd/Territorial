@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "hfm 9/9/2011 02:00",
 	"super" : "TerritorialLocation",
-	"category" : "Territorial-Objects",
+	"category" : "Territorial-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
