@@ -1,0 +1,1 @@
+TerritorialFreeBaseTelephonyCodes countryTelephonyCodes.
