@@ -1,9 +1,6 @@
 territorial-organizations
 addNewGranada
 
-	| unm49 |
-	
-	unm49 := TCountryOrganization @ 'UN.M49'.
 	^ TRegionOrganization new
 		preferredName: 'Republic of New Granada';
 		beRegional;
@@ -12,9 +9,9 @@ addNewGranada
 			addTerritoryName: #englishName -> 'New Granada';
 			addTerritoryName: #spanishName -> 'Nueva Granada';
 			addPeriod: 1830 asYear -> 1858 asYear;
-			addTerritory: (unm49 @ 'Colombia');
-			addTerritory: (unm49 @ 'Ecuador');
-			addTerritory: (unm49 @ 'Venezuela');
-			addTerritory: (unm49 @ 'Panama');				
+			addTerritory: 'Colombia' asTerritorialCountry;
+			addTerritory: 'Ecuador' asTerritorialCountry;
+			addTerritory: 'Venezuela' asTerritorialCountry;
+			addTerritory: 'Panama' asTerritorialCountry;
 			yourself));
 		yourself

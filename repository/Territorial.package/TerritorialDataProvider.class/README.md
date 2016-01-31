@@ -1,4 +1,4 @@
-Abstract class providing methods for specific subclass resources.
+Abstract class for hierarchy providing territorial data resources.
 
 Subclass resources:
 
