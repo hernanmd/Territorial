@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 1/15/2016 11:56",
+	"super" : "TerritorialCities",
+	"category" : "TerritorialData-DBPedia-Cities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialDBPediaCities",
+	"type" : "normal"
+}

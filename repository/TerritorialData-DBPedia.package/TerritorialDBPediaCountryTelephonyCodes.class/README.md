@@ -1,0 +1,4 @@
+Currently this query is not working properly.
+
+TerritorialDBPediaCountryTelephonyCodes debugDBPediaQuery:  
+TerritorialDBPediaCountryTelephonyCodes sparqlCountryCallCodes
