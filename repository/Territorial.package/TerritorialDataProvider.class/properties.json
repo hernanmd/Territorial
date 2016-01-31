@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 9/12/2014 02:36",
+	"commentStamp" : "HernanMoralesDurand 1/30/2016 10:34",
 	"super" : "Object",
 	"category" : "Territorial-Core",
 	"classinstvars" : [
@@ -8,6 +8,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TerritorialData",
+	"name" : "TerritorialDataProvider",
 	"type" : "normal"
 }
