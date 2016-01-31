@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialPopulations",
+	"category" : "TerritorialData-DBPedia-Population",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialDBPediaPopulations",
+	"type" : "normal"
+}

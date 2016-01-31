@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 1/19/2016 16:26",
+	"super" : "TerritorialAreas",
+	"category" : "TerritorialData-DBPedia-Areas",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CountryTotalAreas",
+		"RawCountryTotalAreas"
+	],
+	"instvars" : [ ],
+	"name" : "TerritorialDBPediaTotalAreas",
+	"type" : "normal"
+}
