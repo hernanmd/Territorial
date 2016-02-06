@@ -1,0 +1,4 @@
+accessing
+currentAreaRepository
+
+	^ TerritorialFAOAreaTranslations 

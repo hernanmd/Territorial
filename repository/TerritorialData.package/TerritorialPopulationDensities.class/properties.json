@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/12/2014 21:41",
+	"super" : "TerritorialDataProvider",
+	"category" : "TerritorialData-Population",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CountryDensities",
+		"RawCountryDensities"
+	],
+	"instvars" : [ ],
+	"name" : "TerritorialPopulationDensities",
+	"type" : "normal"
+}

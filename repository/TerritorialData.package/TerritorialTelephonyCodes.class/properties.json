@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HernanMoralesDurand 1/28/2016 14:38",
+	"super" : "TerritorialDataProvider",
+	"category" : "TerritorialData-Telephony",
+	"classinstvars" : [
+		"countryTelephonyCodes",
+		"cityTelephonyCodes"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"CountryCodes"
+	],
+	"instvars" : [ ],
+	"name" : "TerritorialTelephonyCodes",
+	"type" : "normal"
+}
