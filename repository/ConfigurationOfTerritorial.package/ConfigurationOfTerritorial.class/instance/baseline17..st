@@ -4,8 +4,8 @@ baseline17: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
+		spec preLoadDoIt: #preLoad.			
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
-		spec preLoadDoIt: #preLoad.				
 		spec 
 			project: 'Roassal2' with: [
 				spec
@@ -64,22 +64,22 @@ baseline17: spec
 				spec requires: #(#Territorial ). ];
 			package: #TerritorialUI with: [
 				spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' ). ];
-			package: #'TerritorialData-DB1' with: [
-				spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-DBPedia' with: [
-				spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-FAO' with: [
-				spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-FreeBase' with: [
-				spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-JET' with: [
+			package: #TerritorialData with: [
+				spec requires: #(#Territorial ). ];
+			package: #'TerritorialData-WordNet' with: [
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-OpenGeoCode' with: [
 				spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-WordNet' with: [
+			package: #'TerritorialData-JET' with: [
 				spec requires: #(#TerritorialData ). ];
-			package: #'Territorial-CountryIO' with: [
+			package: #'TerritorialData-FreeBase' with: [
 				spec requires: #(#TerritorialData ). ];
-			package: #TerritorialData with: [
-				spec requires: #(#Territorial ). ].
-		spec group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' 'Territorial-CountryIO' ). ].
+			package: #'TerritorialData-FAO' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-DBPedia' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-DB1' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-CountryIO' with: [
+				spec requires: #(#TerritorialData ). ].
+		spec group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' ). ].
