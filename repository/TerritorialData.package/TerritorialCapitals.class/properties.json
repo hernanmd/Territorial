@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 1/28/2016 07:26",
+	"super" : "TerritorialDataProvider",
+	"category" : "TerritorialData-Cities",
+	"classinstvars" : [
+		"territorialCapitals"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialCapitals",
+	"type" : "normal"
+}

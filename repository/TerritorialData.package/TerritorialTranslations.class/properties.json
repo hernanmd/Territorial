@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/20/2014 16:02",
+	"super" : "TerritorialDataProvider",
+	"category" : "TerritorialData-Translations",
+	"classinstvars" : [
+		"areaTranslations",
+		"countryTranslations"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialTranslations",
+	"type" : "normal"
+}

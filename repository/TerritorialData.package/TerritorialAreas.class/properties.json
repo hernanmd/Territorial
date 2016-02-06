@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialDataProvider",
+	"category" : "TerritorialData-Areas",
+	"classinstvars" : [
+		"countryLandAreas",
+		"countryTotalAreas"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialAreas",
+	"type" : "normal"
+}
