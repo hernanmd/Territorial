@@ -1,8 +1,6 @@
 Taken from: http://country.io/data/
 
-This data set is used until a more reliable source is found. (See Territorial user manual for details).
-
-Raw explore:
+This data set is used until a more reliable source is found. (See manual for details)
 
 TerritorialCountryIOTelephonyCodes release.
 TerritorialCountryIOTelephonyCodes countryTelephonyCodes.

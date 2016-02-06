@@ -1,4 +1,4 @@
-initialize-release
+private
 initializeTelephonyCodes
 	" Private - Read and add country telephony data to the receiver "
 
