@@ -4,8 +4,8 @@ baseline17: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec preLoadDoIt: #preLoad.			
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
+		spec preLoadDoIt: #preLoad.		
 		spec 
 			project: 'Roassal2' with: [
 				spec
@@ -79,5 +79,7 @@ baseline17: spec
 			package: #'TerritorialData-OpenGeoCode' with: [
 				spec requires: #(#TerritorialDataProvider ). ];
 			package: #'TerritorialData-WordNet' with: [
+				spec requires: #(#TerritorialDataProvider ). ];
+			package: #'Territorial-CountryIO' with: [
 				spec requires: #(#TerritorialDataProvider ). ].
 		spec group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' #TerritorialDataProvider 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' 'Territorial-CountryIO' ). ].
