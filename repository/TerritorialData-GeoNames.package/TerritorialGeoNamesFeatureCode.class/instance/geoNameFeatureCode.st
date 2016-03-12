@@ -1,0 +1,3 @@
+accessing
+geoNameFeatureCode
+	^ geoNameFeatureCode

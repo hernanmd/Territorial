@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 3/12/2016 06:48",
+	"super" : "TerritorialDataProvider",
+	"category" : "TerritorialData-GeoNames",
+	"classinstvars" : [
+		"featureCodes"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialGeoNamesProvider",
+	"type" : "normal"
+}
