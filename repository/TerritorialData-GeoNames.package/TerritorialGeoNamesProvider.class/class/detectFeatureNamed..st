@@ -4,4 +4,4 @@ detectFeatureNamed: aString
 	
 	^ self 
 		detectFeatureNamed: aString
-		ifNone: [ nil ]
+		ifNone: [  ]

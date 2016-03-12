@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 3/12/2016 03:15",
 	"super" : "Object",
-	"category" : "TerritorialData-GeoNames-Core",
+	"category" : "TerritorialData-GeoNames",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

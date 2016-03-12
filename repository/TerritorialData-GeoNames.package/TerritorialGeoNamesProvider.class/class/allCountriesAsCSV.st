@@ -1,4 +1,4 @@
-accessing - countries
+accessing - global
 allCountriesAsCSV
 	" Read a file of source dataset "
 	

@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/5/2016 01:50",
+	"commentStamp" : "HernanMoralesDurand 3/12/2016 06:48",
 	"super" : "TerritorialDataProvider",
-	"category" : "TerritorialData-GeoNames-Core",
+	"category" : "TerritorialData-GeoNames",
 	"classinstvars" : [
 		"featureCodes"
 	],
