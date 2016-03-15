@@ -21,7 +21,8 @@
 		"neighbours",
 		"populationDensity",
 		"flag",
-		"geopoliticalEvents"
+		"geopoliticalEvents",
+		"officialLanguages"
 	],
 	"name" : "TerritorialObject",
 	"type" : "normal"

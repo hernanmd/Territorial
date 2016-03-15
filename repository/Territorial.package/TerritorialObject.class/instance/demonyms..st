@@ -1,3 +1,4 @@
 accessing-names
-demonyms: anObject
-	demonyms := anObject
+demonyms: aCollection
+
+	demonyms := aCollection
