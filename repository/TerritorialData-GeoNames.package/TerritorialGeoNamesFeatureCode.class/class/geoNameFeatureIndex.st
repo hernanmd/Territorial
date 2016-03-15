@@ -1,0 +1,4 @@
+accessing
+geoNameFeatureIndex
+
+	^ 8
