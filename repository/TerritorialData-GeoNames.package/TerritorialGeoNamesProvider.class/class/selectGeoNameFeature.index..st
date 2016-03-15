@@ -4,8 +4,8 @@ selectGeoNameFeature: featureName index: featureIndex
 
 	| answer |
 	answer := OrderedCollection new.	
-	((NeoCSVReader on: self allCountriesAsCSV readStream)
+	self allCountriesFilename asFileReference readStreamDo: [ : stream |
+		(NeoCSVReader on: stream)
 			separator: Character tab;
-			do: [ : gr | (gr at: featureIndex) = featureName ifTrue: [ answer add: gr ] ];
-			upToEnd).
+			do: [ : gr | (gr at: featureIndex) = featureName ifTrue: [ answer add: gr ] ] ].
 	^ answer

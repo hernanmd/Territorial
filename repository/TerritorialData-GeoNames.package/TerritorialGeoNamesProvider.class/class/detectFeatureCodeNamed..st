@@ -1,7 +1,7 @@
 accessing - feature codes
-detectFeatureNamed: aString
+detectFeatureCodeNamed: aString
 	" Answer a <String> containing the feature code matching aString in its description "
 	
 	^ self 
-		detectFeatureNamed: aString
+		detectFeatureCodeNamed: aString
 		ifNone: [ nil ]
