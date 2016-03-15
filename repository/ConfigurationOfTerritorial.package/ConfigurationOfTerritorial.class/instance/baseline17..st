@@ -83,4 +83,6 @@ baseline17: spec
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-GeoNames' with: [
 				spec requires: #(#TerritorialData ). ].
-		spec group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' ). ].
+		spec 
+			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' #'TerritorialData-GeoNames' );
+			group: 'Tests' with: #(#TerritorialTests #Territorial #TerritorialData ). ].
