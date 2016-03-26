@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 1/14/2016 13:51",
+	"super" : "TerritorialCities",
+	"category" : "TerritorialData-OpenGeoCode-Cities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialOpenGeoCodeCities",
+	"type" : "normal"
+}
