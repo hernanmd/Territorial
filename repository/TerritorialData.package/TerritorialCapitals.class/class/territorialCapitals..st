@@ -1,3 +1,4 @@
 accessing
-territorialCapitals: anObject
-	territorialCapitals := anObject
+territorialCapitals: aCollection
+
+	territorialCapitals := aCollection
