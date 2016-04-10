@@ -1,4 +1,5 @@
 private
 defaultRepositoryName
+	" Private - See superimplementor's comment "
 
-	^ TerritorialDBPediaCapitals denomination
+	^ TerritorialDBPediaCountryCapitals denomination

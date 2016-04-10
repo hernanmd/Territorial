@@ -4,5 +4,5 @@ countryCapitalFrom: countryName
 	
 	^ self territorialCapitals
 		at: countryName asLowercase
-		ifPresent: [ : capitalName | TerritorialCity newCapital: capitalName ]
-		ifAbsent: [ TerritorialCity newCapital: 'Unknown' ]	
+		ifPresent: [ : capitalName | TerritorialCity newCountryCapital: capitalName ]
+		ifAbsent: [ TerritorialNullCity new ]	
