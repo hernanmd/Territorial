@@ -1,5 +1,5 @@
 accessing
-beCapital
+beCountryCapital
 	" Set the receiver as a Capital city "
 
-	self isCapital: true
+	self isCountryCapital: true

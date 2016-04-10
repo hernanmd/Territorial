@@ -1,5 +1,6 @@
 private
-translationsFrom: aTerritorialSynonymsClass
+translationsFrom: aTerritorialTranslationsClass
 	" See comment in TerritorialObject>>synonyms "
 	
-	^ aTerritorialSynonymsClass currentCountryRepository countryTranslationsAt: self name asLowercase
+	^ aTerritorialTranslationsClass countryTranslationsAt: self name asLowercase
+	"^ aTerritorialTranslationsClass currentCountryRepository countryTranslationsAt: self name asLowercase"

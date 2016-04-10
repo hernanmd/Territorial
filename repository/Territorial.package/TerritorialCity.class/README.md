@@ -1,4 +1,6 @@
-Though the classification of an area as a town or city is related to it’s population; different countries have different methods of making this classification. In Territorial library a city is a legal term that represents an urban area with autonomous power or a large settlement (when it does not have legal basis).
+Though the classification of an area as a town or city is related to it’s population; different countries have different methods of making this classification. 
+
+In Territorial library a city is a legal term that represents an urban area with autonomous power or a large settlement (when it does not have legal basis).
 
 A city usually:
 
@@ -9,7 +11,7 @@ A city usually:
 Internal Representation and Key Implementation Points.
 
     Instance Variables
-	authority:		<Object>
+	country:			<TerritorialCountry>
 	centroid:		<TerritorialLocationMarker>
 
 

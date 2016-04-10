@@ -1,3 +1,4 @@
 accessing
-residents: anObject
-	residents := anObject
+residents: aCollection
+
+	residents := aCollection

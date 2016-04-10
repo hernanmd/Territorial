@@ -1,3 +1,4 @@
 accessing-geographic-properties
-totalArea: anObject
-	^ totalArea := anObject
+totalArea: aNumber
+
+	^ totalArea := aNumber
