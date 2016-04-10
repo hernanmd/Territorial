@@ -1,17 +1,17 @@
 {
-	"commentStamp" : "HernanMoralesDurand 4/10/2016 01:31",
+	"commentStamp" : "",
 	"super" : "TerritorialSettlement",
 	"category" : "Territorial-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"authority",
-		"country",
-		"centroid",
-		"isCountryCapital",
-		"isRegionCapital"
+		"facilities",
+		"isUnderConstruction",
+		"isActive",
+		"isDeteriorating",
+		"isDemolished"
 	],
-	"name" : "TerritorialCity",
+	"name" : "TerritorialBuilding",
 	"type" : "normal"
 }

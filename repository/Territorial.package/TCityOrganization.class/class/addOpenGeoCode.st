@@ -8,7 +8,7 @@ addOpenGeoCode
 		formedYear: 2007;		
 		denomination:  'Americas Open Geocode (AOG) database';
 		beGlobal;
-		url: 'http://http://www.opengeocode.org';
+		url: 'http://www.opengeocode.org';
 		populateBlock: [ : d | 
 			d associationsDo: [ : assoc | 
 				co territories addTerritory: ((TerritorialCity newNamed: assoc value)

@@ -7,6 +7,9 @@ Examples:
 TCityOrganization demonymsOf: 'Cairo'.
 TCityOrganization demonymsOf: 'Milan'.
 
+(TCityOrganization @ 'OpenGeoCode') cities.
+
 Re-initialize:
 
+TCityOrganization initialize.
 TCityOrganization initializeOrganizations.
