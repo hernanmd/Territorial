@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialTranslations",
+	"category" : "TerritorialData-FAO-Translations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialFAOTranslations",
+	"type" : "normal"
+}
