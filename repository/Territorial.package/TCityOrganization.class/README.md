@@ -8,6 +8,7 @@ TCityOrganization demonymsOf: 'Cairo'.
 TCityOrganization demonymsOf: 'Milan'.
 
 (TCityOrganization @ 'OpenGeoCode') cities.
+(TCityOrganization @ 'OpenGeoCode') sortedTerritoryNames.
 
 Re-initialize:
 

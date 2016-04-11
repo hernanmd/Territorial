@@ -1,7 +1,8 @@
 territorial-organizations
 addOpenGeoCode
 
-	| co |
+	| co iso3611 |
+	iso3611 := TCountryOrganization @ 'ISO 3166-3'.
 	co := TCityOrganization new.
 	^ co
 		preferredName: 'OpenGeoCode';
@@ -10,10 +11,12 @@ addOpenGeoCode
 		beGlobal;
 		url: 'http://www.opengeocode.org';
 		populateBlock: [ : d | 
-			d associationsDo: [ : assoc | 
+			d associations do: [ : assoc | 
 				co territories addTerritory: ((TerritorialCity newNamed: assoc value)
-					addTerritoryName: #englishName -> assoc value;
+					addTerritoryName: #englishName -> assoc value value;
+					country: (self resolveCountry: assoc value key in: iso3611);
 					centroid: assoc key;
-					yourself) ] ];
+					yourself) ]
+				displayingProgress: 'Scanning cities...' ];
 		populateWith: TerritorialOpenGeoCodeCities territorialCitiesEN;
 		yourself

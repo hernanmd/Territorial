@@ -1,5 +1,5 @@
 accessing private
-addIdentifierName: anAssociation
+addIdentifierName: assoc
 	" Private - Add anAssociation as an identifier for the receiver "
 
-	self identifiers add: anAssociation
+	self identifiers add: assoc

@@ -1,5 +1,5 @@
 accessing private
-addTerritoryName: anAssociation
+addTerritoryName: assoc
 	" Private - Add anAssociation as an name for the receiver "
 
-	self names add: anAssociation
+	self names add: assoc

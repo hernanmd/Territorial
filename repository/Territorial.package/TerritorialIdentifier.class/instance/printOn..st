@@ -2,6 +2,6 @@ printing
 printOn: aStream
 	" Private - See superimplementor's comment "
 
-	aStream 
-		nextPutBetweenBrackets: self identifierSymbol;
-		nextPutAll: self code asString
+	identifierSymbol notNil
+		ifTrue: [ aStream nextPutBetweenBrackets: self identifierSymbol ].
+	aStream nextPutAll: self code asString
