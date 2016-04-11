@@ -8,6 +8,8 @@ initializeCities
 		skipHeader;
 		do: [ : row | 	
 			(row fifth notNil and: [ row fifth asLowercase = 'en' ])
-				ifTrue: [ self territorialCitiesEN at: (self decodeLatLong: row) put: (row at: 7) ] ].
+				ifTrue: [ self territorialCitiesEN 
+									at: (self decodeLatLong: row) 
+									put: row first -> row seventh ] ].
 
 	
