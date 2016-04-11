@@ -1,6 +1,6 @@
 accessing private
 identifiers
-	"Answer the value of identifiers"
+	" Answer a <Collection> of identifiers "
 
 	^ identifiers
 		ifNil: [ identifiers := IdentityDictionary new ]

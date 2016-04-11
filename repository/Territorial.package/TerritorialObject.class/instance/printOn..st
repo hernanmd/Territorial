@@ -2,6 +2,8 @@ printing
 printOn: aStream
 	" Private - See superimplementor's comment "
 
+	super printOn: aStream.
 	identifiers ifNotNil: [ aStream nextPutBetweenParenthesis: self identifier asString ].
 	aStream
-		nextPutAll: self name
+		space;
+		nextPutBetweenParenthesis: self name

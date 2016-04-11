@@ -1,8 +1,10 @@
 {
-	"commentStamp" : "HernanMoralesDurand 4/10/2016 18:26",
+	"commentStamp" : "HernanMoralesDurand 4/10/2016 18:40",
 	"super" : "TOrganization",
 	"category" : "Territorial-Organization",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"lastCountry"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
