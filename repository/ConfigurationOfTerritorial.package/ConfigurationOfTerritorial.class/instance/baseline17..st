@@ -82,6 +82,8 @@ baseline17: spec
 			package: #'TerritorialData-CountryIO' with: [
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-GeoNames' with: [
+				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-Pleiades' with: [
 				spec requires: #(#TerritorialData ). ].
 		spec 
 			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' #'TerritorialData-GeoNames' );
