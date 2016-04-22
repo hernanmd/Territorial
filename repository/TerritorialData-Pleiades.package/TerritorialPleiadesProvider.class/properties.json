@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 4/22/2016 01:44",
+	"super" : "TerritorialDataProvider",
+	"category" : "TerritorialData-Pleiades",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialPleiadesProvider",
+	"type" : "normal"
+}
