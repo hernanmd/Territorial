@@ -12,7 +12,8 @@ version16: spec
 			project: 'NeoCSV' with: #stable;
 			project: 'SPARQLSearch' with: #stable;
 			project: 'NeoJSON' with: #stable;
-			project: 'XMLParser' with: #stable.
+			project: 'XMLParser' with: #stable;
+			project: 'ISO3166' with: #stable.			
 		spec 
 			package: #Territorial with: 'Territorial-HernanMoralesDurand.92';
 			package: #TerritorialTests with: 'TerritorialTests-HernanMoralesDurand.39';
