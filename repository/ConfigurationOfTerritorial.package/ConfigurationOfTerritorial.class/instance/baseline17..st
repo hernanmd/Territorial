@@ -62,7 +62,7 @@ baseline17: spec
 			package: #TerritorialTests with: [
 				spec requires: #(#Territorial ). ];
 			package: #TerritorialUI with: [
-				spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' ). ];
+				spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' 'TerritorialData'). ];
 			package: #TerritorialData with: [
 				spec requires: #(#Territorial ). ];
 			package: #'TerritorialData-WordNet' with: [
