@@ -1,6 +1,6 @@
 versions
 version17: spec
-	<version: '1.7' imports: #('1.7baseline' )>
+	<version: '1.7' imports: #('1.7-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #'stable'.
