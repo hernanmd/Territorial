@@ -59,13 +59,13 @@ baseline17: spec
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ].
 		spec 
 			package: #Territorial with: [
-				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQLSearch' 'StringExtensions' ). ];
+				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQLSearch' 'StringExtensions' 'GADM' ). ];
 			package: #TerritorialTests with: [
 				spec requires: #(#Territorial ). ];
-			package: #TerritorialUI with: [
-				spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' 'TerritorialData'). ];
 			package: #TerritorialData with: [
 				spec requires: #(#Territorial ). ];
+			package: #TerritorialUI with: [
+				spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' 'TerritorialData' ). ];
 			package: #'TerritorialData-WordNet' with: [
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-OpenGeoCode' with: [
