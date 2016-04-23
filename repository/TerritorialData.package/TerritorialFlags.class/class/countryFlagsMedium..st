@@ -1,3 +1,4 @@
 accessing
 countryFlagsMedium: anObject
-	CountryFlagsMedium := anObject
+
+	countryFlagsMedium := anObject

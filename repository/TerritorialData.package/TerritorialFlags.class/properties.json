@@ -2,12 +2,13 @@
 	"commentStamp" : "HernanMoralesDurand 9/1/2014 01:20",
 	"super" : "TerritorialDataProvider",
 	"category" : "TerritorialData-Flags",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"countryFlagsTiny",
+		"countryFlagsMedium",
+		"countryFlagsSmall"
+	],
 	"pools" : [ ],
 	"classvars" : [
-		"CountryFlagsMedium",
-		"CountryFlagsSmall",
-		"CountryFlagsTiny",
 		"CurrentFlagType"
 	],
 	"instvars" : [ ],

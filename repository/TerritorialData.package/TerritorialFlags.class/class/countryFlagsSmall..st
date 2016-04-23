@@ -1,3 +1,4 @@
 accessing
 countryFlagsSmall: anObject
-	CountryFlagsSmall := anObject
+
+	countryFlagsSmall := anObject
