@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TerritorialRegionCapitals",
-	"category" : "TerritorialData-Cities",
+	"category" : "TerritorialData-DBPedia-Cities",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
