@@ -1,4 +1,4 @@
 accessing
 currentCountryRepository
 
-	^ TerritorialDBPediaCountryCapitals
+	^ TerritorialNativeCountryCapitals
