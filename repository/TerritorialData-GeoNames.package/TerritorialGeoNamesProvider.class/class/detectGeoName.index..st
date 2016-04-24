@@ -1,4 +1,4 @@
-accessing - global
+accessing - countries
 detectGeoName: aString index: featureIndex
 	" Private - Answer receiver's features from dataset "
 	
