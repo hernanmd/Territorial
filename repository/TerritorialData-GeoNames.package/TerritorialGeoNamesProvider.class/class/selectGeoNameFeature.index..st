@@ -1,4 +1,4 @@
-accessing - global
+accessing - countries
 selectGeoNameFeature: featureName index: featureIndex
 	" Private - Answer receiver's features from dataset "
 

@@ -2,4 +2,5 @@ accessing
 downloadDataSets
 	" Download all data sets "
 
-	self downloadUrl.
+	self downloadCountriesURL.
+	self downloadAlternatesURL.
