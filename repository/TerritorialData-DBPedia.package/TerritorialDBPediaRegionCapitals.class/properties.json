@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialRegionCapitals",
+	"category" : "TerritorialData-DBPedia-Cities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialDBPediaRegionCapitals",
+	"type" : "normal"
+}
