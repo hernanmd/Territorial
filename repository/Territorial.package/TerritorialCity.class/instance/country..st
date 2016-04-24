@@ -1,3 +1,5 @@
 accessing
-country: anObject
-	country := anObject
+country: aTerritorialCountry
+	" Set the receiver's country to aTerritorialCountry "
+
+	country := aTerritorialCountry

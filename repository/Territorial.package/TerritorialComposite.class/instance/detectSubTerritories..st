@@ -1,6 +1,6 @@
-enumerating
-detect: aBlock ifNone: otherBlock
+enumerating - subterritories
+detectSubTerritories: aBlock 
 	"Evaluate aBlock with each of the receiver's elements as the argument. 
 	Answer the first element for which aBlock evaluates to true."
 
-	^ self territories detect: aBlock ifNone: otherBlock
+	^ self allTerritories detect: aBlock

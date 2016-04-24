@@ -1,4 +1,4 @@
-as yet unclassified
+private
 regionCapitalFrom: aTerritorialCapitalsClass
  	" See comment in TerritorialCountry>>capital "
 
