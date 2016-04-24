@@ -11,12 +11,14 @@ addOpenGeoCode
 		beGlobal;
 		url: 'http://www.opengeocode.org';
 		populateBlock: [ : d | 
-			d associations do: [ : assoc | 
-				co territories addTerritory: ((TerritorialCity newNamed: assoc value)
-					addTerritoryName: #englishName -> assoc value value;
-					country: (self resolveCountry: assoc value key in: iso3611);
-					centroid: assoc key;
-					yourself) ]
+			d associations 
+				do: [ : assoc | 
+					co territories addTerritory: ((TerritorialCity newNamed: assoc value)
+						addTerritoryName: #englishName -> assoc value value;
+						countryCode: assoc value key;
+						"country: (self resolveCountry: assoc value key in: iso3611);"
+						centroid: assoc key;
+						yourself) ]
 				displayingProgress: 'Scanning cities...' ];
-		populateWith: TerritorialOpenGeoCodeCities territorialCitiesEN;
+		populateWith: self openGeoCodeCities;
 		yourself

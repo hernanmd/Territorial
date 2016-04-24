@@ -3,6 +3,4 @@ isCountryCapital
 	" Answer <true> if receiver represents the capital of a territory "
 
 	^ isCountryCapital
-		ifNil: [ isCountryCapital := (TerritorialCountryCapitals for: self)
-										country: self;
-										isCountryCapital ]	
+		ifNil: [ isCountryCapital := TerritorialCountryCapitals isCountryCapital: self name ]	

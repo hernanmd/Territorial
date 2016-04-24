@@ -14,3 +14,7 @@ Re-initialize:
 
 TCityOrganization initialize.
 TCityOrganization initializeOrganizations.
+
+Implementation
+
+- DO NOT add methods to territorial-organizations category unless you know how organizations are populated.
