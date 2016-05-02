@@ -1,4 +1,4 @@
-initialize-release
+convenience
 asSmalltalkFloat: aString 
 
 	^ ((aString beginsWith: '-.')

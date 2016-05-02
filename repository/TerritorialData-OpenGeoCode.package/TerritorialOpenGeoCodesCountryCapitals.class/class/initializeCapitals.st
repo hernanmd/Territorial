@@ -1,16 +1,12 @@
 initialize-release
-initializeCities
-	" Private - Read and add country synonym data to the receiver "
+initializeCapitals
 
-	self territorialCitiesEN: Dictionary new.
+	self territorialCapitals: OrderPreservingDictionary new.
 	(NeoCSVReader on: TerritorialOpenGeoCodes worldCitiesAsCSV readStream) 
 		separator: $,;
 		skipHeader;
 		do: [ : row | 
-			(row fifth notNil and: [ row eighth ~= 'latin' ])
-				ifTrue: [ self territorialCitiesEN 
+			(row fifth notNil and: [ row third = 'PPLC' and: [ row eighth ~= 'latin' ]])
+				ifTrue: [ self territorialCapitals 
 									at: (TerritorialOpenGeoCodes decodeLatLong: row) 
 									put: row first -> row seventh ] ].
-
-
-	
