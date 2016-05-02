@@ -1,4 +1,6 @@
 accessing
 territories
+	" Answer a <TerritorialObject|Collection> with the receiver's territores "
+
 	^ territories
-		ifNil: [ territories := TerritorialComposite newNamed: self preferredName ]
+		ifNil: [ territories := self defaultTerritories ]

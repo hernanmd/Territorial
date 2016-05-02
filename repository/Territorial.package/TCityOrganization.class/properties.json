@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 4/23/2016 14:56",
+	"commentStamp" : "HernanMoralesDurand 5/1/2016 18:04",
 	"super" : "TOrganization",
 	"category" : "Territorial-Organization",
 	"classinstvars" : [
@@ -7,7 +7,10 @@
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"countryResolver",
+		"countryResolveSelector"
+	],
 	"name" : "TCityOrganization",
 	"type" : "normal"
 }

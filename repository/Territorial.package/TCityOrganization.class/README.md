@@ -12,7 +12,6 @@ TCityOrganization demonymsOf: 'Milan'.
 
 Re-initialize:
 
-TCityOrganization initialize.
 TCityOrganization initializeOrganizations.
 
 Implementation

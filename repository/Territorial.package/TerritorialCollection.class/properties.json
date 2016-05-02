@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SortedCollection",
+	"category" : "Territorial-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialCollection",
+	"type" : "normal"
+}
