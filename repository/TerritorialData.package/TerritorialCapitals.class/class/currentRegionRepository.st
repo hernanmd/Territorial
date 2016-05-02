@@ -1,4 +1,4 @@
 accessing
 currentRegionRepository
 
-	^ TerritorialDBPediaRegionCapitals
+	^ TerritorialOpenGeoCodesRegionCapitals
