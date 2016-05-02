@@ -1,4 +1,4 @@
-initialize-release
+convenience
 decodeLatLong: aCollection 
 	" Answer a <Point> representing latitude and longitude centroids found in aCollection "
 	

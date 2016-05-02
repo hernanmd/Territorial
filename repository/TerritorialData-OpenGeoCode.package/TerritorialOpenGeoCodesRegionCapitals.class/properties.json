@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialRegionCapitals",
+	"category" : "TerritorialData-OpenGeoCode-Capitals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialOpenGeoCodesRegionCapitals",
+	"type" : "normal"
+}
