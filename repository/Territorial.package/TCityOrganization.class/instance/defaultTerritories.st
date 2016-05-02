@@ -1,0 +1,4 @@
+defaults
+defaultTerritories
+
+	^ TerritorialCollection new.
