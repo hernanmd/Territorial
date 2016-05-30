@@ -1,8 +1,7 @@
 Abstract class for hierarchy providing territorial data resources.
 
-Subclass resources:
+To view the current repositories used for resolving resources, evaluate:
 
-- MONDIAL http://www.dbis.informatik.uni-goettingen.de/Mondial/
-- DBPEDIA
-- UNICODE
+TerritorialDataProvider currentRepositories.
+
 

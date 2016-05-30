@@ -1,4 +1,4 @@
-private
+private-filesystem
 slash
 	" Answer a <String> representing the slash used in the receiver's OS "
 	
