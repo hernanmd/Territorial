@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "HernanMoralesDurand 1/16/2016 03:49",
-	"super" : "TerritorialDBPediaDemonyms",
+	"commentStamp" : "HernanMoralesDurand 5/30/2016 01:45",
+	"super" : "TerritorialCityDemonyms",
 	"category" : "TerritorialData-DBPedia-Demonym",
 	"classinstvars" : [ ],
 	"pools" : [ ],
