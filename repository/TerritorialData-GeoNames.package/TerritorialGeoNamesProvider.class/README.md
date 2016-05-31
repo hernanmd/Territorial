@@ -5,3 +5,7 @@ fName := (TerritorialGeoNamesProvider detectFeatureNamed: 'peak') geoNameFeature
 TerritorialGeoNamesProvider 
 	selectGeoNameFeature: fName
 	index: 8.
+
+References:
+
+http://www.geonames.org/export/codes.html
