@@ -1,1 +1,1 @@
-This class should not be used directly.
+This class is not intended to be used directly.
