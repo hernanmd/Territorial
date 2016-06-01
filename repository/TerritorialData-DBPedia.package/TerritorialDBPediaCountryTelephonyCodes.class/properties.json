@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 1/29/2016 16:27",
-	"super" : "TerritorialDBPediaTelephonyCodes",
+	"super" : "TerritorialCountryTelephonyCodes",
 	"category" : "TerritorialData-DBPedia-Telephony",
 	"classinstvars" : [ ],
 	"pools" : [ ],
