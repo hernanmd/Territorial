@@ -1,2 +1,5 @@
-Reference information:
-https://en.wikipedia.org/wiki/List_of_country_calling_codes
+Abstract class for all kind of telephony codes: 
+
+- Area/City phone codes
+- Country phone codes
+- Special phone codes

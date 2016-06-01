@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialTelephonyCodes",
+	"category" : "TerritorialData-Telephony",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialCountryTelephonyCodes",
+	"type" : "normal"
+}
