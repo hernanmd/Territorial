@@ -6,4 +6,4 @@ development: spec
 
 	spec for: #'pharo4.x' version: '1.7-baseline'.
 
-	spec for: #'pharo5.x' version: '1.8-baseline'.
+	spec for: #'pharo5.x' version: '1.9-baseline'.

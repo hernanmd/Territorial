@@ -1,6 +1,6 @@
 baselines
-baseline17: spec
-	<version: '1.7-baseline'>
+baseline19: spec
+	<version: '1.9-baseline'>
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
@@ -21,12 +21,12 @@ baseline17: spec
 				spec
 					className: #ConfigurationOfNeoJSON;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ];
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
 			project: 'XMLParser' with: [
 				spec
 					className: #ConfigurationOfXMLParser;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ];
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
 			project: 'SpecUIAddOns' with: [
 				spec
 					className: #ConfigurationOfSpecUIAddOns;
@@ -51,15 +51,15 @@ baseline17: spec
 				spec
 					className: #ConfigurationOfOSProcess;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ];
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
 			project: 'ISO3166' with: [
 				spec
 					className: #ConfigurationOfISO3166;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ].
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ].
 		spec 
 			package: #Territorial with: [
-				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQLSearch' 'StringExtensions' 'GADM' 'ISO3166'). ];
+				spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQLSearch' 'StringExtensions' 'GADM' 'ISO3166' ). ];
 			package: #TerritorialTests with: [
 				spec requires: #(#Territorial ). ];
 			package: #TerritorialData with: [
@@ -89,5 +89,5 @@ baseline17: spec
 			package: #'TerritorialData-AGGData' with: [
 				spec requires: #(#TerritorialData ). ].
 		spec 
-			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' #'TerritorialData-GeoNames' #'TerritorialData-AGGData');
+			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' #'TerritorialData-GeoNames' #'TerritorialData-AGGData' );
 			group: 'Tests' with: #(#TerritorialTests #Territorial #TerritorialData ). ].
