@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 5/31/2016 03:14",
-	"super" : "TerritorialObject",
+	"super" : "TerritorialDataProvider",
 	"category" : "TerritorialData-OpenGeoCode-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
