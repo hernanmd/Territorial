@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/1/2016 11:11",
+	"super" : "TerritorialCityTelephonyCodes",
+	"category" : "TerritorialData-AGGData",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialAGGCityTelephonyCodes",
+	"type" : "normal"
+}

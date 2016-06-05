@@ -1,0 +1,4 @@
+accessing
+cityTelephonyCodesFilename
+
+	^ 'globalareacodes.csv'
