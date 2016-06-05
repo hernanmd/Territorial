@@ -1,0 +1,4 @@
+accessing
+currentRegionRepository
+
+	^ self currentRepositoryClass

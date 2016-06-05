@@ -4,5 +4,5 @@ cityTelephonyCodes
 	
 	^ cityTelephonyCodes
 		ifNil: [ 
-			self initialize.
+			self initializeTelephonyCodes.
 			cityTelephonyCodes ]	

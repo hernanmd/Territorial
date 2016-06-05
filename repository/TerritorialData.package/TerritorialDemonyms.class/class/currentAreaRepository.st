@@ -1,4 +1,4 @@
 accessing
 currentAreaRepository
 
-	^ TerritorialDB1AreaDemonyms 
+	^ TerritorialAreaDemonyms currentAreaRepository  

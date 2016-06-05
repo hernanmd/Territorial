@@ -1,4 +1,4 @@
 accessing
 currentCountryRepository
 
-	^ TerritorialDB1CountryDemonyms 
+	^ TerritorialCountryDemonyms currentCountryRepository
