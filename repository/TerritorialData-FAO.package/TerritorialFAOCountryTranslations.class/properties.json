@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 5/31/2016 03:20",
-	"super" : "TerritorialFAOTranslations",
+	"super" : "TerritorialCountryTranslations",
 	"category" : "TerritorialData-FAO-Translations",
 	"classinstvars" : [ ],
 	"pools" : [ ],

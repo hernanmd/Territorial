@@ -4,7 +4,7 @@ initializeFAOCountryTranslations
 	| xmlList spellings doc sgov |
 
 	spellings := Dictionary new.
-	doc := self countryNamesAsXML.
+	doc := TerritorialFAO countryNamesAsXML.
 	xmlList := doc firstNode allElementsSelect: [ : each | each localName = 'self_governing' ].
 	
 	sgov := xmlList collect: [ : n | n allElementsSelect: [ : each | 
