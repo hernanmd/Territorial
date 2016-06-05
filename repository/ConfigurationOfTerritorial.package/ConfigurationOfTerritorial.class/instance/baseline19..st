@@ -85,9 +85,7 @@ baseline19: spec
 			package: #'TerritorialData-GeoNames' with: [
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-Pleiades' with: [
-				spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-AGGData' with: [
 				spec requires: #(#TerritorialData ). ].
 		spec 
-			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' #'TerritorialData-GeoNames' #'TerritorialData-AGGData' );
+			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FreeBase' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-WordNet' #'TerritorialData-GeoNames' );
 			group: 'Tests' with: #(#TerritorialTests #Territorial #TerritorialData ). ].
