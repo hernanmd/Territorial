@@ -1,5 +1,4 @@
 accessing
 currentCountryRepository
 
-	"^ TerritorialNativeCountryCapitals"
-	^ TerritorialOpenGeoCodesCountryCapitals
+	^ TerritorialCountryCapitals currentCountryRepository

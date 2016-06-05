@@ -1,4 +1,4 @@
 accessing
 currentCityRepository
 
-	^ TerritorialDBPediaCityDemonyms 
+	^ TerritorialCityDemonyms currentCityRepository 
