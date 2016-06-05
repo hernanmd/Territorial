@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 1/24/2016 13:16",
-	"super" : "TerritorialJETranslations",
+	"super" : "TerritorialCountryTranslations",
 	"category" : "TerritorialData-JET-Translations",
 	"classinstvars" : [
 		"currentCountryISO"
