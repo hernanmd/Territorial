@@ -1,2 +1,6 @@
 Abstract class grouping Territorial Cities data.
 See subclasses for details.
+
+Raw acccess:
+
+TerritorialCities currentRepositoryClass territorialCitiesEN.
