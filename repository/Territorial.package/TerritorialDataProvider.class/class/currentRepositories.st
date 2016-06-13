@@ -6,6 +6,6 @@ currentRepositories
 	
 	d := Dictionary new.	
 	self allSubclasses 
-		select: [ : sc | sc class includesSelector: #defaultRepositoryName ]
-		thenCollect: [ : sc | d at: sc name put: sc currentRepositoryName ].
+		select: [ : sc | sc class includesSelector: #defaultRepositoryClass ]
+		thenCollect: [ : sc | d at: sc name put: sc currentRepositoryClass ].
 	^ d

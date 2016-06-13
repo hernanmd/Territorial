@@ -1,4 +1,4 @@
-accessing
+accessing - searching
 @ denominationString
 	" Given denominationString, answer its proper organization in the receiver's known organizations, if found. "
 	

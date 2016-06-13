@@ -19,6 +19,6 @@ addOpenGeoCode
 						"country: (self resolveCountry: assoc value key in: iso3611);"
 						centroid: assoc key;
 						yourself) ]
-				displayingProgress: 'Scanning cities...' ];
+				displayingProgress: 'Adding cities...' ];
 		populateWith: self openGeoCodeCities;
 		yourself

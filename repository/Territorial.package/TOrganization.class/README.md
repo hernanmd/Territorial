@@ -1,11 +1,6 @@
-Provides behavior for handling administrative structures created for specific goals. 
+Provides behavior for handling administrative structures created for specific goals.  At class side an organization can be used as a repository of several organizations (each one an instance of TOrganization) . 
 
-This class supports adding :
-
-- Creation/Disolution date and Periodization
-- Naming and Denomination (descriptions)
-- Demonyms
-- Populate its contained territories
+The method category "" is used to maintain the methods for populating territories. Such methods can use or not a data provider class (subclass of TerritorialDataProvider).
 
 Development Notes:
 

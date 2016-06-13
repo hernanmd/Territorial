@@ -1,4 +1,6 @@
 accessing
 currentOrganization
+	" See superimplementor's comment "
 
-	^ self @ TerritorialCountries currentRepositoryName
+	^ currentOrganization
+		ifNil: [ currentOrganization := self @ TerritorialCountries currentRepositoryName ]
