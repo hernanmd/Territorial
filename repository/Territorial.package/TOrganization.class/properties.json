@@ -1,10 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 1/12/2016 02:49",
+	"commentStamp" : "HernanMoralesDurand 6/13/2016 01:53",
 	"super" : "TerritorialNamedObject",
 	"category" : "Territorial-Organization",
 	"classinstvars" : [
 		"tOrganizations",
-		"settingScanAllOrganizations"
+		"settingScanAllOrganizations",
+		"currentOrganization"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],

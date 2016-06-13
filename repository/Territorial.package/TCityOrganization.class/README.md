@@ -2,6 +2,7 @@ A city organization groups cities, and enable to build groups from existing citi
 
 Examples:
 
+TCityOrganization cityNames.
 (TCityOrganization @ 'C40') sortedTerritoryNames.
 (TCityOrganization @ 'C40') cities.
 TCityOrganization demonymsOf: 'Cairo'.

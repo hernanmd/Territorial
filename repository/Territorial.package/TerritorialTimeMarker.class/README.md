@@ -5,11 +5,5 @@ The same feature could be done using a Timespan
 (Timespan starting: (Year year: 1989) ending: Year current)
 
 Instance Variables
-	dissolvedDate:		<Object>
-	formedDate:		<Object>
-
-dissolvedDate
-	- xxxxx
-
-formedDate
-	- xxxxx
+	dissolvedDate:	<Date>
+	formedDate:		<Date>

@@ -1,4 +1,4 @@
-accessing
+accessing - searching
 atQualifier: qualifierString
 	" Answer a <Collection> of organizations containing qualifierString "
 	
