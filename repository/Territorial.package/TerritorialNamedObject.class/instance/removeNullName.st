@@ -1,5 +1,5 @@
 naming
 removeNullName
-	" Answer a String representing a default name "
+	" Remove receiver's null name "
 	
 	self names remove: self nullName ifAbsent: [ ]

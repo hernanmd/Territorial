@@ -3,4 +3,4 @@ currentOrganization
 	" See superimplementor's comment "
 
 	^ currentOrganization
-		ifNil: [ currentOrganization := self @ TerritorialAreas currentRepositoryName ]
+		ifNil: [ currentOrganization := self new ]
