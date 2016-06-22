@@ -15,7 +15,8 @@
 		"qualifiers",
 		"url",
 		"populateBlock",
-		"period"
+		"period",
+		"mapUrls"
 	],
 	"name" : "TOrganization",
 	"type" : "normal"

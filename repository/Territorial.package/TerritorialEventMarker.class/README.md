@@ -1,1 +1,4 @@
-Adds support to mark territories with historical events.
+Adds support to mark territories with geopolitical events.
+
+startDate	<Date>
+endDate		<Date>

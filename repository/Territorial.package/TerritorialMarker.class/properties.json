@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "HernanMoralesDurand 6/22/2016 03:29",
 	"super" : "TerritorialNamedObject",
 	"category" : "Territorial-Markers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"territory"
+	],
 	"name" : "TerritorialMarker",
 	"type" : "normal"
 }

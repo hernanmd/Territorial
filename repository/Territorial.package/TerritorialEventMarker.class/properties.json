@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "HernanMoralesDurand 3/6/2014 21:50",
-	"super" : "Association",
+	"commentStamp" : "HernanMoralesDurand 6/22/2016 03:40",
+	"super" : "TerritorialMarker",
 	"category" : "Territorial-Markers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"startDate",
+		"endDate"
+	],
 	"name" : "TerritorialEventMarker",
 	"type" : "normal"
 }

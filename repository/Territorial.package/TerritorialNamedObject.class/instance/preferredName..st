@@ -1,6 +1,6 @@
 accessing private
-preferredName: anObject
-	"Set the value of preferredName"
+preferredName: aString
+	" Set the value of preferredName to aString "
 
-	preferredName := anObject.
-	self addName: anObject.
+	preferredName := aString.
+	self addName: aString.

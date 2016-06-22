@@ -1,6 +1,6 @@
 private
 buildRegion: symbol
-	" Answer a Collection with stable subdivisions "
+	" Answer a <Collection> with stable subdivisions "
 	
 	| territories |
 
