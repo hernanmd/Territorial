@@ -1,5 +1,5 @@
 accessing
 size
-	"Answer how many territories the receiver contains."
+	" Return the count of items currently present. "
 
 	^ self territories size
