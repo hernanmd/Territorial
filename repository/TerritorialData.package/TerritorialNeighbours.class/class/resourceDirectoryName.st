@@ -1,8 +1,5 @@
 accessing
-resourceDirectory
+resourceDirectoryName
 	" Answer a <String> specifying the directory name where data files are located "
 	
-	^ super resourceDirectory , 
-		self slash ,
-		'factbook' ,
-		self slash
+	^ 'factbook'
