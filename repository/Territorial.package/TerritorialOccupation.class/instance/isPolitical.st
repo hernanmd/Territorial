@@ -1,0 +1,3 @@
+testing
+isPolitical
+	^ isPolitical

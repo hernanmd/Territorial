@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"occupant"
+		"occupant",
+		"isMilitary",
+		"isPolitical"
 	],
 	"name" : "TerritorialOccupation",
 	"type" : "normal"
