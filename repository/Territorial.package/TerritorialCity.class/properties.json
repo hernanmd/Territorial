@@ -11,7 +11,8 @@
 		"centroid",
 		"isCountryCapital",
 		"isRegionCapital",
-		"countryCode"
+		"countryCode",
+		"isMegaCity"
 	],
 	"name" : "TerritorialCity",
 	"type" : "normal"

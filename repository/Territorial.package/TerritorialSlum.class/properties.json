@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/14/2016 18:11",
+	"super" : "TerritorialSettlement",
+	"category" : "Territorial-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"factors",
+		"risks"
+	],
+	"name" : "TerritorialSlum",
+	"type" : "normal"
+}
