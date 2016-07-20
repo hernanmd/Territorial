@@ -4,7 +4,9 @@
 	"category" : "TerritorialData-Demonyms",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Demonyms"
+	],
 	"instvars" : [ ],
 	"name" : "TerritorialDemonyms",
 	"type" : "normal"
