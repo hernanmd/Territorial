@@ -3,7 +3,7 @@ occupedBy: anObject namedAs: aString period: anAssociation
 	" Add occupation event to the receiver's geopolitical events "
 
 	self geopoliticalEvents add: 
-		(TerritorialOccupation period: anAssociation)
-				name: aString;
+		((TerritorialOccupation period: anAssociation)
+				addName: aString;
 				occupant: anObject;
-				territory: self
+				territory: self)

@@ -1,4 +1,4 @@
-accessing private
+naming
 names
 	"Answer the value of names"
 

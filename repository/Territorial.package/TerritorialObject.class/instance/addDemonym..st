@@ -1,5 +1,7 @@
 accessing-names
 addDemonym: aString
-	" Add aString representing a demonym for the receiver "
+	" Add aString representing a demonym for the receiver. Answer the receiver "
 	
-	self demonyms add: aString.
+	demonyms 
+		ifNil: [ demonyms := Set new ].
+	demonyms add: aString.

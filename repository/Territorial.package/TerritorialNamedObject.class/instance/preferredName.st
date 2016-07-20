@@ -1,4 +1,4 @@
-accessing private
+naming
 preferredName
 	" Private - Answer a Symbol for determining the default preferred language name in which receiver will be displayed "
 

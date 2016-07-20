@@ -1,4 +1,4 @@
-accessing
+maps
 nullMapUrl
 	" Answer a <String> representing a default map URL "
 	

@@ -1,4 +1,4 @@
-naming
+maps
 addMapUrl: aString
 	" Add aString as a URL of a receiver's map. "
 	

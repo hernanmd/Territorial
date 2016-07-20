@@ -1,3 +1,5 @@
 accessing
-territories: anObject
-	territories := anObject
+territories: aCollection
+	" Set the receiver's territories to be aCollection "
+
+	territories := aCollection

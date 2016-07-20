@@ -1,3 +1,3 @@
-accessing
+maps
 mapUrls: anObject
 	mapUrls := anObject

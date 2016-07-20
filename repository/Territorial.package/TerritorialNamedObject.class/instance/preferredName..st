@@ -1,4 +1,4 @@
-accessing private
+naming
 preferredName: aString
 	" Set the value of preferredName to aString "
 
