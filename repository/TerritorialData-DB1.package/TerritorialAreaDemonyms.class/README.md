@@ -1,3 +1,3 @@
-Abstract class for home-made list of demonyms.
+Abstract class providing repository of area or region demonyms.
 
-Should not be used directly.
+This class should not be used directly.
