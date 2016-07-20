@@ -1,4 +1,4 @@
-accessing private
+naming
 names: anObject
 	"Set the value of names"
 

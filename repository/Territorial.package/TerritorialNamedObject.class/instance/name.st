@@ -1,4 +1,4 @@
-accessing public
+naming
 name
 	" Answer a <String> representing the receiver's preferred name "
 	

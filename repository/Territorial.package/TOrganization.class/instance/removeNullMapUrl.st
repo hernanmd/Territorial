@@ -1,4 +1,4 @@
-accessing
+maps
 removeNullMapUrl
 	" Remove receiver's null map URL "
 	
