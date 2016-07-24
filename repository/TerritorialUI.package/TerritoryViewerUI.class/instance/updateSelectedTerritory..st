@@ -5,5 +5,6 @@ updateSelectedTerritory: tty
 	tty
 		ifNil: [ ]
 		ifNotNil: [
+			self updateTerritoryList: tty.
 			self colorizeMap: tty.
 			self narrowMap: tty ]

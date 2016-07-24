@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 5/27/2014 21:30",
-	"super" : "TerritorialUIMapper",
+	"super" : "TerritorialRoassalUIMapper",
 	"category" : "TerritorialUI-Composer",
 	"classinstvars" : [ ],
 	"pools" : [ ],

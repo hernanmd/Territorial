@@ -1,5 +1,6 @@
 initialization
 initializeWidgets
+	" Private - See superimplementor's comment "
 
 	compositions := self instantiate: TCompositionsUIList.
 	territories := self instantiate: TTerritoriesUIList.
