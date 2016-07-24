@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/23/2016 15:48",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-GeoProcessing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialGeoProcessorClient",
+	"type" : "normal"
+}

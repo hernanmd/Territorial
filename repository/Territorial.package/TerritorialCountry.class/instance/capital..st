@@ -1,3 +1,5 @@
 accessing
-capital: anObject
-	^ capital := anObject
+capital: aTerritorialCity
+	" Set the receiver's capital to be aTerritorialCity "
+
+	^ capital := aTerritorialCity

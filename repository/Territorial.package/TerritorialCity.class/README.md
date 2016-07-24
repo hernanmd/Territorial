@@ -13,6 +13,10 @@ Internal Representation and Key Implementation Points.
     Instance Variables
 	country:			<TerritorialCountry>
 	centroid:		<TerritorialLocationMarker>
+	isMegaCity:		<Boolean>
+	isRegionCapital:	<Boolean>
+	isCountryCapital:	<Boolean>
+	
 
 
     Implementation Points
