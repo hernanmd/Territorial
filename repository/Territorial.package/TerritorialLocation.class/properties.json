@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"telephonyCodes"
+		"telephonyCodes",
+		"geoProcessor"
 	],
 	"name" : "TerritorialLocation",
 	"type" : "normal"
