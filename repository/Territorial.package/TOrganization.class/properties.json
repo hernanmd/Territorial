@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/13/2016 01:53",
-	"super" : "TerritorialNamedObject",
+	"super" : "TerritorialMappableObject",
 	"category" : "Territorial-Organization",
 	"classinstvars" : [
 		"tOrganizations",
@@ -15,8 +15,7 @@
 		"qualifiers",
 		"url",
 		"populateBlock",
-		"period",
-		"mapUrls"
+		"period"
 	],
 	"name" : "TOrganization",
 	"type" : "normal"
