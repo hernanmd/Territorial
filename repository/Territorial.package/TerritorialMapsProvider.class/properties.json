@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/25/2016 20:37",
+	"super" : "Object",
+	"category" : "Territorial-Maps",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"maps"
+	],
+	"name" : "TerritorialMapsProvider",
+	"type" : "normal"
+}

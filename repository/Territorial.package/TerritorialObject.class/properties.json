@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/2/2014 00:22",
-	"super" : "TerritorialNamedObject",
+	"super" : "TerritorialMappableObject",
 	"category" : "Territorial-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
