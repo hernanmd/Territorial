@@ -1,5 +1,6 @@
 initialize-release
 release
-	" Cleanup the receiver's data "
-	
+	" See superimplementor's comment "
+
+	self log: 'Releasing ' , self class name.
 	RawCountryDensities := nil
