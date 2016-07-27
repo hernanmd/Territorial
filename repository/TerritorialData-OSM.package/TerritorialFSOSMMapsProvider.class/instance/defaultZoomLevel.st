@@ -1,0 +1,4 @@
+defaults
+defaultZoomLevel
+
+	^ 15

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/27/2016 15:55",
+	"super" : "TerritorialOSMMapsProvider",
+	"category" : "TerritorialData-OSM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialFSOSMMapsProvider",
+	"type" : "normal"
+}
