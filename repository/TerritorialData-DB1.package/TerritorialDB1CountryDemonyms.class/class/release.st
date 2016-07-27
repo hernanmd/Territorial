@@ -1,7 +1,8 @@
 initialize-release
 release
-	" Private - Initialize the receiver's repositories "
+	" See superimplementor's comment "
 
+	self log: 'Releasing ' , self class name.
 	countryDemonyms := Dictionary new.
 	oneWordCountryDemonyms := Dictionary new.
 	twoWordsCountryDemonyms := Dictionary new.
