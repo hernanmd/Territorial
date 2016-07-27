@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/26/2016 19:08",
+	"super" : "TerritorialMapProvider",
+	"category" : "TerritorialData-GoogleMaps",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialGoogleMapsProvider",
+	"type" : "normal"
+}
