@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/20/2016 01:49",
 	"super" : "TerritorialDemonyms",
-	"category" : "TerritorialData-DB1-Demonyms",
+	"category" : "TerritorialData-Demonyms",
 	"classinstvars" : [
 		"cityDemonyms"
 	],
