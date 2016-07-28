@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/20/2016 01:49",
+	"super" : "TerritorialDemonyms",
+	"category" : "TerritorialData-Demonyms",
+	"classinstvars" : [
+		"cityDemonyms"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialCityDemonyms",
+	"type" : "normal"
+}
