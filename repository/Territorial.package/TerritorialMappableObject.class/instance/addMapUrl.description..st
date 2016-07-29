@@ -6,4 +6,4 @@ addMapUrl: urlString description: aString
 		ifFalse: [ 
 			self mapsProvider addMapUrl: urlString description: aString.
 			self mapsProvider removeNullMapUrl ]
-		ifTrue: [ self signalDuplicateObject: urlString , ' already exists in the receiver' translated ]
+		ifTrue: [ self error: urlString , ' already exists in the receiver' translated ]

@@ -1,3 +1,4 @@
 accessing
-maps: anObject
-	maps := anObject
+maps: aCollection
+
+	maps := aCollection
