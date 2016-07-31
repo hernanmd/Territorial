@@ -1,3 +1,5 @@
 accessing
-factors: anObject
-	factors := anObject
+factors: aCollection
+	" Set the receiver to be aCollection "
+
+	factors := aCollection

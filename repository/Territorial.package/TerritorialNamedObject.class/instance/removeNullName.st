@@ -1,4 +1,4 @@
-naming
+accessing-names
 removeNullName
 	" Remove receiver's null name "
 	
