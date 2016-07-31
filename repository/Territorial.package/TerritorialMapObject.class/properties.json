@@ -8,7 +8,8 @@
 	"instvars" : [
 		"description",
 		"owners",
-		"mapProvider"
+		"mapProvider",
+		"annotations"
 	],
 	"name" : "TerritorialMapObject",
 	"type" : "normal"

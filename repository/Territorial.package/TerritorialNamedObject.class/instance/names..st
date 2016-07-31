@@ -1,4 +1,4 @@
-naming
+accessing-names
 names: anObject
 	"Set the value of names"
 

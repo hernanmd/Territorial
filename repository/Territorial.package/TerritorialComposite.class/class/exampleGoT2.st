@@ -10,11 +10,11 @@ exampleGoT2
 						addDemonym: 'Ironborn';
 						yourself);
 			  addTerritory: ('The Vale of Arryn' asTerritorialComposite
-						addFormerTerritoryName: 'The Kingdom of Mountain and Vale';
+						addFormerName: 'The Kingdom of Mountain and Vale';
 						yourself);
 				addTerritory: ('The Riverlands' asTerritorialComposite
 						url: 'http://gameofthrones.wikia.com/wiki/The_Riverlands';
-						addFormerTerritoryName: 'Region of the Kingdom of the Isles and the Rivers';
+						addFormerName: 'Region of the Kingdom of the Isles and the Rivers';
 						yourself);
 				addTerritory: 'The Westerlands' asTerritorialComposite;
 				addTerritory: 'The Reach' asTerritorialComposite;

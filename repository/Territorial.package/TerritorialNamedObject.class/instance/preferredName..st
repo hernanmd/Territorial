@@ -1,4 +1,4 @@
-naming
+accessing-names
 preferredName: aString
 	" Set the value of preferredName to aString "
 
