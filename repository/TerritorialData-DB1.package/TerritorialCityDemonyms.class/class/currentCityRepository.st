@@ -1,4 +1,0 @@
-accessing
-currentCityRepository
-
-	^ self currentRepositoryClass
