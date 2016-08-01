@@ -1,4 +1,0 @@
-accessing
-currentAreaRepository
-
-	^ self currentRepositoryClass
