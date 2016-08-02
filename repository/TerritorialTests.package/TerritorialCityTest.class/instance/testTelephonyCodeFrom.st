@@ -3,4 +3,5 @@ testTelephonyCodeFrom
 	"WARNING: This is code generated automatically.
  On: 10 April 2016 - 1:24:17.908038 am"
 
-	self assert: (self instance telephonyCodeFrom: nil ).
+	self halt.
+	self assert: (self countryCapital telephonyCodeFrom: TerritorialCityTelephonyCodes ).
