@@ -1,5 +1,7 @@
 TerritorialGeoNamesProvider readFeatureCodes.
 
+TerritorialGeoNamesProvider featureCodes.
+
 | fName |
 fName := (TerritorialGeoNamesProvider detectFeatureNamed: 'peak') geoNameFeatureCode.
 TerritorialGeoNamesProvider 
