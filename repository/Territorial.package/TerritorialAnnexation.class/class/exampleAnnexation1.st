@@ -1,5 +1,5 @@
 examples
-annexation1
+exampleAnnexation1
 
 	| china tibet |
 	

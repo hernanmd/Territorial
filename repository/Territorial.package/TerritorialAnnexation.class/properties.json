@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TerritorialEventMarker",
-	"category" : "Territorial-Markers",
+	"category" : "Territorial-Geopolitics",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

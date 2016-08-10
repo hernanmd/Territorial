@@ -1,5 +1,5 @@
 examples
-annexation2
+exampleAnnexation2
 
 	^ (TerritorialArea newNamed: 'Tibet')
 		annexedBy: 'People''s Republic of China' asTerritorialCountry 

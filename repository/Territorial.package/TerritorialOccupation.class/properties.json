@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/22/2016 03:27",
 	"super" : "TerritorialEventMarker",
-	"category" : "Territorial-Markers",
+	"category" : "Territorial-Geopolitics",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

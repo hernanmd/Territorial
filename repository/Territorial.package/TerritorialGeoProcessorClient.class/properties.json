@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/25/2016 18:52",
 	"super" : "TerritorialNamedObject",
-	"category" : "Territorial-GeoProcessing",
+	"category" : "Territorial-Geoprocessing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

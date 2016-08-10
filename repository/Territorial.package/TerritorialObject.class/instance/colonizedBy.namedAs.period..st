@@ -5,5 +5,5 @@ colonizedBy: anObject namedAs: aString period: anAssociation
 	self geopoliticalEvents add: 
 		((TerritorialColonization period: anAssociation)
 				addName: aString;
-				occupant: anObject;
+				colonizer: anObject;
 				territory: self)
