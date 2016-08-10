@@ -1,0 +1,1 @@
+A TerritorialContinentTest is a test class for testing the behavior of TerritorialContinent

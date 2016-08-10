@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "",
-	"super" : "TerritorialObjectTest",
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
 	"category" : "TerritorialTests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"area"
+		"continent"
 	],
-	"name" : "TerritorialAreaTest",
+	"name" : "TerritorialContinentTest",
 	"type" : "normal"
 }
