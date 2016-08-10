@@ -1,5 +1,6 @@
 accessing
 setUp
 
-	territoryOrganization := TRegionOrganization @ 'Caribbean'.
+	super setUp.
+	self territoryOrganization: TRegionOrganization @ 'Caribbean'.
 	

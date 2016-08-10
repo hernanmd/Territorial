@@ -1,7 +1,7 @@
 tests-naming
 testHasName
 
-	self assert: territory hasName.
-	territory removeAllNames.
-	self deny: territory hasName.
+	self assert: organization hasName.
+	organization removeAllNames.
+	self deny: organization hasName.
 	

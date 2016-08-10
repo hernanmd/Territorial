@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"territory"
+		"organization"
 	],
 	"name" : "TOrganizationTest",
 	"type" : "normal"
