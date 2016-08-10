@@ -1,4 +1,5 @@
 tests-accessing
 testFindTerritory
 
-	self assert: (territory findTerritory: 'Finland') equals: (TCountryOrganization @ 'UN.M49') @ 'Finland'.
+	organization setScanAllOrganizations.
+	self assert: (organization findTerritory: 'Finland') equals: (TCountryOrganization @ 'UN.M49') @ 'Finland'.
