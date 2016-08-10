@@ -1,5 +1,5 @@
 accessing
 currentCityRepository
-	" Answer the class currently used to resolve city codes "
+	" See superimplementor's comment "
 
 	^ self currentRepositoryClass
