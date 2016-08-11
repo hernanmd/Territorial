@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/11/2016 03:43",
-	"super" : "TerritorialDBPediaPopulations",
+	"commentStamp" : "",
+	"super" : "TerritorialPopulations",
 	"category" : "TerritorialData-DBPedia-Population",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TerritorialDBPediaCityPopulations",
+	"name" : "TerritorialCountryPopulations",
 	"type" : "normal"
 }
