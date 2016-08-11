@@ -1,3 +1,5 @@
 accessing
-countryTotalAreas: anObject
-	countryTotalAreas := anObject
+countryTotalAreas: aDictionary
+	" Set the receiver's total areas to be aDictionary "
+
+	countryTotalAreas := aDictionary

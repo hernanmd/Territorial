@@ -1,5 +1,5 @@
 private-sparql
-sparqlCountryPopulations
+sparqlCountryPopulationEstimates
 
 	^ 'PREFIX dbo: <http://dbpedia.org/ontology/>
 SELECT DISTINCT ?name ?population 
@@ -8,7 +8,7 @@ WHERE {
 	?country rdfs:label ?name . 
 FILTER 
 	(langMatches(lang(?name), "en")) 
-	values ?hasPopulation { dbp:populationCensus } 
+	values ?hasPopulation { dbp:populationEstimate } 
 	OPTIONAL { ?country ?hasPopulation ?population } 
 	FILTER (isNumeric(?population)) 
 	FILTER NOT EXISTS { ?country owl:dissolutionYear ?yearEnd } { ?country dbp:iso3166code ?code . } 
