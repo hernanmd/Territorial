@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TerritorialDBPediaCityPopulations",
+	"name" : "TerritorialDBPediaCountryPopulations",
 	"type" : "normal"
 }
