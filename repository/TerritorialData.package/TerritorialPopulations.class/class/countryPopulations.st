@@ -1,6 +1,5 @@
 private
 countryPopulations
-	" Answer a <String> "
+	" Answer a <Collection> with mappings of countries and census populations number "
 	
-	^ RawCountryPopulations
-		ifNil: [ RawCountryPopulations := self getCensusCountryPopulations asDictionary ]
+	^ self currentCountryRepository countryPopulations
