@@ -1,5 +1,5 @@
 private
 neighboursFrom: aTerritorialDataClass
-	" Private - "
+	" Private - See comment in TerritorialObject>>neighbours "
 	
 	^ aTerritorialDataClass countryNeighboursFrom: self name
