@@ -1,6 +1,5 @@
 accessing
 countryTranslations
-	^ countryTranslations
-		ifNil: [ 
-			self initialize.
-			countryTranslations ]
+	" Answer a <Collection> with translations of names for countries "
+	
+	^ self currentCountryRepository countryTranslations

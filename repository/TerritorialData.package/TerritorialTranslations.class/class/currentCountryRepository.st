@@ -1,4 +1,5 @@
 accessing
 currentCountryRepository
+	" Answer the <Class> currently used to resolve country translations "
 
-	^ TerritorialFAOCountryTranslations 
+	^ TerritorialCountryTranslations currentCountryRepository 
