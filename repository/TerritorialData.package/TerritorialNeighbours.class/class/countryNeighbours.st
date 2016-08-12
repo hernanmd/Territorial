@@ -1,5 +1,5 @@
 accessing
 countryNeighbours
-
-	^ CountryNeighbours
-		ifNil: [ CountryNeighbours := self getSparqlCountryNeighbours ]
+	" Answer a <Collection> with mappings of countries and census populations number "
+	
+	^ self currentCountryRepository countryNeighbours
