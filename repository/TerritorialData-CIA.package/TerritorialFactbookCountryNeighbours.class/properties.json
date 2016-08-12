@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialCountryNeighbours",
+	"category" : "TerritorialData-CIA-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialFactbookCountryNeighbours",
+	"type" : "normal"
+}
