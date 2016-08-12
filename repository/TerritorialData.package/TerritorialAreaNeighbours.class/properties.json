@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialNeighbours",
+	"category" : "TerritorialData-Neighbours",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialAreaNeighbours",
+	"type" : "normal"
+}

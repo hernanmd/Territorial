@@ -1,6 +1,5 @@
-accessing
+accessing - country
 estimatedCountryPopulations
+	" Answer a <Collection> with mappings of countries and estimated populations number "
 
-	^ EstimatedCountryPopulations
-		ifNil: [ self initializeCountryPopulations.
-				EstimatedCountryPopulations ]	
+	^ self currentCountryRepository estimatedCountryPopulations 

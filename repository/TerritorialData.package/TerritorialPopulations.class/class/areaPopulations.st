@@ -1,6 +1,6 @@
-private
+accessing - area
 areaPopulations
 	" Answer a <String> "
 	
-	^ RawAreaPopulations
-		ifNil: [ RawAreaPopulations := self getCensusAreaPopulations ]
+	^ CensusAreaPopulations
+		ifNil: [ CensusAreaPopulations := self getCensusAreaPopulations ]

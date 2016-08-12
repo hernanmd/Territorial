@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/12/2016 04:21",
+	"super" : "TerritorialPopulations",
+	"category" : "TerritorialData-Population",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialCityPopulations",
+	"type" : "normal"
+}

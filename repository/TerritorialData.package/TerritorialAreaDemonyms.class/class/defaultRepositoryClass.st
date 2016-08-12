@@ -2,4 +2,4 @@ defaults
 defaultRepositoryClass
 	" Private - See superimplementor's comment "
 	
-	^ TerritorialDB1AreaDemonyms
+	^ self defaultRepositoryClassOrError: #TerritorialDB1AreaDemonyms
