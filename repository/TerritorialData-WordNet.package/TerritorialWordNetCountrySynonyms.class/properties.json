@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "HernanMoralesDurand 1/18/2016 21:34",
-	"super" : "TerritorialWordNetSynonyms",
+	"commentStamp" : "HernanMoralesDurand 8/12/2016 04:42",
+	"super" : "TerritorialCountrySynonyms",
 	"category" : "TerritorialData-WordNet-Synonyms",
 	"classinstvars" : [ ],
 	"pools" : [ ],
