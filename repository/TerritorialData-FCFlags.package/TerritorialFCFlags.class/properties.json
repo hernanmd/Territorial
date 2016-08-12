@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/12/2016 04:26",
+	"super" : "TerritorialCountryFlags",
+	"category" : "TerritorialData-FCFlags-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialFCFlags",
+	"type" : "normal"
+}
