@@ -1,10 +1,8 @@
 {
-	"commentStamp" : "HernanMoralesDurand 9/3/2016 16:21",
+	"commentStamp" : "HernanMoralesDurand 8/12/2016 04:26",
 	"super" : "TerritorialCountryFlags",
 	"category" : "TerritorialData-FCFlags-Core",
-	"classinstvars" : [
-		"maxFlagSize"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
