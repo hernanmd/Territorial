@@ -4,6 +4,7 @@ baseline110: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
+		spec preLoadDoIt: #preLoad.		
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
 		spec 
 			project: 'Roassal2' with: [
