@@ -8,5 +8,5 @@ testParseCountryDemonym
 	self assert: 'Text without demonyms' parseCountryDemonym = String empty.
 	
 	" ToDo: It depends now of the Dictionary organization "
-	self assert: 'Test with two demonyms for example argentine and spanish' parseCountryDemonym = 'spanish'.
+	self assert: 'Test with two demonyms for example argentine and spanish' parseCountryDemonym = 'argentine'.
 	self assert: String empty parseCountryDemonym = String empty.

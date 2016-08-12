@@ -1,7 +1,7 @@
 tests-testing
 testAddTerritory
 
-	self territory: self buildCompositeNewGranade.
+	self territory: self compositeC.
 	self assert: self territory allLeafTerritories isEmpty.
 	self territory 
 		addTerritory: self buildTerritoryColombia;
