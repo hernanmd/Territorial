@@ -1,4 +1,4 @@
-private
+accessing - country
 countryPopulations
 	" Answer a <Collection> with mappings of countries and census populations number "
 	

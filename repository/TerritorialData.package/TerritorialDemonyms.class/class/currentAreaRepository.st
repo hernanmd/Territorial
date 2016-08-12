@@ -1,4 +1,4 @@
 accessing
 currentAreaRepository
 
-	^ TerritorialAreaDemonyms currentAreaRepository  
+	^ TerritorialAreaDemonyms currentRepositoryClass

@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "HernanMoralesDurand 9/12/2014 21:40",
+	"commentStamp" : "HernanMoralesDurand 8/12/2016 04:20",
 	"super" : "TerritorialDataProvider",
 	"category" : "TerritorialData-Population",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
 		"CensusAreaPopulations",
+		"CensusCountryPopulations",
 		"EstimatedAreaPopulations",
-		"EstimatedCountryPopulations",
-		"RawAreaPopulations",
-		"RawCountryPopulations"
+		"EstimatedCountryPopulations"
 	],
 	"instvars" : [ ],
 	"name" : "TerritorialPopulations",

@@ -1,5 +1,5 @@
 accessing
 for: aTerritorialObject
-	" Answer an Image"
+	" Answer a <Form> representing aTerritorialObject main flag "
 	
-	^ self currentFlagType at: aTerritorialObject name asLowercase
+	^ aTerritorialObject flagFrom: self

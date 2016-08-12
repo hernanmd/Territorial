@@ -2,4 +2,4 @@ defaults
 defaultRepositoryClass
 	" Private - See superimplementor's comment "
 
-	^ TerritorialOpenGeoCodeCities
+	^ self defaultRepositoryClassOrError: #TerritorialOpenGeoCodeCities
