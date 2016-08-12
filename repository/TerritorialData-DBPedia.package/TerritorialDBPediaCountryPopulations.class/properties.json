@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/11/2016 03:43",
-	"super" : "TerritorialDBPediaPopulations",
+	"commentStamp" : "HernanMoralesDurand 8/12/2016 04:20",
+	"super" : "TerritorialCountryPopulations",
 	"category" : "TerritorialData-DBPedia-Population",
 	"classinstvars" : [ ],
 	"pools" : [ ],
