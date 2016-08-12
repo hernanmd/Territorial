@@ -1,6 +1,7 @@
 private
 translationsFrom: aTerritorialTranslationsClass
-	" See comment in TerritorialObject>>synonyms "
+	" See comment in TerritorialObject>>translations "
 	
-	^ aTerritorialTranslationsClass countryTranslationsAt: self name asLowercase
-	"^ aTerritorialTranslationsClass currentCountryRepository countryTranslationsAt: self name asLowercase"
+	^ (aTerritorialTranslationsClass countryTranslationsAt: self name)
+			ifEmpty: [ self synonyms flatCollect: [ : syn | aTerritorialTranslationsClass countryTranslationsAt: syn asLowercase ] ] 
+			ifNotEmpty: [ : col | col  ]
