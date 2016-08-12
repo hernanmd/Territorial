@@ -1,5 +1,5 @@
 accessing
 for: aTerritorialObject
-	" See comment in TerritorialObject>>synonyms "
+	" See comment in TerritorialObject>>translations "
 	
-	^ aTerritorialObject translationsFrom: self currentCountryRepository
+	^ aTerritorialObject translationsFrom: self
