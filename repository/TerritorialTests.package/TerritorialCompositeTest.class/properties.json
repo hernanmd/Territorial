@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"compositeA",
+		"compositeB",
+		"compositeC",
+		"compositeD"
+	],
 	"name" : "TerritorialCompositeTest",
 	"type" : "normal"
 }
