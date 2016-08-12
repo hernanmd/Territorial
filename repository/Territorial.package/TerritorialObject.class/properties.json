@@ -22,7 +22,8 @@
 		"populationDensity",
 		"flag",
 		"geopoliticalEvents",
-		"officialLanguages"
+		"officialLanguages",
+		"estimatedPopulation"
 	],
 	"name" : "TerritorialObject",
 	"type" : "normal"
