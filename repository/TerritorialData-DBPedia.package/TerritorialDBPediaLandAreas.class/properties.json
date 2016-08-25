@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 6/1/2016 11:20",
-	"super" : "TerritorialAreas",
+	"super" : "TerritorialCountryAreas",
 	"category" : "TerritorialData-DBPedia-Areas",
 	"classinstvars" : [ ],
 	"pools" : [ ],
