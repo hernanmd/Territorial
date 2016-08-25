@@ -1,0 +1,1 @@
+Abstract class for synonyms of areas or regions. Subclasses should implement each specialized repository which contains the actual data.
