@@ -1,3 +1,2 @@
-Contains synonyms names of countries. This class provides alternative spellings of country names.
-
-This class is not intended to be used directly.
+This class provides alternative spellings of territorial names.
+Not intended to be used directly.
