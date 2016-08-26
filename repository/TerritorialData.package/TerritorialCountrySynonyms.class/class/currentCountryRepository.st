@@ -1,4 +1,5 @@
 accessing
 currentCountryRepository
-	" Answer the <Class> currently used to resolve country synonyms  "
-	^ TerritorialCountrySynonyms currentCountryRepository
+	" See superimplementor's comment "
+
+	^ self currentRepositoryClass
