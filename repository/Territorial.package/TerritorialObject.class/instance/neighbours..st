@@ -1,3 +1,4 @@
 accessing
-neighbours: anObject
-	^ neighbours := anObject
+neighbours: aCollection
+
+	^ neighbours := aCollection

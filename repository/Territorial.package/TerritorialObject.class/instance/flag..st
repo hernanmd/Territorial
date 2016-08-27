@@ -1,3 +1,5 @@
 accessing
-flag: anObject
-	^ flag := anObject
+flag: aDisplayObject
+	" Set the receiver's flag to be aDisplayObject "
+	
+	^ flag := aDisplayObject
