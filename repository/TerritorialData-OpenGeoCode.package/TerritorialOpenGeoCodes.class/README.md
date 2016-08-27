@@ -2,3 +2,8 @@ OpenGeoCode(.Org) is an open-data project providing datasets free-of-charge to t
 
 This class represents an access point to OpenGeoCode raw resources.
 
+Notes:
+
+Non ASCII characters is raising problems in Pharo
+
+LC_CTYPE=C grep -v '[^[:alnum:][:space:][:punct:]]' worldcities.csv > wc.csv
