@@ -3,7 +3,7 @@ addOpenGeoCode
 
 	| co iso3611 |
 	iso3611 := TCountryOrganization @ 'ISO 3166-3'.
-	co := TCityOrganization new.
+	co := self new.
 	^ co
 		preferredName: 'OpenGeoCode';
 		formedYear: 2007;		

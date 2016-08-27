@@ -6,5 +6,6 @@ acceptedQualifiers
 		#englishName .
 		#spanishName .
 		#frenchName .
+		#latin .
 		#formerly
 		)

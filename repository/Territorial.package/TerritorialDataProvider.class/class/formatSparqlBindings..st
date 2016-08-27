@@ -1,6 +1,6 @@
 private-sparql
 formatSparqlBindings: jsonBindings
-	" Private - Answer a <Collection> with mappings for country borders "
+	" Private - Answer a <Collection> with mappings "
 
 	| d |
 	d := Dictionary new.

@@ -1,0 +1,4 @@
+accessing
+teritorialNativeCities
+
+	^ TerritorialNativeCountryCapitals territorialCitiesEN

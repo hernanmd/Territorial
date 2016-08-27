@@ -2,7 +2,7 @@ territorial-organizations
 addDBPedia
 
 	| co |
-	co := TCityOrganization new.
+	co := self new.
 	^ co
 		preferredName: 'DBPedia';
 		formedYear: 2007;		
@@ -15,5 +15,5 @@ addDBPedia
 					addTerritoryName: #englishName -> assoc key;
 					location: assoc value;
 					yourself) ] ];
-		populateWith: TerritorialDBPediaCities territorialCitiesEN;
+		populateWith: self dbPediaCities;
 		yourself
