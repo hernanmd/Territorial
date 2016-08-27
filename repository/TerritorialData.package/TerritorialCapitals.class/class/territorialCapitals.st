@@ -2,7 +2,7 @@ accessing
 territorialCapitals
 	" Answer a <Collection> of <TerritorialCity> each representing a country capital "
 
-	^ territorialCapitals
+	^ territorialCitiesEN
 		ifNil: [ 
-			self initializeCapitals.
-			territorialCapitals  ]	
+			self initializeCities.
+			territorialCitiesEN  ]	

@@ -1,6 +1,5 @@
-accessing
+testing
 isCountryCapital: capitalName
-	" Answer a <TerritorialCity> representing countryName capital city "
+	" Answer <true> if capitalName represents a country capital city "
 	
-	^ self currentCountryRepository territorialCapitals includes: capitalName asLowercase
-
+	^ self currentCountryRepository territorialCapitals anySatisfy: [ : tc | tc includesName: capitalName asLowercase ]

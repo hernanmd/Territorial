@@ -1,4 +1,5 @@
 initialize-release
 initializeCapitals
-
-	self subclassResponsibility 
+	" Private - Initialize the receiver's <Collection> of capitals to be populated "
+	
+	self territorialCapitals: OrderedCollection new.
