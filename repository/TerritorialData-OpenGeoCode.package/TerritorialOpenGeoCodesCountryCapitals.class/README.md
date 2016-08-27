@@ -4,3 +4,4 @@ This class is not intended to be used directly.
 Raw explore:
 
 TerritorialOpenGeoCodesCountryCapitals territorialCapitals.
+
