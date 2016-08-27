@@ -1,8 +1,7 @@
 territorial-organizations
 addOpenGeoCode
 
-	| co iso3611 |
-	iso3611 := TCountryOrganization @ 'ISO 3166-3'.
+	| co |
 	co := self new.
 	^ co
 		preferredName: 'OpenGeoCode';
@@ -10,6 +9,7 @@ addOpenGeoCode
 		denomination:  'Americas Open Geocode (AOG) database';
 		beGlobal;
 		url: 'http://www.opengeocode.org';
+		territories: TerritorialCollection new;		
 		populateBlock: [ : d | 
 			d associations 
 				do: [ : assoc | 

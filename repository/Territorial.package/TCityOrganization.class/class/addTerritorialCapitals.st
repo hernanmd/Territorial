@@ -1,8 +1,7 @@
 territorial-organizations
 addTerritorialCapitals
 
-	| co iso3611 |
-	iso3611 := TCountryOrganization @ 'ISO 3166-3'.
+	| co |
 	co := self new.
 	^ co
 		preferredName: 'Territorial Capitals';

@@ -9,6 +9,7 @@ addDBPedia
 		denomination:  'DBpedia';
 		beGlobal;
 		url: 'http://wiki.dbpedia.org';
+		territories: TerritorialCollection new;
 		populateBlock: [ : d | 
 			d associationsDo: [ : assoc | 
 				co territories addTerritory: ((TerritorialCity newNamed: assoc key)
