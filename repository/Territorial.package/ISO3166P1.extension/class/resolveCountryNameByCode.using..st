@@ -1,5 +1,5 @@
 *Territorial
-resolveCountryByCode: countryCode using: aSelector
+resolveCountryNameByCode: countryCode using: aSelector
 	" aSelector
 			at2LetterCode:
 			at3LetterCode: 

@@ -1,8 +1,9 @@
 private
-findCityNamed: cityName in: countryName
+findCityNamed: cityName in: countryNameOrCode
 			
-	| countryCode |
-	countryCode := self resolveCountryByName: countryName.
+	| countryCode ccSelector |
+	countryCode := self resolveCountry: countryNameOrCode.
+	ccSelector := self countryResolver getterAt: self countryResolveSelector.
 	^ self territories 
-		selectCity: [ : tty | (tty name = cityName) and: [ tty countryCode = countryCode ] ]
+		selectCity: [ : tty | self findCityName: cityName using: countryCode selector: ccSelector in: countryCode ]
 		ifNone: [ self error: 'Territory not found' ].
