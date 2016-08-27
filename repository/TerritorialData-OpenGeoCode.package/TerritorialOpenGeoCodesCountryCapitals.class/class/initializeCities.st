@@ -2,7 +2,7 @@ initialize-release
 initializeCities
 	" Private - See superimplementor's comment "
 
-	super initializeCities.
+	self territorialCapitals: TerritorialCollection new.
 	(NeoCSVReader on: TerritorialOpenGeoCodes worldCitiesAsCSV readStream) 
 		separator: $,;
 		skipHeader;
