@@ -20,7 +20,7 @@ baseline111: spec
 			project: 'ISO3166' with: [
 				spec
 					className: #ConfigurationOfISO3166;
-					versionString: #'stable';
+					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
 			project: 'NeoCSV' with: [
 				spec
