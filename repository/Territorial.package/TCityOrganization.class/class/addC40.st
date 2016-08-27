@@ -8,6 +8,7 @@ addC40
 		denomination:  'C40 Cities Climate Leadership Group';
 		bePolitical;
 		beEconomical;
+		territories: TerritorialCollection new;
 		url: 'http://www.c40.org';
 		populateWith: 'Addis Ababa
 Amman
