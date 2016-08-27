@@ -9,4 +9,4 @@ getEnglishCapitalNames
 			((entry at: #regionName) at: #value) asLowercase 
 			-> 
 			((entry at: #capitalName) at: #value) asLowercase ].
-	^ self formatSparqlBindings: jsonBindings.
+	^ self parseJSONBindings: jsonBindings.

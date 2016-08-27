@@ -9,4 +9,4 @@ getEnglishCityNames
 			((entry at: #citylabel) at: #value) asLowercase 
 			-> 
 			((entry at: #countryName) at: #value) asLowercase ].
-	^ self formatSparqlBindings: jsonBindings.
+	^ self parseJSONBindings: jsonBindings.
