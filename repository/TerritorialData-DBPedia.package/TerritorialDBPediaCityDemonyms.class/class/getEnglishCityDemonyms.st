@@ -9,4 +9,4 @@ getEnglishCityDemonyms
 			((entry at: #citylabel) at: #value) asLowercase 
 			-> 
 			((entry at: #dnym) at: #value) asLowercase ].
-	^ self formatSparqlBindings: jsonBindings.
+	^ self parseJSONBindings: jsonBindings.

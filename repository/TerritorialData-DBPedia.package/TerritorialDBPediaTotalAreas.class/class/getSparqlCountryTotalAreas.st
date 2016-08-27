@@ -11,4 +11,4 @@ getSparqlCountryTotalAreas
 		((entry includesKey: #area)
 			ifTrue: [ (entry at: #area) at: #value ]
 			ifFalse: [ '' ]) ].
-	^ self formatSparqlBindings: jsonBindings.
+	^ self parseJSONBindings: jsonBindings.
