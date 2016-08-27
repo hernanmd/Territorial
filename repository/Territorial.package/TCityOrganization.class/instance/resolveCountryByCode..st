@@ -3,5 +3,5 @@ resolveCountryByCode: countryCode
 	" Given countryName, answer a <String> country code applying country resolution "
 	
 	^ self countryResolver 
-		resolveCountryByCode: countryCode 
+		resolveCountryNameByCode: countryCode 
 		using: self countryResolveSelector
