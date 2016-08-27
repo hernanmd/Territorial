@@ -1,7 +1,9 @@
 territorial-organizations
 addC40
 
-	^ self new
+	| co |
+	co := self new.
+	^ co
 		preferredName: 'C40';
 		denomination:  'C40 Cities Climate Leadership Group';
 		bePolitical;

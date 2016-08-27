@@ -1,5 +1,6 @@
 accessing
 dbPediaCities
+	" Answer a <TerritorialCollection> of <TerritorialCity> "
 
 	^ (Smalltalk 
 		at: #TerritorialDBPediaCities 
