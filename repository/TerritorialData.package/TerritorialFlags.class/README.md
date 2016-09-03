@@ -5,3 +5,5 @@ Currently three flag types are supported:
 - Tiny
 - Small 
 - Medium 
+
+TerritorialFlags release.
