@@ -1,6 +1,6 @@
 converting
 asString
-	"Answer a string that represents the receiver in the form: START_YEAR - DISSOLVED_YEAR ."
+	"Answer a <String> representing the receiver in the form: START_YEAR - DISSOLVED_YEAR ."
 
 	| start end |
 	start := self formedDate isNil

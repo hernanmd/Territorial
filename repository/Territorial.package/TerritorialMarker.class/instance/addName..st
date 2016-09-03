@@ -6,4 +6,4 @@ addName: aString
 		ifFalse: [ 
 			self names addLast: aString.
 			self removeNullName ]
-		ifTrue: [ self signalDuplicateObject: aString , ' already exists in the receiver' translated ]
+		ifTrue: [ self error: aString , ' already exists in the receiver' translated ]
