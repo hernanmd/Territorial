@@ -7,11 +7,11 @@ baseline111: spec
 		spec preLoadDoIt: #preLoad.		
 		spec repository: 'http://smalltalkhub.com/mc/hernan/Territorial/main'.
 		spec 
-			project: 'OSMMaps' with: [
+"			project: 'OSMMaps' with: [
 				spec
 					className: #BaselineOfOSMMaps;
 					versionString: 'baseline';
-					repository: 'github://OnilGoubier/OSMMaps/repository' ];
+					repository: 'github://OnilGoubier/OSMMaps/repository' ];"
 			project: 'GADM' with: [
 				spec
 					className: #ConfigurationOfGADM;
@@ -87,8 +87,8 @@ baseline111: spec
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-JET' with: [
 				spec requires: #(#TerritorialData ). ];
-			package: 'TerritorialData-OSM' with: [
-				spec requires: #(#TerritorialData ). ];
+"			package: 'TerritorialData-OSM' with: [
+				spec requires: #(#TerritorialData ). ];"
 			package: #'TerritorialData-OpenGeoCode' with: [
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-Pleiades' with: [

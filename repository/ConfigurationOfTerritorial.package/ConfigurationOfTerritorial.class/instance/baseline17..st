@@ -82,8 +82,8 @@ baseline17: spec
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-JET' with: [
 				spec requires: #(#TerritorialData ). ];
-			package: 'TerritorialData-OSM' with: [
-				spec requires: #(#TerritorialData ). ];
+"			package: 'TerritorialData-OSM' with: [
+				spec requires: #(#TerritorialData ). ];"
 			package: #'TerritorialData-OpenGeoCode' with: [
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-Pleiades' with: [

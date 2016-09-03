@@ -1,12 +1,12 @@
 versions
-version17: spec
-	<version: '1.7' imports: #('1.7-baseline' )>
+version111: spec
+	<version: '1.11' imports: #('1.11-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #'stable'.
-		spec description: 'version 1.7'.
+		spec description: 'version 1.11'.
 		spec author: 'HernanMoralesDurand'.
-		spec timestamp: '4/20/2016 18:36'.
+		spec timestamp: '9/3/2016 18:36'.
 		spec 
 			project: 'Roassal2' 		with: #stable;
 			project: 'NeoCSV' 			with: #stable;
