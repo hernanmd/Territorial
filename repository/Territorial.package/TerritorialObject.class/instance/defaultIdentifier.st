@@ -1,5 +1,7 @@
 defaults
 defaultIdentifier
-	" Answer a Symbol representing a key for accessing the receiver's identifiers "
+	" Answer a <Symbol> representing a key for accessing the receiver's identifiers "
 	
-	^ self subclassResponsibility 
+	^ self identifiers 
+		ifNotNilDo: [ : ids | ids anyOne identifierSymbol ]
+		ifNil: [ #Undefined asTerritorialIdentifier ]
