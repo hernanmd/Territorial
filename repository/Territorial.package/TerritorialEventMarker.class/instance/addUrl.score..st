@@ -2,4 +2,4 @@ accessing
 addUrl: aString score: aNumber
 	" Add aString URL with aNumber acting as score to the receiver list of references "
 	
-	^ self urls add: aString
+	^ self refUrls at: aString put: aNumber

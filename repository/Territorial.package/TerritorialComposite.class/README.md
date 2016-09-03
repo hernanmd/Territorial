@@ -1,7 +1,7 @@
-Describes that a group of territories.
+Describes a group of territories.
 
 Instance Variables
-	territories:		<Object>
+	territories:		<Collection>
 
 territories
 	- xxxxx

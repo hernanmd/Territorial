@@ -1,9 +1,9 @@
 comparing
-= aTNamedObject
-	"Answer whether the receiver and anObject represent the same object."
+= aTerritorialTimeMarker
+	"Answer whether the receiver and aTerritorialTimeMarker represent the same object."
 
-	self == aTNamedObject
+	self == aTerritorialTimeMarker
 		ifTrue: [ ^ true ].
-	self class = aTNamedObject class
+	self class = aTerritorialTimeMarker class
 		ifFalse: [ ^ false ].	
-	^ self formedDate = aTNamedObject formedDate
+	^ self formedDate = aTerritorialTimeMarker formedDate

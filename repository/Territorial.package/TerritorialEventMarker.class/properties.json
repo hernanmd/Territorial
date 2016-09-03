@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 6/22/2016 03:40",
+	"commentStamp" : "HernanMoralesDurand 9/3/2016 01:17",
 	"super" : "TerritorialMarker",
 	"category" : "Territorial-Markers",
 	"classinstvars" : [ ],
@@ -8,7 +8,7 @@
 	"instvars" : [
 		"startDate",
 		"endDate",
-		"urls"
+		"refUrls"
 	],
 	"name" : "TerritorialEventMarker",
 	"type" : "normal"

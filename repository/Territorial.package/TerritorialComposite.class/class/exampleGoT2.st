@@ -1,7 +1,7 @@
 examples
 exampleGoT2
 
-	'Known World' asTerritorialComposite
+	^ 'Known World' asTerritorialComposite
 		addTerritory: (
 			'Westeros' asTerritorialComposite
 				addTerritory: 'Beyond the Wall' asTerritorialComposite;
