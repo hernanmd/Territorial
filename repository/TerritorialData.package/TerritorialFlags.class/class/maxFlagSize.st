@@ -1,0 +1,4 @@
+accessing
+maxFlagSize
+
+	self subclassResponsibility 
