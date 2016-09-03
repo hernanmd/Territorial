@@ -253,6 +253,18 @@ unm49 sortedTerritoryNames. " --> a SortedCollection('Afghanistan' 'Albania' 'Al
 unm49 territoryNames.  " --> a Set('Sierra Leone' 'Guadeloupe' 'Niger' 'Jordan' 'Aruba' ... 'Saudi Arabia' 'Austria' 'Vanuatu' 'Denmark' 'Lao People''s Democratic Republic')"
 ```
 
+Countries could be displayed in a friendly-way using a list selector:
+
+```smalltalk
+TerritoryUIList open
+	title: 'United Nations Countries';
+	roots: (TCountryOrganization @ 'UN.M49') sortedTerritories.
+```
+
+![United Nations Countries](images\2016\01\United_Nations_Countries.jpg){ width=50% }
+
+\pagebreak
+
 ### Accessing Countries
 
 The UN.M49 is the default organization chosen to resolve Country objects using a shortcut with any String matching a country name, for example:
@@ -260,8 +272,7 @@ The UN.M49 is the default organization chosen to resolve Country objects using a
 ```smalltalk
 'Bulgaria' asTerritorialCountry.
 ```
-![](images\2016\01\Territorial_Screenshot_Bulgaria.jpg)
-_Inspecting Bulgaria as an United Nations country_
+![Inspecting Bulgaria as an United Nations country](images\2016\01\Territorial_Screenshot_Bulgaria.jpg){ width=70% }
 
 The country resolver can be changed to any of the available country organizations (see _Accessing Country Organizations_), and can be easily done by evaluating:
 
@@ -276,8 +287,8 @@ Evaluating the expression again reflects the territorial object retrieved throug
 " Reset to default "
 TCountryOrganization currentOrganization: 'UN.M49'.
 ```
-![](images\2016\01\Territorial_Screenshot_Bulgaria_ISO3166-3.jpg)
-_Inspecting Bulgaria as an ISO 3166-3 country_
+
+![Inspecting Bulgaria as an ISO 3166-3 country](images\2016\01\Territorial_Screenshot_Bulgaria_ISO3166-3.jpg){ width=70% }
 
 If the country is not registered in the selected organization, the resolver will raise an Error exception. For example, selecting the _Council of Arab Economic Unity_ as source organization for countries and then searching for a non-member country :
 
@@ -389,6 +400,8 @@ TerritorialOpenGeoCodesCountryCapitals territorialCapitals.
 ```
 
 Note: Only English names are supported in the current version.
+
+\pagebreak
 
 ### Accessing Cities
 
@@ -830,9 +843,7 @@ TerritorialFlags currentCountryRepository openCountryFlagMediumNamed: 'mauritani
 TerritorialFlags currentCountryRepository openCountryFlagMediumNamed: 'belize'.
 ```
 
-![](images\2016\01\Territorial_Screenshot_Flags.jpg)
-
-_Displaying country flags in Pharo_
+![Displaying country flags in Pharo](images\2016\01\Territorial_Screenshot_Flags.jpg)
 
 \pagebreak
 
@@ -906,8 +917,7 @@ TerritorialMaps currentRepository: TerritorialOSM
 'Paris@FR' asTerritorialCity openMap.
 ```
 
-![](images\2016\01\Paris_zl9.jpg)
-_Paris at zoom level = 9_
+![Paris at zoom level = 9](images\2016\01\Paris_zl9.jpg){ width=70% }
 
 It is possible to change the OSM map provider by setting another OSM class repository:
 
@@ -916,8 +926,7 @@ TerritorialMaps currentRepository: TerritorialOSM
 'Paris@FR' asTerritorialCity openMap.
 ```
 
-![](images\2016\01\Paris_zl13.jpg)
-_Paris at zoom level = 13_
+![Paris at zoom level = 13](images\2016\01\Paris_zl13.jpg){ width=70% }
 
 ## GoogleMaps
 
@@ -1131,11 +1140,9 @@ The first window presents two choices:
 - Create a new territorial composite or single territory.
 - Browse already created territories.
 
-![](images\2016\01\Territory Builder.jpg)
-_Territorial Wizard_
+![Territorial Wizard](images\2016\01\Territory Builder.jpg){ width=50% }
 
-![](images\2016\01\Territory Viewer.jpg)
-_Territory Viewer_
+![Territory Viewer](images\2016\01\Territory Viewer.jpg){ width=50% }
 
 ### Browsing Territories
 
@@ -1145,20 +1152,17 @@ Browsing presents a new viewer window with in-image territories, and a Load butt
 
 Composition of territories is sub-divided in two additional choices. Creating a new composite territory or creating/selecting a new single territory.
 
-![](images\2016\01\Territory Composition.jpg)
+![New Composite Territory](images\2016\01\Territory Composition.jpg){ width=50% }
 
 Next to selection of a New Territory, the wizard request for a name to identify the new territory:
 
-![](images\2016\01\Territory Builder_2.jpg)
+![New Composite Territory name](images\2016\01\Territory Builder_2.jpg){ width=50% }
 
 Finally, a Territory Composer is displayed where territories can be browsed and composed (or selected if a single territory was chosen).
 
-![](images\2016\01\Territory Composer for CompositeTerritory2.jpg)
-_Territory Composer for Composite selection_
+![Territory Composer for Composite selection](images\2016\01\Territory Composer for CompositeTerritory2.jpg){ width=75% }
 
-![](images\2016\01\Territory Composer for TestTerritory3.jpg)
-_Territory Composer for Single territory creation_
-
+![Territory Composer for Single territory creation](images\2016\01\Territory Composer for TestTerritory3.jpg){ width=75% }
 
 \pagebreak
 
