@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialRoassalUIMapper",
+	"category" : "TerritorialUI-Lister",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"list",
+		"selectedChangedBlock",
+		"selections",
+		"title"
+	],
+	"name" : "TerritoryUIList",
+	"type" : "normal"
+}
