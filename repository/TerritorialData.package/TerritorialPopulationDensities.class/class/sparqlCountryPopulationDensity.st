@@ -2,6 +2,7 @@ private-sparql
 sparqlCountryPopulationDensity
 
 	^ 'PREFIX dbpedia-ont-PP: <http://dbpedia.org/ontology/PopulatedPlace/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 PREFIX dbprop: <http://dbpedia.org/property/>
 SELECT DISTINCT str(?name) (MIN(?populationDensity) AS ?populationDensityPerSquareKm)
 WHERE {
