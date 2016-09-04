@@ -21,7 +21,7 @@ baseline17: spec
 				spec
 					className: #ConfigurationOfNeoJSON;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ];
+					repository: 'http://mc.stfx.eu/Neo' ];
 			project: 'XMLParser' with: [
 				spec
 					className: #ConfigurationOfXMLParser;

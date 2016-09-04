@@ -31,7 +31,7 @@ baseline111: spec
 				spec
 					className: #ConfigurationOfNeoJSON;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
+					repository: 'http://mc.stfx.eu/Neo' ];
 			project: 'OSProcess' with: [
 				spec
 					className: #ConfigurationOfOSProcess;
