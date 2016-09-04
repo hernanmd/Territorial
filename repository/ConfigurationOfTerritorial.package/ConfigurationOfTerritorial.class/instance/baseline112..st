@@ -25,8 +25,8 @@ baseline112: spec
 			project: 'NeoJSON' with: [
 				spec
 					className: #ConfigurationOfNeoJSON;
-					versionString: #'bleedingEdge';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
+					versionString: '13';
+					repository: 'http://mc.stfx.eu/Neo' ];
 			project: 'OSProcess' with: [
 				spec
 					className: #ConfigurationOfOSProcess;
