@@ -4,7 +4,7 @@ links-as-notes: true
 title: Territorial v 1.0
 subtitle: User's Guide
 author: Hernán Morales <hernan.morales@gmail.com>
-date: 27/08/2016
+date: 06/09/2016
 rights: Creative Commons Non-Commercial Share Alike 3.0
 ...
 ------------------------------------------------------------------------
@@ -36,7 +36,9 @@ It is developed initially for [Pharo Smalltalk](http://pharo.org/). The [Spec](h
 
 ## Notes and Disclaimers
 
-Territorial is free of charge and far from perfect. The developer does not provide any guarantees for quality, availability, or fitness for particular purpose.
+Territorial is free of charge and far from perfect. The developer does not provide any guarantees for quality, availability, or fitness for particular purpose. Territorial is licensed with the Affero GNU Public License (GNU AGPLv3).
+
+If you feel that you can contribute to **Territorial** development, please do not hesitate to comment or contact the main developer (Hernán Morales) providing suggestions.
 
 \pagebreak
 
@@ -908,6 +910,15 @@ Metacello new
   load.
 ```
 
+After installing external OSM support, you can install the Territorial package for OpenStreetMaps:
+
+```smalltalk
+Gofer it
+  smalltalkhubUser: 'hernan' project: 'Territorial';
+  package: 'TerritorialData-OSM';
+  load.
+```
+
 ### Displaying Maps with OpenStreetMaps
 
 The following expression opens a window with Paris (France) map using one of the OpenStreetMap implementations as map provider:
@@ -939,6 +950,15 @@ Gofer it
 	smalltalkhubUser: 'smaass' project: 'GMaps';
 	package: 'GMaps';
 	load.
+```
+
+After installing support for Google Maps, you can install the Territorial package helper:
+
+```smalltalk
+Gofer it
+  smalltalkhubUser: 'hernan' project: 'Territorial';
+  package: 'TerritorialData-GoogleMaps';
+  load.
 ```
 
 ## Map Decorations
@@ -1174,6 +1194,25 @@ Finally, a Territory Composer is displayed where territories can be browsed and 
 - Add more GeoNames features.
 - Add Bioregions.
 
+## Contributing Guidelines
+
+- Have a look at existing code to get a feel.
+- Indent code using tab, not spaces.
+- No unnecessary brackets.
+- Close multiple blocks on one line.
+- Add a space at the beginning and end of a temporary variable declarations and blocks.
+- Don't use any dialect specific syntax, like byte array literals #[ ], curly braces { }, or pragmas <pragma>.
+- Instead of TimeStamp use DateAndTime.
+- Do not assume #value is part of the Object protocol.
+- Use WriteStream on: String new instead of String new writeStream.
+- Don't send #next to a ReadStream that is at end. Instead send #atEnd to check if the stream is at the end.
+
+## Reporting Issues
+
+- Issues should be reported at the current ticket system at : [https://github.com/hernanmd/Territorial/issues](https://github.com/hernanmd/Territorial/issues)
+- Please always include your environment information (Virtual Machine used with version, Image version used, Operating System, Stable or Development versions of Territorial)
+- To ask questions please use the ettiquete suggested at [http://www.catb.org/~esr/faqs/smart-questions.html](http://www.catb.org/~esr/faqs/smart-questions.html)
+
 ## How to Create a Data Provider
 
 If you want to include new data and API into Territorial, you could take the following recommended steps:
@@ -1217,10 +1256,6 @@ TerritorialDataProvider release.
 ```
 
 \pagebreak
-
-# Contributing
-
-If you feel that you can contribute to **Territorial** development, please do not hesitate to comment or contact the main developer (Hernán Morales) providing suggestions.
 
 # License
 
