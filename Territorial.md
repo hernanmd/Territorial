@@ -36,7 +36,7 @@ It is developed initially for [Pharo Smalltalk](http://pharo.org/). The [Spec](h
 
 ## Notes and Disclaimers
 
-Territorial is free of charge and far from perfect. The developer does not provide any guarantees for quality, availability, or fitness for particular purpose. Territorial is licensed with the Affero GNU Public License (GNU AGPLv3).
+Territorial is free of charge and far from perfect. The developer does not provide any guarantees for quality, availability, or fitness for particular purpose. Territorial is licensed with the MIT License.
 
 If you feel that you can contribute to **Territorial** development, please do not hesitate to comment or contact the main developer (Hernán Morales) providing suggestions.
 
