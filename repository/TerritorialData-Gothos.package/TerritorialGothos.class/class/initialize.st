@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	self initializeCountryCentroids
+	self initializeCentroids
