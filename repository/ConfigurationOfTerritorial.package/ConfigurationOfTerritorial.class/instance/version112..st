@@ -30,9 +30,10 @@ version112: spec
 			package: #'TerritorialData-FCFlags' with: 'TerritorialData-FCFlags-HernanMoralesDurand.2';
 			package: #'TerritorialData-FreeBase' with: 'TerritorialData-FreeBase-HernanMoralesDurand.6';
 			package: #'TerritorialData-GeoNames' with: 'TerritorialData-GeoNames-HernanMoralesDurand.7';
-			package: #'TerritorialData-JET' with: 'TerritorialData-JET-HernanMoralesDurand.5';
+			package: #'TerritorialData-JET' 			with: 'TerritorialData-JET-HernanMoralesDurand.5';
 			package: #'TerritorialData-OpenGeoCode' with: 'TerritorialData-OpenGeoCode-HernanMoralesDurand.14';
-			package: #'TerritorialData-Pleiades' with: 'TerritorialData-Pleiades-HernanMoralesDurand.2';
-			package: #'TerritorialData-WordNet' with: 'TerritorialData-WordNet-HernanMoralesDurand.4';
+			package: #'TerritorialData-Pleiades' 	with: 'TerritorialData-Pleiades-HernanMoralesDurand.2';
+			package: #'TerritorialData-WordNet'		with: 'TerritorialData-WordNet-HernanMoralesDurand.4';
+			package: #'TerritorialData-Gothos' 		with: 'TerritorialData-Gothos-HernanMoralesDurand.1';
 			package: #TerritorialTests with: 'TerritorialTests-HernanMoralesDurand.53';
-			package: #TerritorialUI with: 'TerritorialUI-HernanMoralesDurand.66'. ].
+			package: #TerritorialUI with: 'TerritorialUI-HernanMoralesDurand.66'  ].

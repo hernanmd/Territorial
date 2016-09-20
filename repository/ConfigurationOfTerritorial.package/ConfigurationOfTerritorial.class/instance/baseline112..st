@@ -88,10 +88,12 @@ baseline112: spec
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-WordNet' with: [
 				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-Gothos' with: [
+				spec requires: #(#TerritorialData). ];
 			package: #TerritorialTests with: [
 				spec requires: #(#Territorial ). ];
 			package: #TerritorialUI with: [
 				spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' 'TerritorialData' ). ].
 		spec 
 			group: 'Tests' with: #(#TerritorialTests #Territorial #TerritorialData );
-			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-AGGData' 'TerritorialData-CIA' 'TerritorialData-CountryIO' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FCFlags' 'TerritorialData-FreeBase' 'TerritorialData-GeoNames' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-Pleiades' 'TerritorialData-WordNet' ). ].
+			group: 'default' with: #('Territorial' 'TerritorialTests' 'TerritorialUI' 'TerritorialData-AGGData' 'TerritorialData-CIA' 'TerritorialData-CountryIO' 'TerritorialData-DB1' 'TerritorialData-DBPedia' 'TerritorialData-FAO' 'TerritorialData-FCFlags' 'TerritorialData-FreeBase' 'TerritorialData-GeoNames' 'TerritorialData-JET' 'TerritorialData-OpenGeoCode' 'TerritorialData-Pleiades' 'TerritorialData-WordNet' 'TerritorialData-Gothos'). ].

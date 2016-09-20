@@ -32,5 +32,5 @@ version111: spec
 			package: #'TerritorialData-FAO' 			with: 'TerritorialData-FAO-HernanMoralesDurand.2';
 			package: #'TerritorialData-DBPedia' 		with: 'TerritorialData-DBPedia-HernanMoralesDurand.3';
 			package: #'TerritorialData-DB1' 			with: 'TerritorialData-DB1-HernanMoralesDurand.1';
-			package: #'TerritorialData-CountryIO' 	with: 'TerritorialData-CountryIO-HernanMoralesDurand.2'
-			 ].
+			package: #'TerritorialData-CountryIO' 	with: 'TerritorialData-CountryIO-HernanMoralesDurand.2';
+			package: #'TerritorialData-Gothos' 		with: 'TerritorialData-Gothos-HernanMoralesDurand.1' ].
