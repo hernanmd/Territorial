@@ -95,6 +95,8 @@ baseline111: spec
 				spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-WordNet' with: [
 				spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-Gothos' with: [
+				spec requires: #(#TerritorialData ). ];
 			package: #TerritorialTests with: [
 				spec requires: #(#Territorial ). ];
 			package: #TerritorialUI with: [
@@ -114,4 +116,6 @@ baseline111: spec
 			'TerritorialData-JET' 
 			'TerritorialData-OpenGeoCode'
 			'TerritorialData-Pleiades'
-			'TerritorialData-WordNet' ). ].
+			'TerritorialData-WordNet'
+			'TerritorialData-Gothos'
+			 ). ].
