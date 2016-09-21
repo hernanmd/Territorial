@@ -1,5 +1,5 @@
 initialize-release
-initializeCentroids
+initializeCountryCentroids
 	" Private - Read and add country centroid data to the receiver "
 
 	self territorialCountryCentroids: Dictionary new.
