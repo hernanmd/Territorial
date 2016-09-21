@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"telephonyCodes",
-		"geoProcessor"
+		"geoProcessor",
+		"centroid"
 	],
 	"name" : "TerritorialLocation",
 	"type" : "normal"
