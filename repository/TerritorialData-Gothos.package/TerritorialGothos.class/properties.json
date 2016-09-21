@@ -1,10 +1,8 @@
 {
 	"commentStamp" : "",
-	"super" : "TerritorialDataProvider",
+	"super" : "TerritorialCountryCentroids",
 	"category" : "TerritorialData-Gothos-Countries",
-	"classinstvars" : [
-		"territorialCountryCentroids"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
