@@ -6,5 +6,5 @@ buildTelephoneId
 		stream 
 			nextPutAll: self name asLowercase; 
 			nextPut: $@; 
-			nextPutAll: (TCityOrganization currentOrganization resolveCountryByCode: self countryCode) ]
+			nextPutAll: (self resolveCountryByCode: self countryCode) ]
 		
