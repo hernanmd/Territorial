@@ -13,7 +13,7 @@ version112: spec
 			project: 'NeoCSV' with: '13';
 			project: 'NeoJSON' with: '13';
 			project: 'OSProcess' with: '4.6.4';
-			project: 'Roassal2' with: '1.35';
+			project: 'Roassal2' with: '1.38';
 			project: 'SPARQLSearch' with: '1.0';
 			project: 'SpecUIAddOns' with: '0.2-baseline';
 			project: 'StringExtensions' with: '0.1-baseline';
