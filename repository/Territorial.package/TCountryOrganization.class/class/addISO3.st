@@ -13,11 +13,14 @@ addISO3
 		addName: 'Organización Internacional de Normalización';
 		beGlobal;
 		territories: (self initialWorld: 'ISO 3166-3');
-		populateBlock: [ : d |
-			 d associationsDo: [ : assoc |
-				co territories addTerritory: ((TerritorialCountry newNamed: assoc value)
-					addIdentifier: assoc key;
-					addTerritoryName: #englishName -> assoc value;
-					yourself). ] ];		
-		populateWith: ISOLanguageDefinition iso3Countries;
+		populateBlock: [ : listOfCountries |
+			 listOfCountries do: [ : isoCountry |
+				co territories addTerritory: ((TerritorialCountry newNamed: isoCountry countryName)
+					addIdentifier: isoCountry codeTwoLetter;
+					addIdentifier: isoCountry codeThreeLetter;
+					addIdentifier: isoCountry codeNumber;
+					addTerritoryName: #englishName -> isoCountry countryName;
+					yourself). 					
+					] ];		
+		populateWith: ISO3166P1 iso31662LetterCodes values;
 		yourself
