@@ -10,7 +10,7 @@ Andorra,Andorran
 Angola,Angolan
 Anguilla,Anguillan
 Antigua and Barbuda,Antiguan/Barbudan
-Argentina,Argentine
+Argentina,Argentine/Argentinean
 Armenia,Armenian
 Aruba,Aruban
 Australia,Australian
