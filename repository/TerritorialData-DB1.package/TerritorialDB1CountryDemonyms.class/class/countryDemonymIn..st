@@ -2,7 +2,7 @@ text mining
 countryDemonymIn: aString
 	" Answer the demonym String found in aString or an empty String if not found "
 
-	( { threeWordsCountryDemonyms . twoWordsCountryDemonyms . oneWordCountryDemonyms } 
+	( { self threeWordsCountryDemonyms . self twoWordsCountryDemonyms . self oneWordCountryDemonyms } 
 		do: [ : demCol |
 			demCol do: [: demonyms | 
 				demonyms 

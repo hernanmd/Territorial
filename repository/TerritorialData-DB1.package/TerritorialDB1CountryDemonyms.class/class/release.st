@@ -4,6 +4,6 @@ release
 
 	self log: 'Releasing ' , self class name.
 	countryDemonyms := Dictionary new.
-	oneWordCountryDemonyms := Dictionary new.
-	twoWordsCountryDemonyms := Dictionary new.
-	threeWordsCountryDemonyms := Dictionary new.
+	oneWordCountryDemonyms := nil.
+	twoWordsCountryDemonyms := nil.
+	threeWordsCountryDemonyms := nil
