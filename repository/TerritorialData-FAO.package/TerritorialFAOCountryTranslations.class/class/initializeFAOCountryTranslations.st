@@ -12,7 +12,9 @@ initializeFAOCountryTranslations
 				[ (each localName beginsWith: 'nameOfficial') or: 
 					[ each localName beginsWith: 'nameShort' ] ] ] ].
 
-	sgov do: [ : xmlOrdList | 
-		xmlOrdList do: [ : node | spellings at: node name put: node contentString asLowercase].
-		self countryTranslations add: spellings.
-		spellings := Dictionary new. ]
+	sgov 
+		do: [ : xmlOrdList | 
+			xmlOrdList do: [ : node | spellings at: node name put: node contentString asLowercase].
+			self countryTranslations add: spellings.
+			spellings := Dictionary new. ]
+		displayingProgress: 'Adding FAO country translations'
