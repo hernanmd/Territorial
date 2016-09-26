@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addComposition: aTerritorialComposition
 	" Private - See superimplementor's comment "
 
