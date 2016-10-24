@@ -11,6 +11,10 @@ TCityOrganization demonymsOf: 'Milan'.
 (TCityOrganization @ 'OpenGeoCode') cities.
 (TCityOrganization @ 'OpenGeoCode') sortedTerritoryNames.
 
+View current organization:
+
+TCityOrganization currentOrganization name.
+
 Re-initialize:
 
 TCityOrganization initializeOrganizations.
