@@ -3,7 +3,12 @@
 	"super" : "TerritorialDataProvider",
 	"category" : "TerritorialData-Cities",
 	"classinstvars" : [
-		"territorialCitiesEN"
+		"territorialCitiesEN",
+		"territorialCitiesLT",
+		"territorialCitiesAR",
+		"territorialCitiesCH",
+		"territorialCitiesHE",
+		"territorialCitiesCY"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
