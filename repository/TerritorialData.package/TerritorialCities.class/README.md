@@ -4,6 +4,7 @@ See subclasses for details.
 Raw acccess:
 
 TerritorialCities currentRepositoryClass territorialCitiesEN.
+TerritorialCities currentRepositoryClass territorialCitiesLT.
 
 Count of cities in current repository:
 
