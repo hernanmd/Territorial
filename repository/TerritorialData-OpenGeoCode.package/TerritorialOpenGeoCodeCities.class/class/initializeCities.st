@@ -5,7 +5,7 @@ initializeCities
 	(NeoCSVReader on: TerritorialOpenGeoCodes worldCitiesAsCSV readStream) 
 		separator: $,;
 		skipHeader;
-		do: [ : row | row fifth notNil ifTrue: [ self addCityByLanguage: row ] ].
+		do: [ : row | (self isValidRecord: row) ifTrue: [ self addCityByLanguage: row ] ].
 
 
 	
