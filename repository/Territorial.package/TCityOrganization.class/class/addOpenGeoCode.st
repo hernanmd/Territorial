@@ -15,10 +15,12 @@ addOpenGeoCode
 				ifTrue: [ 
 					d associations 
 						do: [ : assoc | 
-							co territories addTerritory: ((TerritorialCity newNamed: assoc value)
-								addTerritoryName: #englishName -> assoc value value;
-								countryCode: assoc value key;
-								"country: (self resolveCountry: assoc value key in: iso3611);"
+							| cityName cCode |
+							cityName := assoc value second.
+							cCode := assoc value first.
+							co territories addTerritory: ((TerritorialCity newNamed: cityName)
+								addTerritoryName: (self resolveLangQualifier: assoc value third) -> cityName;
+								countryCode: cCode;
 								centroid: assoc key;
 								yourself) ]
 						displayingProgress: 'Adding cities...' ] ];
