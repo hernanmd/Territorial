@@ -1,4 +1,4 @@
 accessing
 allCities
 
-	^ self territorialCitiesEN , self territorialCitiesLT 
+	^ self territorialCitiesEN , self territorialCitiesLT
