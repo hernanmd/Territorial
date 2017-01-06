@@ -1,7 +1,7 @@
 accessing
 distanceWGS84ToPoint: aPoint
 	" Answer a <Number> representing distance in kilometers between the receiver's centroid and aPoint destination.
-	(Thanks to Sven Van Caekenberghe).
+	(Thanks to Sven Van Caekenberghe for initial implementation).
 	aPoint x = latitude
 	aPoint y = longitude
 	The intermediate result c is the great circle distance in radians. 
