@@ -4,7 +4,7 @@ Territorial is a Smalltalk package for geopolitical territory building, includin
 
 # Documentation
 
-PDF user manual can be downloaded from here: http://bit.ly/2c4RrCJ
+PDF user manual can be downloaded from here: https://github.com/hernanmd/Territorial/raw/master/Territorial.pdf
 
 Documentation was generated using Markdown+pandoc+LaTeX, with special extensions for Smalltalk source code highlighting.
 
