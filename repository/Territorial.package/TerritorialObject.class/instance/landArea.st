@@ -3,4 +3,4 @@ landArea
 	" Answer a <Number> representing the receiver's area in square kilometers "
 	
 	^ landArea
-		ifNil: [ landArea := TerritorialDBPediaLandAreas for: self ]
+		ifNil: [ landArea := (Smalltalk at: #TerritorialDBPediaLandAreas) for: self ]
