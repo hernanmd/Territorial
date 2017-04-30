@@ -1,4 +1,4 @@
-naming
+accessing-names
 hasName
 	" Answer <true> if the receiver has any name "
 	

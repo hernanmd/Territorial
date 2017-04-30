@@ -1,4 +1,4 @@
-naming
+accessing-names
 addName: anObject
 	" Add anObject as a name of the receiver. "
 	
