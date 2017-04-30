@@ -28,7 +28,7 @@ version111: spec
 			package: #'TerritorialData-WordNet' 		with: 'TerritorialData-WordNet-HernanMoralesDurand.1';
 			package: #'TerritorialData-OpenGeoCode' with: 'TerritorialData-OpenGeoCode-HernanMoralesDurand.4';
 			package: #'TerritorialData-JET' 			with: 'TerritorialData-JET-HernanMoralesDurand.2';
-			package: #'TerritorialData-FreeBase' 	with: 'TerritorialData-FreeBase-HernanMoralesDurand.34';
+			package: #'TerritorialData-FreeBase' 	with: 'TerritorialData-FreeBase-HernanMoralesDurand.6';
 			package: #'TerritorialData-FAO' 			with: 'TerritorialData-FAO-HernanMoralesDurand.2';
 			package: #'TerritorialData-DBPedia' 		with: 'TerritorialData-DBPedia-HernanMoralesDurand.3';
 			package: #'TerritorialData-DB1' 			with: 'TerritorialData-DB1-HernanMoralesDurand.1';
