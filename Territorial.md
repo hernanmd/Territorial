@@ -68,7 +68,7 @@ pharo Pharo.image config \
  "ConfigurationOfTerritorial" --printVersion --install=development
 ```
 
-#### Install from a Workspace or Playground
+#### Install from a Workspace or Playground (Gofer)
 
 To install the stable package version, copy and paste the following expression into your Pharo image, then select it and perform "do It" or "print It":
 
@@ -89,6 +89,29 @@ Gofer it
 ```
 
 _Note: If a Warning dialog appears, some external dependencies of Territorial could be failing in some way, please hit Proceed to continue_
+
+#### Install from a Workspace or Playground (Metacello)
+
+
+To install the stable package version, copy and paste the following expression into your Pharo image, then select it and perform "do It" or "print It":
+
+```smalltalk
+Metacello new
+		smalltalkhubUser: 'hernan' project: 'Territorial';
+		configuration: 'Territorial';
+		version: #'stable';
+		load
+```
+
+To install the development package version, copy and paste the following expression into your Pharo image, then select it and perform "do It" or "print It":
+
+```smalltalk
+Metacello new
+		smalltalkhubUser: 'hernan' project: 'Territorial';
+		configuration: 'Territorial';
+		version: #'development';
+		load
+```
 
 \pagebreak
 
@@ -525,6 +548,11 @@ TCityOrganization currentOrganization. "a TCityOrganization #('OpenGeoCode' 'Ame
 TCityOrganization currentOrganization: 'Native Hand-Crafted'.
 'Athens@GR' asTerritorialCity isCountryCapital. "true"
 ```
+
+### Distance between cities
+
+The Haversine Formula is commonly used and a good formula for probably most cases (doesn't account for the Earth being a spheroid, so you'll get an error < 0,5% introduced due to that fact) to calculate the great-circle distance between two points, i.e. the shortest distance over the earth’s surface deliberately ignoring elevation differences.
+
 
 ### Slums
 
@@ -1194,6 +1222,12 @@ Finally, a Territory Composer is displayed where territories can be browsed and 
 - Add more GeoNames features.
 - Add Bioregions.
 
+- Add (train) stations?
+- Add airports?
+- Find things near another thing
+- Find things near a geocode? Paris, airports <= 40km?
+- Find closest things from a geocode
+
 ## Contributing Guidelines
 
 - Have a look at existing code to get a feel.
@@ -1219,7 +1253,7 @@ If you want to include new data and API into Territorial, you could take the fol
 
 - If the data source contains files to be imported (such as CSV, XML, etc.), create a directory (for example RESOURCE_DIRECTORY_NAME) under the Territorial datasets directory (currently named "territorial_files") and place the data files into such created directory.
 - Create a new package prefixed TerritorialData-??? where ??? is the new package name.
-- Locate or create a TerritorialData subclass, that class will be used to access the resource and will provide the importing behavior and raw accessing to the data, for example in the form of OrderedCollection, Dictionary or Set.
+- Locate or create a TerritorialDataProvider subclass, that class will be used to access the resource and will provide the importing behavior and raw accessing to the data, for example in the form of OrderedCollection, Dictionary or Set.
 - Create a method named #myResourceFilename answering the name of the file containing the resource.
 - Create an importer method using the following template:
 
