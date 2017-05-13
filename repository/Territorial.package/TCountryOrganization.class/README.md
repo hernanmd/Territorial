@@ -9,3 +9,6 @@ Examples:
 TCountryOrganization demonymsOf: 'Argentina'.
 TCountryOrganization demonymsOf: 'central african republic'.
 
+Re-initialize country organizations:
+
+TCountryOrganization initialize.

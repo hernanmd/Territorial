@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "HernanMoralesDurand 10/26/2016 15:28",
+	"commentStamp" : "HernanMoralesDurand 5/13/2017 16:34",
 	"super" : "TerritorialArea",
 	"category" : "Territorial-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"internetCode",
-		"capital",
-		"admLevels"
+		"levelNumber",
+		"typeName"
 	],
-	"name" : "TerritorialCountry",
+	"name" : "TerritorialAdmUnit",
 	"type" : "normal"
 }

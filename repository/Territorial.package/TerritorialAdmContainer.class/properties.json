@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 5/13/2017 16:33",
+	"super" : "TerritorialComposite",
+	"category" : "Territorial-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"typeName"
+	],
+	"name" : "TerritorialAdmContainer",
+	"type" : "normal"
+}

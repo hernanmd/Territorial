@@ -4,9 +4,7 @@ addCAEU
 	^ TCountryOrganization new
 		preferredName: 'CAEU';
 		denomination:  'Council of Arab Economic Unity';
-		beEconomical;
-		bePolitical;
-		beRegional;
+		addQualifiers: #(#beEconomical #bePolitical #beRegional);
 		populateWith: 'Egypt
 Iraq
 Jordan

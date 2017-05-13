@@ -10,6 +10,7 @@ addFIFA
 		denomination:  'Fédération Internationale de Football Association';
 		beEconomical;
 		beGlobal;
+		viewWidget: #SearchableTree;
 		populateBlock: [ : countryList | 
 			(NeoCSVReader on: countryList readStream) do: [ : row |  | country |
 				country := ((TerritorialCountry newNamed: row first)
