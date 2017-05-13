@@ -1,3 +1,5 @@
 qualifiers-accessing
-qualifiers: anObject
-	qualifiers := anObject
+qualifiers: aCollection
+	" Set the receiver's qualifiers to be aCollection "
+
+	qualifiers := aCollection

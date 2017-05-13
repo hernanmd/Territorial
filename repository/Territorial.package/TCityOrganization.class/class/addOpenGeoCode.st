@@ -9,7 +9,7 @@ addOpenGeoCode
 		denomination:  'Americas Open Geocode (AOG) database';
 		beGlobal;
 		url: 'http://www.opengeocode.org';
-		territories: TerritorialCollection new;		
+		territories: TerritorialCollection new;	
 		populateBlock: [ : d | 
 			(self confirm: 'Adding OpenGeoCode cities could take a while, do you wish to load cities?')
 				ifTrue: [ 
