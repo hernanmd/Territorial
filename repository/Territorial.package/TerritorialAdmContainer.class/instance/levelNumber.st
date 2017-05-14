@@ -1,0 +1,3 @@
+accessing
+levelNumber
+	^ levelNumber
