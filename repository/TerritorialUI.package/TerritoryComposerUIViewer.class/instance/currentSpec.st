@@ -1,5 +1,5 @@
-specs
-defaultSpec
+initialization
+currentSpec
 	<spec: #default>
 	
 	^ SpecLayout composed

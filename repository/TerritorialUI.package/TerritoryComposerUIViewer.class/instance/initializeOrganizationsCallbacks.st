@@ -1,7 +1,13 @@
 initialization
 initializeOrganizationsCallbacks
 
-	self organizations whenSelectedItemChanged: [ : org | 
+	self organizationsWidget whenSelectedItemChanged: [ : org | 
 		" org = aTCountryOrganization "
-		org ifNotNil: [ 
-			territories roots: org sortedTerritoryNames ] ]
+		self halt.
+		org ifNotNil: [ : arg | 
+			self halt.
+			self territoriesWidget:  (self instantiate: org viewWidget asClass).
+			self territoriesWidget roots: org sortedTerritoryNames.
+			self needRebuild: false.
+			self buildWithSpecLayout: self currentSpec. 
+			self halt. ] ]

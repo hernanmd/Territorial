@@ -1,4 +1,4 @@
 accessing
 territorySelections
 
-	^ self territories selections
+	^ self territoriesWidget selectedItems

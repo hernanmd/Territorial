@@ -1,4 +1,4 @@
 protocol-events
 whenOrganizationChangedDo: aBlock
 
-	organizations whenSelectedItemChanged: aBlock
+	organizationsWidget whenSelectedItemChanged: aBlock

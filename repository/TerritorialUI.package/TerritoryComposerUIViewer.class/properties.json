@@ -7,8 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"models",
-		"organizations",
-		"territories"
+		"organizationsWidget",
+		"territoriesWidget"
 	],
 	"name" : "TerritoryComposerUIViewer",
 	"type" : "normal"

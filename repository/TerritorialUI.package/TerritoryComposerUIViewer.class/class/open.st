@@ -6,5 +6,5 @@ open
 		openWithSpec;
 		centered;
 		yourself.
-	composable containingWindow expand.
+	composable containingWindow ifNotNilDo: [ : w | w expand ].
 	^ composable	

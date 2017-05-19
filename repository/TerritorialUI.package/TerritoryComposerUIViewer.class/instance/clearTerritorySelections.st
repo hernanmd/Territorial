@@ -2,4 +2,6 @@ accessing
 clearTerritorySelections
 	" Set empty territories selection "
 	
-	self territories clearTerritorySelections 
+	[ self territoriesWidget resetSelection ]
+	on: MessageNotUnderstood 
+	do: [ : ex | ex resume ]

@@ -1,4 +1,5 @@
-protocol
+api
 title
+	" Private - See superimplementors' comment "
 
-	^ 'Territory List Widget'
+	^ 'Organizations List Widget'

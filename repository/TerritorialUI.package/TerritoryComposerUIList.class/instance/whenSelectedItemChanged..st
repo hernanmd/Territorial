@@ -1,4 +1,4 @@
 protocol-events
 whenSelectedItemChanged: aBlock
 
-	list whenSelectedItemChanged: aBlock
+	self viewWidget whenSelectedItemChanged: aBlock
