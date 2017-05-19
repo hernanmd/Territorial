@@ -6,5 +6,5 @@ defaultSpec
 		newColumn: [ :column |
 			column 
 				add: #label height: self toolbarHeight;
-				add: #list ];
+				add: #viewWidget ];
 		yourself

@@ -1,4 +1,4 @@
 accessing
 organizationSelections
 
-	^ self organizations selections
+	^ self organizationsWidget selections

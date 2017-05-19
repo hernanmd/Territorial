@@ -1,4 +1,4 @@
 protocol
 resetTerritorySelection
 
-	territories resetSelection
+	territoriesWidget resetSelection

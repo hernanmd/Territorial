@@ -7,4 +7,4 @@ initializeModelCallbacks
 			(self territorySelections isEmpty or: [ (self territorySelections notEmpty and: [ self confirm: 'Warning: If click Ok you are going to lose current selections' ]) ])
 				ifTrue: [ 
 					self clearTerritorySelections.
-					self fillOrganizationsAndTerritoriesFor: qualifier ] ] ]
+					self populateOrganizationsFor: qualifier ] ] ]

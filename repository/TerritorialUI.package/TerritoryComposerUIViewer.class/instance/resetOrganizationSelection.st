@@ -1,4 +1,4 @@
 protocol
 resetOrganizationSelection
 
-	organizations resetSelection
+	organizationsWidget resetSelection

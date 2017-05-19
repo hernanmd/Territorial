@@ -7,9 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"label",
-		"list",
 		"selectedChangedBlock",
-		"selections"
+		"selections",
+		"viewWidget"
 	],
 	"name" : "TerritoryComposerUIList",
 	"type" : "normal"
