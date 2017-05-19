@@ -6,9 +6,7 @@ addEU
 		formedYear: 1957;
 		url: 'http://europa.eu/';
 		denomination:  'European Union';
-		beRegional;
-		bePolitical;
-		beEconomical;
+		addQualifiers: #(#beEconomical #bePolitical #beRegional);		
 		populateWith: 'Austria
 Belgium
 Bulgaria

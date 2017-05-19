@@ -15,8 +15,8 @@
 		"qualifiers",
 		"url",
 		"populateBlock",
-		"populateViewBlock",
-		"period"
+		"period",
+		"setItemsBlock"
 	],
 	"name" : "TOrganization",
 	"type" : "normal"
