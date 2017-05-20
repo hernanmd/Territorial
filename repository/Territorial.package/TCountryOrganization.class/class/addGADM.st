@@ -10,12 +10,13 @@ addGADM
 		denomination: 'Database of Global Administrative Areas';
 		beGlobal;
 		populateBlock: [ : ttyList | co territories addTerritories: ttyList ];
-		populateWith: (GADMWorldTree 
-						populateTerritorialNode: GADMWorldTree root 
-						levelNumber: 0);
 		setItemsBlock:	 [ : aView | 
 				| composite |
-				composite := co territories.
+				(composite := co territories) isEmpty 
+					ifTrue: [ 
+						co populateWith: (GADMWorldTree 
+							populateTerritorialNode: GADMWorldTree root 
+							levelNumber: 0) ].
 				aView setItems: (composite territories collect: [ :item | 
 					TreeNodeModel new
 						content: item;

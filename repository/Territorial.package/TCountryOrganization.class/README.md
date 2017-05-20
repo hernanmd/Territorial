@@ -12,3 +12,8 @@ TCountryOrganization demonymsOf: 'central african republic'.
 Re-initialize country organizations:
 
 TCountryOrganization initialize.
+
+Remove all organizations:
+
+TCountryOrganization tOrganizations: nil.
+
