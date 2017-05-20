@@ -1,12 +1,20 @@
 *Territorial
 populateTerritorialNode: aNode levelNumber: levelNum
 
-	^ aNode namedNodes collect: [ : node | 
-		node hasChildren 
-			ifTrue: [ self newTerritorialContainerFor: node levelNumber: levelNum + 1 ]
-			ifFalse: [ 
-				TerritorialAdmUnit new
-					addName: node mainName;
-					typeName: node typeName;
-					levelNumber: levelNum + 1;
-					yourself  ] ]
+	| nodes |
+	
+	nodes := OrderedCollection new: 300.
+	aNode namedNodes 
+		do: [ : node | 
+			nodes 
+				add: (node hasChildren 
+					ifTrue: [ self newTerritorialContainerFor: node levelNumber: levelNum + 1 ]
+					ifFalse: [ 
+						TerritorialAdmUnit new
+							addName: node mainName;
+							typeName: node typeName;
+							levelNumber: levelNum + 1;
+							yourself  ]);
+				yourself ]
+		displayingProgress: 'Adding GADM territories...'.
+	^ nodes
