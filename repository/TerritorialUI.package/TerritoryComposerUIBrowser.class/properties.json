@@ -6,12 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"viewer",
 		"map",
 		"mapBuilder",
 		"territoryName",
 		"button1",
-		"button2"
+		"button2",
+		"territorySelector"
 	],
 	"name" : "TerritoryComposerUIBrowser",
 	"type" : "normal"

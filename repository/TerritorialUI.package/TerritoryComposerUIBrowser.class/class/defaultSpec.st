@@ -4,12 +4,8 @@ defaultSpec
 	
 	^ SpecLayout composed
 		newColumn: [ :col | 
-			col newRow: [ : r | 
-				r add: #(viewer models);
-					addVSplitter;
-					add: #(viewer organizationsWidget);
-					addVSplitter;
-					add: #(viewer territoriesWidget) ];
+			col
+				newRow: [ : r | r add: #territorySelector ];
 				addHSplitter;
 				add: #map;
 				add: #previousNextToolbar height: self toolbarHeight ];

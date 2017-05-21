@@ -1,4 +1,0 @@
-protocol
-resetOrganizationSelection
-
-	organizationsWidget resetSelection

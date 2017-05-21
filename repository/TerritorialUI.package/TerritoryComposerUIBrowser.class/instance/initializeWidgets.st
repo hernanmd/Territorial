@@ -4,10 +4,10 @@ initializeWidgets
 	super initializeWidgets.
 	button1 := self previousNextToolbar previousButton.
 	button2 := self previousNextToolbar nextButton.
-	viewer := self instantiate: TerritoryComposerUIViewer.
+	territorySelector := self instantiate: TerritoryUISelector.
 	map := self newMapBuilder.
 
 	self focusOrder 
-		add: viewer;
+		add: territorySelector;
 		add: button1;
 		add: button2
