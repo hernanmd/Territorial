@@ -9,23 +9,16 @@ addGADM
 		url: 'http://www.gadm.org/';
 		denomination: 'Database of Global Administrative Areas';
 		beGlobal;
-		populateBlock: [ : ttyList | co territories addTerritories: ttyList ];
+		populateBlock: [ : ttyList | co territories addTerritories: (ttyList sort: [ :a :b | a name < b name ])];
 		setItemsBlock:	 [ : aView | 
 				| composite |
-				(composite := co territories) isEmpty 
-					ifTrue: [ 
+				((composite := co territories) isEmpty and: [ self confirm: 'Adding GADM territories could take some time, do you want to proceed?' ])
+					ifTrue: [
 						co populateWith: (GADMWorldTree 
 							populateTerritorialNode: GADMWorldTree root 
 							levelNumber: 0) ].
-				aView setItems: (composite territories collect: [ :item | 
-					TreeNodeModel new
-						content: item;
-						hasContentToShow: true;
-						children: [ item admLevels "sort: [ :a :b | a name < b name ]" ] ]) ];
-		viewWidget: (TreeModel new 
-				beCheckList;
-				autoMultiSelection: true;
-				childrenBlock: [ : item | item admLevels sort: [ : a : b | a name < b name ] ];
-				displayBlock: [ : item | item name ];
-				yourself);
+				aView 
+					newDataSource: composite territories 
+					childrenBlock: [ : item | item admLevels sort: [ : a : b | a name < b name ] ] ];
+		viewWidget: SpcFastTable new;
 		yourself
