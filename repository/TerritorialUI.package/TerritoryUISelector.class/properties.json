@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 5/19/2017 23:16",
+	"super" : "DynamicComposableModel",
+	"category" : "TerritorialUI-Composer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"widgetListOrg",
+		"widgetListCategories",
+		"widgetDynamic"
+	],
+	"name" : "TerritoryUISelector",
+	"type" : "normal"
+}

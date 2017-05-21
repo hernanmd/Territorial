@@ -1,7 +1,7 @@
 accessing
 beSingleSelection
 
-	self viewer territories
+	self territorySelector territories
 		label: 'Territories';
 		list: (self newTree
 				removeOnlyLastSelected: true

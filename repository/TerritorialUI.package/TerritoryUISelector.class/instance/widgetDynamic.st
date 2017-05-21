@@ -1,0 +1,3 @@
+accessing
+widgetDynamic
+	^ widgetDynamic

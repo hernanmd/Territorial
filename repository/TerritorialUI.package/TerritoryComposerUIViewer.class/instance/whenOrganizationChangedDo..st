@@ -1,4 +1,0 @@
-protocol-events
-whenOrganizationChangedDo: aBlock
-
-	organizationsWidget whenSelectedItemChanged: aBlock
