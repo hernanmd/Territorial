@@ -1,7 +1,7 @@
 initialization
 defaultView
+	" Answer a default <ComposableModel> for unselected options "
 
 	| cm |
-	cm := self newLabel.
-	cm label: 'Select something from the list please.'.
-	^cm
+	cm := self newList.
+	^ cm
