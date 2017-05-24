@@ -9,4 +9,4 @@ initializeWidgets
 		entryCompletion: nil;
 		ghostText: self ghostTextExample;
 		bindKeyCombination: Character cr asKeyCombination 
-		toAction: [ self previousNextToolbar performNextAction ].		
+		toAction: [ self toolbar performCancelButtonAction ].		

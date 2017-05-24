@@ -1,5 +1,4 @@
 initialization
 setActionsForPrevious
 
-	self previousNextToolbar previousAction: [ 
-		TerritoryBuilderUICompositeChooser open ].
+	self toolbar firstButtonAction: [ TerritoryBuilderUICompositeChooser open ].

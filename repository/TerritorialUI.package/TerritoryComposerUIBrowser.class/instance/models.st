@@ -1,4 +1,6 @@
 initialization
 models
+	" Private - See superimplementor's comment "
 
-	^ #(previousNextToolbar SpcPreviousSaveToolbar)
+"	^ #(previousNextToolbar SpcPreviousSaveToolbar)"
+	^ #(#toolbar SpcThreeButtonToolbar)	
