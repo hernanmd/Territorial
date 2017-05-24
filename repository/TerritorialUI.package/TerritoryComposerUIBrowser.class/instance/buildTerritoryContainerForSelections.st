@@ -5,10 +5,10 @@ buildTerritoryContainerForSelections
 	| composite |
 	
 	composite := TerritorialComposite newNamed: self territoryName .
-	self territorySelections do: [ : ttySelection |
+	self territorySelections do: [ : tName |
 		composite
-			addTerritory: ((TerritorialCountry newNamed: ttySelection)
-				addTerritoryName: #englishName -> ttySelection;
+			addTerritory: ((TerritorialCountry newNamed: tName)
+				addTerritoryName: #englishName -> tName;
 				yourself);
 			yourself ].
 	^ composite
