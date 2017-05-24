@@ -8,5 +8,5 @@ defaultSpec
 				newRow: [ : r | r add: #territorySelector ];
 				addHSplitter;
 				add: #map;
-				add: #previousNextToolbar height: self toolbarHeight ];
+				add: #toolbar height: self toolbarHeight ];
 		yourself

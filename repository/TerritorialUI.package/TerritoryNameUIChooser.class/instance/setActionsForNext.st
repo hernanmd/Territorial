@@ -1,7 +1,7 @@
 initialization
 setActionsForNext
 
-	self previousNextToolbar nextAction: [ 
+	self toolbar secondButtonAction: [ 
 		self isValidTerritoryName
 			ifTrue: [ self openTerritoryComposerBrowser ]
 			ifFalse: [ 

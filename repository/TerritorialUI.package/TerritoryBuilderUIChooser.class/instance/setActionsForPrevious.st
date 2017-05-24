@@ -1,5 +1,4 @@
 initialization
 setActionsForPrevious
 
-	self previousNextToolbar previousAction: [ 
-		self delete ].
+	self toolbar firstButtonAction: [ self delete ].

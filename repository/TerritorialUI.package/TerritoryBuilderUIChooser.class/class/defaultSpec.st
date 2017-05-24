@@ -7,5 +7,5 @@ defaultSpec
 			col 
 				add: #radioButton1 height: 120;
 				add: #radioButton2 height: 40;
-				add: #previousNextToolbar height: self toolbarHeight ];
+				add: #toolbar height: self toolbarHeight ];
 		yourself

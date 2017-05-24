@@ -1,5 +1,4 @@
 initialization
 setActionsForPrevious
 
-	self previousNextToolbar previousAction: [ 
-		TerritoryBuilderUIChooser open ].
+	self toolbar firstButtonAction: [ TerritoryBuilderUIChooser open ].

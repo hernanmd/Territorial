@@ -1,4 +1,4 @@
 initialization
 models
 
-	^ #(previousNextToolbar SpcPreviousNextToolbar)
+	^ #(#toolbar SpcPreviousNextToolbar)

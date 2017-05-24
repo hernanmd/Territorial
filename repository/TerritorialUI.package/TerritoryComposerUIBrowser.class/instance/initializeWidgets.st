@@ -1,11 +1,21 @@
 initialization
 initializeWidgets
+	" Private - See superimplementor's comment "
 
 	super initializeWidgets.
-	button1 := self previousNextToolbar previousButton.
-	button2 := self previousNextToolbar nextButton.
 	territorySelector := self instantiate: TerritoryUISelector.
 	map := self newMapBuilder.
+	self toolbar 
+		firstButtonLabel: '<< Previous';
+		firstButtonAction: [ 
+				self toolbar
+					firstButtonAction: [ TerritoryNameUIChooser open ];
+					performFirstButtonAction.
+				self delete ];
+		secondButtonLabel: 'Save';
+		secondButtonAction: [ self setActionsForSave ];
+		thirdButtonLabel: 'Cancel';
+		thirdButtonAction: [ self delete ].
 
 	self focusOrder 
 		add: territorySelector;
