@@ -8,7 +8,6 @@ buildItems: aCollection for: anOwner
 			hasContentToShow: true;
 			selected: (anOwner isTerritorySelected: tty);
 			whenSelectedChanged: [ : bool |
-				self halt.
 				anOwner update: tty changed: bool.
 				anOwner selected: tty changed: bool ] ;
 			yourself].
