@@ -4,6 +4,7 @@ widgetFor: aTOrganization
 	
 	^ aTOrganization  
 		ifNotNil: [ : t | 	t viewWidget whenSelectedItemChanged: [ : item | 
+					self halt.
 					(item notNil and: [ item notEmpty ])
-						ifTrue: [ self update: item changed: true ] ] ]
+						ifTrue: [ self update: item changed: (self selectedPreviously: item) ] ] ]
 		ifNil: [ self defaultView ]
