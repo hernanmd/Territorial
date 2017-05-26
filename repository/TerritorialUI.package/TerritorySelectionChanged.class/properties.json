@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 5/26/2017 01:54",
+	"super" : "Announcement",
+	"category" : "TerritorialUI-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selection",
+		"selectionStatus",
+		"selections"
+	],
+	"name" : "TerritorySelectionChanged",
+	"type" : "normal"
+}

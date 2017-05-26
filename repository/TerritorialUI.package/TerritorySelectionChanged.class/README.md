@@ -1,0 +1,1 @@
+Helper class for handling announcements in Territorial widgets. Stores both the selection String and a selection status (Boolean) which has <true> if item was selected, and <false> when deselected.
