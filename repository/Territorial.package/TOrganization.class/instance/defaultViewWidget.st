@@ -2,7 +2,7 @@ defaults
 defaultViewWidget
 	" Private - See superimplementor's comment "
 
-	^ SearchableTree new 
+	^ SearchableTerritoryTree new 
 		multiSelection: true;
 		autoMultiSelection: true;
 		beCheckList;

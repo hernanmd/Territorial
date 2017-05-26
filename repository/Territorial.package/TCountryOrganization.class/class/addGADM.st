@@ -20,5 +20,5 @@ addGADM
 				aView 
 					newDataSource: composite territories 
 					childrenBlock: [ : item | item admLevels sort: [ : a : b | a name < b name ] ] ];
-		viewWidget: SpcFastTable new;
+		viewWidget: SpcTerritoryFastTable new;
 		yourself
