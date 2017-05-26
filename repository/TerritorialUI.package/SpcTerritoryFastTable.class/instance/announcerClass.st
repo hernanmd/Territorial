@@ -1,0 +1,4 @@
+initialize
+announcerClass
+
+	^ TerritorySelectionChanged

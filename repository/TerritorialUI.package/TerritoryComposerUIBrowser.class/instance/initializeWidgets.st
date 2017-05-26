@@ -15,7 +15,7 @@ initializeWidgets
 		secondButtonLabel: 'Save';
 		secondButtonAction: [ self setActionsForSave ];
 		thirdButtonLabel: 'Cancel';
-		thirdButtonAction: [ self delete ].
+		thirdButtonAction: [ self askOkToClose ].
 
 	self focusOrder 
 		add: territorySelector;

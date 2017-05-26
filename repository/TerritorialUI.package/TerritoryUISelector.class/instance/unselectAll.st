@@ -1,4 +1,3 @@
 accessing
 unselectAll
-
-	self widgetDynamic unselectAll.
+	self shouldBeImplemented.
