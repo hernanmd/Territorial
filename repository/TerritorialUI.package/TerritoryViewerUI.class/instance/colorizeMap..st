@@ -9,7 +9,7 @@ colorizeMap: tty
 	tty allNames
 		do: [ :ttyName | 
 			| shape |
-			(shape := self resolveRoassalShpFromCountryName: ttyName)
+			(shape := self resolveShapeNamed: ttyName)
 				ifNotNil: [ :arg | 
 					shape trachelShape color: Color random.
 					self map changed ] ]
