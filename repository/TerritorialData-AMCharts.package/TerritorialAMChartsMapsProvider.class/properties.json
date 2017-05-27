@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialMapProvider",
+	"category" : "TerritorialData-AMCharts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialAMChartsMapsProvider",
+	"type" : "normal"
+}
