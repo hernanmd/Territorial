@@ -1,3 +1,0 @@
-TerritorialAMChartsMapsProvider readCountriesAtResolution: #highResDirectoryName.
-TerritorialAMChartsMapsProvider readRTLowResCountries.
-TerritorialAMChartsMapsProvider readRTHighResCountries.
