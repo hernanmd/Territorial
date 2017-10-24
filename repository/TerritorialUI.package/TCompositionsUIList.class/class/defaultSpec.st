@@ -6,6 +6,6 @@ defaultSpec
 		newColumn: [ : c  |
 			c 
 				add: #label height: self toolbarHeight;
-				add: #list;
+				add: #listWidget;
 				add: #buttonBar height: self toolbarHeight ];
 				yourself

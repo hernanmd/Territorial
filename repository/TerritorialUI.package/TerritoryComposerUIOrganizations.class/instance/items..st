@@ -1,5 +1,5 @@
 protocol
 items: aCollection
 
-	grid setItems: aCollection.
-	grid refreshWidget.
+	grid items: aCollection.
+	grid updateList.
