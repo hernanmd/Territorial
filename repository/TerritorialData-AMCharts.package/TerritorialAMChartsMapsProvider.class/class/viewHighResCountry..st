@@ -1,9 +1,9 @@
-accessing
+accessing - high resolution
 viewHighResCountry: countryName 
-	" Answer a <String> specifying the directory name where data files are located "
+	" Answer a view for countryName "
 	
 	| view |
 	
 	view := RTView new.		
 	(self readHighResCountry: countryName) reject: #isNil thenDo: [ : elem | view add: elem ].
-	view open
+	^ view
