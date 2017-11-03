@@ -9,7 +9,7 @@ readResourceFile: svgFilename
 			| elem |
 			[ elem := (RTSVGPath new
 				path: (node attributeAt: 'd');
-				fillColor: Color random;
+				fillColor: self adm1ColorLevel;
 				scale: 1) element ]
 			on: Error
 			do: [ : ex | 

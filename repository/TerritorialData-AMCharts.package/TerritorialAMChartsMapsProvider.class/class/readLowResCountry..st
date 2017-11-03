@@ -1,8 +1,8 @@
-accessing - high resolution
-readHighResCountry: countryName 
+accessing - low resolution
+readLowResCountry: countryName 
 	" Answer a <String> specifying the directory name where data files are located "
 	
-	((self resourceDirectory asFileReference / self countriesDirectoryName / self highResDirectoryName) childrenMatching: '*.svg') 
+	((self resourceDirectory asFileReference / self countriesDirectoryName / self lowResDirectoryName) childrenMatching: '*.svg') 
 		detect: [ : svgFileName | 
 			| cFileName |
 			cFileName := svgFileName basename allButLast: 8. "...High.svg"
