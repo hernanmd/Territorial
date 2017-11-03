@@ -9,7 +9,8 @@
 		"description",
 		"owners",
 		"mapProvider",
-		"annotations"
+		"annotations",
+		"view"
 	],
 	"name" : "TerritorialMapObject",
 	"type" : "normal"
