@@ -1,0 +1,209 @@
+% Source Code
+\usepackage{needspace}
+\usepackage{hyperref}
+\usepackage[a4paper,pdftex]{geometry}	% Use A4 paper margins
+% \usepackage{color}
+\usepackage{listings}
+\usepackage{mdframed}
+\usepackage{xcolor}
+
+% Tables
+% \usepackage{tabularx}
+
+% \usepackage{wrapfig}
+% \usepackage{multicol}
+% \usepackage{multirow}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage[font=normalsize]{caption}     %% make caption in normal size
+\usepackage{etoolbox}
+
+% \AtBeginEnvironment{longtabu}{\small}{}{} 
+% \AtBeginEnvironment{longtabu}{\tiny}{}{} 
+\AtBeginEnvironment{longtabu}{\footnotesize}{}{}
+
+% Multiple Language Support
+\usepackage{fontspec}
+\usepackage{lmodern}
+%%% For language switching -- like babel, but for xelatex
+%\usepackage{xeCJK}
+\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text,Scale=MatchLowercase}
+\usepackage{polyglossia}
+\setotherlanguages{arabic,hindi,sanskrit,greek,thai,korean,nko,malayalam,marathi,hebrew,german,lao} 
+  
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{xspace}
+
+% Fonts
+\usepackage{tgpagella}
+\usepackage[scaled]{beramono}
+
+\setmainfont[Ligatures=TeX,Scale=1.2]{TeX Gyre Pagella}
+\setmathfont[Ligatures=TeX]{TeX Gyre Pagella Math}
+% \setmainfont[Mapping=tex-text]{Times New Roman}
+% \setmonofont[Mapping=tex-text]{Bera Sans Mono}
+% \setmonofont{Bitstream Vera Sans Mono}
+\setmonofont{DejaVu Sans Mono}
+
+% To get straight quotation marks ?
+\usepackage{upquote,textcomp}
+
+%%% Underline instead of italics?
+% \usepackage{ulem}
+
+% Space between lines
+\renewcommand{\baselinestretch}{1.5} 
+
+% Source code background color
+\definecolor{source}{gray}{0.85}
+
+% Links
+\usepackage{hyperref}
+\hypersetup{colorlinks, allcolors={blue}}
+
+% my comment style
+\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+\newcommand{\myCommentStyle}[1]{{\normalsize\fontfamily{fvm}\color{darkgreen} #1}}
+% \newcommand{\myCommentStyle}[1]{{\normalsize\fontencoding{T1}\fontfamily{fvm}\color{darkgreen} #1}}
+%\newcommand{\myCommentStyle}[1]{{\footnotesize\sffamily\color{black!100!white} #1}}
+
+% my string style
+\definecolor{darkcandyapplered}{rgb}{0.64, 0.0, 0.0}
+\newcommand{\myStringStyle}[1]{{\normalsize\fontfamily{fvm}\color{darkcandyapplered} #1}}
+%\newcommand{\myStringStyle}[1]{{\normalsize\fontencoding{T1}\fontfamily{fvm}\color{darkcandyapplered} #1}}
+%\newcommand{\myStringStyle}[1]{{\footnotesize\sffamily\color{black!100!black} #1}}
+
+% my symbol style
+\newcommand{\mySymbolStyle}[1]{{\normalsize\fontfamily{fvm}\color{darkcandyapplered} #1}}
+%\newcommand{\mySymbolStyle}[1]{{\normalsize\fontencoding{T1}\fontfamily{fvm}\color{darkcandyapplered} #1}}
+%\newcommand{\mySymbolStyle}[1]{{\footnotesize\sffamily\color{black!100!black} #1}}
+
+% my keyword style
+\definecolor{darkchestnut}{rgb}{0.6, 0.41, 0.38}
+\newcommand{\myKeywordStyle}[1]{{\normalsize\fontfamily{fvm}\color{darkchestnut} #1}}
+%\newcommand{\myKeywordStyle}[1]{{\normalsize\fontencoding{T1}\fontfamily{fvm}\color{darkchestnut} #1}}
+%\newcommand{\myKeywordStyle}[1]{{\footnotesize\sffamily\color{black!70!black} #1}}
+
+% my global style
+\definecolor{blue}{rgb}{0.0, 0.18, 0.65}
+\newcommand{\myGlobalStyle}[1]{{\normalsize\fontfamily{fvm}\color{blue} #1}}
+%\newcommand{\myGlobalStyle}[1]{{\normalsize\fontencoding{T1}\fontfamily{fvm}\color{blue} #1}}
+%\newcommand{\myGlobalStyle}[1]{{\footnotesize\sffamily\color{black!100!black} #1}}
+
+% my number style
+\definecolor{brown}{rgb}{0.71, 0.4, 0.11}
+\newcommand{\myNumberStyle}[1]{{\normalsize\fontfamily{fvm}\color{brown} #1}}
+%\newcommand{\myNumberStyle}[1]{{\normalsize\fontencoding{T1}\fontfamily{fvm}\color{brown} #1}}
+%\newcommand{\myNumberStyle}[1]{{\footnotesize\sffamily\color{black!100!black} #1}}
+
+\lstset{
+language={},
+% characters
+tabsize=3,
+escapechar={!},
+keepspaces=true,
+breaklines=true,
+alsoletter={\#},
+literate={\$}{{{\$}}}1,
+breakautoindent=true,
+columns=fullflexible,
+showstringspaces=false,
+upquote=true,
+% background
+frame=single,
+aboveskip=1em, % automatic space before
+framerule=0pt,
+% language=smalltalk,
+% basicstyle=\fontsize{11}{13}\selectfont\ttfamily,
+% basicstyle=\footnotesize\ttfamily\color{black},
+basicstyle=\normalsize\ttfamily\color{black},
+keywordstyle=\myKeywordStyle,% keyword style
+commentstyle=\myCommentStyle,% comment style
+numberstyle=\myNumberStyle,% number style
+frame=single,%
+backgroundcolor=\color{source},
+% numbering
+stepnumber=1,
+numbersep=10pt,
+numberstyle=\tiny,
+numberfirstline=true,
+% caption
+captionpos=b,
+% formatting (html)
+moredelim=[is][\bfseries]{<b>}{</b>},
+moredelim=[is][\textit]{<i>}{</i>},
+moredelim=[is][\underbar]{<u>}{</u>},
+moredelim=[is][\color{red}\uwave]{<wave>}{</wave>},
+moredelim=[is][\color{red}\sout]{<del>}{</del>},
+moredelim=[is][\color{blue}\underbar]{<ins>}{</ins>},
+% smalltalk stuff
+morecomment=[s][\myCommentStyle]{"}{"},
+%    morecomment=[s][\myvs]{|}{|},
+morestring=[b][\myStringStyle]',
+moredelim=[is][]{<sel>}{</sel>},
+moredelim=[is][]{<rcv>}{</rcv>},
+moredelim=[is][\itshape]{<symb>}{</symb>},
+moredelim=[is][\scshape]{<class>}{</class>},
+morekeywords={true,false,nil,self,super,thisContext},
+identifierstyle=\idstyle,
+}
+
+\makeatletter
+\newcommand*\idstyle[1]{%
+\expandafter\id@style\the\lst@token{#1}\relax%
+}
+\def\id@style#1#2\relax{%
+\ifnum\pdfstrcmp{#1}{\#}=0%
+% this is a symbol
+\mySymbolStyle{\the\lst@token}%
+\else%
+\edef\tempa{\uccode`#1}%
+\edef\tempb{`#1}%
+\ifnum\tempa=\tempb%
+% this is a global
+\myGlobalStyle{\the\lst@token}%
+\else%
+\the\lst@token%
+\fi%
+\fi%
+}
+\makeatother
+
+%\newcommand{\ct}{\lstinline[backgroundcolor=\color{white}]}
+%\newcommand{\needlines}[1]{\Needspace{#1\baselineskip}}
+\newcommand{\lct}{\texttt}
+
+\lstnewenvironment{code}{%
+    \lstset{%
+    % frame=lines,
+    frame=single,
+    framerule=0pt,
+    mathescape=false,
+    }%
+    \noindent%
+    \minipage{\linewidth}%
+}{%
+    \endminipage%
+}%
+
+
+\lstnewenvironment{codeWithLineNumbers}{%
+    \lstset{%
+    % frame=lines,
+    frame=single,
+    framerule=0pt,
+    mathescape=false,
+    numbers=left
+    }%
+    \noindent%
+    \minipage{\linewidth}%
+}{%
+    \endminipage%
+}%
+
+\newenvironment{codeNonSmalltalk}
+{\begin{alltt}\ttfamily}
+{\end{alltt}\normalsize}
+
