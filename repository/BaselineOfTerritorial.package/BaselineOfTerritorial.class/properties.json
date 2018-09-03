@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/3/2018 09:56",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfTerritorial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfTerritorial",
+	"type" : "normal"
+}
