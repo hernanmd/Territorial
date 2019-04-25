@@ -37,7 +37,7 @@ baseline: spec
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ].		
 
 		spec 
-			package: #Territorial 						with: [ spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQLSearch' 'StringExtensions' 'GADM' 'ISO3166' ). ];
+			package: #Territorial 						with: [ spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQL' 'StringExtensions' 'GADM' 'ISO3166' ). ];
 			package: #TerritorialData 					with: [ spec requires: #(#Territorial ). ];
 			package: #'TerritorialData-AGGData' 		with: [ spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-CIA' 			with: [ spec requires: #(#TerritorialData ). ];
