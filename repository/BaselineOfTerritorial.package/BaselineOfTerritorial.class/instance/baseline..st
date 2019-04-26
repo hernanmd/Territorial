@@ -40,6 +40,7 @@ baseline: spec
 			package: #Territorial 						with: [ spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQL' 'StringExtensions' 'GADM' 'ISO3166' ). ];
 			package: #TerritorialData 					with: [ spec requires: #(#Territorial ). ];
 			package: #'TerritorialData-AGGData' 		with: [ spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-AMCharts'		with: [ spec requires: #(#TerritorialData). ];
 			package: #'TerritorialData-CIA' 			with: [ spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-CountryIO' 	with: [ spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-DB1' 			with: [ spec requires: #(#TerritorialData ). ];
