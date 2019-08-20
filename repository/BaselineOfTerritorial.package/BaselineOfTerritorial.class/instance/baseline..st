@@ -11,30 +11,10 @@ baseline: spec
 			baseline: 'SPARQL'				 	with: [ spec repository: 'github://hernanmd/SPARQL/repository' ];
 			baseline: 'GADM'				 	with: [ spec repository: 'github://hernanmd/GADM/repository' ];
 
-			project: 'Roassal2' with: [
-				spec
-					className: #ConfigurationOfRoassal2;
-					versionString: #'stable';
-					loads: #('NoGlamour' );
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ];
-
-			project: 'NeoCSV' with: [
-				spec
-					className: 'ConfigurationOfNeoCSV';
-					version: #stable;
-					repository: 'github://svenvc/NeoCVS:master/repository' ];
-				
-			project: 'NeoJSON' with: [
-				spec
-					className: #ConfigurationOfNeoJSON;
-					versionString: #'stable';
-					repository: 'http://mc.stfx.eu/Neo' ];
-				
-			project: 'XMLParser' with: [
-				spec
-					className: #ConfigurationOfXMLParser;
-					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/' ].		
+			projectForRoassal2: spec;
+			projectForNeoCSV: spec;
+			projectForNeoJSON: spec;
+			projectForXMLParser: spec.	
 
 		spec 
 			package: #Territorial 						with: [ spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQL' 'StringExtensions' 'GADM' 'ISO3166' ). ];
