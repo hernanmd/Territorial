@@ -9,8 +9,9 @@ baseline: spec
 			baseline: 'SpecUIAddOns' 		with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ];
 			baseline: 'StringExtensions' 	with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
 			baseline: 'SPARQL'				 	with: [ spec repository: 'github://hernanmd/SPARQL/repository' ];
-			baseline: 'GADM'				 	with: [ spec repository: 'github://hernanmd/GADM/repository' ];
+			baseline: 'GADM'				 	with: [ spec repository: 'github://hernanmd/GADM/repository' ].
 
+		self
 			projectForRoassal2: spec;
 			projectForNeoCSV: spec;
 			projectForNeoJSON: spec;
