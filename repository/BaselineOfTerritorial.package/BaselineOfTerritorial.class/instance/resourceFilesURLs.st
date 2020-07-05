@@ -7,4 +7,4 @@ resourceFilesURLs
 			nextPutAll: 'https://github.com/hernanmd/Territorial/raw/master/res/';
 			nextPutAll: (Smalltalk os isWin32 
 						ifTrue: [ 'territorial_files.zip' ]
-						ifFalse: [ 'territorial_files.tar.gz' ]) ].
+						ifFalse: [ 'territorial_files.tgz' ]) ].
