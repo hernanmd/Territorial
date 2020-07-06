@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'TerritorialData-DB1'!
-SystemOrganization addCategory: 'TerritorialData-DB1-Demonyms'!
+SystemOrganization addCategory: #'TerritorialData-DB1-Demonyms'!

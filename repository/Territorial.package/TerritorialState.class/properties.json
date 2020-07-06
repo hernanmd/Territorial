@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialObject",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialState",
+	"type" : "normal"
+}

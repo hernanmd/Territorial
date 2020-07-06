@@ -2,7 +2,7 @@ initialize-release
 release
 	" See superimplementor's comment "
 
-	self log: 'Releasing ' , self class name.
+	self trace: 'Releasing ' , self class name.
 	countryDemonyms := Dictionary new.
 	oneWordCountryDemonyms := nil.
 	twoWordsCountryDemonyms := nil.

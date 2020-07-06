@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 7/5/2020 02:29",
+	"super" : "TerritorialState",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialPariahState",
+	"type" : "normal"
+}
