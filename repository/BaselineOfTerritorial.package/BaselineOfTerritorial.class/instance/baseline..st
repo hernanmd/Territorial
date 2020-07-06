@@ -19,32 +19,33 @@ baseline: spec
 			projectForXMLParser: spec.	
 
 		spec 
-			package: #Territorial 					with: [ spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQL' 'StringExtensions' 'GADM' 'ISO3166' ). ];
-			package: #TerritorialData 				with: [ spec requires: #(#Territorial ). ];
-			package: #'TerritorialData-AGGData' 	with: [ spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-AMCharts'	with: [ spec requires: #(#TerritorialData). ];
-			package: #'TerritorialData-CIA' 		with: [ spec requires: #(#TerritorialData ). ];
+			package: #Territorial 						with: [ spec requires: #('NeoJSON' 'NeoCSV' 'XMLParser' 'SPARQL' 'StringExtensions' 'GADM' 'ISO3166' ). ];
+			package: #TerritorialData 					with: [ spec requires: #(#Territorial ). ];
+			package: #'TerritorialData-AGGData' 		with: [ spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-AMCharts'		with: [ spec requires: #(#TerritorialData). ];
+			package: #'TerritorialData-CIA' 			with: [ spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-CountryIO' 	with: [ spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-DB1' 		with: [ spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-DBPedia' 	with: [ spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-FAO' 		with: [ spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-FCFlags' 	with: [ spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-DB1' 			with: [ spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-DBPedia' 		with: [ spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-FAO' 			with: [ spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-FCFlags' 		with: [ spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-FreeBase' 	with: [ spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-GeoNames' 	with: [ spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-JET' 		with: [ spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-JET' 			with: [ spec requires: #(#TerritorialData ). ];
 "			package: 'TerritorialData-OSM' 			with: [ spec requires: #(#TerritorialData ). ];"
 			package: #'TerritorialData-OpenGeoCode' with: [ spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-Pleiades' 	with: [ spec requires: #(#TerritorialData ). ];
-			package: #'TerritorialData-WordNet' 	with: [ spec requires: #(#TerritorialData ). ];
+			package: #'TerritorialData-WordNet' 		with: [ spec requires: #(#TerritorialData ). ];
 			package: #'TerritorialData-Gothos' 		with: [ spec requires: #(#TerritorialData). ];
-			package: #TerritorialTests 				with: [ spec requires: #(#Territorial ). ];
-			package: #TerritorialUI 				with: [ spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' 'TerritorialData' ). ].
+			package: #'Territorial-Tests' 				with: [ spec requires: #(#Territorial ). ];
+			package: #TerritorialUI 						with: [ spec requires: #('Roassal2' #Territorial 'SpecUIAddOns' 'TerritorialData' ). ].
 
 		spec 
-			group: 'Tests' with: #(#TerritorialTests #Territorial #TerritorialData );
+			group: 'Tests' with: #(#'Territorial-Tests' #Territorial #TerritorialData );
+			group: 'Core' with: #(#Territorial #TerritorialData );
 			group: 'default' with: #(
 				'Territorial' 
-				'TerritorialTests' 
+				'Territorial-Tests' 
 				'TerritorialUI' 
 				'TerritorialData-AGGData' 
 				'TerritorialData-AMCharts' 
