@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialObjectTest",
+	"category" : "Territorial-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"area"
+	],
+	"name" : "TerritorialAreaTest",
+	"type" : "normal"
+}

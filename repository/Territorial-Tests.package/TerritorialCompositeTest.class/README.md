@@ -1,0 +1,1 @@
+A TerritorialCompositeTest is a test class for testing the behavior of TerritorialComposite

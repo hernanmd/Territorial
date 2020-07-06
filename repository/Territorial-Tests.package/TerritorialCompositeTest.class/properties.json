@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialObjectTest",
+	"category" : "Territorial-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"compositeA",
+		"compositeB",
+		"compositeC",
+		"compositeD"
+	],
+	"name" : "TerritorialCompositeTest",
+	"type" : "normal"
+}
