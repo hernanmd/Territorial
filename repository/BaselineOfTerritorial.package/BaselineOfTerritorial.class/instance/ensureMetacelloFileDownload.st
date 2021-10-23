@@ -1,7 +1,8 @@
 doits
 ensureMetacelloFileDownload
 
-	Metacello new           
-		baseline: 'MetacelloFileDownload';              
-		repository: 'github://hernanmd/MetacelloFileDownload';          
-		load.
+	EpMonitor disableDuring: [ 
+		Metacello new           
+			baseline: 'MetacelloFileDownload';              
+			repository: 'github://hernanmd/MetacelloFileDownload';          
+			load ]
