@@ -1,4 +1,4 @@
-territorial-organizations
+*TerritorialUI
 addGADM
 
 	| co |
