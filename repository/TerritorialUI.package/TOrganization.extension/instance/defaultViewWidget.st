@@ -1,4 +1,4 @@
-defaults
+*TerritorialUI
 defaultViewWidget
 	" Private - See superimplementor's comment "
 

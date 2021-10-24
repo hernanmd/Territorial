@@ -1,5 +1,5 @@
 initialize-release
 countryNamesAsXML
-	" Answer a <XMLDocument> with country names in JSON format "
+	" Answer a <XMLDocument> with country names in XML format "
 
-	^ XMLDOMParser parseFileNamed: (self fullPathOf: self faoCountriesFilename). 
+	^ XMLDOMParser parse: (self fullPathOf: self faoCountriesFilename) asFileReference readStream. 

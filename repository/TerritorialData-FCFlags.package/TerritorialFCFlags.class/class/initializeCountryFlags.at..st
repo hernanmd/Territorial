@@ -6,7 +6,7 @@ initializeCountryFlags: flagTypePath at: flagsCollection
 	(self filesIn: fullPath) 
 		do: [ : fName | 
 			| picture entryName |
-			picture := ImageReadWriter formFromStream: (FileStream readOnlyFileNamed: fName) binary.
+			picture := ImageReadWriter formFromStream: fName asFileReference binaryReadStream.
 			entryName := self asIdentifier: fName asFileReference basename.
 			flagsCollection at: entryName put: picture ]
 		displayingProgress: 'Adding country flags'
