@@ -1,4 +1,5 @@
 test
 testAnyOne
 
-	self assert: (city anyOne isKindOf: TerritorialCity)
+	self flag: #toDo.
+	self should: [ city anyOne isKindOf: TerritorialCity ] raise: Error
