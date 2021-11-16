@@ -1,0 +1,4 @@
+accessing
+maxDate
+
+	^ maxDate

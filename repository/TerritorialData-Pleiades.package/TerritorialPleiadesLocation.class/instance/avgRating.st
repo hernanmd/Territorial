@@ -1,0 +1,4 @@
+accessing
+avgRating
+
+	^ avgRating

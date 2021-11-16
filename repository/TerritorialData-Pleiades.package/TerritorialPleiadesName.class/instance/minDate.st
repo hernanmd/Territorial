@@ -1,0 +1,4 @@
+accessing
+minDate
+
+	^ minDate

@@ -1,1 +1,2 @@
-Read http://atlantides.org/downloads/pleiades/dumps/README.txt for details on Pleiades Data Dumps
+Pleiades is a community-built gazetteer and graph of ancient places. It publishes authoritative information about ancient places and spaces, providing unique services for finding, displaying, and reusing that information under open license. It publishes not just for individual human users, but also for search engines and for the widening array of computational research and visualization tools that support humanities teaching and research. 
+

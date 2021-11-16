@@ -1,0 +1,1 @@
+Provides country centroids data.

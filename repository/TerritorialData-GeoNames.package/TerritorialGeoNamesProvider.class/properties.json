@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 8/5/2016 01:50",
+	"commentStamp" : "HernanMoralesDurand 11/15/2021 23:47",
 	"super" : "TerritorialDataProvider",
 	"category" : "TerritorialData-GeoNames-Core",
 	"classinstvars" : [

@@ -2,5 +2,4 @@
 openCountryFlagSmallNamed: countryName
 	" Display flag at small size for countryName "
 
-	(World drawingClass 
-		withForm: (self countryFlagsSmall at: countryName asLowercase)) openInWorld
+	(self countryFlagsSmall at: countryName asLowercase) asMorph openInWorld

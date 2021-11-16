@@ -2,10 +2,13 @@ accessing - places
 readLocations
 	" Private - Answer receiver's features from dataset "
 	
-	^ ((NeoCSVReader on: self locationsAsCSV readStream)
+	| reader locationsStream |
+
+	locationsStream := (self readFileContents: (self fullPathOf: 'pleiades-locations.csv')) readStream.
+	reader := (NeoCSVReader on: locationsStream)
 			separator: $,;
-"			recordClass: TerritorialGeoNamesFeatureCode;
-			addField: #geoNameFeatureCode:;
-			addField: #geoNameFeatureDescription:;
-			addField: #geoNameFeatureExplanation:;"
-			upToEnd)
+			skipHeader;
+			recordClass: TerritorialPleiadesLocation;
+			yourself.
+	TerritorialPleiadesLocation instVarNames do: [ : instVar | reader addField: instVar asMutator ].
+	^ reader upToEnd

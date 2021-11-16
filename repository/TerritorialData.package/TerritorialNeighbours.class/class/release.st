@@ -2,5 +2,5 @@ initialize-release
 release
 	" See superimplementor's comment "
 
-	self log: 'Releasing ' , self class name.
+	('Releasing ' , self class name) traceCr.
 	CountryNeighbours := nil

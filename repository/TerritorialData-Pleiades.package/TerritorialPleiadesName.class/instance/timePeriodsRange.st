@@ -1,0 +1,4 @@
+accessing
+timePeriodsRange
+
+	^ timePeriodsRange

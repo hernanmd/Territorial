@@ -4,4 +4,4 @@ initializeWidgets
 
 	titleDescription := self newLabel.
 	title := self newLabel.
-	title emphasis: (title emphasisForCode: self emphasisCode).
+	"title emphasis: TextEmphasis bold emphasisCode."
