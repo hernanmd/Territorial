@@ -1,0 +1,4 @@
+accessing
+listCategoriesPresenter
+
+	^ listCategoriesPresenter

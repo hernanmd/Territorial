@@ -1,4 +1,5 @@
 accessing
 setItemsBlock
+
 	^ setItemsBlock
-		ifNil: [ setItemsBlock :=  [ : aView | aView setItems: self sortedTerritoryNames ] ]
+		ifNil: [ setItemsBlock :=  [ : aView | aView items: self sortedTerritoryNames ] ]

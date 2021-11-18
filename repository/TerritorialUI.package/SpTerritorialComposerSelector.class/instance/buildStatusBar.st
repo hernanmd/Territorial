@@ -1,0 +1,4 @@
+accessing
+buildStatusBar
+
+	^ SpStatusBarPresenter new
