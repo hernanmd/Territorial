@@ -1,4 +1,4 @@
-territorial-organizations
+private
 addOpenGeoCodeCity: assoc to: aCityOrganization
 
 	| cityName cCode |

@@ -2,4 +2,4 @@ defaults
 defaultQueryTimeout
 	" Answer a <Number> with default time to query remote endpoint "
 
-	^ 300000
+	^ 3000000

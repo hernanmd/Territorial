@@ -16,7 +16,7 @@ initializeEntities
 				addColumn:
 					(SpImageTableColumn new
 						width: 20;
-						evaluated: [ :each | each asTerritorialCountry flag ];
+						evaluated: [ :each | self getFlagFor: each ];
 						yourself);
 				addColumn:
 					(SpStringTableColumn new

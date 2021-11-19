@@ -4,7 +4,7 @@ menu04BrowseOn: aBuilder
 	(aBuilder item: #Territorial2Compose)
 		parent: #Territorial2;
 		order: 5;
-		label: 'Compose a new Territory';
-		help: 'Will open a Territory Composer window';
+		label: 'Organizations Browser';
+		help: 'Will open a Territory Organizations window';
 		icon: (self iconNamed: #smallHierarchyBrowser);
 		action: [ TerritorialApplication new run. ]
