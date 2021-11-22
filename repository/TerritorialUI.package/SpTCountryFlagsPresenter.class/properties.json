@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"list"
+		"listPresenter"
 	],
-	"name" : "SpTerritorialComposerListPresenter",
+	"name" : "SpTCountryFlagsPresenter",
 	"type" : "normal"
 }

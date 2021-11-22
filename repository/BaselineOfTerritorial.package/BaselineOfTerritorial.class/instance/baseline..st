@@ -7,8 +7,8 @@ baseline: spec
 		spec
 			preLoadDoIt: #preLoad;
 			baseline: 'ISO3166' 				with: [ spec repository: 'github://hernanmd/ISO3166/repository' ];
-			baseline: 'SpecUIAddOns' 			with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ];
-			baseline: 'StringExtensions' 		with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
+			baseline: 'SpecUIAddOns' 		with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ];
+			baseline: 'StringExtensions'	with: [ spec repository: 'github://hernanmd/StringExtensions/repository' ];
 			baseline: 'SPARQL'				 	with: [ spec repository: 'github://hernanmd/SPARQL/repository' ];
 			baseline: 'GADM'				 	with: [ spec repository: 'github://hernanmd/GADM/repository' ].
 
