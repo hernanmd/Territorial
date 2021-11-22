@@ -1,4 +1,4 @@
-instance creation
+callbacks
 clearPreviousSelections
 
 	tEntityPresenter items: Array empty

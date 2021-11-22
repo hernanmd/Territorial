@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 11/22/2021 15:34",
+	"super" : "TerritorialGDPPerCapita",
+	"category" : "TerritorialData-DBPedia-MonetaryMeasure",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialDBPediaGDPPerCapita",
+	"type" : "normal"
+}

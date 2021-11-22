@@ -1,4 +1,4 @@
 instance creation
 title 
 
-	^ 'Territorial Composer Selector'
+	^ 'Territorial Browser'

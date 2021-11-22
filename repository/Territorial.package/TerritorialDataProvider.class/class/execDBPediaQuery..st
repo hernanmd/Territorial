@@ -1,6 +1,6 @@
 private-dbpedia
 execDBPediaQuery: aString
-	" Query aString in SPARQL format through DBPedia service "
+	" Query aString in SPARQL format through DBPedia service. Answer a <Collection> "
 	
 	^ aString notEmpty 
 		ifTrue: [ 

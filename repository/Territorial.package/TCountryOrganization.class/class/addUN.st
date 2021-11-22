@@ -1,5 +1,6 @@
 territorial-organizations
 addUN
+	" UN has a tree-like organization of the world so we do not need to use a populateBlock "
 
 	^ TCountryOrganization new
 		formedYear: 1945;
@@ -11,10 +12,5 @@ addUN
 		addName: 'UN';
 		url: 'http://unstats.un.org/unsd/methods/m49/m49.htm';
 		territories: (self initialWorld: 'UN' territories: #addUNTerritories);
-		populateBlock: [ : field |
-			self countries add: ((TerritorialCountry newNamed: field second)
-				addIdentifier: field first;
-				addTerritoryName: #englishName -> field second;
-				yourself) ];
 		beGlobal;
 		yourself

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialMonetaryMeasure",
+	"category" : "TerritorialData-MonetaryMeasure",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialGDPPerCapita",
+	"type" : "normal"
+}

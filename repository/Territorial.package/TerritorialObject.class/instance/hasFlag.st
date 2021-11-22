@@ -1,0 +1,4 @@
+testing
+hasFlag
+	
+	^ false

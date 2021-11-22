@@ -9,7 +9,7 @@
 	],
 	"pools" : [ ],
 	"classvars" : [
-		"CurrentFlagType"
+		"FlagMappings"
 	],
 	"instvars" : [ ],
 	"name" : "TerritorialFlags",

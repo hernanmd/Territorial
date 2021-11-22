@@ -2,4 +2,4 @@ private
 defaultRepositoryClass
 	" Private - See superimplementor's comment "
 
-	^ TerritorialUNM49Countries
+	^ self defaultRepositoryClassOrError: #TerritorialUNM49Countries

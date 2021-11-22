@@ -8,7 +8,7 @@ SELECT DISTINCT ?country (str(?enName) AS ?name) ?area
 WHERE {
 ?country a dbo:Country .
 ?country rdfs:label ?enName .  
-?country p:areaWater ?area.
+?country dbo:areaWater ?area.
 FILTER (langMatches(lang(?enName), "EN"))
 FILTER NOT EXISTS { ?country dbo:dissolutionYear ?y }
 }

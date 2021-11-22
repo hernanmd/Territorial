@@ -1,8 +1,8 @@
-instance creation
+private
 getFlagFor: aString
 
 	| entityTypeSelector |
-	entityTypeSelector := widgetListOrg selectedItem conversionSelector.
-	^ [ (aString perform: entityTypeSelector) flag ]
-	on: NotFound 
-	do: [ : ex | TerritorialFCFlags nullFlag ]
+	
+	^ (entityTypeSelector := widgetListOrg selectedItem conversionSelector) = #asTerritorialCountry
+		ifTrue: [ self getCountryFlagAt: aString selector: entityTypeSelector ]
+		ifFalse: [ TerritorialFCFlags nullFlag ]

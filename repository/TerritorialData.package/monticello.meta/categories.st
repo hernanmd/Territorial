@@ -5,6 +5,7 @@ SystemOrganization addCategory: #'TerritorialData-Cities'!
 SystemOrganization addCategory: #'TerritorialData-Countries'!
 SystemOrganization addCategory: #'TerritorialData-Demonyms'!
 SystemOrganization addCategory: #'TerritorialData-Flags'!
+SystemOrganization addCategory: #'TerritorialData-MonetaryMeasure'!
 SystemOrganization addCategory: #'TerritorialData-Neighbours'!
 SystemOrganization addCategory: #'TerritorialData-Population'!
 SystemOrganization addCategory: #'TerritorialData-Synonyms'!

@@ -1,0 +1,4 @@
+accessing
+gdpValues
+
+	^ gdpValues

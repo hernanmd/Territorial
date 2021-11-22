@@ -5,7 +5,6 @@ getSparqlCountryTotalAreas
 	| bindings jsonBindings |
 
 	bindings :=  self execDBPediaQuery: self sparqlCountryTotalAreas.
-	self halt.
 	jsonBindings := bindings collect: [ :entry | 
 		((entry at: #name) at: #value) asLowercase 
 		-> 

@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"mapsProvider",
-		"viewWidget"
+		"mapsProvider"
 	],
 	"name" : "TerritorialMappableObject",
 	"type" : "normal"

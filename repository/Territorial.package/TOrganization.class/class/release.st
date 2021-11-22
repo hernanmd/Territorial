@@ -1,7 +1,7 @@
 initialize-release
 release
-	" See superimplementor's comment.
-	self release "
+	" See superimplementor's comment "
+	<script>
 
 	super release.
 	currentOrganization := nil.

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TerritorialDataProvider",
+	"category" : "TerritorialData-MonetaryMeasure",
+	"classinstvars" : [
+		"gdpValues"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TerritorialMonetaryMeasure",
+	"type" : "normal"
+}
