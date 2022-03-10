@@ -5,5 +5,5 @@ projectForRoassal2: spec
 		baseline: 'Roassal2' 
 		with: [ spec 
 			repository: 'github://ObjectProfile/Roassal2/src';
-			load: 'Core' ].
+			loads: 'Core' ].
 
