@@ -5,7 +5,8 @@ centroidFrom: aTerritorialDataProvider
 	
 	twoLetterCode := (ISO3166P1 
 		atCountryName: self name
-		ifAbsent: [ ISO3166P1 
-			atCountryNames: self synonyms 
-			ifAbsent: [ ISO3166P1Code nullCountryCode  ] ]) codeTwoLetter.
+		ifAbsent: [ 
+			ISO3166P1
+				detectFromCountryNames: self synonyms 
+				ifAbsent: [ ISO3166P1Code nullCountryCode  ] ]) codeTwoLetter.
 	^ aTerritorialDataProvider currentCountryRepository countryCentroidFrom: twoLetterCode
