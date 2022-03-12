@@ -8,12 +8,13 @@ Special effort was made to enable self-updateable properties when possible, by a
 # Installation
 
 ```smalltalk
-Metacello new
-	baseline: 'Territorial';
-	repository: 'github://hernanmd/Territorial/src';
-	onConflictUseLoaded;
-	onWarningLog;
-	load.
+EpMonitor disableDuring: [ 
+	Metacello new
+		baseline: 'Territorial';
+		repository: 'github://hernanmd/Territorial/src';
+		onConflictUseLoaded;
+		onWarningLog;
+		load ]
 ```
 
 # Documentation
