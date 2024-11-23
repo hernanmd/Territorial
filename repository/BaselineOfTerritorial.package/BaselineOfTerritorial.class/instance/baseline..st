@@ -46,7 +46,6 @@ baseline: spec
 			group: 'default' with: #(
 				'Territorial' 
 				'Territorial-Tests' 
-				'TerritorialUI' 
 				'TerritorialData-AGGData' 
 				'TerritorialData-AMCharts' 
 				'TerritorialData-CIA'

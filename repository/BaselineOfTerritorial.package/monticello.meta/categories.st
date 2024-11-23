@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfTerritorial!
+self packageOrganizer ensurePackage: #BaselineOfTerritorial withTags: #()!
