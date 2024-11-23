@@ -2,7 +2,9 @@ class initialization
 initialize
 	" Private - Add known organizations "
 
+	| protocol |
 	tOrganizations := Set new: 20.
-	(self protocolNamed: #'territorial-organizations')
+	protocol := self protocolNamed: #'territorial-organizations' ifAbsent: [ ^ self ].
+	protocol selectors
 		do: [ :sel | self tOrganizations add: (self perform: sel) ]
 		displayingProgress: 'Adding territorial labels in ' , self class name.
