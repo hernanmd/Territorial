@@ -1,4 +1,4 @@
-initialize-release
+dependencies
 release
 	" See superimplementor's comment "
 	<script>
