@@ -1,0 +1,1 @@
+I test the Territorial Disputes and Claims Layer (Phase 1) based on the OTTAOA.1 framework. My testKurilIslandsDispute method validates the creation of a sovereignty dispute between Russia and Japan over the Kuril Islands, testing the stateOfDispute, disputeType, and claimants infrastructure.

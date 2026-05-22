@@ -1,0 +1,4 @@
+accessing
+successorTreaty
+
+	^ successorTreaty

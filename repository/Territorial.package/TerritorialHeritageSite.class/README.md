@@ -1,0 +1,1 @@
+I model combined works of nature and man per UNESCO 1972 and EU 1985. I hold a siteType (cultural, natural, mixed), a universalValueType (historical, archaeological, artistic, scientific, social, technical), whether the site is topographicallyDefinable, and an associatedLandscape reference. I am part of the Territorial Planning and Cultural Landscape Ontology (Phase 9).

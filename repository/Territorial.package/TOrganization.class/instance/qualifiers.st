@@ -1,4 +1,4 @@
 qualifiers-accessing
 qualifiers
-	^ qualifiers
-		ifNil: [ qualifiers := OrderedCollection new ]
+
+	^ qualifiers ifNil: [ qualifiers := OrderedCollection new ]

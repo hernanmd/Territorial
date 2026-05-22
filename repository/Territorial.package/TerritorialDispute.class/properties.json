@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialObject",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"claimants",
+		"territory",
+		"stateOfDispute",
+		"period",
+		"disputeType",
+		"intensityLevel",
+		"claims",
+		"thirdParties",
+		"treaties"
+	],
+	"name" : "TerritorialDispute",
+	"type" : "normal"
+}

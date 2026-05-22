@@ -1,0 +1,4 @@
+testing
+isAsserted
+
+	^ confidence == #asserted

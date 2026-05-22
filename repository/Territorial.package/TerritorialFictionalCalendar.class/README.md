@@ -1,0 +1,1 @@
+I model a world-specific calendar system different from the Gregorian calendar. I hold an epochName (e.g. Third Age), a yearLength in days, months as name-to-days associations, seasons as name-to-month-range associations, and an epochStart year number. I support toGregorian: and fromGregorian: conversion. I am part of the Fictional and Fantasy Territory Framework (Phase 6).

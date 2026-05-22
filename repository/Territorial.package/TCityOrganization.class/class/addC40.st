@@ -4,13 +4,13 @@ addC40
 	| co |
 	co := self new.
 	^ co
-		preferredName: 'C40';
-		denomination:  'C40 Cities Climate Leadership Group';
-		bePolitical;
-		beEconomical;
-		territories: TerritorialCollection new;
-		url: 'http://www.c40.org';
-		populateWith: 'Addis Ababa
+		  preferredName: 'C40';
+		  denomination: 'C40 Cities Climate Leadership Group';
+		  bePolitical;
+		  beEconomical;
+		  territories: TerritorialCollection new;
+		  url: 'http://www.c40.org';
+		  populateWith: 'Addis Ababa
 Amman
 Athens
 Bangkok
@@ -63,4 +63,4 @@ Warsaw
 Washington DC
 Wuhan and
 Yokohoma';
-		yourself
+		  yourself

@@ -1,4 +1,4 @@
 *Territorial
 isTerritorialContainer
-	
+
 	^ true

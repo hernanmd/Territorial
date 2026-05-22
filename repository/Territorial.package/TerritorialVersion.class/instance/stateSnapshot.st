@@ -1,0 +1,2 @@
+accessing
+stateSnapshot ^ stateSnapshot

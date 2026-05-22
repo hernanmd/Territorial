@@ -1,5 +1,4 @@
 accessing
 refUrls
 
-	^ refUrls
-		ifNil: [ refUrls := Dictionary new ]
+	^ refUrls ifNil: [ refUrls := Dictionary new ]

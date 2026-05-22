@@ -1,0 +1,4 @@
+information
+confidenceLevel
+
+	^ confidence

@@ -1,5 +1,4 @@
 accessing
 risks
 
-	^ risks
-		ifNil: [ risks := OrderedCollection new ]
+	^ risks ifNil: [ risks := OrderedCollection new ]

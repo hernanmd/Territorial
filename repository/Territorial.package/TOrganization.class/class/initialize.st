@@ -4,7 +4,10 @@ initialize
 
 	| protocol |
 	tOrganizations := Set new: 20.
-	protocol := self class protocolNamed: #'territorial-organizations' ifAbsent: [ ^ self ].
+	protocol := self class
+		            protocolNamed: #'territorial-organizations'
+		            ifAbsent: [ ^ self ].
 	protocol methodSelectors
 		do: [ :sel | self tOrganizations add: (self perform: sel) ]
-		displayingProgress: 'Adding territorial labels in ' , self class name.
+		displayingProgress:
+		'Adding territorial labels in ' , self class name

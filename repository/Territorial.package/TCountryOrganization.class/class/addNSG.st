@@ -2,13 +2,14 @@ territorial-organizations
 addNSG
 
 	^ TCountryOrganization new
-		preferredName: 'NSG';
-		formedYear: 1974;
-		addMapUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d6/NSG_2014.png';
-		denomination:  'Nuclear Suppliers Group';
-		bePolitical;
-		url: 'http://www.nuclearsuppliersgroup.org/';
-		populateWith: 'ARGENTINA
+		  preferredName: 'NSG';
+		  formedYear: 1974;
+		  addMapUrl:
+			  'https://upload.wikimedia.org/wikipedia/commons/d/d6/NSG_2014.png';
+		  denomination: 'Nuclear Suppliers Group';
+		  bePolitical;
+		  url: 'http://www.nuclearsuppliersgroup.org/';
+		  populateWith: 'ARGENTINA
 AUSTRALIA
 AUSTRIA
 BELARUS
@@ -57,4 +58,4 @@ UKRAINE
 UNITED KINGDOM
 UNITED STATES
 ';
-		yourself
+		  yourself

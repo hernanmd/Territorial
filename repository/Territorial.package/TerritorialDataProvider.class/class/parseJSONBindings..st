@@ -4,6 +4,6 @@ parseJSONBindings: jsonBindings
 
 	| d |
 	d := Dictionary new.
-	jsonBindings do: [ : assoc | 
+	jsonBindings do: [ :assoc |
 		d at: assoc key ifAbsentPut: [ assoc value ] ].
 	^ d

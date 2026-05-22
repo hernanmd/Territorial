@@ -1,4 +1,5 @@
 accessing
 currentRepositoryClass
-	^ currentRepositoryClass
-		ifNil: [ currentRepositoryClass := self defaultRepositoryClass ]
+
+	^ currentRepositoryClass ifNil: [
+		  currentRepositoryClass := self defaultRepositoryClass ]

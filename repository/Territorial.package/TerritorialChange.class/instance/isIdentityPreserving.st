@@ -1,0 +1,2 @@
+testing
+isIdentityPreserving ^isDisruptive not

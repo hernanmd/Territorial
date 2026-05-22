@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"agentType",
+		"memberships",
+		"period",
+		"roles"
+	],
+	"name" : "TerritorialAgent",
+	"type" : "normal"
+}

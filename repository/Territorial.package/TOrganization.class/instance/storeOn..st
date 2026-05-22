@@ -2,7 +2,7 @@ accessing
 storeOn: aStream
 	" Private - See superimplementor's comment "
 
-	aStream 
+	aStream
 		nextPutAll: self name;
 		nextPut: $,;
 		nextPutAll: self size asString

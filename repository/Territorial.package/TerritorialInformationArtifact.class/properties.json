@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-OTTAOA",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"artifactType",
+		"url",
+		"aboutTerritory",
+		"truthValue",
+		"issuedBy",
+		"period"
+	],
+	"name" : "TerritorialInformationArtifact",
+	"type" : "normal"
+}

@@ -3,15 +3,16 @@ example3
 	" Include a search bar "
 
 	| world ds |
-	world := GADMWorldTree 
-				populateTerritorialNode: GADMWorldTree root 
-				levelNumber: 0.
+	world := GADMWorldTree
+		         populateTerritorialNode: GADMWorldTree root
+		         levelNumber: 0.
 
 	ds := (FTTreeDataSource
-		roots: world
-		children: [ : data | data admLevels sort: [ :a :b | a name < b name ]  ])
-			 searchStrategy: #allItems;
-			yourself.
+		       roots: world
+		       children: [ :data |
+			       data admLevels sort: [ :a :b | a name < b name ] ])
+		      searchStrategy: #allItems;
+		      yourself.
 
 	FTTableMorph new
 		extent: 300 @ 400;

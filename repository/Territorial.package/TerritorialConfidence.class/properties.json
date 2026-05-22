@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Territorial-OTTAOA",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"truthValue",
+		"confidenceScore",
+		"assessedBy",
+		"assessmentDate",
+		"sourceArtifact",
+		"reasoning"
+	],
+	"name" : "TerritorialConfidence",
+	"type" : "normal"
+}

@@ -2,12 +2,12 @@ territorial-organizations
 addEU
 
 	^ TCountryOrganization new
-		preferredName: 'EU';
-		formedYear: 1957;
-		url: 'http://europa.eu/';
-		denomination:  'European Union';
-		addQualifiers: #(#beEconomical #bePolitical #beRegional);		
-		populateWith: 'Austria
+		  preferredName: 'EU';
+		  formedYear: 1957;
+		  url: 'http://europa.eu/';
+		  denomination: 'European Union';
+		  addQualifiers: #( #beEconomical #bePolitical #beRegional );
+		  populateWith: 'Austria
 Belgium
 Bulgaria
 Cyprus
@@ -34,4 +34,4 @@ Slovenia
 Spain
 Sweden
 United Kingdom';
-		yourself
+		  yourself

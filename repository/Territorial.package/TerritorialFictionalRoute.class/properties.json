@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Fictional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"routeType",
+		"waypoints",
+		"traversalTime",
+		"dangerLevel",
+		"encounters"
+	],
+	"name" : "TerritorialFictionalRoute",
+	"type" : "normal"
+}

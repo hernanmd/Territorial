@@ -1,4 +1,4 @@
 private
 centroidFrom: aTerritorialDataProvider
 
-	self shouldBeImplemented 
+	self shouldBeImplemented

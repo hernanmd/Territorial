@@ -1,0 +1,2 @@
+accessing
+protectedArea ^ protectedArea

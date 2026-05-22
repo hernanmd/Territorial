@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Planning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"territory",
+		"landscapeType",
+		"readingTypology",
+		"qualityObjective",
+		"protectionStatus",
+		"signs",
+		"period"
+	],
+	"name" : "TerritorialLandscape",
+	"type" : "normal"
+}

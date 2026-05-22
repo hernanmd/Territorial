@@ -1,4 +1,4 @@
 accessing-marker-properies
 markers
-	^ markers
-		ifNil: [ markers := OrderedCollection new ]
+
+	^ markers ifNil: [ markers := OrderedCollection new ]

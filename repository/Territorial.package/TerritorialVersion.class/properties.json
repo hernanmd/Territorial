@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"territory",
+		"validityPeriod",
+		"stateSnapshot",
+		"isDeprecated",
+		"deprecationReason"
+	],
+	"name" : "TerritorialVersion",
+	"type" : "normal"
+}

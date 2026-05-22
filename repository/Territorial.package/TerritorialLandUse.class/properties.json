@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Planning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"useType",
+		"zoningCode",
+		"permittedActivities",
+		"restrictedActivities",
+		"corineCode"
+	],
+	"name" : "TerritorialLandUse",
+	"type" : "normal"
+}

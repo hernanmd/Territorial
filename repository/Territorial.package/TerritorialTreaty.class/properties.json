@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialInformationArtifact",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"signatories",
+		"ratifiedBy",
+		"obligations",
+		"resolvesDispute",
+		"isExpired",
+		"successorTreaty"
+	],
+	"name" : "TerritorialTreaty",
+	"type" : "normal"
+}

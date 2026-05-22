@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Meta-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"state",
+		"capacities",
+		"assessmentPeriod",
+		"overallScore"
+	],
+	"name" : "TerritorialStateProfile",
+	"type" : "normal"
+}

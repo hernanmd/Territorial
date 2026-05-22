@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialInformationArtifact",
+	"category" : "Territorial-OTTAOA",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"policyType",
+		"competentAuthority",
+		"targetLandscape",
+		"measures"
+	],
+	"name" : "TerritorialLandscapePolicy",
+	"type" : "normal"
+}

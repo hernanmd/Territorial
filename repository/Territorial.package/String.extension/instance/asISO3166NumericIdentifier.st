@@ -3,5 +3,5 @@ asISO3166NumericIdentifier
 	" Answer a new TerritorialIdentifer "
 
 	^ self asTerritorialIdentifier
-		identifierSymbol: ISO3166P1 numericCodeId;
-		yourself
+		  identifierSymbol: ISO3166P1 numericCodeId;
+		  yourself

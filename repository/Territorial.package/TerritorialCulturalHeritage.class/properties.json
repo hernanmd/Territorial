@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Planning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"heritageType",
+		"monuments",
+		"sites",
+		"groupsOfBuildings",
+		"intangibleElements",
+		"authenticity",
+		"identity",
+		"conservationStatus"
+	],
+	"name" : "TerritorialCulturalHeritage",
+	"type" : "normal"
+}

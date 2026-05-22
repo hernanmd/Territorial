@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"motiveType",
+		"isOvert",
+		"supportingEvidence"
+	],
+	"name" : "TerritorialMotive",
+	"type" : "normal"
+}

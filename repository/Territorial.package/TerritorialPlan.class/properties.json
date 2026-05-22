@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"planType",
+		"objectives",
+		"targetTerritory",
+		"targetLandscape",
+		"managingAgent",
+		"period",
+		"claimedImpact",
+		"actualImpact",
+		"status",
+		"relatedPolicies"
+	],
+	"name" : "TerritorialPlan",
+	"type" : "normal"
+}

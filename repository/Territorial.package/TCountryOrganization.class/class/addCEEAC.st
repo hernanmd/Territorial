@@ -2,12 +2,12 @@ territorial-organizations
 addCEEAC
 
 	^ TCountryOrganization new
-		preferredName: 'CEEAC';
-		formedYear: 1964;
-		url: 'http://www.ceeac-eccas.org/';
-		denomination:  'Economic Community of Central African States';
-		beEconomical;
-		populateWith: 'Angola
+		  preferredName: 'CEEAC';
+		  formedYear: 1964;
+		  url: 'http://www.ceeac-eccas.org/';
+		  denomination: 'Economic Community of Central African States';
+		  beEconomical;
+		  populateWith: 'Angola
 Burundi
 Cameroon
 Central African Republic
@@ -18,4 +18,4 @@ Equatorial Guinea
 Gabon
 Rwanda
 Sao Tome and Principe';
-		yourself
+		  yourself

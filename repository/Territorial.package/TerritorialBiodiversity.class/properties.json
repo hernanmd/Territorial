@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Planning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"speciesDiversity",
+		"ecosystemDiversity",
+		"geneticDiversity",
+		"threatenedSpecies",
+		"protectedAreas"
+	],
+	"name" : "TerritorialBiodiversity",
+	"type" : "normal"
+}

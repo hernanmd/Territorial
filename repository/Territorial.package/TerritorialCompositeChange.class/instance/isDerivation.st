@@ -1,0 +1,2 @@
+testing
+isDerivation ^isContinuation not

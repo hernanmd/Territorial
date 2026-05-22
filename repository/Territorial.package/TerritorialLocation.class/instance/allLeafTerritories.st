@@ -1,4 +1,4 @@
 accessing
 allLeafTerritories
 
-	^ Set with: self 
+	^ Set with: self

@@ -1,4 +1,4 @@
 accessing - scanning
 isScanningAllOrganizations
 
-	^ self settingScanAllOrganizations 
+	^ self settingScanAllOrganizations

@@ -1,7 +1,7 @@
 accessing
-from: start to: end 
+from: start to: end
 
 	^ self
-		formedDate: start;
-		dissolvedDate: end;
-		yourself
+		  formedDate: start;
+		  dissolvedDate: end;
+		  yourself

@@ -1,0 +1,1 @@
+I am a specialization of TerritorialInformationArtifact for bilateral and multilateral agreements. I hold the signatories, the parties that ratified me, obligations as key-value pairs, the dispute I resolve (if any), whether I have expired, and my successor treaty if applicable. I am part of the Territorial Disputes and Claims Layer (Phase 1).

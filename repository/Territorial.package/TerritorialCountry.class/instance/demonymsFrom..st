@@ -1,5 +1,6 @@
 private
-demonymsFrom: aTerritorialDemonymsClass 
+demonymsFrom: aTerritorialDemonymsClass
 	" See comment in TerritorialObject>>demonyms "
-	
-	^ aTerritorialDemonymsClass currentCountryRepository countryDemonymsAt: self name
+
+	^ aTerritorialDemonymsClass currentCountryRepository
+		  countryDemonymsAt: self name

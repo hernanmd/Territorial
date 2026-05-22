@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Planning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"siteType",
+		"universalValueType",
+		"topographicallyDefinable",
+		"associatedLandscape"
+	],
+	"name" : "TerritorialHeritageSite",
+	"type" : "normal"
+}

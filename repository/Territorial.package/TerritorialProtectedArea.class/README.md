@@ -1,0 +1,1 @@
+I model protected natural areas within the Territorial Planning and Cultural Landscape Ontology (Phase 9). I hold an areaType (nationalPark, natureReserve, wildlifeSanctuary, etc.), an establishedDate, and a managingAuthority. I reference TerritorialBiodiversity through TerritorialNaturalHeritage.

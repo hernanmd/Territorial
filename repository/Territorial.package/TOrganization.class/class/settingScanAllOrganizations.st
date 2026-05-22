@@ -1,4 +1,5 @@
 accessing - scanning
 settingScanAllOrganizations
-	^ settingScanAllOrganizations
-		ifNil: [ settingScanAllOrganizations := false ]
+
+	^ settingScanAllOrganizations ifNil: [
+		  settingScanAllOrganizations := false ]

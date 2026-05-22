@@ -1,5 +1,4 @@
 accessing
 factors
 
-	^ factors
-		ifNil: [ factors := OrderedCollection new ]
+	^ factors ifNil: [ factors := OrderedCollection new ]

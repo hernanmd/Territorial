@@ -4,20 +4,22 @@ addGAUL
 	| co |
 	co := TCountryOrganization new.
 	^ co
-		preferredName: 'GAUL';
-		formedYear: 1950;
-		url: 'http://www.fao.org/geonetwork/srv/en/';
-		denomination: 'Global Administrative Unit Layers';
-		beGlobal;
-		populateBlock: [ : countryList | 
-			(NeoCSVReader on: countryList readStream) do: [ : row | | id |
-				id := row third asTerritorialIdentifier.
-				co territories addTerritory: ((TerritorialCountry newNamed: row first)
-					addIdentifier: (id identifierSymbol: 'GAUL');
-					addTerritoryName: #englishName -> row first;
-					addTerritoryName: #frenchName -> row second;
-					yourself) ] ];	
-		populateWith: 'Afghanistan,Afghanistan,1
+		  preferredName: 'GAUL';
+		  formedYear: 1950;
+		  url: 'http://www.fao.org/geonetwork/srv/en/';
+		  denomination: 'Global Administrative Unit Layers';
+		  beGlobal;
+		  populateBlock: [ :countryList |
+				  (NeoCSVReader on: countryList readStream) do: [ :row |
+							  | id |
+							  id := row third asTerritorialIdentifier.
+							  co territories addTerritory:
+									  ((TerritorialCountry newNamed: row first)
+										   addIdentifier: (id identifierSymbol: 'GAUL');
+										   addTerritoryName: #englishName -> row first;
+										   addTerritoryName: #frenchName -> row second;
+										   yourself) ] ];
+		  populateWith: 'Afghanistan,Afghanistan,1
 Albania,Albanie,3
 Algeria,Algérie,4
 American Samoa,Samoa Américaines,5
@@ -266,4 +268,4 @@ Yemen,Yémen,269
 Zambia,Zambie,270
 Zimbabwe,Zimbabwe,271
 Åland Islands,Åland; Îles,1242';
-		yourself
+		  yourself

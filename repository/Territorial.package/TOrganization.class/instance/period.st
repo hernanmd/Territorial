@@ -1,4 +1,4 @@
 accessing
 period
-	^ period
-		ifNil: [ period := TerritorialTimeMarker new ]
+
+	^ period ifNil: [ period := TerritorialTimeMarker new ]

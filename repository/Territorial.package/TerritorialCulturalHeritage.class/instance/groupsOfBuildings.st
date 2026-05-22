@@ -1,0 +1,2 @@
+accessing
+groupsOfBuildings ^ groupsOfBuildings

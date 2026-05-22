@@ -1,0 +1,4 @@
+accessing
+intensityLevel
+
+	^ intensityLevel

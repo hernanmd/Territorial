@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialChange",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"subChanges",
+		"patternType",
+		"isContinuation"
+	],
+	"name" : "TerritorialCompositeChange",
+	"type" : "normal"
+}

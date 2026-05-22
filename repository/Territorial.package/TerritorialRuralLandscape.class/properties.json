@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialLandscape",
+	"category" : "Territorial-Planning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ecologicalFactors",
+		"anthropicFactors",
+		"historicalSettlingFactors",
+		"landUseComposition"
+	],
+	"name" : "TerritorialRuralLandscape",
+	"type" : "normal"
+}

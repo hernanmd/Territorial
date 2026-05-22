@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialCountry",
+	"category" : "Territorial-Fictional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"governmentType",
+		"alignment",
+		"technologyLevel",
+		"allies",
+		"enemies",
+		"tradeRoutes",
+		"culturalNotes"
+	],
+	"name" : "TerritorialFictionalCountry",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
 defaults
 defaultMapProvider
 
-	self shouldBeImplemented 
+	self shouldBeImplemented

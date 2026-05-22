@@ -1,5 +1,5 @@
 enumerating - subterritories
-select: aBlock 
+select: aBlock
 	" Refer to the comment in Collection|select: "
 
 	^ self allTerritories select: aBlock

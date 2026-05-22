@@ -4,19 +4,20 @@ addWMO
 	| co |
 	co := TCountryOrganization new.
 	^ co
-		preferredName: 'WMO';
-		formedYear: 1950;
-		url: 'http://www.wmo.int/';
-		denomination: 'World Meteorological Organization';
-		beGlobal;
-		populateBlock: [ : countryList |
-			(NeoCSVReader on: countryList readStream) do: [ : row | 
-				co territories addTerritory: ((TerritorialCountry newNamed: row first)
-					addIdentifier: row third;
-					addTerritoryName: #englishName -> row first;
-					addTerritoryName: #frenchName -> row second;
-					yourself) ] ];		
-		populateWith: 'Afghanistan,Afghanistan,AF
+		  preferredName: 'WMO';
+		  formedYear: 1950;
+		  url: 'http://www.wmo.int/';
+		  denomination: 'World Meteorological Organization';
+		  beGlobal;
+		  populateBlock: [ :countryList |
+				  (NeoCSVReader on: countryList readStream) do: [ :row |
+							  co territories addTerritory:
+									  ((TerritorialCountry newNamed: row first)
+										   addIdentifier: row third;
+										   addTerritoryName: #englishName -> row first;
+										   addTerritoryName: #frenchName -> row second;
+										   yourself) ] ];
+		  populateWith: 'Afghanistan,Afghanistan,AF
 Albania,Albanie,AB
 Algeria,Algérie,AL
 Angola,Angola,AN
@@ -233,4 +234,4 @@ Wallis and Futuna,Wallis et Futuna,FW
 Yemen,Yémen,YE
 Zambia,Zambie,ZB
 Zimbabwe,Zimbabwe,ZW';
-		yourself
+		  yourself

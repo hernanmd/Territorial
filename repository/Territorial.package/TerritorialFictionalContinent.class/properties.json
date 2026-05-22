@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialContinent",
+	"category" : "Territorial-Fictional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"geography",
+		"climateZones",
+		"majorRegions",
+		"discoveredBy",
+		"discoveryPeriod"
+	],
+	"name" : "TerritorialFictionalContinent",
+	"type" : "normal"
+}

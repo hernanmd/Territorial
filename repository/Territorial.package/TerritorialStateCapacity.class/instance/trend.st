@@ -1,0 +1,4 @@
+accessing
+trend
+
+	^ trend

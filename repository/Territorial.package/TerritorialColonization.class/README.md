@@ -1,14 +1,1 @@
-Also known as Non-Self-Governing Territories
-
-Public API and Key Messages
-
-- message one   
-- message two 
-- what is the way to create instances is a plus.
-
-   One simple example is simply gorgeous.
- 
-Internal Representation and Key Implementation Points.
-
-
-    Implementation Points
+I model the colonization of a territory by an external power. I inherit from TerritorialEventMarker and carry territory, startDate, endDate, and source information. I represent a specific type of geopolitical event where a territory is settled and controlled by a foreign power. I am part of the Territorial Disputes and Claims Layer (Phase 1).

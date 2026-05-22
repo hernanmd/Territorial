@@ -1,0 +1,1 @@
+I represent an individual actor in a territorial context: leaders, negotiators, military commanders, diplomats, and other individuals. I hold a title and a reference to the TerritorialAgent (government, organization, etc.) that I represent. I am part of the Actor and Agent Model (Phase 2) aligned with the W3C Organization Ontology and the HHT ontology.

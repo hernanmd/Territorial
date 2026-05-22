@@ -1,0 +1,1 @@
+I represent a time-stamped membership linking an agent to an organization. I hold the member (TerritorialAgent), the organization (TerritorialAgent), a validity period, and the role (TerritorialRole) within that membership. I am part of the Actor and Agent Model (Phase 2) aligned with the W3C Organization Ontology.

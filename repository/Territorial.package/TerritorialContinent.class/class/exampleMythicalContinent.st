@@ -1,4 +1,4 @@
 examples
 exampleMythicalContinent
 
-	^ 'Lemuria' asTerritorialContinent beMythical inspect.
+	^ 'Lemuria' asTerritorialContinent beMythical inspect

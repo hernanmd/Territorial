@@ -1,2 +1,1 @@
-SystemOrganization addCategory: #'Territorial-Tests'!
-SystemOrganization addCategory: #'Territorial-Tests-Core'!
+self packageOrganizer ensurePackage: #'Territorial-Tests' withTags: #(#Core)!

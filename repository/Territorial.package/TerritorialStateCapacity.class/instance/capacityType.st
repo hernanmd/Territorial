@@ -1,0 +1,4 @@
+accessing
+capacityType
+
+	^ capacityType

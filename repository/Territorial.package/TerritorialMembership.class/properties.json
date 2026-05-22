@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"member",
+		"organization",
+		"period",
+		"role"
+	],
+	"name" : "TerritorialMembership",
+	"type" : "normal"
+}

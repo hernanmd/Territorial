@@ -1,4 +1,4 @@
 accessing
-areaSynonymsAt: aString 
+areaSynonymsAt: aString
 
 	^ Array empty

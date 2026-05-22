@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"premise",
+		"conclusion",
+		"argumentType",
+		"period",
+		"isPreponderant",
+		"refUrls"
+	],
+	"name" : "TerritorialArgument",
+	"type" : "normal"
+}

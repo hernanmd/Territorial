@@ -1,4 +1,5 @@
 accessing
 geopoliticalEvents
-	^ geopoliticalEvents
-		ifNil: [ geopoliticalEvents := OrderedCollection new ]
+
+	^ geopoliticalEvents ifNil: [
+		  geopoliticalEvents := OrderedCollection new ]

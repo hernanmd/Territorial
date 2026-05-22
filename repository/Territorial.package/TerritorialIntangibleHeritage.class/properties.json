@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Planning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"domain",
+		"community",
+		"safeguardingMeasures",
+		"transmissionStatus",
+		"period"
+	],
+	"name" : "TerritorialIntangibleHeritage",
+	"type" : "normal"
+}

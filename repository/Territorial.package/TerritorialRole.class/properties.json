@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"roleType",
+		"period",
+		"organization",
+		"person"
+	],
+	"name" : "TerritorialRole",
+	"type" : "normal"
+}

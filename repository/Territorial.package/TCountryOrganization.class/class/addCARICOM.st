@@ -2,10 +2,10 @@ territorial-organizations
 addCARICOM
 
 	^ TCountryOrganization new
-		preferredName: 'CARICOM';
-		denomination:  'Caribbean Community and Common Market';
-		addQualifiers: #(#beEconomical #bePolitical #beRegional);
-		populateWith: 'Antigua and Barbuda
+		  preferredName: 'CARICOM';
+		  denomination: 'Caribbean Community and Common Market';
+		  addQualifiers: #( #beEconomical #bePolitical #beRegional );
+		  populateWith: 'Antigua and Barbuda
 Bahamas
 Barbados
 Belize
@@ -19,4 +19,4 @@ Saint Lucia
 Saint Vincent and the Grenadines
 Suriname
 Trinidad and Tobago';
-		yourself
+		  yourself

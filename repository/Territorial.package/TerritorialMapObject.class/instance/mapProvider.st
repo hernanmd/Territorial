@@ -1,5 +1,4 @@
 accessing
 mapProvider
 
-	^ mapProvider
-		ifNil: [ mapProvider := self defaultMapProvider ]
+	^ mapProvider ifNil: [ mapProvider := self defaultMapProvider ]

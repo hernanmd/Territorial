@@ -1,0 +1,4 @@
+accessing
+member
+
+	^ member

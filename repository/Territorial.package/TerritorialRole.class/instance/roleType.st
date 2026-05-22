@@ -1,0 +1,4 @@
+accessing
+roleType
+
+	^ roleType

@@ -2,11 +2,11 @@ territorial-organizations
 addCARIFORUM
 
 	^ TCountryOrganization new
-		preferredName: 'CARIFORUM';
-		formedYear: 1992;
-		denomination:  'Caribbean Forum';
-		beEconomical;
-		populateWith: 'Antigua and Barbuda
+		  preferredName: 'CARIFORUM';
+		  formedYear: 1992;
+		  denomination: 'Caribbean Forum';
+		  beEconomical;
+		  populateWith: 'Antigua and Barbuda
 Bahamas
 Barbados
 Belize
@@ -21,4 +21,4 @@ Saint Lucia
 Saint Vincent and the Grenadines
 Suriname
 Trinidad and Tobago';
-		yourself
+		  yourself

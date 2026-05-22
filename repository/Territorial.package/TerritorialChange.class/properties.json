@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialEventMarker",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"changeType",
+		"before",
+		"after",
+		"isDisruptive"
+	],
+	"name" : "TerritorialChange",
+	"type" : "normal"
+}

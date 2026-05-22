@@ -1,0 +1,1 @@
+I represent a time-bound role within an organization, aligned with the W3C Organization Ontology. I hold a roleType (leader, negotiator, militaryCommander, arbitrator, diplomat, or civilian), a validity period, the organization (TerritorialAgent) I belong to, and the person (TerritorialPerson) who holds me. I am part of the Actor and Agent Model (Phase 2).

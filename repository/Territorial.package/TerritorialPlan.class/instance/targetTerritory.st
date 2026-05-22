@@ -1,0 +1,2 @@
+accessing
+targetTerritory ^ targetTerritory

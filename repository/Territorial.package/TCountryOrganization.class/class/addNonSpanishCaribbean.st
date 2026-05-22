@@ -2,13 +2,13 @@ territorial-organizations
 addNonSpanishCaribbean
 
 	^ TCountryOrganization new
-		addName: 'Non-Spanish West Indies';
-		addName:  'Caribe No-Español';
-		preferredName: 'Non Spanish Caribbean';
-		formedYear: 1492 dissolvedYear: 1898;
-		denomination:  'Caribe No Español';
-		beHistorical;
-		populateWith: 'Anguilla
+		  addName: 'Non-Spanish West Indies';
+		  addName: 'Caribe No-Español';
+		  preferredName: 'Non Spanish Caribbean';
+		  formedYear: 1492 dissolvedYear: 1898;
+		  denomination: 'Caribe No Español';
+		  beHistorical;
+		  populateWith: 'Anguilla
 Antigua and Barbuda
 Aruba
 Bahamas
@@ -33,4 +33,4 @@ Sint Maarten (Dutch part)
 Trinidad and Tobago
 Turks and Caicos Islands
 United States Virgin Islands';
-		yourself
+		  yourself

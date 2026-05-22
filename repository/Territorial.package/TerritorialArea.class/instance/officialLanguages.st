@@ -2,5 +2,4 @@ accessing
 officialLanguages
 	"Answer the value of officialLanguages"
 
-	^ officialLanguages
-		ifNil: [ officialLanguages := Set new ]
+	^ officialLanguages ifNil: [ officialLanguages := Set new ]

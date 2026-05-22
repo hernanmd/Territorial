@@ -1,4 +1,4 @@
 examples
 exampleGeologicalContinent
 
-	^ 'Laurasia' asTerritorialContinent beGeological inspect.
+	^ 'Laurasia' asTerritorialContinent beGeological inspect

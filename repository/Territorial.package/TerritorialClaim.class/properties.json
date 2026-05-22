@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialNamedObject",
+	"category" : "Territorial-Geopolitics",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"claimant",
+		"territory",
+		"period",
+		"argumentType",
+		"evidence",
+		"confidence",
+		"isOvert",
+		"motives",
+		"arguments"
+	],
+	"name" : "TerritorialClaim",
+	"type" : "normal"
+}

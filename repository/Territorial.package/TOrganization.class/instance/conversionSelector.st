@@ -1,5 +1,5 @@
 accessing
-conversionSelector 
+conversionSelector
 	" See class side comment "
-	
+
 	^ self class conversionSelector

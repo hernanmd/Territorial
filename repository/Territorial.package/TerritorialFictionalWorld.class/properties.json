@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialComposite",
+	"category" : "Territorial-Fictional",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"worldType",
+		"canon",
+		"sourceWork",
+		"author",
+		"consistencyRules",
+		"internalTimeline"
+	],
+	"name" : "TerritorialFictionalWorld",
+	"type" : "normal"
+}

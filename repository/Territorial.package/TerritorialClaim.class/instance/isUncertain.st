@@ -1,0 +1,4 @@
+testing
+isUncertain
+
+	^ confidence == #uncertain

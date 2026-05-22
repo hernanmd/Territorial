@@ -1,4 +1,4 @@
 *Territorial
 capitalized
 
-	^ self collect: #capitalized.
+	^ self collect: #capitalized

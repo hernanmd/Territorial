@@ -9,9 +9,14 @@ distanceWGS84ToPoint: aPoint
 	It assumes a sphere with a radius of 6371 km, the mean radius of the Earth "
 
 	| circleDstInRadians |
-
-	circleDstInRadians := (self centroid x degreeSin * aPoint x degreeSin)
-        + (self centroid x degreeCos * aPoint x degreeCos
-          * (aPoint y degreesToRadians - self centroid y degreesToRadians) cos).
-	circleDstInRadians := circleDstInRadians >= 0 ifTrue: [ 1 min: circleDstInRadians ] ifFalse: [ -1 max: circleDstInRadians ].
-   ^ (circleDstInRadians arcCos * 6378137) asScaledDecimal truncated
+	circleDstInRadians := self centroid x degreeSin * aPoint x degreeSin
+	                      +
+		                      (self centroid x degreeCos
+		                       * aPoint x degreeCos
+		                       *
+		                       (aPoint y degreesToRadians
+		                        - self centroid y degreesToRadians) cos).
+	circleDstInRadians := circleDstInRadians >= 0
+		                      ifTrue: [ 1 min: circleDstInRadians ]
+		                      ifFalse: [ -1 max: circleDstInRadians ].
+	^ (circleDstInRadians arcCos * 6378137) asScaledDecimal truncated
