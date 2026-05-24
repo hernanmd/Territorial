@@ -9,7 +9,8 @@
 		"siteType",
 		"universalValueType",
 		"topographicallyDefinable",
-		"associatedLandscape"
+		"associatedLandscape",
+		"heritage"
 	],
 	"name" : "TerritorialHeritageSite",
 	"type" : "normal"

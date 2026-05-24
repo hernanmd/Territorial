@@ -1,2 +1,5 @@
 accessing
-safeguardingMeasures: aValue safeguardingMeasures := aValue. ^self
+safeguardingMeasures: aValue
+
+	safeguardingMeasures := aValue.
+	^ self

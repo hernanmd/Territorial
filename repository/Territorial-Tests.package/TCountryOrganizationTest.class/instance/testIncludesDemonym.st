@@ -1,7 +1,6 @@
 tests-testing
 testIncludesDemonym
 
-	self countryList: (TCountryOrganization @ 'UN.M49').
+	self countryList: TCountryOrganization @ 'UN.M49'.
 	self assert: (self countryList includesDemonym: 'spanish').
-	self deny: (self countryList includesDemonym: '').
-	
+	self deny: (self countryList includesDemonym: '')

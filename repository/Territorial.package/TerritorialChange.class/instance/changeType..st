@@ -1,2 +1,5 @@
 accessing
-changeType: aType changeType := aType. ^self
+changeType: aType
+
+	changeType := aType.
+	^ self

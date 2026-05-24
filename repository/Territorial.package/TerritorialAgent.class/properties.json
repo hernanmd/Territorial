@@ -9,7 +9,8 @@
 		"agentType",
 		"memberships",
 		"period",
-		"roles"
+		"roles",
+		"events"
 	],
 	"name" : "TerritorialAgent",
 	"type" : "normal"

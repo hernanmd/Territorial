@@ -1,9 +1,11 @@
-accessing-geopolitical-operations
-occupedBy: anObject namedAs: aString period: anAssociation
-	" Add occupation event to the receiver's geopolitical events "
+geopolitical
+occupedBy: aTerritorialAgent namedAs: aString period: anAssociation
+	"Add a TerritorialOccupation event to the receiver and register it with the occupying agent. aTerritorialAgent - TerritorialAgent, aString - String, anAssociation - Association of Date to Date"
 
-	self geopoliticalEvents add:
-		((TerritorialOccupation period: anAssociation)
-			 addName: aString;
-			 occupant: anObject;
-			 territory: self)
+	| event |
+	event := (TerritorialOccupation period: anAssociation)
+		         addName: aString;
+		         occupant: aTerritorialAgent;
+		         territory: self.
+	self geopoliticalEvents add: event.
+	aTerritorialAgent addEvent: event

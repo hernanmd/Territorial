@@ -1,5 +1,5 @@
 accessing
-issuedBy: aAgent
+issuedBy: aTerritorialAgent
+	"Set the TerritorialAgent that issued this artifact. aTerritorialAgent - TerritorialAgent"
 
-	issuedBy := aAgent.
-	^ self
+	issuedBy := aTerritorialAgent

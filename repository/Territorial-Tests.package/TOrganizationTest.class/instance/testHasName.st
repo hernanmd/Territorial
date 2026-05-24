@@ -3,5 +3,4 @@ testHasName
 
 	self assert: organization hasName.
 	organization removeAllNames.
-	self deny: organization hasName.
-	
+	self deny: organization hasName

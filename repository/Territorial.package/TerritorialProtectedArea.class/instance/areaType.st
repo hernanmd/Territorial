@@ -1,2 +1,4 @@
 accessing
-areaType ^ areaType
+areaType
+
+	^ areaType

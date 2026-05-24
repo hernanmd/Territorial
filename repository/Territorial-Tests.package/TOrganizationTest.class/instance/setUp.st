@@ -2,6 +2,4 @@ running
 setUp
 	" Set up a sample country organization for tests "
 
-	organization := TCountryOrganization addEU.
-
-	
+	organization := TCountryOrganization addEU

@@ -1,4 +1,5 @@
 accessing
-colonizer: anObject
+colonizer: aTerritorialAgent
+	"Set the TerritorialAgent that colonized the territory. aTerritorialAgent - TerritorialAgent"
 
-	colonizer := anObject
+	colonizer := aTerritorialAgent

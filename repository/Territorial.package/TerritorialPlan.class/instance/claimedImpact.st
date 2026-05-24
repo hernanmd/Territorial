@@ -1,2 +1,4 @@
 accessing
-claimedImpact ^ claimedImpact
+claimedImpact
+
+	^ claimedImpact

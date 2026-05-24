@@ -1,2 +1,4 @@
 accessing
-heritageType ^ heritageType
+heritageType
+
+	^ heritageType

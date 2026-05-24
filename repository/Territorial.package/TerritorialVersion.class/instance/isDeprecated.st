@@ -1,2 +1,4 @@
 accessing
-isDeprecated ^ isDeprecated
+isDeprecated
+
+	^ isDeprecated

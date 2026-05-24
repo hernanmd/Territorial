@@ -1,2 +1,5 @@
 accessing
-after: aVersion after := aVersion. ^self
+after: aTerritorialVersion
+	"Set the TerritorialVersion after the change. aTerritorialVersion - TerritorialVersion"
+
+	after := aTerritorialVersion

@@ -1,2 +1,4 @@
 accessing
-geneticDiversity ^ geneticDiversity
+geneticDiversity
+
+	^ geneticDiversity

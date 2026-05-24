@@ -1,2 +1,5 @@
 accessing
-worldType: aType worldType := aType. ^self
+worldType: aType
+
+	worldType := aType.
+	^ self

@@ -1,4 +1,4 @@
 accessing
 setUp
 
-	identifier := TerritorialIdentifier new.
+	identifier := TerritorialIdentifier new

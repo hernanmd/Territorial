@@ -1,2 +1,5 @@
 accessing
-threatenedSpecies: aValue threatenedSpecies := aValue. ^self
+threatenedSpecies: aValue
+
+	threatenedSpecies := aValue.
+	^ self

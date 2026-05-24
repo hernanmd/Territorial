@@ -1,2 +1,4 @@
 accessing
-stateSnapshot ^ stateSnapshot
+stateSnapshot
+
+	^ stateSnapshot

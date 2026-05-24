@@ -1,2 +1,5 @@
 accessing
-landUseComposition: aValue landUseComposition := aValue. ^self
+landUseComposition: aValue
+
+	landUseComposition := aValue.
+	^ self

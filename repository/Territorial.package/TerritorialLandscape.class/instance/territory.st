@@ -1,2 +1,4 @@
 accessing
-territory ^ territory
+territory
+
+	^ territory

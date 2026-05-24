@@ -1,2 +1,5 @@
 accessing
-epochStart: aValue epochStart := aValue. ^self
+epochStart: aValue
+
+	epochStart := aValue.
+	^ self

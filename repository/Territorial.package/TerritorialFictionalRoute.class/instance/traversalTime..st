@@ -1,2 +1,5 @@
 accessing
-traversalTime: aValue traversalTime := aValue. ^self
+traversalTime: aValue
+
+	traversalTime := aValue.
+	^ self

@@ -1,2 +1,5 @@
 accessing
-conservationStatus: aValue conservationStatus := aValue. ^self
+conservationStatus: aValue
+
+	conservationStatus := aValue.
+	^ self

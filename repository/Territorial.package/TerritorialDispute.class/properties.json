@@ -14,7 +14,8 @@
 		"intensityLevel",
 		"claims",
 		"thirdParties",
-		"treaties"
+		"treaties",
+		"events"
 	],
 	"name" : "TerritorialDispute",
 	"type" : "normal"

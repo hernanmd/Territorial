@@ -1,2 +1,5 @@
 accessing
-readingTypology: aValue readingTypology := aValue. ^self
+readingTypology: aValue
+
+	readingTypology := aValue.
+	^ self

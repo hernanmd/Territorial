@@ -1,2 +1,4 @@
 accessing
-discoveryPeriod ^ discoveryPeriod
+discoveryPeriod
+
+	^ discoveryPeriod

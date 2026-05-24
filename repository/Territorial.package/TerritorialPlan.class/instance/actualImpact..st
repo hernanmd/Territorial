@@ -1,2 +1,5 @@
 accessing
-actualImpact: aValue actualImpact := aValue. ^self
+actualImpact: aValue
+
+	actualImpact := aValue.
+	^ self

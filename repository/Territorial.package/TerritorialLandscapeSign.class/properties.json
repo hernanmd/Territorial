@@ -9,7 +9,8 @@
 		"signifier",
 		"denotativeMeaning",
 		"connotativeMeaning",
-		"interpretiveContext"
+		"interpretiveContext",
+		"landscape"
 	],
 	"name" : "TerritorialLandscapeSign",
 	"type" : "normal"

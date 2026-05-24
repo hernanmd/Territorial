@@ -1,2 +1,4 @@
 accessing
-isContinuation ^isContinuation
+isContinuation
+
+	^ isContinuation

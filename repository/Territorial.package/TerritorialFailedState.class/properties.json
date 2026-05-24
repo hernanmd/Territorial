@@ -1,11 +1,15 @@
 {
-	"commentStamp" : "HernanMoralesDurand 7/5/2020 02:29",
+	"commentStamp" : "<historical>",
 	"super" : "TerritorialState",
 	"category" : "Territorial-Geopolitics",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"failureIndicators",
+		"collapseDate",
+		"designatedBy"
+	],
 	"name" : "TerritorialFailedState",
 	"type" : "normal"
 }

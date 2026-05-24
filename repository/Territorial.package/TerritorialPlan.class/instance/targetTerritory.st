@@ -1,2 +1,4 @@
 accessing
-targetTerritory ^ targetTerritory
+targetTerritory
+
+	^ targetTerritory

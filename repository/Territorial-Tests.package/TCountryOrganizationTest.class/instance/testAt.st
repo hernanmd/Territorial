@@ -1,5 +1,5 @@
 accessing
 testAt
 
-	self assert: (self countryList @ 'Argentina' isKindOf: TerritorialCountry).
-	
+	self assert:
+		(self countryList @ 'Argentina' isKindOf: TerritorialCountry)

@@ -1,1 +1,1 @@
-https://en.wikipedia.org/wiki/Pariah_state
+I represent a pariah state: one that is diplomatically, economically, or culturally isolated by the international community. Unlike a rogue state (which actively threatens others), a pariah state is defined by how others treat it through isolation. I hold isolationTypes (symbols like #diplomatic, #economic, #cultural, #sporting), a collection of isolatingAgents (TerritorialAgent instances), and an isolationStartDate. I inherit from TerritorialState with full location and area capabilities.

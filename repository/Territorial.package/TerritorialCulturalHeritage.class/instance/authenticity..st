@@ -1,2 +1,5 @@
 accessing
-authenticity: aValue authenticity := aValue. ^self
+authenticity: aValue
+
+	authenticity := aValue.
+	^ self

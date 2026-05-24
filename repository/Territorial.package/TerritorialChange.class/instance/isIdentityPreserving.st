@@ -1,2 +1,4 @@
 testing
-isIdentityPreserving ^isDisruptive not
+isIdentityPreserving
+
+	^ isDisruptive not

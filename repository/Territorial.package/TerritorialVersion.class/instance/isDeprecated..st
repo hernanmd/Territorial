@@ -1,2 +1,5 @@
 accessing
-isDeprecated: aValue isDeprecated := aValue. ^self
+isDeprecated: aValue
+
+	isDeprecated := aValue.
+	^ self

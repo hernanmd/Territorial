@@ -1,2 +1,4 @@
 accessing
-speciesDiversity ^ speciesDiversity
+speciesDiversity
+
+	^ speciesDiversity

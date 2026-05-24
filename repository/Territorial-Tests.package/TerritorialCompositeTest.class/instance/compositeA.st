@@ -1,4 +1,4 @@
 accessing
 compositeA
-	^ compositeA
-		ifNil: [ compositeA := self buildCompositeAmerica ]
+
+	^ compositeA ifNil: [ compositeA := self buildCompositeAmerica ]

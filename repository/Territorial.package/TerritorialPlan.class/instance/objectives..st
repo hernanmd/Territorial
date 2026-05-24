@@ -1,2 +1,5 @@
 accessing
-objectives: aValue objectives := aValue. ^self
+objectives: aValue
+
+	objectives := aValue.
+	^ self

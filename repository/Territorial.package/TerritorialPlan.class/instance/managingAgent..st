@@ -1,2 +1,5 @@
 accessing
-managingAgent: aValue managingAgent := aValue. ^self
+managingAgent: aTerritorialAgent
+	"Set the TerritorialAgent managing this plan. aTerritorialAgent - TerritorialAgent"
+
+	managingAgent := aTerritorialAgent

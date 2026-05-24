@@ -1,2 +1,4 @@
 testing
-isDerivation ^isContinuation not
+isDerivation
+
+	^ isContinuation not

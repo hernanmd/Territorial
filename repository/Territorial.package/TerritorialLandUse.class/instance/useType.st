@@ -1,2 +1,4 @@
 accessing
-useType ^ useType
+useType
+
+	^ useType

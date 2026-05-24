@@ -1,4 +1,4 @@
 accessing
 setUp
 
-	territory := TerritorialArea newNamed: 'South America'.
+	territory := TerritorialArea newNamed: 'South America'

@@ -1,2 +1,5 @@
 as yet unclassified
-denotativeMeaning: aValue denotativeMeaning := aValue. ^self
+denotativeMeaning: aValue
+
+	denotativeMeaning := aValue.
+	^ self

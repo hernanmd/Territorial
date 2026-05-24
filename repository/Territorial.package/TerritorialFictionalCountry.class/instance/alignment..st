@@ -1,2 +1,5 @@
 accessing
-alignment: aValue alignment := aValue. ^self
+alignment: aValue
+
+	alignment := aValue.
+	^ self

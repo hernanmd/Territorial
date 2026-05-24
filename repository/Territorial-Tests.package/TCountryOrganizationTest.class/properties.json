@@ -6,8 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"territories",
-		"territory",
 		"countryList"
 	],
 	"name" : "TCountryOrganizationTest",

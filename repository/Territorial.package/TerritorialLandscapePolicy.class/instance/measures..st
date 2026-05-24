@@ -1,2 +1,5 @@
 accessing
-measures: aValue measures := aValue. ^self
+measures: aValue
+
+	measures := aValue.
+	^ self

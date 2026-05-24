@@ -1,2 +1,5 @@
 accessing
-majorRegions: aValue majorRegions := aValue. ^self
+majorRegions: aValue
+
+	majorRegions := aValue.
+	^ self

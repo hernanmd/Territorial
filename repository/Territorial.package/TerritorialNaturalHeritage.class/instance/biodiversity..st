@@ -1,2 +1,5 @@
 accessing
-biodiversity: aValue biodiversity := aValue. ^self
+biodiversity: aValue
+
+	biodiversity := aValue.
+	^ self

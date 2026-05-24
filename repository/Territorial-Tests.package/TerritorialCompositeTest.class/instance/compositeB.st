@@ -1,5 +1,4 @@
 accessing
 compositeB
 
-	^ compositeB
-		ifNil: [ compositeB := self buildCompositeNewSpain ]
+	^ compositeB ifNil: [ compositeB := self buildCompositeNewSpain ]

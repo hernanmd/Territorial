@@ -1,2 +1,4 @@
 accessing
-culturalNotes ^ culturalNotes
+culturalNotes
+
+	^ culturalNotes

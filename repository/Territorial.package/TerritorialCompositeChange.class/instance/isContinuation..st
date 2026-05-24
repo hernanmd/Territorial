@@ -1,2 +1,5 @@
 accessing
-isContinuation: aBool isContinuation := aBool. ^self
+isContinuation: aBool
+
+	isContinuation := aBool.
+	^ self

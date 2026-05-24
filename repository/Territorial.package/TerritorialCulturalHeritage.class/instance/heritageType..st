@@ -1,2 +1,5 @@
 accessing
-heritageType: aValue heritageType := aValue. ^self
+heritageType: aValue
+
+	heritageType := aValue.
+	^ self

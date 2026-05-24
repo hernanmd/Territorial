@@ -1,2 +1,5 @@
 accessing
-canon: aCanon canon := aCanon. ^self
+canon: aCanon
+
+	canon := aCanon.
+	^ self

@@ -1,2 +1,5 @@
 accessing
-protectionStatus: aValue protectionStatus := aValue. ^self
+protectionStatus: aValue
+
+	protectionStatus := aValue.
+	^ self

@@ -2,5 +2,4 @@ accessing
 setUp
 
 	super setUp.
-	self territoryOrganization: TRegionOrganization @ 'Caribbean'.
-	
+	self territoryOrganization: TRegionOrganization @ 'Caribbean'

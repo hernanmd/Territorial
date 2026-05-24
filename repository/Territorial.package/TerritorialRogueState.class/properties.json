@@ -1,11 +1,15 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "TerritorialState",
 	"category" : "Territorial-Geopolitics",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"violationTypes",
+		"designatedBy",
+		"sanctioningAgents"
+	],
 	"name" : "TerritorialRogueState",
 	"type" : "normal"
 }

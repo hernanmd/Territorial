@@ -1,4 +1,4 @@
 accessing
 setUp
 
-	self territory: (TerritorialLocation newNamed: 'Test Territory').
+	self territory: (TerritorialLocation newNamed: 'Test Territory')

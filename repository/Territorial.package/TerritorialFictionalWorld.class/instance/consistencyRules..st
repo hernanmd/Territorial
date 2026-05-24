@@ -1,2 +1,5 @@
 accessing
-consistencyRules: aDict consistencyRules := aDict. ^self
+consistencyRules: aDict
+
+	consistencyRules := aDict.
+	^ self

@@ -1,2 +1,4 @@
 accessing
-protectionStatus ^ protectionStatus
+protectionStatus
+
+	^ protectionStatus

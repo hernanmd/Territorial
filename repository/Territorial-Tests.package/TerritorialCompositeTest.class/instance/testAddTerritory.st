@@ -3,9 +3,8 @@ testAddTerritory
 
 	self territory: self compositeC.
 	self assert: self territory allLeafTerritories isEmpty.
-	self territory 
+	self territory
 		addTerritory: self buildTerritoryColombia;
 		addTerritory: self buildTerritoryEcuador;
 		addTerritory: self buildTerritoryVenezuela.
-	self assert: self territory allLeafTerritories size = 3.
-	
+	self assert: self territory allLeafTerritories size = 3

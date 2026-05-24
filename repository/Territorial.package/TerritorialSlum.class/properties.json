@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"factors",
-		"risks"
+		"risks",
+		"country",
+		"city"
 	],
 	"name" : "TerritorialSlum",
 	"type" : "normal"

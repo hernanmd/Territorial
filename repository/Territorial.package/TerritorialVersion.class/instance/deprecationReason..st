@@ -1,2 +1,5 @@
 accessing
-deprecationReason: aValue deprecationReason := aValue. ^self
+deprecationReason: aValue
+
+	deprecationReason := aValue.
+	^ self

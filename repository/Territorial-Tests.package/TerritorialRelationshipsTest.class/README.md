@@ -1,0 +1,1 @@
+I test the missing relationships that were identified and fixed in the Territorial package. I cover: State-Country bridge, Confidence attachment, Agent events, Versioning API, Dispute events, back-links, type annotations, and country-to-agent conversion.

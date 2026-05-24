@@ -1,2 +1,4 @@
 accessing
-period ^ period
+period
+
+	^ period

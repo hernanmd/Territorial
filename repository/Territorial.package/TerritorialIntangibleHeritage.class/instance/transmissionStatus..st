@@ -1,2 +1,5 @@
 accessing
-transmissionStatus: aValue transmissionStatus := aValue. ^self
+transmissionStatus: aValue
+
+	transmissionStatus := aValue.
+	^ self

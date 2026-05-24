@@ -1,1 +1,1 @@
-https://en.wikipedia.org/wiki/Failed_state
+I represent a failed state: one whose government has lost the capacity to provide basic public services, maintain security, or interact with other states. I inherit from TerritorialState (which inherits from TerritorialArea) so I have location and area capabilities. I hold failureIndicators (symbols like #security, #legitimacy, #economy, #social, #political), a collapseDate, and the TerritorialAgent that designated me as failed. I can delegate to my metaGeopoliticalProfile (a TerritorialStateProfile) for capacity scores.

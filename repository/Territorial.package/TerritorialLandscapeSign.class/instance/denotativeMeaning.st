@@ -1,2 +1,4 @@
 as yet unclassified
-denotativeMeaning ^ denotativeMeaning
+denotativeMeaning
+
+	^ denotativeMeaning

@@ -1,2 +1,5 @@
 accessing
-geomorphologicalFeatures: aValue geomorphologicalFeatures := aValue. ^self
+geomorphologicalFeatures: aValue
+
+	geomorphologicalFeatures := aValue.
+	^ self

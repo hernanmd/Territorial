@@ -1,2 +1,5 @@
 accessing
-anthropicFactors: aValue anthropicFactors := aValue. ^self
+anthropicFactors: aValue
+
+	anthropicFactors := aValue.
+	^ self

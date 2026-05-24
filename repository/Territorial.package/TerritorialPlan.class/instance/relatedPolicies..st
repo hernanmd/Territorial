@@ -1,2 +1,5 @@
 accessing
-relatedPolicies: aValue relatedPolicies := aValue. ^self
+relatedPolicies: aValue
+
+	relatedPolicies := aValue.
+	^ self

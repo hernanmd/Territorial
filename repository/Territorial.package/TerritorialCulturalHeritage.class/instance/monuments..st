@@ -1,2 +1,5 @@
 accessing
-monuments: aValue monuments := aValue. ^self
+monuments: aValue
+
+	monuments := aValue.
+	^ self

@@ -2,4 +2,4 @@ tests-accessing
 testBeSubmerged
 
 	continent := 'Kerguelen' asTerritorialContinent beSubmerged.
-	self assert: continent isTerritorialContinent.
+	self assert: continent isTerritorialContinent

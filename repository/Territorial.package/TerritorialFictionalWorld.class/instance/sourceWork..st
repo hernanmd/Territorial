@@ -1,2 +1,5 @@
 accessing
-sourceWork: aString sourceWork := aString. ^self
+sourceWork: aString
+
+	sourceWork := aString.
+	^ self

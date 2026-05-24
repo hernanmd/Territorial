@@ -1,4 +1,5 @@
 accessing
 claimants
+	"Answer the collection of TerritorialAgent instances claiming the territory. Answer an OrderedCollection of TerritorialAgent"
 
-	^ claimants
+	^ claimants ifNil: [ claimants := OrderedCollection new ]

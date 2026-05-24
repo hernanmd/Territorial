@@ -1,2 +1,5 @@
 accessing
-governmentType: aValue governmentType := aValue. ^self
+governmentType: aValue
+
+	governmentType := aValue.
+	^ self

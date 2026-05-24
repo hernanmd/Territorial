@@ -1,2 +1,5 @@
 accessing
-months: aValue months := aValue. ^self
+months: aValue
+
+	months := aValue.
+	^ self

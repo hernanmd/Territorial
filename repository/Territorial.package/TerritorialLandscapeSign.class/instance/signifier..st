@@ -1,2 +1,5 @@
 as yet unclassified
-signifier: aValue signifier := aValue. ^self
+signifier: aValue
+
+	signifier := aValue.
+	^ self

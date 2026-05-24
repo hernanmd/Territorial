@@ -1,2 +1,5 @@
 accessing
-landscapeType: aValue landscapeType := aValue. ^self
+landscapeType: aValue
+
+	landscapeType := aValue.
+	^ self

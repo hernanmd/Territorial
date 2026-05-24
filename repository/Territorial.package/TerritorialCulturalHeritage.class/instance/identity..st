@@ -1,2 +1,5 @@
 accessing
-identity: aValue identity := aValue. ^self
+identity: aValue
+
+	identity := aValue.
+	^ self

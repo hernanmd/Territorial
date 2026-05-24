@@ -1,2 +1,5 @@
 accessing
-protectedAreas: aValue protectedAreas := aValue. ^self
+protectedAreas: aValue
+
+	protectedAreas := aValue.
+	^ self

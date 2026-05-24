@@ -3,4 +3,4 @@ testIsComposite
 
 	self assert: (TerritorialComposite newNamed: 'Test') isComposite.
 	self assert: self buildCompositeNewGranade isComposite.
-	self assert: self buildCompositeNewGranadeWithElements isComposite.
+	self assert: self buildCompositeNewGranadeWithElements isComposite

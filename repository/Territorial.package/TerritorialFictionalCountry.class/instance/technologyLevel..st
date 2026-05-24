@@ -1,2 +1,5 @@
 accessing
-technologyLevel: aValue technologyLevel := aValue. ^self
+technologyLevel: aValue
+
+	technologyLevel := aValue.
+	^ self

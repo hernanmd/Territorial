@@ -1,2 +1,5 @@
 accessing
-groupsOfBuildings: aValue groupsOfBuildings := aValue. ^self
+groupsOfBuildings: aValue
+
+	groupsOfBuildings := aValue.
+	^ self

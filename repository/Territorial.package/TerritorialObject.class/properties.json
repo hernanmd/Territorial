@@ -23,7 +23,8 @@
 		"flag",
 		"geopoliticalEvents",
 		"officialLanguages",
-		"estimatedPopulation"
+		"estimatedPopulation",
+		"versions"
 	],
 	"name" : "TerritorialObject",
 	"type" : "normal"

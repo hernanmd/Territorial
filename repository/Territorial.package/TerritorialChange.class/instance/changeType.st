@@ -1,2 +1,4 @@
 accessing
-changeType ^changeType
+changeType
+
+	^ changeType

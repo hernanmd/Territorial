@@ -1,4 +1,4 @@
 accessing
 compositeD
-	^ compositeD
-		ifNil: [ compositeD := self buildCompositeRioDeLaPlata ]
+
+	^ compositeD ifNil: [ compositeD := self buildCompositeRioDeLaPlata ]

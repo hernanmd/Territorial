@@ -1,2 +1,5 @@
 accessing
-patternType: aType patternType := aType. ^self
+patternType: aType
+
+	patternType := aType.
+	^ self

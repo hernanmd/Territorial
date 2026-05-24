@@ -1,2 +1,5 @@
 accessing
-associatedLandscape: aValue associatedLandscape := aValue. ^self
+associatedLandscape: aValue
+
+	associatedLandscape := aValue.
+	^ self

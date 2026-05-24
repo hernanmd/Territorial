@@ -1,2 +1,4 @@
 accessing
-intangibleElements ^ intangibleElements
+intangibleElements
+
+	^ intangibleElements

@@ -1,2 +1,4 @@
 accessing
-protectedArea ^ protectedArea
+protectedArea
+
+	^ protectedArea

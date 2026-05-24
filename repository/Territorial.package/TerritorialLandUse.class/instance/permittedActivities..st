@@ -1,2 +1,5 @@
 accessing
-permittedActivities: aValue permittedActivities := aValue. ^self
+permittedActivities: aValue
+
+	permittedActivities := aValue.
+	^ self

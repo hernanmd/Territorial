@@ -1,2 +1,5 @@
 accessing
-waypoints: aValue waypoints := aValue. ^self
+waypoints: aValue
+
+	waypoints := aValue.
+	^ self

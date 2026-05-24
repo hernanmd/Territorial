@@ -1,2 +1,5 @@
 accessing
-areaType: aValue areaType := aValue. ^self
+areaType: aValue
+
+	areaType := aValue.
+	^ self

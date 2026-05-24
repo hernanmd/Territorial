@@ -1,4 +1,5 @@
 accessing
-source: anObject
+source: aTerritorialAgent
+	"Set the TerritorialAgent that annexed the territory. aTerritorialAgent - TerritorialAgent"
 
-	source := anObject
+	source := aTerritorialAgent

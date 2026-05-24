@@ -1,2 +1,5 @@
 accessing
-zoningCode: aValue zoningCode := aValue. ^self
+zoningCode: aValue
+
+	zoningCode := aValue.
+	^ self

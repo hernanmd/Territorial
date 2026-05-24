@@ -1,2 +1,5 @@
 accessing
-ecologicalFactors: aValue ecologicalFactors := aValue. ^self
+ecologicalFactors: aValue
+
+	ecologicalFactors := aValue.
+	^ self

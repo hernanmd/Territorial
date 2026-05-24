@@ -2,4 +2,4 @@ tests-accessing
 testIsTerritorialContinent
 
 	continent := 'Europe' asTerritorialContinent.
-	self assert: continent isTerritorialContinent.
+	self assert: continent isTerritorialContinent

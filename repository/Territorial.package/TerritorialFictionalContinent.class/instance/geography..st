@@ -1,2 +1,5 @@
 accessing
-geography: aValue geography := aValue. ^self
+geography: aValue
+
+	geography := aValue.
+	^ self

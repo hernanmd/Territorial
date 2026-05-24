@@ -1,5 +1,1 @@
-A region identified as a distinct entity in political geography
-
-
-capital 		<TerritorialCity>		Country's administrative capital.
-				
+I represent a country as a cultural and geographic concept with a distinct territory, population, and identity. Not all countries are states in the legal sense (e.g., Scotland, Catalonia). I may optionally hold a TerritorialState reference (in stateType slot) that describes my political/legal typology as a sovereign state, failed state, rogue state, or pariah state. See TerritorialState for the legal/political dimension.

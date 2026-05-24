@@ -1,2 +1,5 @@
 accessing
-topographicallyDefinable: aValue topographicallyDefinable := aValue. ^self
+topographicallyDefinable: aValue
+
+	topographicallyDefinable := aValue.
+	^ self

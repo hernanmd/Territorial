@@ -1,2 +1,5 @@
 accessing
-establishedDate: aValue establishedDate := aValue. ^self
+establishedDate: aValue
+
+	establishedDate := aValue.
+	^ self

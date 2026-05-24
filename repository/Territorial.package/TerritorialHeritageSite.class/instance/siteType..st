@@ -1,2 +1,5 @@
 accessing
-siteType: aValue siteType := aValue. ^self
+siteType: aValue
+
+	siteType := aValue.
+	^ self

@@ -1,2 +1,5 @@
 accessing
-universalValueType: aValue universalValueType := aValue. ^self
+universalValueType: aValue
+
+	universalValueType := aValue.
+	^ self

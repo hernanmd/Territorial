@@ -1,2 +1,5 @@
 accessing
-domain: aValue domain := aValue. ^self
+domain: aValue
+
+	domain := aValue.
+	^ self

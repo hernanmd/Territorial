@@ -1,2 +1,4 @@
 accessing
-consistencyRules ^consistencyRules
+consistencyRules
+
+	^ consistencyRules

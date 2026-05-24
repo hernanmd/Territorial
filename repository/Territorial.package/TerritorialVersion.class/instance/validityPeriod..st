@@ -1,2 +1,5 @@
 accessing
-validityPeriod: aValue validityPeriod := aValue. ^self
+validityPeriod: aValue
+
+	validityPeriod := aValue.
+	^ self

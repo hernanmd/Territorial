@@ -1,2 +1,5 @@
 accessing
-author: aString author := aString. ^self
+author: aString
+
+	author := aString.
+	^ self

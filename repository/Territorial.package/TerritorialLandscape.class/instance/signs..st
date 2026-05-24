@@ -1,2 +1,5 @@
 accessing
-signs: aValue signs := aValue. ^self
+signs: aValue
+
+	signs := aValue.
+	^ self

@@ -1,2 +1,5 @@
 accessing
-isDisruptive: aBool isDisruptive := aBool. ^self
+isDisruptive: aBool
+
+	isDisruptive := aBool.
+	^ self

@@ -1,2 +1,5 @@
 accessing
-discoveryPeriod: aValue discoveryPeriod := aValue. ^self
+discoveryPeriod: aValue
+
+	discoveryPeriod := aValue.
+	^ self

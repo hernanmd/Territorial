@@ -1,2 +1,4 @@
 accessing
-traversalTime ^ traversalTime
+traversalTime
+
+	^ traversalTime

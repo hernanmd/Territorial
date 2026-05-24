@@ -1,2 +1,4 @@
 accessing
-groupsOfBuildings ^ groupsOfBuildings
+groupsOfBuildings
+
+	^ groupsOfBuildings

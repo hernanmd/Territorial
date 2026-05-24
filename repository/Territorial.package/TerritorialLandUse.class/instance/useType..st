@@ -1,2 +1,5 @@
 accessing
-useType: aValue useType := aValue. ^self
+useType: aValue
+
+	useType := aValue.
+	^ self

@@ -1,2 +1,5 @@
 accessing
-historicalSettlingFactors: aValue historicalSettlingFactors := aValue. ^self
+historicalSettlingFactors: aValue
+
+	historicalSettlingFactors := aValue.
+	^ self

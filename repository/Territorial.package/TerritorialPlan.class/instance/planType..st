@@ -1,2 +1,5 @@
 accessing
-planType: aValue planType := aValue. ^self
+planType: aValue
+
+	planType := aValue.
+	^ self

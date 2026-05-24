@@ -1,2 +1,5 @@
 accessing
-managingAuthority: aValue managingAuthority := aValue. ^self
+managingAuthority: aValue
+
+	managingAuthority := aValue.
+	^ self

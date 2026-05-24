@@ -1,2 +1,5 @@
 accessing
-period: aValue period := aValue. ^self
+period: aValue
+
+	period := aValue.
+	^ self

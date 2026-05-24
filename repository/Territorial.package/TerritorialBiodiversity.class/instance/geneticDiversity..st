@@ -1,2 +1,5 @@
 accessing
-geneticDiversity: aValue geneticDiversity := aValue. ^self
+geneticDiversity: aValue
+
+	geneticDiversity := aValue.
+	^ self

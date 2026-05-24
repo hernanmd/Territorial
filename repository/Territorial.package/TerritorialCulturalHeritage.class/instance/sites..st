@@ -1,2 +1,5 @@
 accessing
-sites: aValue sites := aValue. ^self
+sites: aValue
+
+	sites := aValue.
+	^ self

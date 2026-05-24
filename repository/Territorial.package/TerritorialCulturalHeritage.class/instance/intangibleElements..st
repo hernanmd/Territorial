@@ -1,2 +1,5 @@
 accessing
-intangibleElements: aValue intangibleElements := aValue. ^self
+intangibleElements: aValue
+
+	intangibleElements := aValue.
+	^ self

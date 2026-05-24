@@ -1,2 +1,4 @@
 accessing
-patternType ^patternType
+patternType
+
+	^ patternType

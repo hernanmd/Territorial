@@ -1,4 +1,5 @@
 tests-accessing
 testBeMegaCity
 
-	self assert: (self countryCapital beMegaCity isKindOf: TerritorialCity)
+	self assert:
+		(self countryCapital beMegaCity isKindOf: TerritorialCity)

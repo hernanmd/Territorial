@@ -1,2 +1,5 @@
 accessing
-targetTerritory: aValue targetTerritory := aValue. ^self
+targetTerritory: aValue
+
+	targetTerritory := aValue.
+	^ self

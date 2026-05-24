@@ -1,2 +1,5 @@
 accessing
-claimedImpact: aValue claimedImpact := aValue. ^self
+claimedImpact: aValue
+
+	claimedImpact := aValue.
+	^ self

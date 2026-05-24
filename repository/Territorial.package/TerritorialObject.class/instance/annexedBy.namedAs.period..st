@@ -1,9 +1,11 @@
-accessing-geopolitical-operations
-annexedBy: anObject namedAs: aString period: anAssociation
-	" Add annexation event to the receiver's geopolitical events "
+geopolitical
+annexedBy: aTerritorialAgent namedAs: aString period: anAssociation
+	"Add a TerritorialAnnexation event to the receiver and register it with the annexing agent. aTerritorialAgent - TerritorialAgent, aString - String, anAssociation - Association of Date to Date"
 
-	self geopoliticalEvents add:
-		((TerritorialAnnexation period: anAssociation)
-			 addName: aString;
-			 source: anObject;
-			 territory: self)
+	| event |
+	event := (TerritorialAnnexation period: anAssociation)
+		         addName: aString;
+		         source: aTerritorialAgent;
+		         territory: self.
+	self geopoliticalEvents add: event.
+	aTerritorialAgent addEvent: event

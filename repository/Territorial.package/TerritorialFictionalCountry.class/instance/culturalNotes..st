@@ -1,2 +1,5 @@
 accessing
-culturalNotes: aValue culturalNotes := aValue. ^self
+culturalNotes: aValue
+
+	culturalNotes := aValue.
+	^ self

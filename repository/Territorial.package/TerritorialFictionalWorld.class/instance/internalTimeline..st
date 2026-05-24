@@ -1,2 +1,5 @@
 accessing
-internalTimeline: aTimeline internalTimeline := aTimeline. ^self
+internalTimeline: aTimeline
+
+	internalTimeline := aTimeline.
+	^ self

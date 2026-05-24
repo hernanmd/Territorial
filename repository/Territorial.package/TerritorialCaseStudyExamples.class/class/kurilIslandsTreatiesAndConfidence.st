@@ -2,7 +2,6 @@ examples
 kurilIslandsTreatiesAndConfidence
 
 	| dispute japaneseClaim russianClaim russia japan russianMotive japaneseMotive yaltaArtifact shelfArtifact russianConfidence japaneseConfidence putin abe putinRole abeRole shimodaTreaty stPetersburgTreaty usa |
-
 	dispute := self kurilIslandsClaimsWithDetails.
 	japaneseClaim := dispute claims first.
 	russianClaim := dispute claims last.

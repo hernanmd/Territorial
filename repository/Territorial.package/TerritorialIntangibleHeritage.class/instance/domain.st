@@ -1,2 +1,4 @@
 accessing
-domain ^ domain
+domain
+
+	^ domain

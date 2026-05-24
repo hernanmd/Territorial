@@ -1,2 +1,4 @@
 accessing
-actualImpact ^ actualImpact
+actualImpact
+
+	^ actualImpact

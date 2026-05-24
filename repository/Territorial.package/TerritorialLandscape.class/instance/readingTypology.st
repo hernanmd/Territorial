@@ -1,2 +1,4 @@
 accessing
-readingTypology ^ readingTypology
+readingTypology
+
+	^ readingTypology

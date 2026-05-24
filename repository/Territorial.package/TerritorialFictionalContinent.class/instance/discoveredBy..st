@@ -1,2 +1,5 @@
 accessing
-discoveredBy: aValue discoveredBy := aValue. ^self
+discoveredBy: aValue
+
+	discoveredBy := aValue.
+	^ self

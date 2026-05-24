@@ -1,2 +1,4 @@
 accessing
-policyType ^ policyType
+policyType
+
+	^ policyType

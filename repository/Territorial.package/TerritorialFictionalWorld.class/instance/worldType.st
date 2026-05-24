@@ -1,2 +1,4 @@
 accessing
-worldType ^worldType
+worldType
+
+	^ worldType

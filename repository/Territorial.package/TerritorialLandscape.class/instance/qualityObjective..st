@@ -1,2 +1,5 @@
 accessing
-qualityObjective: aValue qualityObjective := aValue. ^self
+qualityObjective: aValue
+
+	qualityObjective := aValue.
+	^ self

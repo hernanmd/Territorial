@@ -1,2 +1,5 @@
 accessing
-climateZones: aValue climateZones := aValue. ^self
+climateZones: aValue
+
+	climateZones := aValue.
+	^ self

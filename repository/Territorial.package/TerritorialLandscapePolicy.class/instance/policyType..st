@@ -1,2 +1,5 @@
 accessing
-policyType: aValue policyType := aValue. ^self
+policyType: aValue
+
+	policyType := aValue.
+	^ self

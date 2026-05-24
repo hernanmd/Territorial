@@ -1,5 +1,5 @@
 accessing
-state: aState
+state: aTerritorialState
+	"Set the TerritorialState this profile describes. aTerritorialState - TerritorialState"
 
-	state := aState.
-	^ self
+	state := aTerritorialState

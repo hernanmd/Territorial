@@ -1,2 +1,5 @@
 accessing
-corineCode: aValue corineCode := aValue. ^self
+corineCode: aValue
+
+	corineCode := aValue.
+	^ self

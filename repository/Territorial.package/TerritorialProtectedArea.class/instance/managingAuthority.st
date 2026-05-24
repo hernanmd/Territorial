@@ -1,2 +1,4 @@
 accessing
-managingAuthority ^ managingAuthority
+managingAuthority
+
+	^ managingAuthority

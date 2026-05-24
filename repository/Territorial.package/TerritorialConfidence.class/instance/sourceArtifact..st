@@ -1,5 +1,5 @@
 accessing
-sourceArtifact: aArtifact
+sourceArtifact: aTerritorialInformationArtifact
+	"Set the TerritorialInformationArtifact that provides evidence for this assessment. aTerritorialInformationArtifact - TerritorialInformationArtifact"
 
-	sourceArtifact := aArtifact.
-	^ self
+	sourceArtifact := aTerritorialInformationArtifact

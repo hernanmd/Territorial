@@ -8,5 +8,4 @@ testAddIdentifierTo
 		addIdentifierTo: tty.
 	self assert: tty identifiers notEmpty.
 	self assert: (tty identifier isKindOf: TerritorialIdentifier).
-	self assert: (tty identifier identifierSymbol = #ORG_ID1).
-	
+	self assert: tty identifier identifierSymbol = #ORG_ID1

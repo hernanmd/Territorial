@@ -2,4 +2,4 @@ tests-accessing
 testBeGeological
 
 	continent := 'India' asTerritorialContinent beGeological.
-	self assert: continent isTerritorialContinent.
+	self assert: continent isTerritorialContinent

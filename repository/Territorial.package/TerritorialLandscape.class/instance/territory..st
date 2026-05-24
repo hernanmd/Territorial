@@ -1,2 +1,5 @@
 accessing
-territory: aValue territory := aValue. ^self
+territory: aValue
+
+	territory := aValue.
+	^ self

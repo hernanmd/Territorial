@@ -1,2 +1,4 @@
 accessing
-validityPeriod ^ validityPeriod
+validityPeriod
+
+	^ validityPeriod

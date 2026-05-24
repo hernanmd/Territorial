@@ -1,2 +1,4 @@
 accessing
-siteType ^ siteType
+siteType
+
+	^ siteType

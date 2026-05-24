@@ -1,4 +1,4 @@
 running
 setUp
 
-	self territory: (TerritorialCountry newNamed: 'TestCountry').
+	self territory: (TerritorialCountry newNamed: 'TestCountry')

@@ -1,2 +1,4 @@
 accessing
-qualityObjective ^ qualityObjective
+qualityObjective
+
+	^ qualityObjective

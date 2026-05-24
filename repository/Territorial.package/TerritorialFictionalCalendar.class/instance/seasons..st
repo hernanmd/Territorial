@@ -1,2 +1,5 @@
 accessing
-seasons: aValue seasons := aValue. ^self
+seasons: aValue
+
+	seasons := aValue.
+	^ self

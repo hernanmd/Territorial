@@ -1,2 +1,5 @@
 accessing
-ecosystemDiversity: aValue ecosystemDiversity := aValue. ^self
+ecosystemDiversity: aValue
+
+	ecosystemDiversity := aValue.
+	^ self

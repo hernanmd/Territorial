@@ -1,2 +1,5 @@
 accessing
-targetLandscape: aValue targetLandscape := aValue. ^self
+targetLandscape: aValue
+
+	targetLandscape := aValue.
+	^ self

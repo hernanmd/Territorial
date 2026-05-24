@@ -1,2 +1,5 @@
 accessing
-status: aValue status := aValue. ^self
+status: aValue
+
+	status := aValue.
+	^ self

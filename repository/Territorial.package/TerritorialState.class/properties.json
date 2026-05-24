@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "TerritorialObject",
+	"commentStamp" : "<historical>",
+	"super" : "TerritorialArea",
 	"category" : "Territorial-Geopolitics",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"country",
+		"metaGeopoliticalProfile"
+	],
 	"name" : "TerritorialState",
 	"type" : "normal"
 }

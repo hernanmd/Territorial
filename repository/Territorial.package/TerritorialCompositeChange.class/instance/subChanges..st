@@ -1,2 +1,5 @@
 accessing
-subChanges: aColl subChanges := aColl. ^self
+subChanges: aColl
+
+	subChanges := aColl.
+	^ self

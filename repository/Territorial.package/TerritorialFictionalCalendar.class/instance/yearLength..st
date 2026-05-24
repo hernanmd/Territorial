@@ -1,2 +1,5 @@
 accessing
-yearLength: aValue yearLength := aValue. ^self
+yearLength: aValue
+
+	yearLength := aValue.
+	^ self

@@ -1,2 +1,4 @@
 as yet unclassified
-connotativeMeaning ^ connotativeMeaning
+connotativeMeaning
+
+	^ connotativeMeaning

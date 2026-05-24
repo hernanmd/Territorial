@@ -1,4 +1,4 @@
 accessing
 setUp
 
-	self countryList: (TCountryOrganization @ 'UN.M49')
+	self countryList: TCountryOrganization @ 'UN.M49'

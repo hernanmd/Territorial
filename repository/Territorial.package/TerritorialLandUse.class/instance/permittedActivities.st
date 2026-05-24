@@ -1,2 +1,4 @@
 accessing
-permittedActivities ^ permittedActivities
+permittedActivities
+
+	^ permittedActivities

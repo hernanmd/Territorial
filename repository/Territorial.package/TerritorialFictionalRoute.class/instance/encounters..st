@@ -1,2 +1,5 @@
 accessing
-encounters: aValue encounters := aValue. ^self
+encounters: aValue
+
+	encounters := aValue.
+	^ self

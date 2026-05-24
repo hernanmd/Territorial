@@ -1,2 +1,5 @@
 accessing
-routeType: aValue routeType := aValue. ^self
+routeType: aValue
+
+	routeType := aValue.
+	^ self

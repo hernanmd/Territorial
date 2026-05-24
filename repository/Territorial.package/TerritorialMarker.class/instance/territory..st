@@ -1,4 +1,5 @@
 accessing
-territory: anObject
+territory: aTerritorialObject
+	"Set the TerritorialObject this marker annotates. aTerritorialObject - TerritorialObject"
 
-	territory := anObject
+	territory := aTerritorialObject

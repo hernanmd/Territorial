@@ -1,2 +1,5 @@
 accessing
-stateSnapshot: aValue stateSnapshot := aValue. ^self
+stateSnapshot: aValue
+
+	stateSnapshot := aValue.
+	^ self

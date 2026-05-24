@@ -1,2 +1,5 @@
 accessing
-community: aValue community := aValue. ^self
+community: aValue
+
+	community := aValue.
+	^ self

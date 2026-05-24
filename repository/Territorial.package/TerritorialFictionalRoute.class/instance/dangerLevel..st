@@ -1,2 +1,5 @@
 accessing
-dangerLevel: aValue dangerLevel := aValue. ^self
+dangerLevel: aValue
+
+	dangerLevel := aValue.
+	^ self

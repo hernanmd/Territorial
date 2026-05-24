@@ -1,2 +1,5 @@
 accessing
-featureType: aValue featureType := aValue. ^self
+featureType: aValue
+
+	featureType := aValue.
+	^ self
