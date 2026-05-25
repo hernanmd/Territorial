@@ -1,6 +1,5 @@
-accessing
+styling
 adm1ColorLevel
-	" Answer a <Color> object. if not configured, set and answer a random color "
+	"Answer the Color for administrative level 1 areas. Defaults to random. Answer a Color"
 
-	^ adm1ColorLevel
-		ifNil: [ adm1ColorLevel := Color random ]
+	^ adm1ColorLevel ifNil: [ adm1ColorLevel := Color random ]

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "HernanMoralesDurand 7/27/2016 15:55",
+	"commentStamp" : "<historical>",
 	"super" : "TerritorialOSMMapsProvider",
 	"category" : "TerritorialData-OSM",
 	"classinstvars" : [ ],

@@ -1,3 +1,5 @@
 accessing
-ratio: anObject
-	ratio := anObject
+ratio: aNumber
+	"Set the tile radius for the map. aNumber - Number"
+
+	ratio := aNumber

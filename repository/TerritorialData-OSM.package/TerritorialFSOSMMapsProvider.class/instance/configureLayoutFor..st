@@ -1,9 +1,8 @@
-opening
-configureLayoutFor: elements
+configuration
+configureLayoutFor: shapes
+	"Apply grid layout with no gap so tiles are contiguous. shapes - RSGroup"
 
-	"We do the layout with a gap, for the purpose of the demo"
-	RTGridLayout new 
-	  "beware, this does NOT work on boundaries!"
-	  lineItemsCount: [ (self ratio * 2) + 1 ];
-	  gapSize: 0; 
-	  on: elements.
+	RSGridLayout new
+		lineItemsCount: self ratio * 2 + 1;
+		gapSize: 0;
+		on: shapes

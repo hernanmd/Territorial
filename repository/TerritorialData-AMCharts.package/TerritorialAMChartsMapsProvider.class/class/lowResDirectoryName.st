@@ -1,5 +1,5 @@
-accessing - low resolution
+directories
 lowResDirectoryName
-	" Answer a <String> specifying the directory name where data files are located "
-	
+	"Answer the low resolution subdirectory name. Answer a String"
+
 	^ 'low'

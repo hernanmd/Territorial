@@ -1,5 +1,5 @@
-accessing
+directories
 resourceDirectoryName
-	" Answer a <String> specifying the directory name where data files are located "
-	
+	"Answer the top-level AMCharts resource directory name. Answer a String"
+
 	^ 'amcharts'

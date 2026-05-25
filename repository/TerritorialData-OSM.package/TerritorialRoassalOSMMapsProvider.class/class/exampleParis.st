@@ -1,9 +1,8 @@
 examples
 exampleParis
-	" Configure coordinates to Paris in France "
+	"Open an OSM location marker on Paris, France. self exampleParis"
 
 	self new
-		latLong: 42.6336298 @ -88.0514727;
+		latLong: 48.856578 @ 2.351828;
 		ratio: 10;
-		openMap.
-	
+		openMap

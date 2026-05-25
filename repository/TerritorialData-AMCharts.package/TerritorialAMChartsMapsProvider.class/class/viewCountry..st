@@ -1,5 +1,5 @@
-accessing
+viewing
 viewCountry: countryName
-	" Defaults to high resolution view of countryName. Answer the view for countryName "
+	"Answer a RSCanvas for countryName, defaulting to high resolution. countryName - String"
 
-	^ self viewHighResCountry: countryName 
+	^ self viewHighResCountry: countryName

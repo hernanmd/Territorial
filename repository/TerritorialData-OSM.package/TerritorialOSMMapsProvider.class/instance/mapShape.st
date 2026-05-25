@@ -1,4 +1,5 @@
 accessing
 mapShape
-	^ mapShape
-		ifNil: [ mapShape := self defaultMapShape ]
+	"Answer the map model object. Answer an Object"
+
+	^ mapShape ifNil: [ mapShape := self defaultMapShape ]

@@ -1,14 +1,1 @@
-Abstract class for specialization of Open Street Maps providers.
-
-Public API and Key Messages
-
-- message one   
-- message two 
-- what is the way to create instances is a plus.
-
-   One simple example is simply gorgeous.
- 
-Internal Representation and Key Implementation Points.
-
-
-    Implementation Points
+I am an abstract class for OpenStreetMap providers in the Territorial package. I hold a view (RSCanvas), mapShape, and ratio (tile radius). My subclasses implement specific rendering strategies: TerritorialFSOSMMapsProvider for tile-based maps with OSMTile, OSMTileCache, and progressive rendering.

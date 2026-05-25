@@ -1,0 +1,1 @@
+I provide a lightweight OpenStreetMap location marker using Roassal3. I show a center marker and optional label at the configured latitude/longitude. I use OSMTile for coordinate-to-tile conversion and OSMMercator for pixel positioning. For full tile rendering, use TerritorialFSOSMMapsProvider instead.

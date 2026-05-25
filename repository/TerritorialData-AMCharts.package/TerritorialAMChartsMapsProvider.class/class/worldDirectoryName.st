@@ -1,5 +1,5 @@
-accessing
+directories
 worldDirectoryName
-	" Answer a <String> specifying the directory name where data files are located "
-	
+	"Answer the world subdirectory name. Answer a String"
+
 	^ 'world'

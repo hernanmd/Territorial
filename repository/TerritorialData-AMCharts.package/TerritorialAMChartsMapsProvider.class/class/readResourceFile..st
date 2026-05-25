@@ -1,19 +1,17 @@
-accessing
+parsing
 readResourceFile: svgFilename
-	" Answer a <String> specifying the directory name where data files are located "
-	
+	"Parse an SVG file and answer a collection of RSSVGPath shapes with popup interactions. svgFilename - String (full path)"
+
 	| xmlTree |
 	xmlTree := (XMLDOMParser parseFileNamed: svgFilename) firstNode.
-	^ (xmlTree findElementNamed: 'g')
-		nodesCollect: [ :node | 
-			| elem |
-			[ elem := (RTSVGPath new
-				path: (node attributeAt: 'd');
-				fillColor: self adm1ColorLevel;
-				scale: 1) element ]
-			on: Error
-			do: [ : ex | 
-				elem ifNotNil: [ 
-					elem model: (node attributeAt: 'title').
-					elem @ RTPopup.
-					elem ] ] ].
+	^ (xmlTree findElementNamed: 'g') nodesCollect: [ :node |
+			  | shape |
+			  [
+				  shape := RSSVGPath new
+					           svgPath: (node attributeAt: 'd');
+					           color: self adm1ColorLevel;
+					           model: (node attributeAt: 'title');
+					           yourself.
+				  shape @ (RSPopup new text: [ :m | m asString ]) ]
+				  on: Error
+				  do: [ nil ] ]

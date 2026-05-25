@@ -1,9 +1,10 @@
-accessing - high resolution
-viewHighResCountry: countryName 
-	" Answer a view for countryName "
-	
-	| view |
-	
-	view := RTView new.		
-	(self readHighResCountry: countryName) reject: #isNil thenDo: [ : elem | view add: elem ].
-	^ view
+viewing
+viewHighResCountry: countryName
+	"Answer a RSCanvas for countryName with high resolution map. countryName - String"
+
+	| canvas |
+	canvas := RSCanvas new.
+	(self readHighResCountry: countryName)
+		reject: #isNil
+		thenDo: [ :shape | canvas add: shape ].
+	^ canvas

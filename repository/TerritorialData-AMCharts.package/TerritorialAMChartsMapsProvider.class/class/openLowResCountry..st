@@ -1,5 +1,5 @@
-accessing - low resolution
-openLowResCountry: countryName 
-	" Open a low resoultion view for countryName "
-	
-	(self viewLowResCountry: countryName) open
+opening
+openLowResCountry: countryName
+	"Open a RSCanvas for countryName with low resolution map. countryName - String"
+
+	(self viewLowResCountry: countryName) openWithTitle: countryName

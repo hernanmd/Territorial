@@ -1,9 +1,12 @@
-accessing - low resolution
+parsing
 readRTLowResCountries
-	" Answer a <String> specifying the directory name where data files are located "
-	
-	^ (self readCountriesAtResolution: #lowResDirectoryName) collect: [ : elemCollection |
-		| view |
-		view := RTView new.		
-		elemCollection reject: #isNil thenDo: [ : elem | view add: elem ].
-		view ] 
+	"Answer a collection of RSCanvas instances for all low resolution country maps."
+
+	^ (self readCountriesAtResolution: #lowResDirectoryName) collect: [
+			  :shapeCollection |
+			  | canvas |
+			  canvas := RSCanvas new.
+			  shapeCollection
+				  reject: #isNil
+				  thenDo: [ :shape | canvas add: shape ].
+			  canvas ]

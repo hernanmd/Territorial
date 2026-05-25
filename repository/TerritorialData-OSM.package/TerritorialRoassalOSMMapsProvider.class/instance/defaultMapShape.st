@@ -1,7 +1,8 @@
 defaults
 defaultMapShape
-	" Answer a default map container "
+	"Answer a default OSMTile centered on the configured lat/long. Answer an OSMTile"
 
-	^ RTOSM new
-		extent: self extent;
-		ratio: self ratio.
+	^ OSMTile
+		  withLatitude: self latLong x
+		  longitude: self latLong y
+		  zoomLevel: self zoomLevel

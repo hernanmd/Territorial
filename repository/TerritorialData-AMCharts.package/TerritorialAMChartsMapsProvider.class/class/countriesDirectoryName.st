@@ -1,5 +1,5 @@
-accessing
+directories
 countriesDirectoryName
-	" Answer a <String> specifying the directory name where data files are located "
-	
+	"Answer the countries subdirectory name. Answer a String"
+
 	^ 'countries'

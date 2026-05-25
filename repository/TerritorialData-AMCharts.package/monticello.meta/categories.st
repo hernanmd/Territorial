@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'TerritorialData-AMCharts'!
+self packageOrganizer ensurePackage: #'TerritorialData-AMCharts' withTags: #()!
